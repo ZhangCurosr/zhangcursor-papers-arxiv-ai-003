@@ -4,5 +4,10 @@
  "title": "a-r-t-i-c-l-e-i-n-f-o",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-02 17:37:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7928b678-c2d2-469a-b1a9-40f3248a10b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7928b678-c2d2-469a-b1a9-40f3248a10b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:20:40",
+  "chunks": 4
+ }
 }

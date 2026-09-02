@@ -4,5 +4,29 @@
  "title": "WHO-JUDGES-THE-JUDGES-A-CHINESE-SAFETY-QA-BENCHMARK-FOR-EVAL",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-02 17:36:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/35e41a75-55a6-447b-83e5-05c7c39bb408.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/35e41a75-55a6-447b-83e5-05c7c39bb408.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:19:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全评测",
+    "中文安全基准",
+    "对抗变换",
+    "自动化评测器审计",
+    "响应级安全",
+    "jailbreak评估"
+   ],
+   "field": "大语言模型安全评测",
+   "innovations": [
+    "策略驱动的中文响应级QA安全基准C-SafeQA，分离查询风险与响应违规",
+    "21种机制标记的中文对抗变换体系与三元标签分层盲审质控管线",
+    "在统一参考标签上联合审计4个目标LLM和7个自动化安全评测器，揭示藏头变换盲点"
+   ],
+   "benchmarks": [
+    "C-SafeQA"
+   ]
+  }
+ }
 }

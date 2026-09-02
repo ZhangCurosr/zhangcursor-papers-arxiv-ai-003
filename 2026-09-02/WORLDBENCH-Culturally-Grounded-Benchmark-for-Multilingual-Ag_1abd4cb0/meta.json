@@ -4,5 +4,29 @@
  "title": "WORLDBENCH-Culturally-Grounded-Benchmark-for-Multilingual-Ag",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-02 17:36:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3ad144c0-10f9-4c1d-b03d-ab27287c5452.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3ad144c0-10f9-4c1d-b03d-ab27287c5452.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:19:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言智能体",
+    "文化接地基准",
+    "状态保持",
+    "约束任务成功率",
+    "多应用工作流",
+    "LLM-as-a-Judge"
+   ],
+   "field": "多语言智能体评估",
+   "innovations": [
+    "提出CTS指标联合评估任务正确性与环境状态保持",
+    "文化接地原生多语言构建而非翻译派生",
+    "设计含干扰项的多应用沙箱测试床"
+   ],
+   "benchmarks": [
+    "WORLDBENCH"
+   ]
+  }
+ }
 }

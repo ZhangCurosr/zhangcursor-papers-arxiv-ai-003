@@ -4,5 +4,30 @@
  "title": "Value-Over-Language-Model-Detecting-Original-Contribution-in",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-09-02 17:37:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4c3974de-2c1c-417a-a2c1-2fc734fb9d01.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4c3974de-2c1c-417a-a2c1-2fc734fb9d01.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:20:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM detection",
+    "human contribution measurement",
+    "information theory",
+    "text attribution",
+    "language model evaluation"
+   ],
+   "field": "AI 辅助写作评估",
+   "innovations": [
+    "提出 VOLM 框架，通过提取-重建-评分流水线衡量文档信息内容的原创贡献而非表面文本的 LLM 生成比例",
+    "无需训练和标注数据，完全基于现成 LLM 的 log-probability 计算",
+    "对往返翻译、LLM 改写等风格变换保持鲁棒，成功解耦信息内容与表面风格"
+   ],
+   "benchmarks": [
+    "All the News",
+    "ICLR 2023 Reviews",
+    "Persuade 2.0"
+   ]
+  }
+ }
 }

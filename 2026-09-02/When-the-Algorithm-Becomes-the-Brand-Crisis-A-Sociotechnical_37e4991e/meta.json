@@ -4,5 +4,10 @@
  "title": "When-the-Algorithm-Becomes-the-Brand-Crisis-A-Sociotechnical",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-09-02 17:37:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/56316dd6-3dda-49ff-8883-b22155307d06.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/56316dd6-3dda-49ff-8883-b22155307d06.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:21:59",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,34 @@
  "title": "ViTAMINS-An-Empirical-Study-of-Training-Self-Supervised-Visi",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-09-02 17:36:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5922d58b-9deb-4135-b5e2-41eaabb5b99b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5922d58b-9deb-4135-b5e2-41eaabb5b99b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:20:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-supervised learning",
+    "contrastive learning",
+    "vision transformer",
+    "synthetic hard negatives",
+    "emergent properties",
+    "semantic segmentation"
+   ],
+   "field": "自监督视觉表征学习",
+   "innovations": [
+    "将6种合成难负样本策略（插值/外推/Mixup/噪声/梯度/对抗）首次集成到ViT对比学习中",
+    "在标准对比框架下无需DINO复杂技巧即涌现语义分割能力",
+    "ViT-B/16以更低资源成本超越V-JEPA ViT-L等更大/更复杂模型"
+   ],
+   "benchmarks": [
+    "ImageNet linear/k-NN",
+    "revisited Oxford/Paris retrieval",
+    "Copydays copy detection",
+    "DAVIS-2017 video segmentation",
+    "COCO detection/segmentation",
+    "ADE20K semantic segmentation"
+   ]
+  }
+ }
 }

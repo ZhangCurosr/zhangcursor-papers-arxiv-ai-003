@@ -4,5 +4,30 @@
  "title": "WAVE-FUNCTION-BACKPROPAGATION-WITH-EXPLICIT-TEMPORAL-INTERVA",
  "token": "sk-bXaG87Ajl...",
  "created_at": "2026-09-02 17:37:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/af31ae49-f544-4f67-93d6-927ceeff6e32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/af31ae49-f544-4f67-93d6-927ceeff6e32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:21:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Wave Function Backpropagation",
+    "波参数化神经网络",
+    "显式时间间隔",
+    "轨迹预测",
+    "Laplacian曲率正则化",
+    "前馈时间序列"
+   ],
+   "field": "不规则时间序列建模与结构化表示学习",
+   "innovations": [
+    "将神经响应表示为可学习振幅/波数/角频率/相位的波函数，使空间状态与显式时间间隔在相位层面直接耦合",
+    "推导标准WFB梯度及基于空间Laplacian的曲率正则化，提供标准/Laplacian-only/组合三种更新变体",
+    "证明WFB的非线性表达力主要来自波响应本身，可将重MLP解码器替换为轻量线性层并减少93.4%参数"
+   ],
+   "benchmarks": [
+    "ETH/UCY pedestrian trajectories",
+    "JAAD-style agent annotations"
+   ]
+  }
+ }
 }

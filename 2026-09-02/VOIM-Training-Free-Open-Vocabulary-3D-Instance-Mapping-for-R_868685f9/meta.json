@@ -4,5 +4,30 @@
  "title": "VOIM-Training-Free-Open-Vocabulary-3D-Instance-Mapping-for-R",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-09-02 17:37:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a13061e3-af45-410f-ac09-292458c0c5a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a13061e3-af45-410f-ac09-292458c0c5a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:20:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary mapping",
+    "monocular SLAM",
+    "instance mapping",
+    "cross-model veto",
+    "soft label fusion",
+    "training-free"
+   ],
+   "field": "开放词汇 3D 语义建图与单目 SLAM",
+   "innovations": [
+    "推迟硬决策的体素接地软投票聚合机制，将标注与实例分离推迟至多视图证据累积之后",
+    "跨模型否决融合策略，用冻结描述符校验探测器标签以抑制幻觉",
+    "首次实现无需训练、在线、实例级、纯单目 RGB 的开放词汇 3D 地图构建"
+   ],
+   "benchmarks": [
+    "ScanNet++ (top-100 classes)",
+    "Replica (51 classes)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "Vision-Language-Guided-Pseudo-Labels-for-Unsupervised-Domain",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-09-02 17:36:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d158e845-d988-4ae4-bc16-18fdae98ab40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d158e845-d988-4ae4-bc16-18fdae98ab40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:20:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Pseudo-labeling",
+    "Unsupervised Domain Adaptation",
+    "Semantic Segmentation",
+    "Industrial Waste Sorting"
+   ],
+   "field": "无监督域自适应语义分割",
+   "innovations": [
+    "提出跨模态伪标签流水线，使用SAM和EVA-CLIP生成高质量伪标签，无需目标域标注",
+    "证明伪标签质量比数量更关键，系统性验证验证器适配与BLIP验证的有效性"
+   ],
+   "benchmarks": [
+    "GTA5-to-Cityscapes",
+    "LabWaste-to-RealWaste"
+   ]
+  }
+ }
 }

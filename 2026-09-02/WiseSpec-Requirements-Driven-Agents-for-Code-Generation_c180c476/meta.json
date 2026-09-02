@@ -4,5 +4,29 @@
  "title": "WiseSpec-Requirements-Driven-Agents-for-Code-Generation",
  "token": "sk-z9ycjZdD1...",
  "created_at": "2026-09-02 17:37:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7b7132fd-84aa-439b-88d7-edb3ba8d0c9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7b7132fd-84aa-439b-88d7-edb3ba8d0c9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:22:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Code Generation",
+    "Requirements Engineering",
+    "LLM Agent",
+    "Repository-level Programming",
+    "SWE-bench"
+   ],
+   "field": "大模型代码生成",
+   "innovations": [
+    "提出需求驱动的代码生成范式，首次系统性解决任务描述质量瓶颈",
+    "设计执行导向的需求质量量化评估方法，将需求评估转化为代码测试通过问题"
+   ],
+   "benchmarks": [
+    "SWE-bench-Lite",
+    "SWE-bench-Verified",
+    "SWE-bench-Pro"
+   ]
+  }
+ }
 }

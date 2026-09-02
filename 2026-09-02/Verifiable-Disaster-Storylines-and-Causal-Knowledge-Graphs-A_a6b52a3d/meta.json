@@ -4,5 +4,31 @@
  "title": "Verifiable-Disaster-Storylines-and-Causal-Knowledge-Graphs-A",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-09-02 17:37:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3dfc94a1-cd47-498e-b0d3-9736c8495fee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3dfc94a1-cd47-498e-b0d3-9736c8495fee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:20:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Disaster Risk Management",
+    "Retrieval-Augmented Generation",
+    "Knowledge Graphs",
+    "Situational Awareness",
+    "Humanitarian Response",
+    "Citation-grounded Generation"
+   ],
+   "field": "灾难风险管理中的可解释AI与知识图谱",
+   "innovations": [
+    "Multi-shot RAG策略实现灾害故事线字段的独立可追溯提取",
+    "KG元素自动化引用验证层降低幻觉风险",
+    "融合ReliefWeb与人道主义报告的多源数据管道"
+   ],
+   "benchmarks": [
+    "Haiti Cholera Outbreak 2022",
+    "Hurricane Melissa Dominican Republic 2025",
+    "Syria Conflict Escalation 2024"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Visual-Framing-for-News-Stance-Detection-via-Image-Generatio",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-09-02 17:37:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6a4abc75-4e73-4c07-adf8-8c528a3cc60c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6a4abc75-4e73-4c07-adf8-8c528a3cc60c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:20:56",
+  "chunks": 1
+ }
 }

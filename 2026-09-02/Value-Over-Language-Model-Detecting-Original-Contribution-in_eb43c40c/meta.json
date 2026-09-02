@@ -4,5 +4,31 @@
  "title": "Value-Over-Language-Model-Detecting-Original-Contribution-in",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-09-02 06:52:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/84b1295f-6fe1-48b8-a705-a1e7d65a95cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/84b1295f-6fe1-48b8-a705-a1e7d65a95cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:01:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM检测",
+    "原创贡献度量",
+    "信息论评估",
+    "文本作者归因",
+    "VORP",
+    "无监督评估"
+   ],
+   "field": "AI安全与可信评估",
+   "innovations": [
+    "提出VOLM框架，以替换级文档为基线衡量人类在LLM辅助写作中的原创信息贡献",
+    "设计无需训练的提取-重建-评分流水线，对内容保持变换具有不变性",
+    "系统揭示提取器约束程度对风格-信息解耦的影响，量化风格残留效应"
+   ],
+   "benchmarks": [
+    "All the News",
+    "ICLR 2023 Reviews",
+    "Persuade 2.0"
+   ]
+  }
+ }
 }

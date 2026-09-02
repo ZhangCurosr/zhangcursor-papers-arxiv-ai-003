@@ -4,5 +4,30 @@
  "title": "Visual-Framing-for-News-Stance-Detection-via-Image-Generatio",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-09-02 06:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6a4abc75-4e73-4c07-adf8-8c528a3cc60c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6a4abc75-4e73-4c07-adf8-8c528a3cc60c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:01:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "新闻立场检测",
+    "视觉框架",
+    "图像生成",
+    "多模态大模型",
+    "文章级立场检测",
+    "生成式中间表示"
+   ],
+   "field": "多模态自然语言处理",
+   "innovations": [
+    "基于视觉框架理论的三阶段图像生成辅助立场检测框架",
+    "将传播学四层级框架模式转化为T2I可操作的八特征结构化提示",
+    "同时验证机器检测与人机交互场景下的有效性"
+   ],
+   "benchmarks": [
+    "K-News-Stance-MM",
+    "CheeSE"
+   ]
+  }
+ }
 }

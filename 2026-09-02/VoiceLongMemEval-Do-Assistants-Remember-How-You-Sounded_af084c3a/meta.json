@@ -4,5 +4,34 @@
  "title": "VoiceLongMemEval-Do-Assistants-Remember-How-You-Sounded",
  "token": "sk-L0ZhgdlAv...",
  "created_at": "2026-09-02 06:54:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1297bee8-944e-4619-b0c3-1780a407366d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1297bee8-944e-4619-b0c3-1780a407366d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:01:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "paralinguistic memory",
+    "long-term conversational memory",
+    "benchmark",
+    "affect gap",
+    "audio-native models",
+    "adversarial validation",
+    "speech-LLM"
+   ],
+   "field": "多模态对话记忆评估",
+   "innovations": [
+    "首个验证副语言长期记忆的对抗性基准 VLME",
+    "三阶段对抗门协议确保答案仅能从声学交付恢复",
+    "发现提示与标注部分可互换但对强对抗项元数据不可替代"
+   ],
+   "benchmarks": [
+    "VLME",
+    "LongMemEval",
+    "A-MBER",
+    "SD-Eval",
+    "CP-Bench"
+   ]
+  }
+ }
 }

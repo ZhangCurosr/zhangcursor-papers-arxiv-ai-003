@@ -4,5 +4,30 @@
  "title": "Visual-Attention-Faithfulness-in-Vision-Language-Models-is-H",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-09-02 06:52:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a54e2591-e5d2-43fb-a0d6-573e166f3373.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a54e2591-e5d2-43fb-a0d6-573e166f3373.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:01:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉注意力忠实性",
+    "VLM可解释性",
+    "因果扰动",
+    "完备性与充分性",
+    "视觉token评估"
+   ],
+   "field": "多模态大模型可解释性",
+   "innovations": [
+    "首次通过完备性+充分性双维度系统评估VLM视觉注意力因果忠实性",
+    "提出三种异构处理模式分类框架揭示注意力忠实性的非均匀性",
+    "揭示人类标注与模型视觉依赖的系统性偏差（仅~60%对齐）"
+   ],
+   "benchmarks": [
+    "VQAv2",
+    "VRDU",
+    "ChartQA"
+   ]
+  }
+ }
 }

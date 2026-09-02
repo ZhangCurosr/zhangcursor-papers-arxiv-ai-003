@@ -4,5 +4,31 @@
  "title": "Verifiable-Disaster-Storylines-and-Causal-Knowledge-Graphs-A",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-09-02 06:54:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3dfc94a1-cd47-498e-b0d3-9736c8495fee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3dfc94a1-cd47-498e-b0d3-9736c8495fee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:01:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "灾难故事线",
+    "因果知识图谱",
+    "检索增强生成",
+    "人道主义响应",
+    "引用验证",
+    "儿童敏感指标"
+   ],
+   "field": "灾害风险管理与人道主义AI",
+   "innovations": [
+    "Multi-Shot RAG逐字段溯源的故事线提取策略",
+    "基于属性-生成范式的KG节点与边引用验证层",
+    "首次将EM-DAT与ReliefWeb通过GLIDE ID联合接入LLM驱动管线"
+   ],
+   "benchmarks": [
+    "EM-DAT事件集合",
+    "ReliefWeb灾害记录库",
+    "EMM新闻语料"
+   ]
+  }
+ }
 }

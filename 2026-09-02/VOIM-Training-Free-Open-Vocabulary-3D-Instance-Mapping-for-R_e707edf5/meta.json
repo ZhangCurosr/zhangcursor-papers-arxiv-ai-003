@@ -4,5 +4,29 @@
  "title": "VOIM-Training-Free-Open-Vocabulary-3D-Instance-Mapping-for-R",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-09-02 06:53:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/36398aaa-b24b-42a1-9079-d244d2d758ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/36398aaa-b24b-42a1-9079-d244d2d758ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:01:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放词汇 SLAM",
+    "3D 实例映射",
+    "单目语义建图",
+    "体素累积",
+    "训练免感知"
+   ],
+   "field": "开放词汇 3D 语义 SLAM 与实例映射",
+   "innovations": [
+    "推迟硬决策的体素接地软证据累积策略，超越在线 commit 管线",
+    "跨模型否决机制抑制检测器幻觉，无需额外监督",
+    "同框架从 RGB-D 无缝切换至单目 RGB 实例映射"
+   ],
+   "benchmarks": [
+    "ScanNet++",
+    "Replica"
+   ]
+  }
+ }
 }

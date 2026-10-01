@@ -4,5 +4,35 @@
  "title": "SIGNATURES-OF-SEMANTIC-SEARCH-IN-THE-ACTIVA-TIONS-OF-LARGE-L",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-29 19:07:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ce72542-c069-4f5f-b035-3f7c06c84bbf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ce72542-c069-4f5f-b035-3f7c06c84bbf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:10:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义流畅性任务",
+    "Jacobian透镜",
+    "机制可解释性",
+    "探索-利用平衡",
+    "steering vectors",
+    "语义搜寻",
+    "J-space",
+    "大型语言模型"
+   ],
+   "field": "大语言模型可解释性与认知建模交叉",
+   "innovations": [
+    "首次用J-lens量化LLM语义搜寻中item/category级激活的动态变化并证明其预测switch行为",
+    "通过PCA+logistic回归从residual stream中提取通用switch方向并实现双向因果偏置",
+    "揭示抽象category标签激活的竞争-胜出模式及J-space耗尽驱动的foraging-like决策机制"
+   ],
+   "benchmarks": [
+    "Semantic Fluency Task (SFT)",
+    "Gemma-2-9B/2B",
+    "Llama-3.1-8B",
+    "Llama-3.2-3B",
+    "Qwen2.5-7B"
+   ]
+  }
+ }
 }

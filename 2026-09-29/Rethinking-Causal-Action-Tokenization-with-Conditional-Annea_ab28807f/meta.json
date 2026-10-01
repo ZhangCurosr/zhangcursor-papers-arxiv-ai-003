@@ -4,5 +4,30 @@
  "title": "Rethinking-Causal-Action-Tokenization-with-Conditional-Annea",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-29 07:59:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f25c9442-be3a-409b-9c08-855f245c0070.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f25c9442-be3a-409b-9c08-855f245c0070.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:09:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "动作分词",
+    "流匹配",
+    "自回归VLA",
+    "条件退火",
+    "因果表征",
+    "机器人学习"
+   ],
+   "field": "具身智能-动作表征学习",
+   "innovations": [
+    "条件退火机制将流匹配阶段层次结构转移到token空间，实现因果有序的从粗到细token表示",
+    "MMDiT token条件化流匹配解码器结合离散token接口与连续动作重建精度，实现知识隔离"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "SimplerEnv",
+    "RoboTwin 2.0"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "SHARE-BORNE-AI-VIRUS-MEMORY-HOPPING-ATTACKS-ACROSS-LLM-AGENT",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-09-29 19:07:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/323980bf-92a4-480c-b06a-9523f9355abf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/323980bf-92a4-480c-b06a-9523f9355abf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:10:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent Security",
+    "Indirect Prompt Injection",
+    "Persistent Memory Poisoning",
+    "Multi-hop Propagation",
+    "Artifact-mediated Attack",
+    "AI Virus",
+    "Agent Benchmark"
+   ],
+   "field": "LLM Agent安全与鲁棒性",
+   "innovations": [
+    "形式化并实证artifact-mediated propagation跨代理自传播模式",
+    "提出endpoint-assisted机制缓解逐跳语义衰减并量化与prompt-only变体差距",
+    "构建36-universe benchmark并提供FIF/S(h)/Kaplan-Meier生存分析等传播度量体系"
+   ],
+   "benchmarks": [
+    "OpenClaw harness",
+    "36 synthetic human-agent universes",
+    "3 large universes (30 agents, 60 steps)"
+   ]
+  }
+ }
 }

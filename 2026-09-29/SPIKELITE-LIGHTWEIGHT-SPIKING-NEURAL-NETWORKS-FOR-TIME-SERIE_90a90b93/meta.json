@@ -4,5 +4,29 @@
  "title": "SPIKELITE-LIGHTWEIGHT-SPIKING-NEURAL-NETWORKS-FOR-TIME-SERIE",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-09-29 19:08:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b583fa13-1206-4c03-bcd6-47421dcf331f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b583fa13-1206-4c03-bcd6-47421dcf331f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:12:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "脉冲神经网络",
+    "时间序列预测",
+    "频率选择性编码",
+    "稀疏注意力",
+    "轻量级模型",
+    "能耗效率"
+   ],
+   "field": "脉冲神经网络时间序列预测",
+   "innovations": [
+    "FSSE通过并行LIF分支的望远镜分解实现频率敏感的多尺度时序编码",
+    "SSCA基于频谱相似度学习二值掩码实现稀疏选择性的跨通道脉冲注意力"
+   ],
+   "benchmarks": [
+    "SeqSNN (METR-LA, PEMS-BAY, Solar, Electricity)",
+    "SpikF (ECL, Weather, ETTh1/2, ETTm1/2, Traffic, Exchange)"
+   ]
+  }
+ }
 }

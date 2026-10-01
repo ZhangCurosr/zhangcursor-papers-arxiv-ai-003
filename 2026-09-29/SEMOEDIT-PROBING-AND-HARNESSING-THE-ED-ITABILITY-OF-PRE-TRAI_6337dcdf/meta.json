@@ -4,5 +4,29 @@
  "title": "SEMOEDIT-PROBING-AND-HARNESSING-THE-ED-ITABILITY-OF-PRE-TRAI",
  "token": "sk-SVYqei9VG...",
  "created_at": "2026-09-29 19:08:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/93c4d860-3db7-4c10-8f05-9e771e7950db.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/93c4d860-3db7-4c10-8f05-9e771e7950db.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:10:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语音情感编辑",
+    "免训练编辑",
+    "流匹配TTS",
+    "速度场操控",
+    "情感插值",
+    "推理时编辑"
+   ],
+   "field": "语音情感合成与编辑",
+   "innovations": [
+    "首次系统诊断预训练TTS模型的情感可编辑性并揭示轨迹依赖性",
+    "提出SEmoEdit动态速度传输框架统一实现情感替换/擦除/插值",
+    "设计耦合噪声查询和情感桥接机制提升免训练编辑稳定性"
+   ],
+   "benchmarks": [
+    "SEmoEditBench"
+   ]
+  }
+ }
 }

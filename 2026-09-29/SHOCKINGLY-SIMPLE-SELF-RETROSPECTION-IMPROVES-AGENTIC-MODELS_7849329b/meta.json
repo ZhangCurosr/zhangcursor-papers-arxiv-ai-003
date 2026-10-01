@@ -4,5 +4,32 @@
  "title": "SHOCKINGLY-SIMPLE-SELF-RETROSPECTION-IMPROVES-AGENTIC-MODELS",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-29 19:07:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b76999b7-e8e5-4117-b56e-defbbd1407b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b76999b7-e8e5-4117-b56e-defbbd1407b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:10:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrospection-Only Fine-Tuning",
+    "Self-Retrospection",
+    "Agent Training",
+    "Reinforcement Learning",
+    "Software Engineering Agents",
+    "SWE-bench",
+    "Online Fine-Tuning"
+   ],
+   "field": "Agent学习与训练",
+   "innovations": [
+    "提出ROFT方法，仅通过自我反思解释的next-token prediction微调改进agent后续行为，无需RL/verifier/teacher",
+    "证明全失败基线（0/64成功）下仍可启动学习，突破GRPO的奖励稀疏限制",
+    "揭示反思内容可通过提示工程引导行为改变（如缩短rollout长度）"
+   ],
+   "benchmarks": [
+    "SWE-bench Verified",
+    "SWE-bench Pro",
+    "SWE-rebench-767"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "REINFORCING-AGENTIC-CREATIVITY-INSCIENTIFIC-IDEATION-WITH-NI",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-29 19:07:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c20b7fc6-68db-41a1-a0d4-a3a53487d73e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c20b7fc6-68db-41a1-a0d4-a3a53487d73e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:08:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学发现",
+    "强化学习",
+    "创造力建模",
+    "智能体",
+    "GRPO",
+    "研究提案生成"
+   ],
+   "field": "科学发现与AI辅助研究",
+   "innovations": [
+    "多轴创造力框架（行动/过程/结果三级建模）",
+    "语义创造层级+RL教模型何时偏离高概率推理",
+    "证明温度提升无法复现语义创造力引导的增益"
+   ],
+   "benchmarks": [
+    "NSF Awards Database",
+    "SciJudge-30B 预测引用影响力",
+    "GPT-5.1 文献对齐原创性评估",
+    "研究范式与贡献类型多样性"
+   ]
+  }
+ }
 }

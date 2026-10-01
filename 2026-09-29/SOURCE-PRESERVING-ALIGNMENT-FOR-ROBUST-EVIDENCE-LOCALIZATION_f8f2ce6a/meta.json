@@ -4,5 +4,31 @@
  "title": "SOURCE-PRESERVING-ALIGNMENT-FOR-ROBUST-EVIDENCE-LOCALIZATION",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-29 07:53:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/080d28df-6026-4aaa-8efe-3a65e30bcbde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/080d28df-6026-4aaa-8efe-3a65e30bcbde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:11:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PDF evidence localization",
+    "source-preserving alignment",
+    "text normalization",
+    "scientific document grounding",
+    "approximate string matching",
+    "LCS alignment",
+    "geometric rendering"
+   ],
+   "field": "科学文献信息抽取与可验证AI",
+   "innovations": [
+    "源保持标准化表示：标准化仅用于匹配，原文本永不改写，每个输出字符保留(source item, offset)溯源对",
+    "多尺度LCS容错对齐：α∈{0.70,0.85,1.00,1.15,1.30}枚举候选窗口，阈值τ=0.8过滤噪声",
+    "字符区间裁剪渲染：比例估算x_start=x₀+w·(c/|s_i|)，避免整项高亮污染"
+   ],
+   "benchmarks": [
+    "1020篇化学论文",
+    "18580条引文"
+   ]
+  }
+ }
 }

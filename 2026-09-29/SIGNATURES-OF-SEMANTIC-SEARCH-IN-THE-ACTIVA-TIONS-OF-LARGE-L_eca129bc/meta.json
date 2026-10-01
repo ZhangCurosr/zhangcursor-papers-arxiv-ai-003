@@ -4,5 +4,30 @@
  "title": "SIGNATURES-OF-SEMANTIC-SEARCH-IN-THE-ACTIVA-TIONS-OF-LARGE-L",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-29 08:00:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ce72542-c069-4f5f-b035-3f7c06c84bbf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ce72542-c069-4f5f-b035-3f7c06c84bbf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:11:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semantic fluency task",
+    "mechanistic interpretability",
+    "Jacobian-lens",
+    "explore-exploit",
+    "steering vectors",
+    "large language models"
+   ],
+   "field": "语言模型机制解释性",
+   "innovations": [
+    "首次用J-lens揭示LLM语义搜寻中的探索-利用双模态激活签名",
+    "通过J-space耗竭度量证明概念斑块 depletion 驱动切换决策",
+    "构建通用switch direction并实现因果性探索-利用行为调控"
+   ],
+   "benchmarks": [
+    "Semantic Fluency Task (SFT)",
+    "动物命名类别任务"
+   ]
+  }
+ }
 }

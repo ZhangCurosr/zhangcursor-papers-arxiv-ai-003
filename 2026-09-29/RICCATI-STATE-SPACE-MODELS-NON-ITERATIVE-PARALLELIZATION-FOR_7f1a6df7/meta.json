@@ -4,5 +4,32 @@
  "title": "RICCATI-STATE-SPACE-MODELS-NON-ITERATIVE-PARALLELIZATION-FOR",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-29 07:58:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7eac3f6a-dd64-4c8d-8cf1-d46bf865b0c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7eac3f6a-dd64-4c8d-8cf1-d46bf865b0c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:08:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "State Space Models",
+    "Parallel Scan",
+    "Riccati Equation",
+    "Möbius Transformation",
+    "Nonlinear Recurrence",
+    "Liquid Dynamics",
+    "Long Sequence Modeling"
+   ],
+   "field": "长序列状态空间模型",
+   "innovations": [
+    "构造输入条件化Riccati动力学使离散流映射为Möbius变换，实现单次并行扫描的非迭代精确求值",
+    "推导约束参数化保证有界不变区间与收缩性，避免极点发散",
+    "建立与LRC动力学的局部Taylor对应并证明精确ZOH积分优于显式Euler离散"
+   ],
+   "benchmarks": [
+    "UEA Time Series Classification (6 datasets)",
+    "PPG-DaLiA Regression",
+    "Weather Forecasting"
+   ]
+  }
+ }
 }

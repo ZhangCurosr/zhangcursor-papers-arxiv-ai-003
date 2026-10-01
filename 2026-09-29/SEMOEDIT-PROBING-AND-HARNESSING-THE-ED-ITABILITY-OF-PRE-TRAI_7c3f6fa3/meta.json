@@ -4,5 +4,33 @@
  "title": "SEMOEDIT-PROBING-AND-HARNESSING-THE-ED-ITABILITY-OF-PRE-TRAI",
  "token": "sk-SVYqei9VG...",
  "created_at": "2026-09-29 08:08:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/93c4d860-3db7-4c10-8f05-9e771e7950db.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/93c4d860-3db7-4c10-8f05-9e771e7950db.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:10:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speech emotion editing",
+    "training-free",
+    "flow matching",
+    "text-to-speech",
+    "velocity transport",
+    "speech editing benchmark"
+   ],
+   "field": "语音情感编辑与免训练语音生成",
+   "innovations": [
+    "首个将情感编辑建模为预训练流动态速度转移的免训练统一框架",
+    "揭示预训练TTS情感可编辑性的轨迹非均匀性与属性耦合规律",
+    "构建SEmoEditBench并引入方向性与强度单调性综合评估指标"
+   ],
+   "benchmarks": [
+    "SEmoEditBench",
+    "ESD",
+    "IEMOCAP",
+    "RAVDESS",
+    "CREMA-D"
+   ]
+  }
+ }
 }

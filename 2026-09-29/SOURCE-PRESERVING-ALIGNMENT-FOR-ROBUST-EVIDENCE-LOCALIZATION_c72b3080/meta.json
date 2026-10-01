@@ -4,5 +4,31 @@
  "title": "SOURCE-PRESERVING-ALIGNMENT-FOR-ROBUST-EVIDENCE-LOCALIZATION",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-29 19:07:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/080d28df-6026-4aaa-8efe-3a65e30bcbde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/080d28df-6026-4aaa-8efe-3a65e30bcbde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:11:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PDF证据定位",
+    "源保持对齐",
+    "文本规范化",
+    "LCS回退",
+    "科学文档 grounding",
+    "高精度高亮"
+   ],
+   "field": "科学文档信息抽取与定位",
+   "innovations": [
+    "提出source-preserving alignment框架，规范化匹配与来源溯源分离设计",
+    "确定性LCS多缩放候选回退机制无需训练参数",
+    "character-range clipping实现字符级高亮边界裁剪"
+   ],
+   "benchmarks": [
+    "1020篇化学论文18580条引用",
+    "PyMuPDF文本搜索",
+    "预计算BBOX基线"
+   ]
+  }
+ }
 }

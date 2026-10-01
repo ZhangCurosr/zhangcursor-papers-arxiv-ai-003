@@ -4,5 +4,36 @@
  "title": "SIPO-SELECTIVE-INFERENCE-POLICY-OPTIMIZATION-FOR-TREE-STRUCT",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-09-29 08:04:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ed642b0-b514-4d6c-a38d-aee1c38f1b56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ed642b0-b514-4d6c-a38d-aee1c38f1b56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:11:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tree-structured RL",
+    "selective inference",
+    "policy optimization",
+    "agentic search",
+    "credit assignment",
+    "post-selection inference",
+    "tree rollout"
+   ],
+   "field": "树结构强化学习与 Agent RL",
+   "innovations": [
+    "提出无标度分支标准（SFC），在 sibling 惩罚前对生成分数标准化以保持策略漂移下的选择稳定性",
+    "设计可交换分支（EXB），通过多 fresh 续写提供对称参考基线以检测选择历史偏差",
+    "引入次序统计修正（OSC），利用 Blom 秩近似和前批斜率估计校正选中 incumbent 的价值偏移"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "2WikiMultihopQA",
+    "Musique",
+    "Bamboogle",
+    "NQ",
+    "TriviaQA",
+    "PopQA"
+   ]
+  }
+ }
 }

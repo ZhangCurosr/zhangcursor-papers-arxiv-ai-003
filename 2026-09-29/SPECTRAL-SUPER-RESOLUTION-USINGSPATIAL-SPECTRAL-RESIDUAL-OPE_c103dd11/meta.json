@@ -4,5 +4,33 @@
  "title": "SPECTRAL-SUPER-RESOLUTION-USINGSPATIAL-SPECTRAL-RESIDUAL-OPE",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-09-29 08:01:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4eb0bb8d-3336-4cf6-9245-cd13f9d6797c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4eb0bb8d-3336-4cf6-9245-cd13f9d6797c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:11:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spectral Super-Resolution",
+    "Deep Operator Network",
+    "DeepONet",
+    "Neural Operator",
+    "Hyperspectral Remote Sensing",
+    "Zero-shot SR",
+    "Sentinel-2A",
+    "EMIT"
+   ],
+   "field": "遥感光谱超分辨率",
+   "innovations": [
+    "首次将SSR问题形式化为算子学习任务并建立数学框架",
+    "提出SS-RON架构，将空谱残差CNN首次嵌入DeepONet分支网络",
+    "展示算子学习在零样本unseen band预测与连续波长插值上的潜力"
+   ],
+   "benchmarks": [
+    "EMIT 229-band HSI",
+    "Sentinel-2A-like MSI",
+    "MAE/RMSE/PSNR/SSIM"
+   ]
+  }
+ }
 }

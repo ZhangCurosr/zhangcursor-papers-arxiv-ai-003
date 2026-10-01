@@ -4,5 +4,32 @@
  "title": "RETHINKING-CIRCUIT-EVALUATION-DO-CIRCUITS-EXPLAIN-MODEL-ERRO",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-29 07:59:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b3fb6073-e923-4922-87c3-ac4d3f72a442.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b3fb6073-e923-4922-87c3-ac4d3f72a442.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:08:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "circuit evaluation",
+    "model errors",
+    "faithfulness",
+    "ablation",
+    "IOI",
+    "MIB"
+   ],
+   "field": "机械可解释性",
+   "innovations": [
+    "提出分层评估框架，将正确/错误一致性分离测量",
+    "发现主流电路在错误复现上存在系统性缺陷（11.4%-41.7% vs 97.3%-99.5%）",
+    "证明通过恢复被忽略注意力头可将错误复现率从14.2%提升至75.1%"
+   ],
+   "benchmarks": [
+    "IOI",
+    "DOCSTRING",
+    "MIB"
+   ]
+  }
+ }
 }

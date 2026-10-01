@@ -4,5 +4,36 @@
  "title": "SIPO-SELECTIVE-INFERENCE-POLICY-OPTIMIZATION-FOR-TREE-STRUCT",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-09-29 19:08:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ed642b0-b514-4d6c-a38d-aee1c38f1b56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ed642b0-b514-4d6c-a38d-aee1c38f1b56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:11:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tree-structured RL",
+    "selective inference",
+    "policy optimization",
+    "search agents",
+    "credit assignment",
+    "post-selection inference",
+    "reinforcement learning"
+   ],
+   "field": "Agentic Reinforcement Learning",
+   "innovations": [
+    "Scale-free branch criterion normalizing generation scores before sibling penalty to stabilize selection trade-offs",
+    "Exchangeable branching generating multiple fresh continuations per selected parent for symmetric comparison under fixed leaf budget",
+    "Order-statistic correction adjusting incumbent values using selection rank and score-outcome association estimated from prior batch"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "2WikiMultihopQA",
+    "Musique",
+    "Bamboogle",
+    "NQ",
+    "TriviaQA",
+    "PopQA"
+   ]
+  }
+ }
 }

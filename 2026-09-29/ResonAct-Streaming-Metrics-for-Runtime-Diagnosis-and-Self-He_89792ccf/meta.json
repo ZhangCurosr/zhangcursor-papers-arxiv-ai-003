@@ -4,5 +4,29 @@
  "title": "ResonAct-Streaming-Metrics-for-Runtime-Diagnosis-and-Self-He",
  "token": "sk-2ksG4dzmp...",
  "created_at": "2026-09-29 08:02:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cb7775d2-98d9-463f-97bc-00991ae5c4be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cb7775d2-98d9-463f-97bc-00991ae5c4be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:09:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体系统",
+    "运行时自修复",
+    "流式指标",
+    "故障检测",
+    "LLM Agent",
+    "可观测性"
+   ],
+   "field": "多智能体系统可靠性",
+   "innovations": [
+    "基于流式操作指标的运行时故障检测与策略化自修复框架",
+    "外部控制平面设计，指标与修复策略解耦，无需修改应用Agent"
+   ],
+   "benchmarks": [
+    "AppWorld MAS",
+    "Sales MAS"
+   ]
+  }
+ }
 }

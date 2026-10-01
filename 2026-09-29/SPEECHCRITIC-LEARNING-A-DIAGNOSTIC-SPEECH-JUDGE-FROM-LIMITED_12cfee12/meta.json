@@ -4,5 +4,31 @@
  "title": "SPEECHCRITIC-LEARNING-A-DIAGNOSTIC-SPEECH-JUDGE-FROM-LIMITED",
  "token": "sk-Wy5CGD3Z6...",
  "created_at": "2026-09-29 08:03:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/677a269b-5e4a-46fe-a543-677f730b1329.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/677a269b-5e4a-46fe-a543-677f730b1329.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:11:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diagnostic speech judge",
+    "weak supervision",
+    "on-policy distillation",
+    "reinforcement learning",
+    "cross-lingual speech evaluation",
+    "acoustic calibration"
+   ],
+   "field": "语音评估与多模态大模型",
+   "innovations": [
+    "用约300条人工标注构建select-calibrate-scale流水线，将声学指标校准为A/TIE/B软提示扩展至万级机器监督",
+    "系统比较SFT/OPD/RL三种训练信号对诊断语音judge行为的差异化塑造",
+    "证明RL可在不直接奖励rationale的情况下提升可听觉证据落地的具体性"
+   ],
+   "benchmarks": [
+    "English-Japanese constructed test set",
+    "English-Spanish constructed test set",
+    "VOX-DUB"
+   ]
+  }
+ }
 }

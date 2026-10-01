@@ -4,5 +4,32 @@
  "title": "REINFORCEMENT-LEARNING-FROM-INTERMEDIATE-RENDERS-FOR-IMAGE-T",
  "token": "sk-j48TqhxQD...",
  "created_at": "2026-09-29 08:03:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/281d7ac6-9114-4969-b384-01c34eb3c039.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/281d7ac6-9114-4969-b384-01c34eb3c039.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:08:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image-to-code",
+    "reinforcement learning",
+    "process supervision",
+    "intermediate rendering",
+    "SVG generation",
+    "TikZ generation",
+    "reward shaping",
+    "credit assignment"
+   ],
+   "field": "视觉-语言模型与代码生成",
+   "innovations": [
+    "提出 render-progress reward，利用连续中间渲染的视觉相似度增量作为 token 级过程监督信号",
+    "设计指数衰减反向传播机制将 segment 级 delta 奖励分配到各 token，结合 outcome 奖励提升信用分配精度",
+    "在 Image-to-SVG 和 Image-to-TikZ 两个任务上统一验证，均以极少样本实现开源模型 SOTA 且生成更短代码"
+   ],
+   "benchmarks": [
+    "MMSVGBench",
+    "DaTikZ-v3"
+   ]
+  }
+ }
 }

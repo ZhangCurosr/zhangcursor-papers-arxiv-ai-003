@@ -4,5 +4,32 @@
  "title": "SHOCKINGLY-SIMPLE-SELF-RETROSPECTION-IMPROVES-AGENTIC-MODELS",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-29 08:00:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b76999b7-e8e5-4117-b56e-defbbd1407b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b76999b7-e8e5-4117-b56e-defbbd1407b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:10:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrospection-Only Fine-Tuning",
+    "ROFT",
+    "Agent Training",
+    "Self-Reflection",
+    "Reinforcement Learning Alternative",
+    "SWE-bench",
+    "Credit Assignment"
+   ],
+   "field": "AI Agent 训练与自我改进",
+   "innovations": [
+    "提出仅对自生成回顾文本施加 SFT loss 的 ROFT 方法，无需 RL/verifier/teacher",
+    "证明从全失败起点（64/64 失败）可通过回顾训练启动学习，GRPO 在此场景无法更新",
+    "发现回顾内容可通过 prompt 干预引导后续行为效率，无需显式 length penalty"
+   ],
+   "benchmarks": [
+    "SWE-bench Verified",
+    "SWE-bench Pro",
+    "SWE-rebench-767"
+   ]
+  }
+ }
 }

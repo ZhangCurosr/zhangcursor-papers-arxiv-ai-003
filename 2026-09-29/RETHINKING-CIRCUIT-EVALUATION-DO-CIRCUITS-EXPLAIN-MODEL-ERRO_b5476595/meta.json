@@ -4,5 +4,31 @@
  "title": "RETHINKING-CIRCUIT-EVALUATION-DO-CIRCUITS-EXPLAIN-MODEL-ERRO",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-29 19:07:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b3fb6073-e923-4922-87c3-ac4d3f72a442.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b3fb6073-e923-4922-87c3-ac4d3f72a442.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:08:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "circuit extraction",
+    "faithfulness evaluation",
+    "error reproduction",
+    "ablation study",
+    "transformer circuits"
+   ],
+   "field": "模型可解释性",
+   "innovations": [
+    "提出A_ok/A_err分层协议指标量化电路错误复现能力",
+    "证明现有电路提取方法系统性低估模型错误复现率",
+    "通过贪心扩展+机制追踪将IOI错误复现率从14.2%提升至75.1%"
+   ],
+   "benchmarks": [
+    "IOI",
+    "DOCSTRING",
+    "MIB"
+   ]
+  }
+ }
 }

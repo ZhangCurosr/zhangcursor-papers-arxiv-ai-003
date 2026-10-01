@@ -4,5 +4,29 @@
  "title": "Reverse-Sequential-Proportional-Approval-Voting-Rule-Proport",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-29 19:07:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e1107deb-2fb2-425d-9db9-d32cdb1498c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e1107deb-2fb2-425d-9db9-d32cdb1498c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:10:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "approval-based committee voting",
+    "RevSeqPAV",
+    "Extended Justified Representation",
+    "proportionality degree",
+    "approximation guarantee",
+    "computational social choice"
+   ],
+   "field": "计算社会选择 / 多winner投票理论",
+   "innovations": [
+    "首次证明RevSeqPAV比例度与比例排名质量在最坏情况下为零",
+    "确立r≤2时EJR严格成立且r≥3时失效的紧界",
+    "给出k/(m-1)与1/b下两个紧的PAV最优分近似保证"
+   ],
+   "benchmarks": [
+    "理论复杂度与近似比分析（无实证基准）"
+   ]
+  }
+ }
 }

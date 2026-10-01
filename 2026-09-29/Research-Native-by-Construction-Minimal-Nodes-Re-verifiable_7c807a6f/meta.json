@@ -4,5 +4,29 @@
  "title": "Research-Native-by-Construction-Minimal-Nodes-Re-verifiable",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-29 19:08:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/23a66016-a731-41bc-96ff-2d1fe3138b94.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/23a66016-a731-41bc-96ff-2d1fe3138b94.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:09:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学智能体",
+    "研究可信度",
+    "可复核工作流",
+    "预注册机械力化",
+    "复合记忆",
+    "最小节点集"
+   ],
+   "field": "AI for Science/自主研究智能体",
+   "innovations": [
+    "将研究纪律内嵌为机械强制的铁律使违规状态无法表示",
+    "基于6条铁律的最小节点集与深度扩展机制",
+    "通过冻结探究合同与哈希链账本实现全程可复核"
+   ],
+   "benchmarks": [
+    "无定量基准，仅两个封闭案例研究 C1/C2"
+   ]
+  }
+ }
 }

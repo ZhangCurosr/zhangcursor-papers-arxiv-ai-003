@@ -4,5 +4,40 @@
  "title": "SPIDER-Multi-Layer-Semantic-Token-Pruning-and-Adaptive-Sub-L",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-09-29 19:08:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/31f5a214-5793-4ece-bce7-eb38b6a3b292.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/31f5a214-5793-4ece-bce7-eb38b6a3b292.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:12:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Large Language Models",
+    "Token Pruning",
+    "Layer Skipping",
+    "Inference Efficiency",
+    "Training-free Acceleration",
+    "Visual Token Redundancy"
+   ],
+   "field": "多模态大模型推理加速",
+   "innovations": [
+    "多层语义联合的 Token 剪枝（中间层+深层特征联合聚类）",
+    "面向 Attention/FFN 子层的自适应细粒度跳过机制（在线熵+离线SLC双评分融合）",
+    "统一Token效用衰减视角的跨编码器-解码器联合加速框架"
+   ],
+   "benchmarks": [
+    "LLaVA-1.5-7B",
+    "LLaVA-NeXT-7B",
+    "Qwen2.5-VL-3B",
+    "Qwen3-VL-8B",
+    "GQA",
+    "VQAv2",
+    "MME",
+    "POPE",
+    "MMStar",
+    "MMVet",
+    "TextVQA",
+    "DocVQA"
+   ]
+  }
+ }
 }

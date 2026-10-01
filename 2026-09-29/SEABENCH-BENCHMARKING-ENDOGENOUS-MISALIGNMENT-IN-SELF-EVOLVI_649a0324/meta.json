@@ -4,5 +4,10 @@
  "title": "SEABENCH-BENCHMARKING-ENDOGENOUS-MISALIGNMENT-IN-SELF-EVOLVI",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-29 07:57:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/744fe450-9397-4faa-b556-db89e27f76e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/744fe450-9397-4faa-b556-db89e27f76e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:09:20",
+  "chunks": 1
+ }
 }

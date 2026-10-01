@@ -4,5 +4,32 @@
  "title": "Summarize-Before-Grounding-Query-Guided-Chunk-Condensation-f",
  "token": "sk-F3sFpZ8ji...",
  "created_at": "2026-09-29 19:09:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/274dee0d-0a28-42dd-bcd0-e6554bc83107.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/274dee0d-0a28-42dd-bcd0-e6554bc83107.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:11:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "temporal grounding",
+    "large vision-language models",
+    "reinforcement learning",
+    "long video understanding",
+    "chunk condensation",
+    "query-guided retrieval"
+   ],
+   "field": "多模态时序定位",
+   "innovations": [
+    "提出先总结后定位的两级块压缩框架",
+    "设计查询引导潜在摘要与关联检索机制",
+    "引入长度感知梯度门控降低长视频训练显存"
+   ],
+   "benchmarks": [
+    "Ego4D-NLQ",
+    "TACoS",
+    "Charades-STA",
+    "ActivityNet-Captions"
+   ]
+  }
+ }
 }

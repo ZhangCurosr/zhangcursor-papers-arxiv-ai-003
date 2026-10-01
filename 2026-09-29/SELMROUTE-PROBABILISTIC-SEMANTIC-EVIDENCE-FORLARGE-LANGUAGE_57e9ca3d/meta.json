@@ -4,5 +4,31 @@
  "title": "SELMROUTE-PROBABILISTIC-SEMANTIC-EVIDENCE-FORLARGE-LANGUAGE",
  "token": "sk-wUD9ZXHNo...",
  "created_at": "2026-09-29 08:06:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95a7909b-f8c9-4a2a-8a83-8182ecf18b44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95a7909b-f8c9-4a2a-8a83-8182ecf18b44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:09:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM routing",
+    "probabilistic semantic evidence",
+    "model selection",
+    "interpretable ML",
+    "cost-aware routing",
+    "LLMRouterBench",
+    "decision models"
+   ],
+   "field": "大语言模型路由与编排",
+   "innovations": [
+    "提出概率语义状态与候选性能学习解耦的三阶段路由框架",
+    "证明原始概率质量表征优于硬标签与扩展统计量语义表示",
+    "验证相同语义接口可支持质量优先与质量-成本权衡两种部署目标"
+   ],
+   "benchmarks": [
+    "LLMRouterBench Performance-Oriented (15 datasets, 20 models)",
+    "LLMRouterBench Performance-Cost (10 datasets, 13 flagship models)"
+   ]
+  }
+ }
 }

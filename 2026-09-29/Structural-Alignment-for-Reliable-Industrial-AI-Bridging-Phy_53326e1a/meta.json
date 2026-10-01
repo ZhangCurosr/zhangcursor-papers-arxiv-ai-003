@@ -4,5 +4,31 @@
  "title": "Structural-Alignment-for-Reliable-Industrial-AI-Bridging-Phy",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-29 19:07:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/58f8940b-ea82-4f12-81f2-54fba3ab2b20.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/58f8940b-ea82-4f12-81f2-54fba3ab2b20.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:11:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Industrial AI",
+    "AI reliability",
+    "structural alignment",
+    "solution space",
+    "goal encoding",
+    "digitalization",
+    "robustness",
+    "interpretability"
+   ],
+   "field": "工业AI可靠性与治理",
+   "innovations": [
+    "提出四世界双接口框架，将工业AI可靠性定义为跨物理/表征/机器/认知世界的结构对齐问题",
+    "定义解空间四属性（存在性/非唯一性/鲁棒性/可解释性），揭示故障的共性结构机制",
+    "提出复合歧义和隐藏不可行性两种接口交互故障模式，统一诊断跨领域AI失效"
+   ],
+   "benchmarks": [
+    "无实验基准，框架层面验证"
+   ]
+  }
+ }
 }

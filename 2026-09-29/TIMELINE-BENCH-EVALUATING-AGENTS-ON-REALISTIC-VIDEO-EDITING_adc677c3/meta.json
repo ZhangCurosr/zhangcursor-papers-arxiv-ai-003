@@ -4,5 +4,10 @@
  "title": "TIMELINE-BENCH-EVALUATING-AGENTS-ON-REALISTIC-VIDEO-EDITING",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-09-29 08:00:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7b20e647-abee-4b99-a0b8-208865d84f08.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7b20e647-abee-4b99-a0b8-208865d84f08.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:13:27",
+  "chunks": 1
+ }
 }

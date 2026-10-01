@@ -4,5 +4,33 @@
  "title": "Spatial-Grafting-Grounding-3D-Features-for-Flow-Matching-Rob",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-29 08:04:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/35acb61c-0d80-4837-9384-61f715cd692b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/35acb61c-0d80-4837-9384-61f715cd692b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:10:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spatial Grafting",
+    "Flow Matching",
+    "VLA",
+    "WAM",
+    "3D Reconstruction",
+    "Robot Manipulation",
+    "Cross-Attention"
+   ],
+   "field": "机器人操作策略与空间理解",
+   "innovations": [
+    "将冻结重建潜特征绑定到度量与末端相对坐标，通过 bank-only 交叉注意力注入流匹配动作专家",
+    "提出通用嫁接接口，同一模块同时适用于 VLA 和 WAM 且无需修改宿主感知通路",
+    "在 4 个宿主、4 个仿真基准和 3 台真实机器人上验证，证明增益来自接地几何而非额外容量"
+   ],
+   "benchmarks": [
+    "RoboTwin 2.0",
+    "LIBERO",
+    "RoboPRO",
+    "BEHAVIOR-1K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "TERMJUDGE-A-Document-Level-Metric-Judging-Not-Counting-Termi",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-09-29 08:02:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a615b63c-1b8a-4b59-9361-4dd87816d863.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a615b63c-1b8a-4b59-9361-4dd87816d863.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:12:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine translation evaluation",
+    "terminology metric",
+    "LLM-as-a-judge",
+    "document-level evaluation",
+    "terminological variation",
+    "BioMQM"
+   ],
+   "field": "机器翻译评估",
+   "innovations": [
+    "提出 TERMJUDGE 文档级术语指标，通过 Q1/Q2 两阶段 LLM judge 区分术语错误与合法变体",
+    "构建 BioMQM-Terms 评测资源，从 MQM 标注中提取术语专用基准",
+    "用可解释 verdict 仲裁 glossary injection 效果的此前未解 tension"
+   ],
+   "benchmarks": [
+    "BioMQM-Terms",
+    "STEP",
+    "PARANLP",
+    "IWSLT23"
+   ]
+  }
+ }
 }

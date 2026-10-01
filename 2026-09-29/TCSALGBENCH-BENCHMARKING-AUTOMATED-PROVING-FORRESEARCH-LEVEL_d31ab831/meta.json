@@ -4,5 +4,30 @@
  "title": "TCSALGBENCH-BENCHMARKING-AUTOMATED-PROVING-FORRESEARCH-LEVEL",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-29 19:07:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4027e7ee-41bb-46ad-a031-6ef8af435043.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4027e7ee-41bb-46ad-a031-6ef8af435043.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:12:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "theoretical computer science",
+    "automated theorem proving",
+    "benchmark",
+    "LLM reasoning",
+    "proof discovery",
+    "agent workflow",
+    "TCSAlgBench"
+   ],
+   "field": "AI for Scientific Research",
+   "innovations": [
+    "Expert-designed repair layer for self-contained TCS proof challenges with algorithm existence rewriting",
+    "Call-matched comparative study of four agent workflows under fixed model-call budget",
+    "Refreshable benchmark pipeline with post-cutoff evaluation from STOC/COLT 2026 papers"
+   ],
+   "benchmarks": [
+    "TCSAlgBench"
+   ]
+  }
+ }
 }

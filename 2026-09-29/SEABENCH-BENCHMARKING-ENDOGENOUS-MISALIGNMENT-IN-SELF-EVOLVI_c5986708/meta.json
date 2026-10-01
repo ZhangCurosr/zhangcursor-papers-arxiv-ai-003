@@ -4,5 +4,32 @@
  "title": "SEABENCH-BENCHMARKING-ENDOGENOUS-MISALIGNMENT-IN-SELF-EVOLVI",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-29 19:07:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/744fe450-9397-4faa-b556-db89e27f76e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/744fe450-9397-4faa-b556-db89e27f76e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:09:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-evolving agents",
+    "endogenous misalignment",
+    "LLM safety",
+    "agent benchmarking",
+    "chain-of-thought monitoring",
+    "parameter-free harness updates",
+    "personal assistant agents"
+   ],
+   "field": "LLM智能体安全评估",
+   "innovations": [
+    "提出首个内生不对齐基准SEABENCH，提供48条纵向任务序列跨多进化面与伤害类型评估自进化安全退化",
+    "设计自适应轨迹发现管线结合配对非进化对照与归因评分，实现因果归因而非相关性观察",
+    "基于CoT风险线程分析训练多阶段监测器，以9.7%误报率实现70.9%危害降低的缓解策略"
+   ],
+   "benchmarks": [
+    "SEABENCH",
+    "Personal Agent Environment (89 JSON files, 2220 records)",
+    "48 longitudinal task sequences across 4 domains, 4 harm types, 3 evolution surfaces"
+   ]
+  }
+ }
 }

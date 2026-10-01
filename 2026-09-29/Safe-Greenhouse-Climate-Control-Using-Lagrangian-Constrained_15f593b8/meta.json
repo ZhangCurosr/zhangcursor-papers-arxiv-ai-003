@@ -4,5 +4,30 @@
  "title": "Safe-Greenhouse-Climate-Control-Using-Lagrangian-Constrained",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-09-29 19:09:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/811c19ae-f8f0-46a2-a594-6418119f978b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/811c19ae-f8f0-46a2-a594-6418119f978b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:10:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Greenhouse Climate Control",
+    "Safe Reinforcement Learning",
+    "Constrained Markov Decision Process",
+    "Kolmogorov-Arnold Networks",
+    "RCPO",
+    "Proximal Policy Optimization"
+   ],
+   "field": "农业智能控制与强化学习",
+   "innovations": [
+    "将温室气候控制建模为CMDP并以拉格朗日乘子自适应调节累积违反约束",
+    "用KAN替代PPO中MLP以提升强非线性温室动态的表示能力",
+    "结合正弦周期时间编码捕获昼夜气候节律"
+   ],
+   "benchmarks": [
+    "Winter lettuce greenhouse dynamic model",
+    "40-day real-weather disturbance from Bleiswijk, Netherlands"
+   ]
+  }
+ }
 }

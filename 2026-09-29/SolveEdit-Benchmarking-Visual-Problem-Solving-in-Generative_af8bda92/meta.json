@@ -4,5 +4,30 @@
  "title": "SolveEdit-Benchmarking-Visual-Problem-Solving-in-Generative",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-29 08:00:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6d39d38a-79f9-45b2-87df-4eb998c47da5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6d39d38a-79f9-45b2-87df-4eb998c47da5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:10:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual problem solving",
+    "generative editing benchmark",
+    "atomic transition contract",
+    "SolveScore",
+    "scene transformation",
+    "IS/SD/RD regimes",
+    "visual planning"
+   ],
+   "field": "视觉生成与推理评测",
+   "innovations": [
+    "提出 SolveEdit 基准，将变换信息来源显式划分为 IS/SD/RD 三类依赖 regime",
+    "设计原子转换契约与 SolveScore，支持多解合法性并分离完成/破坏评估",
+    "提出无参数两阶段规划器 SolveEdit-Plan，在单次生成预算下显著提升完成度与保持性"
+   ],
+   "benchmarks": [
+    "SolveEdit"
+   ]
+  }
+ }
 }

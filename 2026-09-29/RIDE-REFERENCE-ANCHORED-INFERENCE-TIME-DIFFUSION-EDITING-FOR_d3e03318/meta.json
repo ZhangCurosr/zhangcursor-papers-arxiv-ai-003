@@ -4,5 +4,30 @@
  "title": "RIDE-REFERENCE-ANCHORED-INFERENCE-TIME-DIFFUSION-EDITING-FOR",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-29 19:08:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3e763ae7-c981-41c1-98fe-aa80a021d323.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3e763ae7-c981-41c1-98fe-aa80a021d323.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:08:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scaffold hopping",
+    "diffusion editing",
+    "molecular generation",
+    "inference-time optimization",
+    "reference-anchored",
+    "value-guided sampling"
+   ],
+   "field": "基于扩散模型的药物分子生成",
+   "innovations": [
+    "参考锚定扩散编辑范式：将scaffold hopping reformulate为参考噪声轨迹编辑而非条件生成",
+    "参考最优扰动片段选择：通过MC采样自动定位最佳编辑时间区间",
+    "价值引导骨架采样：基于lookahead samples的值函数估计，适配不可微分子奖励"
+   ],
+   "benchmarks": [
+    "CrossDocked2020 test set (60 human disease targets)",
+    "Sim_2D, Sim_3D, Vina S/M/D, QED, SA, Conn.(%)"
+   ]
+  }
+ }
 }

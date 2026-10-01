@@ -4,5 +4,36 @@
  "title": "SUFFICIENCY-OF-ZEROTH-ORDER-REWARD-SHAPING-FOR-POLICY-GRADIE",
  "token": "sk-hGbDG10SO...",
  "created_at": "2026-09-29 19:09:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5caf2d7a-4819-4d7b-b7ed-a2b0f5475206.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5caf2d7a-4819-4d7b-b7ed-a2b0f5475206.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:10:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reward shaping",
+    "policy gradient",
+    "robotic control",
+    "reinforcement learning",
+    "stabilization control",
+    "zeroth-order reward",
+    "Isaac Lab"
+   ],
+   "field": "强化学习控制",
+   "innovations": [
+    "证明策略梯度稳定控制无需速度奖励项，仅需零阶配置完整奖励",
+    "分离奖励充分性与观测充分性，理论证明速度必须出现在观测中",
+    "解释reward clipping对速度惩罚尾部的压缩机制"
+   ],
+   "benchmarks": [
+    "Isaac Lab Acrobot",
+    "Isaac Lab Pendubot",
+    "Isaac Lab Cartpole",
+    "Isaac Lab Double Cart Pendulum",
+    "Isaac Lab Quadcopter",
+    "Isaac Lab Franka Reach",
+    "Isaac Lab Humanoid"
+   ]
+  }
+ }
 }

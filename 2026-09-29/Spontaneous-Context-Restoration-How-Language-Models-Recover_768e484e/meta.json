@@ -4,5 +4,32 @@
  "title": "Spontaneous-Context-Restoration-How-Language-Models-Recover",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-29 07:58:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/88254992-8c98-426c-ad5f-5bc39938fd53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/88254992-8c98-426c-ad5f-5bc39938fd53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:11:51",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "context restoration",
+    "language model robustness",
+    "mechanistic interpretability",
+    "residual stream geometry",
+    "failure detection",
+    "attention-only model"
+   ],
+   "field": "语言模型鲁棒性与可解释性",
+   "innovations": [
+    "提出cosine alignment与linearization error双指标刻画修复过程的几何规律",
+    "Layer-0线性probe实现无干净参考的早期失败检测（AUC 0.75-0.80）",
+    "揭示attention-only控制模型比预训练LLM提供更干净的修复几何信号"
+   ],
+   "benchmarks": [
+    "Factual QA",
+    "ARC",
+    "CommonsenseQA",
+    "Sequence Pattern Tasks"
+   ]
+  }
+ }
 }

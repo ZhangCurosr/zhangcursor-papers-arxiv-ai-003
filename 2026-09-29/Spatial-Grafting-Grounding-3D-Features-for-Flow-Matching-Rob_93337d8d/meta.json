@@ -4,5 +4,32 @@
  "title": "Spatial-Grafting-Grounding-3D-Features-for-Flow-Matching-Rob",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-29 19:09:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/35acb61c-0d80-4837-9384-61f715cd692b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/35acb61c-0d80-4837-9384-61f715cd692b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:10:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "robot manipulation",
+    "flow matching",
+    "vision-language-action",
+    "spatial grounding",
+    "reconstruction latent",
+    "policy grafting"
+   ],
+   "field": "具身智能与机器人操作",
+   "innovations": [
+    "冻结重建 latent 绑定度量几何与末端偏移形成 spatial bank",
+    "bias-free bank-only cross-attention 安全注入 flow-matching action expert 末端 block",
+    "单一 graft 跨 VLAs/WAMs 在 4 仿真基准+3 实机平台统一提升"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "RoboTwin 2.0",
+    "RoboPRO",
+    "BEHAVIOR-1K"
+   ]
+  }
+ }
 }

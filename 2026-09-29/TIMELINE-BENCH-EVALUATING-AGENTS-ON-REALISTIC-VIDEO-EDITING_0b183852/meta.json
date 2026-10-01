@@ -4,5 +4,29 @@
  "title": "TIMELINE-BENCH-EVALUATING-AGENTS-ON-REALISTIC-VIDEO-EDITING",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-09-29 19:08:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7b20e647-abee-4b99-a0b8-208865d84f08.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7b20e647-abee-4b99-a0b8-208865d84f08.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:13:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI Agent",
+    "Video Editing",
+    "Benchmark",
+    "Multimodal Evaluation",
+    "Creative Workflows",
+    "LLM-as-Judge"
+   ],
+   "field": "多模态 Agent 评测",
+   "innovations": [
+    "提出 TIMELINE-BENCH：首个评估 Agent 完成从原始素材到成品视频完整剪辑工作流的基准测试",
+    "设计三轨混合评测协议（程序化测试+LLM质量评估+人类偏好），质量测试阈值在校准于43位专业剪辑师2582次盲评的人类判断",
+    "系统性归因分析揭示Agent剪辑主要差距在于工艺（节奏、镜头选择、润色）而非合规，并发现73%失败源于近miss"
+   ],
+   "benchmarks": [
+    "TIMELINE-BENCH"
+   ]
+  }
+ }
 }

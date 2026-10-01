@@ -4,5 +4,31 @@
  "title": "TIDE-TEACHER-STUDENT-TRANSITION-VIA-IN-FORMATIVE-DISTILLATIO",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-09-29 19:08:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ff4dbdd0-a604-42fd-b120-f776e4b601dd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ff4dbdd0-a604-42fd-b120-f776e4b601dd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:12:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "reinforcement learning",
+    "multi-turn agent",
+    "teacher-student transition",
+    "credit assignment",
+    "adaptive scheduling"
+   ],
+   "field": "Agent Reinforcement Learning",
+   "innovations": [
+    "两尺度OPD-RL协调框架：全局分歧触发调度+局部相对价值-分歧调制",
+    "用平滑师生分歧趋势作为自适应切换事件信号替代固定schedule",
+    "相对过程价值与分歧乘积融合实现turn级学习信号分配"
+   ],
+   "benchmarks": [
+    "WebShop",
+    "ALFWorld",
+    "SearchQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "SolveEdit-Benchmarking-Visual-Problem-Solving-in-Generative",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-29 19:08:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6d39d38a-79f9-45b2-87df-4eb998c47da5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6d39d38a-79f9-45b2-87df-4eb998c47da5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:10:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉问题解决",
+    "生成模型评估",
+    "图像编辑基准",
+    "转换推断",
+    "多模态规划"
+   ],
+   "field": "视觉生成与编辑评估",
+   "innovations": [
+    "提出SolveEdit基准按IS/SD/RD三分法评估视觉问题解决能力",
+    "设计原子转换契约与SolveScore支持多解评估",
+    "引入SolveEdit-Plan两阶段规划器显著提升性能"
+   ],
+   "benchmarks": [
+    "SolveEdit"
+   ]
+  }
+ }
 }

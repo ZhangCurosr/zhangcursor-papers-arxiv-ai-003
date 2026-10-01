@@ -4,5 +4,30 @@
  "title": "Representation-Alignment-as-a-Bottleneck-in-LLM-Based-Retros",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-29 08:01:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2c8d6858-4fc1-4d24-aeef-2e5d48723abd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2c8d6858-4fc1-4d24-aeef-2e5d48723abd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:08:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrosynthesis planning",
+    "representation alignment",
+    "PDDL",
+    "large language models",
+    "intermediate representations",
+    "symbolic planning",
+    "RetroPlan-Bench"
+   ],
+   "field": "化学信息学与符号规划",
+   "innovations": [
+    "将LLM逆合成规划失败重新定义为表示对齐问题而非推理能力不足",
+    "提出分子映射-反应映射-PDDL生成三阶段分期分析框架",
+    "构建RetroPlan-Bench多尺度可执行符号规划基准"
+   ],
+   "benchmarks": [
+    "RetroPlan-Bench"
+   ]
+  }
+ }
 }

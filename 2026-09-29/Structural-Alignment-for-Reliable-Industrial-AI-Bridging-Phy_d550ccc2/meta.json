@@ -4,5 +4,32 @@
  "title": "Structural-Alignment-for-Reliable-Industrial-AI-Bridging-Phy",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-29 08:02:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/58f8940b-ea82-4f12-81f2-54fba3ab2b20.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/58f8940b-ea82-4f12-81f2-54fba3ab2b20.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:11:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "工业AI",
+    "AI可靠性",
+    "结构对齐",
+    "数字化",
+    "目标编码",
+    "解空间",
+    "治理框架"
+   ],
+   "field": "可信AI/工业人工智能",
+   "innovations": [
+    "提出四世界双接口结构框架，将AI可靠性定义为跨物理-表征-机器-认知世界的结构对齐问题",
+    "定义解空间四属性（存在性/非唯一性/鲁棒性/可解释性）及其耦合反馈关系，揭示跨领域失效的统一结构机制",
+    "从模型中心评估转向接口治理，提供系统性诊断与治理路径"
+   ],
+   "benchmarks": [
+    "医疗案例：TruDi手术系统召回数据",
+    "电网案例：2025年伊比利亚大停电",
+    "地下勘探案例：干孔经济损失分析"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Sol-H3-Recursive-Self-Improvement-for-MiniMax-H3-Inference-A",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-09-29 19:08:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c8b568f3-8ea5-4b19-bf59-474686381fe4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c8b568f3-8ea5-4b19-bf59-474686381fe4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:10:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video diffusion inference",
+    "cross-resolution generation",
+    "latent adaptation",
+    "recursive self-improvement",
+    "kernel fusion",
+    "quantized communication",
+    "edge deployment"
+   ],
+   "field": "视频生成模型推理加速",
+   "innovations": [
+    "跨分辨率两阶段生成管线替代全分辨率去噪",
+    "学习型 latent-to-latent 跨 VAE 适配器替代昂贵 decode-reencode 循环",
+    "基于 RSI 的自动化算子优化与精度保持 LoRA fusion"
+   ],
+   "benchmarks": [
+    "MiniMax-H3 baseline (SGLang)",
+    "8xGB200 cloud node",
+    "DGX Spark edge device",
+    "RTX 5090 consumer GPU"
+   ]
+  }
+ }
 }

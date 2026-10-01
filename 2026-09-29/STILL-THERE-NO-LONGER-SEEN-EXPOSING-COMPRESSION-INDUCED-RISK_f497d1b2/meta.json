@@ -4,5 +4,30 @@
  "title": "STILL-THERE-NO-LONGER-SEEN-EXPOSING-COMPRESSION-INDUCED-RISK",
  "token": "sk-FmwWXAxnf...",
  "created_at": "2026-09-29 19:08:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a52e8652-27b7-4347-8701-e247bdbe2798.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a52e8652-27b7-4347-8701-e247bdbe2798.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:09:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Adversarial Attacks",
+    "Token Compression",
+    "Robustness",
+    "Compression-Specific Failure"
+   ],
+   "field": "多模态大模型安全与鲁棒性",
+   "innovations": [
+    "提出CSF配对定义量化压缩诱导风险",
+    "设计仅依赖encoder的CIRA攻击实现跨配置压缩选择性攻击",
+    "提出TCS跨视图选择稳定化防御机制"
+   ],
+   "benchmarks": [
+    "POPE",
+    "TextVQA",
+    "MME"
+   ]
+  }
+ }
 }

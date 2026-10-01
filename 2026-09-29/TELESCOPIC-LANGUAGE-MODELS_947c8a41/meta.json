@@ -4,5 +4,31 @@
  "title": "TELESCOPIC-LANGUAGE-MODELS",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-29 19:06:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2bb103b0-f494-470f-9ffc-872513e38d58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2bb103b0-f494-470f-9ffc-872513e38d58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:12:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Telescopic Language Models",
+    "stochastic prefix supervision",
+    "nested-capacity models",
+    "quality-budget continuum",
+    "MLMS",
+    "efficient deployment"
+   ],
+   "field": "高效语言模型部署",
+   "innovations": [
+    "提出随机前缀监督+全锚定目标，使嵌套Transformer在任意深度均为有效语言模型",
+    "证明连续性来自训练目标而非架构，并提供可调采样密度旋钮",
+    "引入LODA/AULB指标量化连续体的部署价值"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu validation PPL",
+    "7-benchmark zero-shot accuracy (ARC-E/C, HellaSwag, LAMBADA, OpenBookQA, PIQA, Winogrande)",
+    "OOD byte-PPL (WikiText-103, C4, PG-19, arXiv, PubMed)"
+   ]
+  }
+ }
 }

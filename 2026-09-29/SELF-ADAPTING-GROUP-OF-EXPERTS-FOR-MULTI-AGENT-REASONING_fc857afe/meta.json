@@ -4,5 +4,36 @@
  "title": "SELF-ADAPTING-GROUP-OF-EXPERTS-FOR-MULTI-AGENT-REASONING",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-29 08:08:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/595f8e81-b2e8-4d77-a584-38d337cab359.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/595f8e81-b2e8-4d77-a584-38d337cab359.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:09:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent reasoning",
+    "prompt adaptation",
+    "strategy transfer",
+    "sparse DAG",
+    "training-free",
+    "self-consistency"
+   ],
+   "field": "多智能体推理与协调",
+   "innovations": [
+    "基于响应质量的策略捐赠者选择机制（答案一致性+前缀一致性+互惠评审）",
+    "角色保持的免训练 prompt 重写实现跨智能体通用推理策略迁移",
+    "得分驱动的动态稀疏 DAG 协作与跨阶段加权池投票聚合"
+   ],
+   "benchmarks": [
+    "MATH",
+    "GSM8K",
+    "GSM-Hard",
+    "AQuA-RAT",
+    "MMLU",
+    "GPQA-Diamond",
+    "MMMU-Pro",
+    "MathVista"
+   ]
+  }
+ }
 }

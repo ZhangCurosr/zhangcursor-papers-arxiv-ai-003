@@ -4,5 +4,30 @@
  "title": "STRIDE-Automated-Evaluation-of-Text-to-Trajectory-Alignment",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-09-29 08:01:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/140c5214-82d6-4c5e-affb-913e3bc650fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/140c5214-82d6-4c5e-affb-913e3bc650fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:10:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "trajectory evaluation",
+    "text-to-trajectory alignment",
+    "pedestrian dynamics",
+    "benchmark",
+    "automated evaluation",
+    "crowd behavior"
+   ],
+   "field": "轨迹生成与评估",
+   "innovations": [
+    "首个基于社会学理论的文本到轨迹对齐评估框架STRIDE",
+    "情境自适应行为分解与确定性测量工具库DMT结合的可复现评估范式",
+    "构建STRIDE-BENCH基准，包含936场景与11K测量值评估人群场景对齐"
+   ],
+   "benchmarks": [
+    "STRIDE-BENCH",
+    "Fête des Lumières in Lyon"
+   ]
+  }
+ }
 }

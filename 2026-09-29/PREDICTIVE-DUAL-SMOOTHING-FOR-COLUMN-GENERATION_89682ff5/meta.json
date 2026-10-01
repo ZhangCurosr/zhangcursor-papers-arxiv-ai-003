@@ -4,5 +4,10 @@
  "title": "PREDICTIVE-DUAL-SMOOTHING-FOR-COLUMN-GENERATION",
  "token": "sk-OldJrHBbj...",
  "created_at": "2026-09-29 08:04:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5a1f4358-2083-4c9d-9607-7ac06dae728a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5a1f4358-2083-4c9d-9607-7ac06dae728a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:15:36",
+  "chunks": 1
+ }
 }

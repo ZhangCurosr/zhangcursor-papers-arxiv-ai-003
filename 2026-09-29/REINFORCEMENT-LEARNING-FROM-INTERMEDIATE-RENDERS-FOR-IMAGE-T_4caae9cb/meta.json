@@ -4,5 +4,30 @@
  "title": "REINFORCEMENT-LEARNING-FROM-INTERMEDIATE-RENDERS-FOR-IMAGE-T",
  "token": "sk-j48TqhxQD...",
  "created_at": "2026-09-29 19:09:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6403fb0a-41e4-4227-82c7-23b8dc729dc2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6403fb0a-41e4-4227-82c7-23b8dc729dc2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:17:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Image-to-Code",
+    "Reinforcement Learning",
+    "Process Reward",
+    "Image-to-SVG",
+    "Image-to-TikZ",
+    "Intermediate Rendering"
+   ],
+   "field": "图像到代码生成",
+   "innovations": [
+    "利用连续中间渲染视觉分数差构造 token 级过程奖励",
+    "指数衰减向后传播机制实现 segment 级进度奖励到 token 级的信用分配",
+    "在 Image-to-SVG 与 Image-to-TikZ 上联合过程+结果奖励实现开源 SOTA"
+   ],
+   "benchmarks": [
+    "MMSVGBench",
+    "DaTikZ-v3"
+   ]
+  }
+ }
 }

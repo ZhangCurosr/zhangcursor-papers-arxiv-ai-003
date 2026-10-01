@@ -4,5 +4,10 @@
  "title": "Reference-Tail-Trust-Certified-Probability-Floors-for-Learne",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-09-29 19:08:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b933e5da-5304-43fc-b302-4923ac960d28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b933e5da-5304-43fc-b302-4923ac960d28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:21:50",
+  "chunks": 4
+ }
 }

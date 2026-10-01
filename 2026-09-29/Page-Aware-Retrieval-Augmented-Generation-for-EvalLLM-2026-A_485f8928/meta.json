@@ -4,5 +4,29 @@
  "title": "Page-Aware-Retrieval-Augmented-Generation-for-EvalLLM-2026-A",
  "token": "sk-zzqRc1aqT...",
  "created_at": "2026-09-29 19:08:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1ca6501d-b733-440a-8832-8822fb309402.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1ca6501d-b733-440a-8832-8822fb309402.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:15:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "page-level retrieval",
+    "BM25",
+    "reranking",
+    "query decomposition",
+    "French PDFs"
+   ],
+   "field": "检索增强生成与文档理解",
+   "innovations": [
+    "五变体消融揭示 BM25 仍是法语 PDF 场景强基线，密集检索单独使用反而降级",
+    "查询分解带来最大性能增益（MRR@10 +72.9%），验证多子查询检索策略有效性",
+    "RRF 简单融合在未调优时反降性能，提示页面级任务需定制化融合策略"
+   ],
+   "benchmarks": [
+    "EvalLLM 2026"
+   ]
+  }
+ }
 }

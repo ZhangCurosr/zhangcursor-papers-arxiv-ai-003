@@ -4,5 +4,32 @@
  "title": "Reasoning-with-Continuous-Latent-Difusion",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-29 07:57:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/13bc4b6d-3112-4e3b-ab01-40b26c4701a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/13bc4b6d-3112-4e3b-ab01-40b26c4701a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:20:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "连续扩散语言模型",
+    "推理",
+    "流程匹配",
+    "强化学习",
+    "代码生成",
+    "数学推理"
+   ],
+   "field": "扩散语言模型",
+   "innovations": [
+    "多层教师表示学习支持异步去噪",
+    "分阶段紧凑提示编码器替代大型教师",
+    "DiffusionNFT适配自条件指导与黄金锚定"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH500",
+    "HumanEval",
+    "MBPP-378"
+   ]
+  }
+ }
 }

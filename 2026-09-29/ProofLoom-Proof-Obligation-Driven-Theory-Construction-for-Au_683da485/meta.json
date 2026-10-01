@@ -4,5 +4,30 @@
  "title": "ProofLoom-Proof-Obligation-Driven-Theory-Construction-for-Au",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-09-29 19:08:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d6ec1516-0389-4279-9289-21cecddfa300.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d6ec1516-0389-4279-9289-21cecddfa300.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:16:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动形式化",
+    "Lean 定理证明",
+    "随机优化",
+    "LLM 代理",
+    "证明义务驱动",
+    "源码忠实性"
+   ],
+   "field": "自动形式化与定理证明",
+   "innovations": [
+    "证明义务驱动的理论构建：从目标证明的开放义务出发联合发展算法模型与支撑理论",
+    "签名契约保障源忠实性：每次模型修订记录变更与证据，Judge 拒绝弱化定理的修改",
+    "SOptLib 持续知识积累：认证后的数学结果与构建经验泛化后可被后续任务检索复用"
+   ],
+   "benchmarks": [
+    "FOML (Lan 专著 10 算法)",
+    "研究论文 5 算法 (AMSGrad, STORM, SPIDER, PAGE, SAM)"
+   ]
+  }
+ }
 }

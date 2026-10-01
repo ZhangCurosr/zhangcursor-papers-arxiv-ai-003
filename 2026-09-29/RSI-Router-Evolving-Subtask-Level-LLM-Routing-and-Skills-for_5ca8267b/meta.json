@@ -4,5 +4,33 @@
  "title": "RSI-Router-Evolving-Subtask-Level-LLM-Routing-and-Skills-for",
  "token": "sk-yHDqoBBn3...",
  "created_at": "2026-09-29 19:08:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e5fca171-9e7f-4a6b-8582-f91c511eca6c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e5fca171-9e7f-4a6b-8582-f91c511eca6c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:19:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM routing",
+    "cost-efficient inference",
+    "agentic tasks",
+    "recursive self-improvement",
+    "Pareto optimization",
+    "agent skills"
+   ],
+   "field": "LLM路由与高效智能体",
+   "innovations": [
+    "提出子任务级别递归自改进路由框架 RSI-router，联合演化模型分配与模型特定技能",
+    "维护非支配与受支配双池并以上下文诊断生成执行技能，缓解步级路由探索与信用分配难题",
+    "在五个智能体基准上平均降低 51.7% 推理成本并扩展性能–成本 Pareto 前沿"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "ScienceWorld",
+    "WebShop",
+    "SWE-bench Verified",
+    "Terminal-Bench 2.0"
+   ]
+  }
+ }
 }

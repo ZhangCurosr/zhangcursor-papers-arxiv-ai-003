@@ -4,5 +4,10 @@
  "title": "PhoneCLI-From-App-Interfaces-to-Callable-Commands-for-Mobile",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-09-29 19:07:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/264477e5-ef08-47b9-96c2-455a43b4cc5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/264477e5-ef08-47b9-96c2-455a43b4cc5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:16:25",
+  "chunks": 1
+ }
 }

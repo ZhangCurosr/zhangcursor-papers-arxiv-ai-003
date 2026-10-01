@@ -4,5 +4,34 @@
  "title": "Planarian-Managing-Agent-State-with-Statepoints",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-09-29 19:07:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/053a2a92-21b1-42fc-84ef-387cd83a0a57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/053a2a92-21b1-42fc-84ef-387cd83a0a57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:16:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent state management",
+    "statepoint",
+    "checkpoint and restore",
+    "compensating action",
+    "MCP",
+    "incremental checkpointing",
+    "ZFS",
+    "CRIU"
+   ],
+   "field": "LLM agent 运行环境与状态管理",
+   "innovations": [
+    "提出 agent statepoints 统一抽象与 snapshot/rollback/fork 原语，实现本地-远程一致恢复与并行探索",
+    "通过 state proxy 与事务化补偿重写使无原生版本控制的远程服务可逆",
+    "设计连续增量检查点协议，使 CRIU 在多次恢复后仍保持增量捕获能力"
+   ],
+   "benchmarks": [
+    "GameWorld",
+    "Terminal-Bench 2.0",
+    "DevOps-Gym",
+    "BIRD-interact-lite"
+   ]
+  }
+ }
 }

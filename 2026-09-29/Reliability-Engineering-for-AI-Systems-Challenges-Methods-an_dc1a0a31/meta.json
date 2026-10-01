@@ -4,5 +4,33 @@
  "title": "Reliability-Engineering-for-AI-Systems-Challenges-Methods-an",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-29 08:00:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5c63b5bf-5875-4751-b77a-7030783799f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5c63b5bf-5875-4751-b77a-7030783799f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:20:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI reliability",
+    "reliability engineering",
+    "FMEA",
+    "recurrent events",
+    "AI agents",
+    "TEVV",
+    "autonomous vehicles",
+    "drift monitoring"
+   ],
+   "field": "AI系统可靠性工程",
+   "innovations": [
+    "提出可靠性三角形框架统一故障定义/包络/证据三要素",
+    "构建四层次AI故障诊断与AI-FMEA映射体系",
+    "将传统可靠性工程工具（NHPP/SRGM/FRACAS）完整适配到AI系统并验证于三类案例"
+   ],
+   "benchmarks": [
+    "DR-AIR加州AV脱接管数据集",
+    "CIFAR-10 CNN对抗加速测试",
+    "虚拟感知模块触发点过程实验"
+   ]
+  }
+ }
 }

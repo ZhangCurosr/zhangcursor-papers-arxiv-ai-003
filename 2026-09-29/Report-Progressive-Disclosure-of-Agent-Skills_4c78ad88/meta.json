@@ -4,5 +4,32 @@
  "title": "Report-Progressive-Disclosure-of-Agent-Skills",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-29 19:07:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/35044697-5593-4262-834a-876d054d5d5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/35044697-5593-4262-834a-876d054d5d5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:21:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent skills",
+    "progressive disclosure",
+    "skill management",
+    "LLM agents",
+    "context management",
+    "tool selection",
+    "cost-quality tradeoff"
+   ],
+   "field": "Agent Skill Management",
+   "innovations": [
+    "首次系统实证评估渐进式披露技能管理策略，揭示其在 token 节省（最高 81.7%）和技能检索质量上的优势",
+    "提出 activation code 评估范式和分层难度干扰项生成器，为 skill retrieval 任务提供可量化 benchmark",
+    "建立 token usage、skill-retrieval quality、latency 三维度评估框架，量化成本-性能权衡"
+   ],
+   "benchmarks": [
+    "Skill Retrieval Benchmark (activation code based)",
+    "Multi-size library evaluation (N=5/20/50/100)",
+    "Qwen3 series (7B/8B/14B) with 32k context"
+   ]
+  }
+ }
 }

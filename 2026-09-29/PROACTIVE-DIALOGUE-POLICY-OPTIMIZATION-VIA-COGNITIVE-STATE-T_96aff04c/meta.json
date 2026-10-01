@@ -4,5 +4,31 @@
  "title": "PROACTIVE-DIALOGUE-POLICY-OPTIMIZATION-VIA-COGNITIVE-STATE-T",
  "token": "sk-yeaNqR4AC...",
  "created_at": "2026-09-29 19:08:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1af4b9d3-e781-46af-a30f-7aed70560b22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1af4b9d3-e781-46af-a30f-7aed70560b22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:15:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "主动对话",
+    "策略优化",
+    "用户模拟器",
+    "分层强化学习",
+    "认知状态建模",
+    "信用分配"
+   ],
+   "field": "对话策略优化与多轮RL",
+   "innovations": [
+    "提出认知用户模拟器Cog-Sim，基于BDI+情感模型实现跨轮状态依赖的对话模拟",
+    "设计分层策略-话语CSTPO框架，通过双值头Critic实现策略选择与话语实现的层次化信用分配",
+    "引入同状态分支采样与field-aware PPO，以共享前缀高效采样方式解耦策略级与话语级优化"
+   ],
+   "benchmarks": [
+    "ESConv",
+    "PersuasionForGood (P4G)",
+    "CraigslistBargain (CB)"
+   ]
+  }
+ }
 }

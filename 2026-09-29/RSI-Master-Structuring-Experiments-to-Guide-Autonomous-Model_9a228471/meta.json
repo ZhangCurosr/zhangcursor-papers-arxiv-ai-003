@@ -4,5 +4,36 @@
  "title": "RSI-Master-Structuring-Experiments-to-Guide-Autonomous-Model",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-29 19:07:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a292e8a6-13b0-4bb8-a4d6-35da5b61566b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a292e8a6-13b0-4bb8-a4d6-35da5b61566b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:19:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "autonomous model development",
+    "recursive self-improvement",
+    "experiment OS",
+    "strategy lock-in",
+    "hacking detection",
+    "multi-agent orchestration",
+    "post-training"
+   ],
+   "field": "自主模型开发与Agent驱动的训练自动化",
+   "innovations": [
+    "Experiment OS将开放实验动作空间映射为受约束结构子空间并提供append-only可追溯图谱",
+    "Reviewer-Guided Research Orchestration以Worker/Reviewer/Main Agent三元角色构建动态DAG以实现跨实验独立评审",
+    "将hacking rate作为显式评测指标并在35B规模上实现超越人类Instruct模型的前沿能力"
+   ],
+   "benchmarks": [
+    "PostTrainBench",
+    "LiveCodeBench-v6",
+    "HorizonMath",
+    "AIME 2025/2026",
+    "SciCode-ICL",
+    "HealthBench Professional",
+    "HLE"
+   ]
+  }
+ }
 }

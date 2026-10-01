@@ -4,5 +4,37 @@
  "title": "RareDx-Controlled-Knowledge-Integration-and-Graph-Grounded-P",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-29 08:02:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7db86cd5-0226-4821-bbbd-20da8493140e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7db86cd5-0226-4821-bbbd-20da8493140e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:19:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "罕见病诊断",
+    "知识图谱",
+    "强化学习",
+    "大语言模型",
+    "检索增强生成",
+    "医疗AI",
+    "长尾推理"
+   ],
+   "field": "医疗大语言模型与知识图谱融合",
+   "innovations": [
+    "RareDx-Harness控制性评估框架隔离多策略增益来源",
+    "RareDx-KGPO四通道知识图谱奖励防止奖励黑客崩溃",
+    "数据集级路由机制实现9B模型超越GPT-5.5的罕见病诊断排序"
+   ],
+   "benchmarks": [
+    "RareArena RDS",
+    "RareArena RDC",
+    "RAMEDIS",
+    "Phenopackets",
+    "LIRICAL",
+    "HMS",
+    "MME",
+    "MyGene2"
+   ]
+  }
+ }
 }

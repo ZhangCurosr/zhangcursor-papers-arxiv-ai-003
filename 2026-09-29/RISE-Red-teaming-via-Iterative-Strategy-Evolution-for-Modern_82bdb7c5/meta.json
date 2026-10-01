@@ -4,5 +4,34 @@
  "title": "RISE-Red-teaming-via-Iterative-Strategy-Evolution-for-Modern",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-09-29 19:08:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b9521c6f-a35d-43c9-8310-ee7b258857e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b9521c6f-a35d-43c9-8310-ee7b258857e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:18:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "T2I red-teaming",
+    "prompt evolution",
+    "adversarial attacks",
+    "judge calibration",
+    "black-box optimization",
+    "safety evaluation",
+    "text-to-image models"
+   ],
+   "field": "AI安全与红队测试",
+   "innovations": [
+    "策略级进化搜索替代单提示改写以突破种子依赖",
+    "严格的类别特定标准+VLM校准解决reward hacking",
+    "在严格校准评估下揭示现有方法ASR被高估"
+   ],
+   "benchmarks": [
+    "DALL·E 3",
+    "Nano Banana 2",
+    "GPT-Image-2",
+    "FLUX.2-klein-9B local testbed",
+    "Leonardo.ai"
+   ]
+  }
+ }
 }

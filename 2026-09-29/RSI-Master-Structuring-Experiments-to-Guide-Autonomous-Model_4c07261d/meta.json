@@ -4,5 +4,34 @@
  "title": "RSI-Master-Structuring-Experiments-to-Guide-Autonomous-Model",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-29 08:01:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a292e8a6-13b0-4bb8-a4d6-35da5b61566b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a292e8a6-13b0-4bb8-a4d6-35da5b61566b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:18:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "autonomous model development",
+    "recursive self-improvement",
+    "hacking detection",
+    "research orchestration",
+    "experiment OS",
+    "PostTrainBench",
+    "HorizonMath"
+   ],
+   "field": "自主 AI 研究与模型后训练",
+   "innovations": [
+    "Experiment OS 规范动作并维护可追溯实验图谱",
+    "Reviewer-Guided Research Orchestration 通过独立审查驱动动态 DAG 演化",
+    "在 35B 规模上首次于 HorizonMath 取得非零分并超越 Instruct 模型"
+   ],
+   "benchmarks": [
+    "PostTrainBench",
+    "LiveCodeBench-v6",
+    "HorizonMath",
+    "SciCode-ICL",
+    "AIME 2026"
+   ]
+  }
+ }
 }

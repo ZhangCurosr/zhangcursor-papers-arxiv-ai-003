@@ -4,5 +4,29 @@
  "title": "Report-Progressive-Disclosure-of-Agent-Skills",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-29 07:58:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/35044697-5593-4262-834a-876d054d5d5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/35044697-5593-4262-834a-876d054d5d5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:22:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Skills",
+    "Progressive Disclosure",
+    "Lazy Loading",
+    "LLM Agent",
+    "Skill Retrieval",
+    "Prompt Engineering"
+   ],
+   "field": "智能体技能管理与检索",
+   "innovations": [
+    "首次在生产环境中实证评估渐进披露技能的Token节省、检索质量与延迟权衡",
+    "提出基于激活码的技能检索评测方法，精确量化LLM是否真正加载目标Skill",
+    "揭示大模型对干扰Skill的鲁棒性差异，为Skill库规模与模型选择提供量化依据"
+   ],
+   "benchmarks": [
+    "Qwen3-14B 100% skill retrieval at N=100; Qwen3-8B 15% latency increase at N=50"
+   ]
+  }
+ }
 }

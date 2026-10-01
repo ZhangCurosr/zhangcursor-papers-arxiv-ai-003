@@ -4,5 +4,31 @@
  "title": "ROBOFL-FEDERATED-EXPERT-ASSEMBLY-FOR-WORLD-ACTION-MODELS",
  "token": "sk-P8BsCmEP8...",
  "created_at": "2026-09-29 19:09:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ecc50837-94a3-4cb8-9530-08a7aba6de22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ecc50837-94a3-4cb8-9530-08a7aba6de22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:18:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "联邦学习",
+    "世界-动作模型",
+    "Mixture-of-Experts",
+    "参数高效微调",
+    "机器人操作",
+    "跨路径蒸馏"
+   ],
+   "field": "联邦机器人学习",
+   "innovations": [
+    "任务隔离联邦专家组装协议MOSAIC，分离局部专长形成与全局路由学习",
+    "跨路径FARD蒸馏：利用理解-生成共识引导动作路由",
+    "路径一致性PCEA聚合：Hellinger重心加权完整专家残差重构全局适配器"
+   ],
+   "benchmarks": [
+    "RoboTwin 2.0",
+    "RLBench",
+    "Franka Real-World"
+   ]
+  }
+ }
 }

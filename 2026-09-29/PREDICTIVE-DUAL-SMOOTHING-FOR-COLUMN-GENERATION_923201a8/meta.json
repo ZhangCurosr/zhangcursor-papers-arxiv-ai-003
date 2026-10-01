@@ -4,5 +4,30 @@
  "title": "PREDICTIVE-DUAL-SMOOTHING-FOR-COLUMN-GENERATION",
  "token": "sk-OldJrHBbj...",
  "created_at": "2026-09-29 19:08:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5a1f4358-2083-4c9d-9607-7ac06dae728a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5a1f4358-2083-4c9d-9607-7ac06dae728a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:15:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "column generation",
+    "dual smoothing",
+    "predictive dual",
+    "learning to optimize",
+    "cutting stock problem",
+    "generalized assignment problem"
+   ],
+   "field": "列生成与对偶稳定",
+   "innovations": [
+    "用预测的未来对偶作前向平滑参考点替代历史对偶回溯",
+    "轻量 MLP 从通用 CG 状态监督学习有限步对偶变化",
+    "预测修改定价目标但保留精确 reduced-cost 检验与 fallback 保正确性"
+   ],
+   "benchmarks": [
+    "CSP (CUTGEN1, n=500~1500)",
+    "GAP (Martello-Toth Type C, 400 jobs × 20 machines)"
+   ]
+  }
+ }
 }

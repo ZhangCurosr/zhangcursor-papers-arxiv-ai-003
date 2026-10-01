@@ -4,5 +4,36 @@
  "title": "ReCAT-Remember-Count-and-Time-Structured-Recurrent-Memory-fo",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-29 08:03:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/326f3f1a-2a92-48fc-b93a-45caf779ba89.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/326f3f1a-2a92-48fc-b93a-45caf779ba89.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:19:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structured recurrent memory",
+    "flow-matching policy",
+    "Mamba-2",
+    "robot manipulation",
+    "non-Markovian control",
+    "event counting",
+    "interval timing",
+    "spatial recall"
+   ],
+   "field": "记忆依赖型视觉-动作策略",
+   "innovations": [
+    "Mamba-2 循环层与单层因果注意力混合的结构化记忆",
+    "flow-matching 解码器中当前观测与历史读出每层独立 cross-attention 注入",
+    "三种递归更新语义（累加/旋转/替换）在机器人记忆任务上的系统实证对比"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "LIBERO-Plus",
+    "RMBench",
+    "SPONGE",
+    "PLANT",
+    "POT TIMER"
+   ]
+  }
+ }
 }

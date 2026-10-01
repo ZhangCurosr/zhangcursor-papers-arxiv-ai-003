@@ -4,5 +4,34 @@
  "title": "Reasoning-with-Continuous-Latent-Difusion",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-29 19:07:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/13bc4b6d-3112-4e3b-ab01-40b26c4701a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/13bc4b6d-3112-4e3b-ab01-40b26c4701a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:20:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "continuous diffusion language model",
+    "reasoning",
+    "flow matching",
+    "latent representation",
+    "reinforcement learning",
+    "code generation",
+    "mathematical reasoning"
+   ],
+   "field": "连续扩散语言模型与推理生成",
+   "innovations": [
+    "提出LFRM三阶段紧凑提示编码器替代教师Transformer，121M参数替换3.63B外部编码器",
+    "证明提示编码只需保留后验均值信息即可恢复相同条件分数（Lemma 1）",
+    "适配DifusionNFT至ELF自条件引导并引入金解端点锚定机制"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH500",
+    "HumanEval",
+    "HumanEval+",
+    "MBPP-378"
+   ]
+  }
+ }
 }

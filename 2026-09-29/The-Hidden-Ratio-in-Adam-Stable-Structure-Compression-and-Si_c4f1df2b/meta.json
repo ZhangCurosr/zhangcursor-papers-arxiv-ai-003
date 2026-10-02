@@ -4,5 +4,31 @@
  "title": "The-Hidden-Ratio-in-Adam-Stable-Structure-Compression-and-Si",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-29 07:59:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/babc4771-c104-4aec-87a5-986a244883fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/babc4771-c104-4aec-87a5-986a244883fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:14:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Adam optimizer",
+    "tied-beta",
+    "model compression",
+    "low-precision training",
+    "sign-based methods",
+    "optimization dynamics"
+   ],
+   "field": "优化器理论与高效训练",
+   "innovations": [
+    "发现Adam中变换比率y_t的稳定重尾分布",
+    "推导y_t的标量递归并实现4-bit固定码本压缩",
+    "揭示Adam与Signum的联系并给出学习率迁移规则"
+   ],
+   "benchmarks": [
+    "FineWeb pretraining",
+    "UltraChat SFT",
+    "UltraFeedback RLHF"
+   ]
+  }
+ }
 }

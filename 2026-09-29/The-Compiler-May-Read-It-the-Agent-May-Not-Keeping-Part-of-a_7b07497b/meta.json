@@ -4,5 +4,31 @@
  "title": "The-Compiler-May-Read-It-the-Agent-May-Not-Keeping-Part-of-a",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-29 19:07:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/75201882-5eee-4b7c-af4b-e34f93b22735.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/75201882-5eee-4b7c-af4b-e34f93b22735.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:14:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "coding agents",
+    "purpose-based access control",
+    "sandboxing",
+    "confused deputy",
+    "type enforcement",
+    "information leakage"
+   ],
+   "field": "AI agent access control / 编程智能体安全",
+   "innovations": [
+    "首次系统性评估目的型访问控制在商业编程智能体四类机制上的覆盖能力，并提出十五路径分类表",
+    "证明命令字符串匹配模型与文件消费方识别在结构上不兼容",
+    "给出 deny-list 五周运维数据揭示完整性修复≠列表增长的工程规律"
+   ],
+   "benchmarks": [
+    "Table I 十五路径×四类机制覆盖矩阵",
+    "64 次拒绝事件分布统计",
+    "deny-list 四期演化记录（14→488→540→556→586 规则）"
+   ]
+  }
+ }
 }

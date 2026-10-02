@@ -4,5 +4,29 @@
  "title": "USING-CONTEXT-IS-NOT-ENOUGH-TEST-TIME-TRAINING-FOR-PERSONALI",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-09-29 07:58:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4566eb86-70c1-4a30-9636-c9844ec018e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4566eb86-70c1-4a30-9636-c9844ec018e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:15:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化奖励建模",
+    "测试时训练",
+    "偏好对齐",
+    "快速权重",
+    "上下文学习"
+   ],
+   "field": "大语言模型对齐与个性化",
+   "innovations": [
+    "通过序列级更新与应用操作显式编码偏好关系到快速权重，解决ICL无法捕捉偏好关系的问题",
+    "设计偏好对齐目标，利用配对偏好符号信号引导快速权重适应，理论保证与奖励建模目标一致"
+   ],
+   "benchmarks": [
+    "UF-P-2",
+    "UF-P-4",
+    "PersonalLLM"
+   ]
+  }
+ }
 }

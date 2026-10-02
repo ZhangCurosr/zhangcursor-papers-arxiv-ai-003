@@ -4,5 +4,33 @@
  "title": "TRIANGULAR-RESAMPLING-FOR-LONG-HORIZON-MOTION-GENERATION",
  "token": "sk-WLNedHnmw...",
  "created_at": "2026-09-29 19:08:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f2846821-b3f6-45fb-8e6e-2b972662f9b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f2846821-b3f6-45fb-8e6e-2b972662f9b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:13:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-horizon motion generation",
+    "triangular denoising",
+    "rollout training",
+    "distribution matching distillation",
+    "flow matching",
+    "train-inference mismatch"
+   ],
+   "field": "长时序动作生成",
+   "innovations": [
+    "识别并解决三角去噪部分去噪状态的训练-推理不匹配，提出TR回放方法",
+    "共享去噪阈值+GT clamp机制，控制模型自生成轨迹漂移",
+    "TR-DMD变体兼容分布匹配蒸馏，扩展至非监督训练目标"
+   ],
+   "benchmarks": [
+    "HumanML3D 120-second generation",
+    "FID AUC",
+    "Matching Distance AUC",
+    "R-precision AUC",
+    "Bradley-Terry pairwise preference"
+   ]
+  }
+ }
 }

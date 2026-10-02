@@ -4,5 +4,35 @@
  "title": "Training-Free-Clinical-Reasoning-through-Medical-Ontologies",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-09-29 19:08:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/dc9fe383-7871-4736-9c6f-166c602df25a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/dc9fe383-7871-4736-9c6f-166c602df25a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:15:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "training-free clinical reasoning",
+    "medical ontology",
+    "knowledge graph",
+    "symbolic-probabilistic inference",
+    "explainable AI",
+    "clinical decision support",
+    "evidence feature nodes"
+   ],
+   "field": "可解释临床推理与知识图谱",
+   "innovations": [
+    "无训练候选条件符号-概率推理架构，诊断参数不拟合患者结果标签",
+    "疾病特定证据特征节点（EFN）显式解耦诊断重要性、特异性、支持、矛盾与决定性角色",
+    "缺失感知归一化与独立证据覆盖审计，保持排名与分区操作分离"
+   ],
+   "benchmarks": [
+    "Bangladesh Dengue 1000",
+    "D4 Dengue Hematology 1523",
+    "Malaria 2190",
+    "Thailand Influenza 4569",
+    "D7 Dengue 989",
+    "D3 Dengue 1018"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Towards-Reliable-AI-Data-Scientists-Data-Agents-with-Workflo",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-29 07:59:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d77b96c3-49bd-4867-ad27-59e982f1f346.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d77b96c3-49bd-4867-ad27-59e982f1f346.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:15:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Data Agent",
+    "Workflow Harness",
+    "Reliable AI",
+    "Silent Failure",
+    "Process Verification",
+    "Text-to-SQL",
+    "Data Science Automation"
+   ],
+   "field": "AI 驱动的数据科学与 Agent 可靠性",
+   "innovations": [
+    "提出五阶段 Workflow Harness 框架统一刻画 Data Agent 的感知-规划-执行-验证-修复控制流",
+    "在每个阶段归纳三条互补技术路线共 15 种方法并建立跨模态可比较的分类体系",
+    "识别四大开放可靠性问题（静默语义校准失效/缺失澄清/缺失经验迁移/缺失验证-修复存储库）并提供机理分析"
+   ],
+   "benchmarks": [
+    "LongDS-Bench",
+    "InfiAgent-DABench",
+    "TableBench",
+    "FDABench",
+    "DAComp",
+    "CODA-BENCH",
+    "DSAEval"
+   ]
+  }
+ }
 }

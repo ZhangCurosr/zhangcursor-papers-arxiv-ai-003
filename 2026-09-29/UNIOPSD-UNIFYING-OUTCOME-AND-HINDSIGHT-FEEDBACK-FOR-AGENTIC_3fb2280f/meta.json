@@ -4,5 +4,32 @@
  "title": "UNIOPSD-UNIFYING-OUTCOME-AND-HINDSIGHT-FEEDBACK-FOR-AGENTIC",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-09-29 19:08:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f7d75a02-f758-4d42-af9b-a55abfe388e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f7d75a02-f758-4d42-af9b-a55abfe388e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:15:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agentic RL",
+    "on-policy self-distillation",
+    "credit assignment",
+    "hindsight feedback",
+    "outcome reward",
+    "PPO",
+    "LLM agent"
+   ],
+   "field": "大语言模型智能体强化学习",
+   "innovations": [
+    "在相同 anchor 上将 GiGPO outcome 步级信用与成功同伴 hindsight log-prob gap 对齐为可比分支",
+    "历史相关系数的 EMA 设定全局混合水平、局部精度代理逐行仲裁的 corr rule",
+    "有界 token 调制随训练线性衰减，与步级仲裁协同集成到 PPO surrogate"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop",
+    "Search-QA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "SincDPNet-Interpretable-Raw-Waveform-Bathroom-Activity-Recog",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-09-29 08:00:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/af55dd0c-da5b-4ef0-b8c8-4bfc1a5fe053.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/af55dd0c-da5b-4ef0-b8c8-4bfc1a5fe053.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:13:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "acoustic event classification",
+    "raw-waveform learning",
+    "SincNet",
+    "depthwise-separable convolution",
+    "ambient assisted living",
+    "TinyML",
+    "interpretability",
+    "multi-objective Bayesian optimization"
+   ],
+   "field": "边缘音频事件识别与可解释 TinyML",
+   "innovations": [
+    "将可学习 sinc 带通前端（2Nf 个频率参数）与深度可分离卷积体结合，构建仅数千参数的可解释原始波形分类器",
+    "提出 SnaanGhar7 卫生间声学数据集（7 类、21387 片段、5 环境、环境不交叠划分），覆盖水事件/门/助行器/非目标类",
+    "以训练前信号级声学分析（pairwise Bhattacharyya 重叠）对齐 learned filter 响应与混淆矩阵，建立可解释误差归因框架"
+   ],
+   "benchmarks": [
+    "SnaanGhar7 (environment-disjoint)",
+    "LOEO 五折交叉验证",
+    "Raspberry Pi Zero 2 W 硬件推理 benchmark"
+   ]
+  }
+ }
 }

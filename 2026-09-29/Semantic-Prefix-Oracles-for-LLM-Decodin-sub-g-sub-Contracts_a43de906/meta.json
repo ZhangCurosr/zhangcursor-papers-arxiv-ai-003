@@ -4,5 +4,32 @@
  "title": "Semantic-Prefix-Oracles-for-LLM-Decodin-sub-g-sub-Contracts",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-29 08:08:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5663a695-b0b4-42a8-ba3d-52c6663bebf4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5663a695-b0b4-42a8-ba3d-52c6663bebf4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:12:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "constrained decoding",
+    "semantic prefix grammar",
+    "attribute grammar",
+    "differential testing",
+    "type-aware generation",
+    "Earley parser"
+   ],
+   "field": "约束解码与形式化语义",
+   "innovations": [
+    "提出 Safe Pruning 与 Dead-End Freedom 双条款约的形式化拆分与独立证明",
+    "语言参数化的声明式语义语法规格语言（.auf）与第一阶统一 IR",
+    "Tokenizer 提升引理打通字符级 Oracle 与 token 级解码器边界"
+   ],
+   "benchmarks": [
+    "ocamlc 差分验证（40 ML 程序）",
+    "cc 差分验证（25 C 程序）",
+    "42 递归探针",
+    "12 模型 × 5 解码模式生成评测"
+   ]
+  }
+ }
 }

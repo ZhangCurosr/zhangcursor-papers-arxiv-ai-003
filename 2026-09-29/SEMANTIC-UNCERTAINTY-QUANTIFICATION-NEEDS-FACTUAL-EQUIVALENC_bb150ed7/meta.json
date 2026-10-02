@@ -4,5 +4,33 @@
  "title": "SEMANTIC-UNCERTAINTY-QUANTIFICATION-NEEDS-FACTUAL-EQUIVALENC",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-09-29 08:00:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/840b05ee-6745-4929-9f4a-509bb128652f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/840b05ee-6745-4929-9f4a-509bb128652f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:12:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义不确定性量化",
+    "LLM幻觉检测",
+    "对比学习",
+    "语义编码器",
+    "token级重加权"
+   ],
+   "field": "大语言模型不确定性量化",
+   "innovations": [
+    "将语义UQ解耦为算子与聚合器，指出算子是主要瓶颈",
+    "利用LLM自身预测可变性构造弱监督对比三元组训练问题条件化双编码器",
+    "提出可即插即用的O(N)算子，统一提升SE/CAE/KLE/COS/TE等方法的性能"
+   ],
+   "benchmarks": [
+    "ADVQA",
+    "OKVQA",
+    "VizWiz",
+    "HotpotQA",
+    "TriviaQA",
+    "WebQuestions"
+   ]
+  }
+ }
 }

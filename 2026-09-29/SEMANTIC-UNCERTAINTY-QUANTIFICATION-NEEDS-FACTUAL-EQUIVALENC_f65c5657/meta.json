@@ -4,5 +4,34 @@
  "title": "SEMANTIC-UNCERTAINTY-QUANTIFICATION-NEEDS-FACTUAL-EQUIVALENC",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-09-29 19:08:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3960012c-0aca-42dc-8426-77259a63a0ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3960012c-0aca-42dc-8426-77259a63a0ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:12:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semantic uncertainty quantification",
+    "uncertainty estimation",
+    "contrastive learning",
+    "LLM hallucination",
+    "factual equivalence",
+    "bi-encoder"
+   ],
+   "field": "大语言模型不确定性量化",
+   "innovations": [
+    "形式化语义UQ为算子-聚合器分解并识别算子瓶颈",
+    "利用LLM预测变异的弱监督信号训练对比事实等价编码器",
+    "通用即插即用算子替换将平均AUROC从0.68提升至0.76"
+   ],
+   "benchmarks": [
+    "ADVQA",
+    "OKVQA",
+    "VizWiz",
+    "HotpotQA",
+    "TriviaQA",
+    "WebQuestions"
+   ]
+  }
+ }
 }

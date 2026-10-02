@@ -4,5 +4,10 @@
  "title": "Semantic-Prefix-Oracles-for-LLM-Decodin-sub-g-sub-Contracts",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-29 19:07:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5663a695-b0b4-42a8-ba3d-52c6663bebf4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5663a695-b0b4-42a8-ba3d-52c6663bebf4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:13:07",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Simulating-Respondents-Not-Single-Questions-Coherent-Survey",
  "token": "sk-DZdSC3jNI...",
  "created_at": "2026-09-29 08:01:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3850b93e-a6e6-47cc-a965-d19cfd03d91c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3850b93e-a6e6-47cc-a965-d19cfd03d91c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:12:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "survey simulation",
+    "large language models",
+    "response coherence",
+    "marginal-constrained projection",
+    "psychometric validity",
+    "virtual respondents",
+    "joint distribution learning"
+   ],
+   "field": "LLM-based social survey simulation",
+   "innovations": [
+    "提出FR-LLM三阶段框架，解耦单题边际与跨题联动并通过MCJP投影融合",
+    "引入Cronbach's alpha/AVE/Construct JSD等问卷级信效度评估指标",
+    "证明reverse KL投影可保留条件优势比且给出依赖残差+边缘锚误差的分解定理"
+   ],
+   "benchmarks": [
+    "ESS11 Human Values Scale",
+    "TALIS 2018 Teacher Self-Efficacy",
+    "Little-Treat Pricing-and-Stocking Simulation"
+   ]
+  }
+ }
 }

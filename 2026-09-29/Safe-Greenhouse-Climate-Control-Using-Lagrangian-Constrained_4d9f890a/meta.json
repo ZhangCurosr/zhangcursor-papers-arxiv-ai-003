@@ -4,5 +4,32 @@
  "title": "Safe-Greenhouse-Climate-Control-Using-Lagrangian-Constrained",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-09-29 08:08:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/811c19ae-f8f0-46a2-a594-6418119f978b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/811c19ae-f8f0-46a2-a594-6418119f978b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:12:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Greenhouse Climate Control",
+    "Safe Reinforcement Learning",
+    "Constrained MDP",
+    "Kolmogorov-Arnold Networks",
+    "PPO",
+    "RCPO",
+    "Smart Farming"
+   ],
+   "field": "农业智能控制与安全强化学习",
+   "innovations": [
+    "将温室气候控制建模为CMDP并通过RCPO自适应拉格朗日对偶更新显式约束长期累计违规",
+    "用KAN替代MLP作为策略与价值网络增强强非线性温室动态的表征能力",
+    "正弦周期时间编码显式嵌入观测以捕捉温室日周期动态"
+   ],
+   "benchmarks": [
+    "Winter Lettuce Greenhouse Model",
+    "Cumulative Economic Profit",
+    "Cumulative Climate Violation Cost"
+   ]
+  }
+ }
 }

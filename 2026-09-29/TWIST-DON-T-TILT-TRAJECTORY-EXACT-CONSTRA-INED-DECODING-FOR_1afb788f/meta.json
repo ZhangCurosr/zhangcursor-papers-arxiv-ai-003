@@ -4,5 +4,34 @@
  "title": "TWIST-DON-T-TILT-TRAJECTORY-EXACT-CONSTRA-INED-DECODING-FOR",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-29 19:07:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2fa321b6-36f6-47f4-94f7-153b386f1e2c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2fa321b6-36f6-47f4-94f7-153b386f1e2c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:13:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "constrained decoding",
+    "masked diffusion language models",
+    "trajectory bias",
+    "Feynman-Kac",
+    "sequential Monte Carlo",
+    "Doob h-transform",
+    "regular language constraints"
+   ],
+   "field": "扩散语言模型约束解码",
+   "innovations": [
+    "证明step-exact MDLM解码存在轨迹偏差",
+    "提出TWISTER: 第一个automaton-twisted SMC解码器纠正偏差",
+    "推导重冻结比作为偏差度量并精确可计算"
+   ],
+   "benchmarks": [
+    "JSON-Mode-Eval",
+    "DREAM-7B",
+    "DREAMCODER-7B",
+    "LLADA-8B",
+    "OWT-130M"
+   ]
+  }
+ }
 }

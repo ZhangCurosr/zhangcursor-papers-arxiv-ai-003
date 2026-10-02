@@ -4,5 +4,30 @@
  "title": "VCN-Bench-A-Video-Contextualized-Navigation-Benchmark-for-Sp",
  "token": "sk-ae40QN0Hy...",
  "created_at": "2026-09-29 19:09:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/bde695d8-a35f-4328-9896-2a4c1b90b2c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/bde695d8-a35f-4328-9896-2a4c1b90b2c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:16:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial reasoning",
+    "embodied navigation",
+    "multimodal large language models",
+    "video-contextualized navigation",
+    "closed-loop reasoning",
+    "benchmark"
+   ],
+   "field": "具身智能与空间推理",
+   "innovations": [
+    "提出 VCN-Bench 视频上下文导航基准，以闭环导航评估 MLLMs 先前视觉体验的空间推理能力",
+    "设计导航中心化评估协议结合诊断性目标识别，解耦目标解析错误与导航执行失败",
+    "提出 MV-DualVLN 基线模型，通过特征池化和导航历史融合实现长视频上下文导航"
+   ],
+   "benchmarks": [
+    "VCN-Bench",
+    "Matterport3D"
+   ]
+  }
+ }
 }

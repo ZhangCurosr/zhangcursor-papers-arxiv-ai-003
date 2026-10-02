@@ -4,5 +4,31 @@
  "title": "The-Compiler-May-Read-It-the-Agent-May-Not-Keeping-Part-of-a",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-29 08:00:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/75201882-5eee-4b7c-af4b-e34f93b22735.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/75201882-5eee-4b7c-af4b-e34f93b22735.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:14:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "coding agents",
+    "purpose-based access control",
+    "sandboxing",
+    "research software protection",
+    "type enforcement",
+    "information flow"
+   ],
+   "field": "AI agent 安全与访问控制",
+   "innovations": [
+    "系统分类15条读取路径并证明现有三种机制无法联合覆盖全部",
+    "以普通用户视角实证 deny-list 迭代成本与不变量缺口",
+    "指出编译器等价读取与输出泄露是规则不可回避的第二通道"
+   ],
+   "benchmarks": [
+    "Claude Code sandbox+permission rules 组合",
+    "GitHub Content Exclusion",
+    "Cursor .cursorignore"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "UNIOPSD-UNIFYING-OUTCOME-AND-HINDSIGHT-FEEDBACK-FOR-AGENTIC",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-09-29 08:01:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f7d75a02-f758-4d42-af9b-a55abfe388e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f7d75a02-f758-4d42-af9b-a55abfe388e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:15:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy self-distillation",
+    "agentic reinforcement learning",
+    "credit assignment",
+    "hindsight feedback",
+    "correlation-guided fusion",
+    "Qwen2.5",
+    "multi-source policy optimization"
+   ],
+   "field": "多源反馈的代理信用分配与自蒸馏",
+   "innovations": [
+    "提出 corr 仲裁规则，用历史相关设置全局权重并由局部精度代理逐行调节 outcome 与 hindsight 步信用",
+    "冻结教师 + privileged peer prefix 的轻量 hindsight 分支，无需额外训练参数",
+    "将 step 级仲裁与有界 token 调制解耦并通过衰减 schedule 控制"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop",
+    "Search-QA"
+   ]
+  }
+ }
 }

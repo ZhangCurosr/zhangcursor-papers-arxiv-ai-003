@@ -4,5 +4,35 @@
  "title": "Towards-Reliable-AI-Data-Scientists-Data-Agents-with-Workflo",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-29 19:08:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d77b96c3-49bd-4867-ad27-59e982f1f346.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d77b96c3-49bd-4867-ad27-59e982f1f346.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:15:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Data Agents",
+    "Workflow Harness",
+    "AI Data Scientists",
+    "Silent Failure",
+    "LLM Agents",
+    "Data Analysis",
+    "Agentic Systems"
+   ],
+   "field": "数据智能与LLM Agent",
+   "innovations": [
+    "提出感知-规划-执行-验证-修复五阶段工作流harness统一框架，严格区分workflow与workflow harness",
+    "系统归纳15种技术路线并在结构化/半结构化/非结构化三种环境下分别论述",
+    "识别非活动语义校准、缺失澄清、缺失经验迁移、缺失验证-修复仓库四个可靠性开放问题"
+   ],
+   "benchmarks": [
+    "TableBench",
+    "InfiAgent-DABench",
+    "LongDS-Bench",
+    "FDABench",
+    "CODA-BENCH",
+    "AgentGym"
+   ]
+  }
+ }
 }

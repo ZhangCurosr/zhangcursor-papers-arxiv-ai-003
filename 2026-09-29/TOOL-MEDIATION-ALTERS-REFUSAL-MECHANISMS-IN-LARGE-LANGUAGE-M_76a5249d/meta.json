@@ -4,5 +4,30 @@
  "title": "TOOL-MEDIATION-ALTERS-REFUSAL-MECHANISMS-IN-LARGE-LANGUAGE-M",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-09-29 19:08:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/015ee2d4-30ea-4aa4-a500-a7cfc745d477.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/015ee2d4-30ea-4aa4-a500-a7cfc745d477.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:13:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全",
+    "拒绝机制",
+    "工具中介",
+    "机制可解释性",
+    "Agent安全",
+    "有害性表征"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "证明工具中介不消除有害性表征但提高拒绝阈值且使拒绝机制更脆弱",
+    "揭示工具暴露本身即触发机制转变而非需要显式执行指令",
+    "提出跨通道神经元贡献解离的因果验证方法"
+   ],
+   "benchmarks": [
+    "AgentHarm",
+    "PrivacyLens"
+   ]
+  }
+ }
 }

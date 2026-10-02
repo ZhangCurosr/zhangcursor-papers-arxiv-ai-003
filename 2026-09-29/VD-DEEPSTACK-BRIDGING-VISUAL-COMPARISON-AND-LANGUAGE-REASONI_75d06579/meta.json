@@ -4,5 +4,33 @@
  "title": "VD-DEEPSTACK-BRIDGING-VISUAL-COMPARISON-AND-LANGUAGE-REASONI",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-09-29 19:08:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d89b1364-997a-424b-82e4-80280d846cd1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d89b1364-997a-424b-82e4-80280d846cd1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:16:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "少样本异常检测",
+    "视觉语言模型",
+    "视觉比较",
+    "链式思维推理",
+    "DeepStack注入",
+    "DINO特征"
+   ],
+   "field": "视觉异常检测",
+   "innovations": [
+    "提出视觉比较-推理Gap，通过密集查询-参考差异特征直接条件化LVLM多层解码器",
+    "双路径DeepStack接口（差异证据+视觉上下文）在不增加token的前提下实现多深度残差注入"
+   ],
+   "benchmarks": [
+    "MVTec AD",
+    "VisA",
+    "MVTec 3D-AD",
+    "MPDD",
+    "HeadCT",
+    "BrainMRI"
+   ]
+  }
+ }
 }

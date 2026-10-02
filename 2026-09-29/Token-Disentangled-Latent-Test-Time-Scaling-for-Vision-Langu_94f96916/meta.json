@@ -4,5 +4,33 @@
  "title": "Token-Disentangled-Latent-Test-Time-Scaling-for-Vision-Langu",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-29 19:08:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a75f405a-02d9-4a35-8cbd-aa33542732fa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a75f405a-02d9-4a35-8cbd-aa33542732fa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:14:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "隐式测试时扩展",
+    "多模态大语言模型",
+    "标记解耦",
+    "视觉-语言推理",
+    "测试时计算"
+   ],
+   "field": "多模态大模型推理与效率",
+   "innovations": [
+    "提出标记角色感知的隐式测试时扩展框架，将视觉与推理反馈路由至不同标记",
+    "设计了基于图像敏感度和输出不确定性的双路由机制，替代全局单一奖励优化",
+    "在多个多模态推理基准上，以零参数更新方式超越强输出空间基线"
+   ],
+   "benchmarks": [
+    "MMStar",
+    "RealWorldQA",
+    "HallusionBench",
+    "ScienceQA-IMG",
+    "MathVista",
+    "LogicVista"
+   ]
+  }
+ }
 }

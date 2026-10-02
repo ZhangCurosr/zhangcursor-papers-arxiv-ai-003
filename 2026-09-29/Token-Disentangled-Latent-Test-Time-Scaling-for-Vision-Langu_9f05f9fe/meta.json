@@ -4,5 +4,34 @@
  "title": "Token-Disentangled-Latent-Test-Time-Scaling-for-Vision-Langu",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-29 07:57:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a75f405a-02d9-4a35-8cbd-aa33542732fa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a75f405a-02d9-4a35-8cbd-aa33542732fa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:14:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time scaling",
+    "latent reasoning",
+    "vision-language model",
+    "token routing",
+    "test-time compute",
+    "multimodal reasoning"
+   ],
+   "field": "多模态大模型推理优化",
+   "innovations": [
+    "提出token-disentangled latent refinement，将视觉与推理反馈路由至不同latent token角色",
+    "设计图像敏感性路由机制，通过patch blackening识别视觉敏感token",
+    "构建双通道奖励（视觉engagement + 推理likelihood margin），避免单一全局奖励的多模态分配错位"
+   ],
+   "benchmarks": [
+    "MMStar",
+    "RealWorldQA",
+    "HallusionBench",
+    "ScienceQA-IMG",
+    "MathVista",
+    "LogicVista"
+   ]
+  }
+ }
 }

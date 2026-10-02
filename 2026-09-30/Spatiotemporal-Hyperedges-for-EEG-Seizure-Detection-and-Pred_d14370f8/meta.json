@@ -4,5 +4,30 @@
  "title": "Spatiotemporal-Hyperedges-for-EEG-Seizure-Detection-and-Pred",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-30 07:59:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d8aa3f89-c488-442a-b725-80c4d51c0cbd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d8aa3f89-c488-442a-b725-80c4d51c0cbd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:58:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EEG seizure detection",
+    "spatiotemporal hyperedge",
+    "dynamic graph",
+    "Mamba",
+    "point-wise detection",
+    "seizure prediction"
+   ],
+   "field": "脑电癫痫检测与预测",
+   "innovations": [
+    "以少量可学习时空超边替代逐时步成对图建模跨通道与跨时间耦合",
+    "统一编码器支持窗口级检测、逐秒点级检测与痫前期预测",
+    "证明超边聚合产生低秩全局混合算子并给出与边缘流基线的复杂度对比"
+   ],
+   "benchmarks": [
+    "TUSZ",
+    "CHB-MIT"
+   ]
+  }
+ }
 }

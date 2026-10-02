@@ -4,5 +4,40 @@
  "title": "S-sup-3-sup-Spectral-Null-Space-Swap-Makes-Reasoning-Models",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-30 18:49:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0fc73dc1-fb77-494f-8099-a110c9a05340.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0fc73dc1-fb77-494f-8099-a110c9a05340.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:56:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "efficient reasoning",
+    "model merging",
+    "spectral decomposition",
+    "attention entropy",
+    "chain-of-thought compression",
+    "training-free composition"
+   ],
+   "field": "高效推理与模型合并",
+   "innovations": [
+    "首次揭示Thinking-NonThinking差异在谱空间中参数能量与功能影响的不对称性，核心功能变化集中于正交补空间",
+    "提出无训练Spectral Null-Space Swap方法，保留Non-thinking主导子空间、移植Thinking正交补分量，平均减少27.4% token开销",
+    "建立注意力熵排序H_Null<H_Base<H_Sub的机制解释，并给出局部最优假设下的解析证明"
+   ],
+   "benchmarks": [
+    "AIME24/25",
+    "HMMT25",
+    "CMIMC25",
+    "Olympiad-Bench",
+    "MATH-500",
+    "GSM8K",
+    "AMC23",
+    "MMLU",
+    "MMMU",
+    "MathVista",
+    "MMAR",
+    "MMSU"
+   ]
+  }
+ }
 }

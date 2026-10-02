@@ -4,5 +4,30 @@
  "title": "Safer-Content-or-Firmer-Refusals-A-Hybrid-Perturbation-Defen",
  "token": "sk-AcnGi1B74...",
  "created_at": "2026-09-30 18:52:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c739a7b2-cb44-4c70-a0ed-0645ff8943aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c739a7b2-cb44-4c70-a0ed-0645ff8943aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:57:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Harmful Fine-tuning",
+    "Safety Alignment",
+    "Robust LLM",
+    "Embedding Perturbation",
+    "Gradient Attenuation",
+    "Alignment-stage Defense"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "提出 VaccineBooster 联合对齐流程，在一次训练步中同时施加嵌入扰动与权重梯度衰减，无需用户微调数据",
+    "系统揭示内容安全与显式拒绝保留之间的权衡结构，并提供两个可解释超参供部署方定向调优",
+    "论证单一汇总安全指标会掩盖防御的内部张力，主张多维度联合评估"
+   ],
+   "benchmarks": [
+    "BeaverTails",
+    "OpenAI Moderation API"
+   ]
+  }
+ }
 }

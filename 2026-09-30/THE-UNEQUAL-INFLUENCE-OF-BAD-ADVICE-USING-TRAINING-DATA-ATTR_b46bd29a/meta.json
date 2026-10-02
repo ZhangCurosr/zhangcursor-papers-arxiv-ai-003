@@ -4,5 +4,32 @@
  "title": "THE-UNEQUAL-INFLUENCE-OF-BAD-ADVICE-USING-TRAINING-DATA-ATTR",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-30 18:50:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0eb19fea-da64-49b0-9922-0f6a160dfe6c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0eb19fea-da64-49b0-9922-0f6a160dfe6c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:59:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "emergent misalignment",
+    "training data attribution",
+    "influence functions",
+    "LLM alignment",
+    "data filtering",
+    "EK-FAC",
+    "LoRA fine-tuning"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "首次系统使用训练数据归因量化有害样本对涌现性不对齐的不均衡贡献",
+    "发现通过极端分位数据筛选可显著增强或抑制EM且归因分数在全分布有效",
+    "揭示跨模型归因分数存在中等一致性但same-model效果最优的规律"
+   ],
+   "benchmarks": [
+    "OLMo 3 7B-SFT on career/automotive/educational wrong-advice datasets",
+    "Qwen 3 32B alignment judge",
+    "WildGuard harmfulness baseline"
+   ]
+  }
+ }
 }

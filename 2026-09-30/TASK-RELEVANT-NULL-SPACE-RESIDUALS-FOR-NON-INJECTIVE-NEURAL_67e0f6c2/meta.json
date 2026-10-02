@@ -4,5 +4,38 @@
  "title": "TASK-RELEVANT-NULL-SPACE-RESIDUALS-FOR-NON-INJECTIVE-NEURAL",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-09-30 08:06:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4512be23-1bcc-4f49-a4d1-464e4ee0dc25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4512be23-1bcc-4f49-a4d1-464e4ee0dc25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:59:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "null-space residuals",
+    "non-injective mappings",
+    "token merging",
+    "graph aggregation",
+    "heterophilic node classification",
+    "semantic segmentation"
+   ],
+   "field": "图神经网络与视觉 Transformer 的高效表示学习",
+   "innovations": [
+    "提出 NSR 通用残差框架，显式提取非单射线性算子的零空间分量作为互补信号",
+    "在 Token 合并与图聚合两类结构中实现成员级编码与门控，同时保留原有聚合/合并规则",
+    "通过零空间投影诊断建立算子不可见差异与任务增益之间的可解释关联"
+   ],
+   "benchmarks": [
+    "Pascal VOC 2012",
+    "Cityscapes",
+    "ADE20K",
+    "Roman-empire",
+    "Amazon-ratings",
+    "Minesweeper",
+    "Tolokers",
+    "Questions",
+    "Tree-NeighborsMatch",
+    "ZINC"
+   ]
+  }
+ }
 }

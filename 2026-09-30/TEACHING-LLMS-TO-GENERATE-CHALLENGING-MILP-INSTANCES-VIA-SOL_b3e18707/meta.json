@@ -4,5 +4,36 @@
  "title": "TEACHING-LLMS-TO-GENERATE-CHALLENGING-MILP-INSTANCES-VIA-SOL",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-09-30 18:51:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e79864f8-da86-49f9-9be3-d84ff5eee5ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e79864f8-da86-49f9-9be3-d84ff5eee5ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:59:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MILP instance generation",
+    "solver feedback",
+    "GRPO",
+    "self-play",
+    "optimization benchmarking",
+    "language model fine-tuning"
+   ],
+   "field": "学习增强的组合优化与 MILP 求解",
+   "innovations": [
+    "以冻结求解器的 post-cut 节点数与间隙作为绝对困难度奖励，训练 LLM 零种子生成困难 MILP 实例",
+    "提出六重有效性门控与组内结构多样性奖励，抑制虚假困难与模式崩塌",
+    "通过 size curriculum 与 GRPO 结合，在设施选址与最大割上显著提升生成实例难度并保持语言可控性"
+   ],
+   "benchmarks": [
+    "MIPLIB 2010/2017",
+    "D-MIPLIB",
+    "DIG-MILP",
+    "MILP-Evolve",
+    "Ecole synthetic generators",
+    "MIPcc2023",
+    "MIPLearn",
+    "MIRPLIB"
+   ]
+  }
+ }
 }

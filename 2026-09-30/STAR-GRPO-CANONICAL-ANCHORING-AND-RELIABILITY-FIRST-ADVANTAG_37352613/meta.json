@@ -4,5 +4,32 @@
  "title": "STAR-GRPO-CANONICAL-ANCHORING-AND-RELIABILITY-FIRST-ADVANTAG",
  "token": "sk-YployDpk7...",
  "created_at": "2026-09-30 18:52:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ee6f0c61-aab3-4b76-85d6-b13592552bbb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ee6f0c61-aab3-4b76-85d6-b13592552bbb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:57:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reward hacking",
+    "group-relative policy optimization",
+    "conformal calibration",
+    "robust estimation",
+    "reliability-first",
+    "paired reward assessment"
+   ],
+   "field": "大语言模型对齐与强化学习",
+   "innovations": [
+    "reliability-first group-relative advantage 将可靠性嵌入归一化前并保留绝对 group 因子",
+    "成对评估推导 rollout 可靠性并驱动 conformal 校准",
+    "在两种不同 reward hacking 场景中统一验证同一可靠性优先机制"
+   ],
+   "benchmarks": [
+    "NoveltyBench",
+    "HealthBench-Hard",
+    "RubricHub-Medical",
+    "WildChat"
+   ]
+  }
+ }
 }

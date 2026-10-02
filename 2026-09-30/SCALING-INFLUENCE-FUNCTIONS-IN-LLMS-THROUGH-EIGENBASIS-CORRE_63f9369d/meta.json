@@ -4,5 +4,30 @@
  "title": "SCALING-INFLUENCE-FUNCTIONS-IN-LLMS-THROUGH-EIGENBASIS-CORRE",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-30 07:59:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/15f11e14-cd28-421e-9a14-614c8597d5b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/15f11e14-cd28-421e-9a14-614c8597d5b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:56:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "influence functions",
+    "gradient compression",
+    "LLM attribution",
+    "EK-FAC",
+    "one-bit quantization",
+    "data valuation"
+   ],
+   "field": "大语言模型训练数据归因与可解释性",
+   "innovations": [
+    "在最坏情况影响误差下证明半白化梯度的 top-k PCA 为最优线性表示",
+    "提出两阶段 EK-FAC+子空间 PCA 修正逼近理论最优",
+    "用 1-bit 符号量化配合尺度因子在极低存储预算下保留高保真影响排序"
+   ],
+   "benchmarks": [
+    "GPT-2 on WikiText-2",
+    "OLMo 2 1B/7B/13B/32B on Tulu 3 SFT mixture"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "TOPOLOGICAL-COHERENCE-FOR-SELF-EVOLVING-MULTI-AGENT-SYSTEMS",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-30 18:50:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a92746d3-7696-4ad3-9aaa-1d570bbef0d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a92746d3-7696-4ad3-9aaa-1d570bbef0d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 20:01:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent systems",
+    "topological coherence",
+    "self-evolving agents",
+    "agent organization",
+    "memory coordination",
+    "tool use",
+    "workflow orchestration"
+   ],
+   "field": "多代理系统架构与自进化",
+   "innovations": [
+    "形式化拓扑一致性约束以联合推导代理责任、协作接口与记忆边界",
+    "通过任务-工具接地映射和责任商拓扑从共享拓扑联合推导系统组织",
+    "边界保持的记忆协调与一致性约束的结构进化机制"
+   ],
+   "benchmarks": [
+    "BBEH",
+    "WorkBench",
+    "SWE-Bench-Verified",
+    "CoMemBench"
+   ]
+  }
+ }
 }

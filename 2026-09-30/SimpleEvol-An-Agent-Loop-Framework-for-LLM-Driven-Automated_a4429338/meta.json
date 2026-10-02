@@ -4,5 +4,32 @@
  "title": "SimpleEvol-An-Agent-Loop-Framework-for-LLM-Driven-Automated",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-09-30 18:51:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9d01fffd-af76-40be-ab52-ac4dcb0b13be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9d01fffd-af76-40be-ab52-ac4dcb0b13be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:58:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Automated Heuristic Design",
+    "LLM-based search",
+    "Combinatorial Optimization",
+    "Intelligence Conversion",
+    "Agent Loop Framework",
+    "Bitter Lesson"
+   ],
+   "field": "自动算法设计与LLM驱动优化",
+   "innovations": [
+    "提出AHI与ICE双指标量化框架复杂度与智能转化效率",
+    "发现手工先验越少框架智能转化率越高并验证于10个LLM/3个任务",
+    "设计SimpleEvol极简agent-loop框架实现最高ICE与Pareto最优成本性能"
+   ],
+   "benchmarks": [
+    "TSP Constructive",
+    "CVRP-ACO",
+    "FSSP-GLS",
+    "TSPLIB"
+   ]
+  }
+ }
 }

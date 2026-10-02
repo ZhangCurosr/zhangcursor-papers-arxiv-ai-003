@@ -4,5 +4,30 @@
  "title": "THE-UNEQUAL-INFLUENCE-OF-BAD-ADVICE-USING-TRAINING-DATA-ATTR",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-30 07:59:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a0e86a1e-674b-4e8f-b5f1-bc0c00fd3568.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a0e86a1e-674b-4e8f-b5f1-bc0c00fd3568.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:59:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "emergent misalignment",
+    "training data attribution",
+    "influence function",
+    "LLM alignment",
+    "data filtering",
+    "LoRA fine-tuning"
+   ],
+   "field": "大模型对齐与安全",
+   "innovations": [
+    "首次用 influence function 近似量化有害训练样本对涌现不对齐的不均匀贡献",
+    "证明梯度归因可双向调节EM程度且优于黑盒有害性分类器",
+    "系统评估跨模型归因分数的泛化性与局限性"
+   ],
+   "benchmarks": [
+    "Wang et al. 2026 Wrong Advice Datasets",
+    "44-prompt EM evaluation suite judged by Qwen 3 32B"
+   ]
+  }
+ }
 }

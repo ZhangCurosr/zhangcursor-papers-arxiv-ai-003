@@ -4,5 +4,32 @@
  "title": "THINKING-IN-DEPTH-SPEAKING-DIRECTLY-RECURRENT-LATENT-REASONI",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-30 18:50:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0c77523c-a3cc-4547-a703-3b982fe4c9fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0c77523c-a3cc-4547-a703-3b982fe4c9fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:59:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speech language models",
+    "paralinguistic reasoning",
+    "looped transformers",
+    "latent reasoning",
+    "empathetic dialogue",
+    "chain-of-thought distillation"
+   ],
+   "field": "语音语言模型与副语言推理",
+   "innovations": [
+    "首次将 Looped Transformer 引入语音语言模型，将 CoT 监督从序列轴转移到解码器循环深度",
+    "ReCue 多尺度声学记忆跨注意力机制，每轮循环重新锚定语音编码器特征",
+    "两阶段 CoT-to-Response 课程学习，解耦推理学习与回复生成"
+   ],
+   "benchmarks": [
+    "EchoMind",
+    "SD-Eval",
+    "MMSU",
+    "MMAU-Pro"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "SCALING-INFLUENCE-FUNCTIONS-IN-LLMS-THROUGH-EIGENBASIS-CORRE",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-30 18:50:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/670d6e3e-fd18-4a81-bbc3-7d8608294879.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/670d6e3e-fd18-4a81-bbc3-7d8608294879.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:56:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "影响函数",
+    "梯度压缩",
+    "大型语言模型",
+    "曲率近似",
+    "特征值分解"
+   ],
+   "field": "大模型可解释性与数据归因",
+   "innovations": [
+    "提出EOGP方法通过两步投影与一位量化实现高效梯度复用",
+    "证明半白化PCA在影响误差最小化中的最优性",
+    "在LLM尺度下实现100倍以上存储压缩比的高保真度影响估计"
+   ],
+   "benchmarks": [
+    "GPT-2 WikiText-2",
+    "OLMo 2 1B/7B/13B/32B Tulu 3 SFT"
+   ]
+  }
+ }
 }

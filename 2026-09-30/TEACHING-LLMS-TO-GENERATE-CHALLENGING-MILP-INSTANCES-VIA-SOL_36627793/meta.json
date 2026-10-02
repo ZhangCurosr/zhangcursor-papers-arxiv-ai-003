@@ -4,5 +4,35 @@
  "title": "TEACHING-LLMS-TO-GENERATE-CHALLENGING-MILP-INSTANCES-VIA-SOL",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-09-30 08:00:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e79864f8-da86-49f9-9be3-d84ff5eee5ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e79864f8-da86-49f9-9be3-d84ff5eee5ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:59:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MILP instance generation",
+    "solver feedback",
+    "reinforcement learning",
+    "large language models",
+    "challenging problem generation",
+    "branch-and-bound",
+    "self-play"
+   ],
+   "field": "组合优化与机器学习交叉",
+   "innovations": [
+    "固定求解器 verifier 的非对称自对弈训练范式，使难度保持绝对标度",
+    "割后读取的复合奖励函数（节点数+间隙+有效性闸+多样性），防御虚假难度",
+    "紧凑索引集模板实现 token 高效的长 MILP 实例生成"
+   ],
+   "benchmarks": [
+    "MIPLIB 2010/2017",
+    "D-MIPLIB",
+    "MILP-Evolve",
+    "Ecole synthetic generators",
+    "MIRPLIB",
+    "DIG-MILP"
+   ]
+  }
+ }
 }

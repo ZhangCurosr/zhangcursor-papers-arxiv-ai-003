@@ -4,5 +4,10 @@
  "title": "State-transport-routing-for-short-horizon-adaptation-in-mult",
  "token": "sk-alntNRIDw...",
  "created_at": "2026-09-30 08:03:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1d281124-6874-4fe2-a7d4-c6730010c5fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1d281124-6874-4fe2-a7d4-c6730010c5fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:58:39",
+  "chunks": 1
+ }
 }

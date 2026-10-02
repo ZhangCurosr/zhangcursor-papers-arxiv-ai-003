@@ -4,5 +4,31 @@
  "title": "TOOLFENCE-FINE-GRAINED-AUTHORIZATION-FOR-SE-CURE-TOOL-USING",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-09-30 08:08:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/bb96656a-3f93-431a-83b0-cf8cafc8fe8d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/bb96656a-3f93-431a-83b0-cf8cafc8fe8d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 20:00:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Prompt Injection",
+    "Tool Security",
+    "Fine-grained Authorization",
+    "Provenance Tracking",
+    "Within-tool Attack"
+   ],
+   "field": "LLM Agent 安全",
+   "innovations": [
+    "提出 Capability-level 授权单元，将 judge 决策从 per-call 提升至可复用的能力形状",
+    "确定性监控（零 LLM 开销）+ 运行时能力授予 + 跨会话缓存的三段式防御框架",
+    "参数感知 AgentDojo 切分，首次系统量化 within-tool 攻击防御缺口"
+   ],
+   "benchmarks": [
+    "AgentDojo",
+    "Cross-tool Escalation",
+    "Within-tool Hijacking"
+   ]
+  }
+ }
 }

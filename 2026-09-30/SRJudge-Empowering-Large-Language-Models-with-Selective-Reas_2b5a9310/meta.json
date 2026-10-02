@@ -4,5 +4,30 @@
  "title": "SRJudge-Empowering-Large-Language-Models-with-Selective-Reas",
  "token": "sk-L9xk33MRr...",
  "created_at": "2026-09-30 08:10:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d219eef0-a5be-422a-a18f-0bd2aa376f9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d219eef0-a5be-422a-a18f-0bd2aa376f9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:56:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识概念标注",
+    "强化学习",
+    "GRPO",
+    "大语言模型",
+    "选择性推理",
+    "教育AI"
+   ],
+   "field": "知识概念标注与LLM对齐",
+   "innovations": [
+    "三阶段Select-Reason-Judge框架，首次将筛选-推理-评估流水线引入细粒度概念标注",
+    "定制化GRPO奖励函数含动态位置奖励与剪枝机制，提升RL训练稳定性与效率"
+   ],
+   "benchmarks": [
+    "S_Math",
+    "S_Bio",
+    "S_Phy"
+   ]
+  }
+ }
 }

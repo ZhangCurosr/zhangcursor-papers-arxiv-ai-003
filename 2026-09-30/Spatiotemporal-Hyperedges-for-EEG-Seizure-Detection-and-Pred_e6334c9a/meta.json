@@ -4,5 +4,34 @@
  "title": "Spatiotemporal-Hyperedges-for-EEG-Seizure-Detection-and-Pred",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-30 18:50:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d8aa3f89-c488-442a-b725-80c4d51c0cbd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d8aa3f89-c488-442a-b725-80c4d51c0cbd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:58:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EEG seizure detection",
+    "spatiotemporal hyperedge",
+    "Mamba",
+    "dynamic GNN",
+    "seizure prediction",
+    "TUSZ",
+    "CHB-MIT"
+   ],
+   "field": "脑电信号时空表示学习",
+   "innovations": [
+    "用少量可学习时空超边替代逐时步二元动态图，显式建模跨通道-跨时间高阶耦合",
+    "单一编码器共享窗口检测/逐秒检测/预测前预测三任务，仅改读出头",
+    "证明超边聚合诱导秩不超过 E_h 的全局满支持混合算子，并在理论/实验层面给出计算与显存优势"
+   ],
+   "benchmarks": [
+    "TUSZ 12s 窗口检测",
+    "TUSZ 60s 窗口检测",
+    "CHB-MIT 12s 窗口检测",
+    "TUSZ 逐秒检测",
+    "TUSZ 60s 预测前发作预测"
+   ]
+  }
+ }
 }

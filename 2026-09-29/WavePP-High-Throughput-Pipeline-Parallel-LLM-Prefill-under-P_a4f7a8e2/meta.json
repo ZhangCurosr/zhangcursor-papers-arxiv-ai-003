@@ -4,5 +4,30 @@
  "title": "WavePP-High-Throughput-Pipeline-Parallel-LLM-Prefill-under-P",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-09-29 08:03:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fe71d64a-fdcf-46ea-95fe-f648d103bd9d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fe71d64a-fdcf-46ea-95fe-f648d103bd9d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:55:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pipeline parallelism",
+    "LLM inference",
+    "prefix caching",
+    "serving runtime",
+    "throughput optimization"
+   ],
+   "field": "大模型推理系统",
+   "innovations": [
+    "异步解耦 admission 与执行，将缓存协调移至 WAVE 线程",
+    "Fast Reuse Hints 索引将缓存遍历从 O(n) 降至 O(log n)",
+    "Local Lease + Capacity Escrow 两级协议实现分布式缓存复用与容量预留"
+   ],
+   "benchmarks": [
+    "GLM 5.2",
+    "MiniMax M2.7",
+    "Kimi K3"
+   ]
+  }
+ }
 }

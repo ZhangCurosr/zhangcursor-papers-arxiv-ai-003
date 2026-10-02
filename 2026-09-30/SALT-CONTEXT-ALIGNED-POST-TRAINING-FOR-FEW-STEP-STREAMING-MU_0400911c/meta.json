@@ -4,5 +4,29 @@
  "title": "SALT-CONTEXT-ALIGNED-POST-TRAINING-FOR-FEW-STEP-STREAMING-MU",
  "token": "sk-Ow5x4gcSo...",
  "created_at": "2026-09-30 18:52:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/80abdf4c-eec5-41de-8352-453ae96b929b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/80abdf4c-eec5-41de-8352-453ae96b929b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:56:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "少步蒸馏",
+    "流式生成",
+    "分布匹配蒸馏",
+    "因果视频生成",
+    "多模态生成"
+   ],
+   "field": "流式多模态生成与蒸馏",
+   "innovations": [
+    "Causal Self-Flow将历史信息不对称性转化为表征学习任务",
+    "Context-aligned AR DMD统一干净前缀蒸馏与on-policy适应",
+    "Scale-wise post-training实现4步1664×960生成"
+   ],
+   "benchmarks": [
+    "JavisBench-mini",
+    "VBench"
+   ]
+  }
+ }
 }

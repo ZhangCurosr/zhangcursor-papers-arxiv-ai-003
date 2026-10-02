@@ -4,5 +4,31 @@
  "title": "TRAIN-AHEAD-DISTILL-BACK-BOOTSTRAPPING-ON-POLICY-SELF-DISTIL",
  "token": "sk-0sYDudTcj...",
  "created_at": "2026-09-30 18:51:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/46b57410-8a31-4186-b06a-053ba2e8c772.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/46b57410-8a31-4186-b06a-053ba2e8c772.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 20:00:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy self-distillation",
+    "future teacher",
+    "large language models",
+    "mathematical reasoning",
+    "knowledge distillation",
+    "self-improvement"
+   ],
+   "field": "大语言模型自蒸馏",
+   "innovations": [
+    "提出'向前训练、向后蒸馏'的B-OPSD框架，将优化进展转化为早期策略的监督信号",
+    "揭示未来教师与自生成特权轨迹的兼容性效应，实现选择性强化监督",
+    "验证未来监督可在免答案场景通过一致性机制有效工作"
+   ],
+   "benchmarks": [
+    "AIME 2024",
+    "AIME 2025",
+    "HMMT 2025"
+   ]
+  }
+ }
 }

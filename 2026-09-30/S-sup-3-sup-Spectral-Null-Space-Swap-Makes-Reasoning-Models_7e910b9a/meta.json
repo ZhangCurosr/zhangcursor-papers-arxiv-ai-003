@@ -4,5 +4,38 @@
  "title": "S-sup-3-sup-Spectral-Null-Space-Swap-Makes-Reasoning-Models",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-30 07:59:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/387cf984-fb07-4352-9fac-830d863f59d8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/387cf984-fb07-4352-9fac-830d863f59d8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:56:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "efficient reasoning",
+    "model merging",
+    "spectral decomposition",
+    "chain-of-thought compression",
+    "attention entropy",
+    "weight-space composition"
+   ],
+   "field": "高效推理与模型压缩",
+   "innovations": [
+    "首次揭示推理能力集中于 Non-thinking 模型奇异子空间的零空间分量",
+    "提出无训练的谱零空间交换方法 S³ 实现 accuracy-efficiency Pareto 改进",
+    "建立注意力熵与谱分解分量的机制性联系 H_Null < H_Base < H_Sub"
+   ],
+   "benchmarks": [
+    "AIME24/25",
+    "HMMT25",
+    "CMIMC25",
+    "Olympiad-Bench",
+    "GSM8K",
+    "MMLU",
+    "MMMU",
+    "MathVista",
+    "MMAR",
+    "MMSU"
+   ]
+  }
+ }
 }

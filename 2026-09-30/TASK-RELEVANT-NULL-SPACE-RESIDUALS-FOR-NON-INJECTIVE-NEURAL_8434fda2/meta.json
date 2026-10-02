@@ -4,5 +4,39 @@
  "title": "TASK-RELEVANT-NULL-SPACE-RESIDUALS-FOR-NON-INJECTIVE-NEURAL",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-09-30 18:51:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4512be23-1bcc-4f49-a4d1-464e4ee0dc25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4512be23-1bcc-4f49-a4d1-464e4ee0dc25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:58:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零空间残差",
+    "非单射映射",
+    "图神经网络",
+    "Token合并",
+    "语义分割",
+    "异配图",
+    "信息损失补偿"
+   ],
+   "field": "图表示学习与视觉Transformer效率优化",
+   "innovations": [
+    "提出基于线性算子零空间的通用残差框架，显式提取并学习任务相关的被映射抹除信息",
+    "在图聚合和Token合并两个结构性不同的场景中实例化NSR，分别通过成员级门控和双路径（特征+空间）集成",
+    "建立算子零空间与任务Label结构的关联分析，揭示NSR增益与图同质性指标的关系"
+   ],
+   "benchmarks": [
+    "Pascal VOC 2012",
+    "Cityscapes",
+    "ADE20K",
+    "Roman-empire",
+    "Amazon-ratings",
+    "Minesweeper",
+    "Tolokers",
+    "Questions",
+    "Tree-NeighborsMatch",
+    "ZINC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "SCA-Spatial-Credit-Assignment-for-Reinforcement-Learning-of",
  "token": "sk-wmVet9QXD...",
  "created_at": "2026-09-30 18:51:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ac237b62-a138-4ee9-b73b-af0b5bafa5c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ac237b62-a138-4ee9-b73b-af0b5bafa5c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:56:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GUI Agents",
+    "Reinforcement Learning",
+    "Spatial Credit Assignment",
+    "Group-Relative RL",
+    "Visual Grounding",
+    "Policy Gradient"
+   ],
+   "field": "GUI 智能体强化学习",
+   "innovations": [
+    "提出 SCA 框架利用屏幕坐标改进 group-relative 信用分配",
+    "设计 Residual/Prox 双分支处理混合命中与全失败组",
+    "提供精确梯度对比验证信用估计器的方向对齐性"
+   ],
+   "benchmarks": [
+    "ScreenSpot-Pro",
+    "GUI-Act-Web",
+    "OmniAct-Web",
+    "OmniAct-Desktop",
+    "GUI-Odyssey"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "SELECTING-THE-MOST-INFORMATIVE-TOKENS-INNATURAL-LANGUAGE-AUT",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-09-30 18:52:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c599cf48-7d76-42bb-a751-a9fbbc1ea06e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c599cf48-7d76-42bb-a751-a9fbbc1ea06e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:19:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自然语言自编码器",
+    "模型可解释性",
+    "token选择",
+    "模型审计",
+    "激活解释",
+    "prompt注入检测"
+   ],
+   "field": "大模型可解释性与安全审计",
+   "innovations": [
+    "首次系统研究NLA位置选择在470万解释上的表现，证明chat structure无需前向传播即可超越多数计算信号",
+    "建立信号到NLA解释相关性的bridge评估框架，比较13种信号与247个组合候选",
+    "证明预训练verbalizer无需额外训练即可恢复微调后模型刻意隐藏的词汇"
+   ],
+   "benchmarks": [
+    "OpenPromptInjection",
+    "Tensor Trust",
+    "Liars' Bench",
+    "Taboo organisms"
+   ]
+  }
+ }
 }

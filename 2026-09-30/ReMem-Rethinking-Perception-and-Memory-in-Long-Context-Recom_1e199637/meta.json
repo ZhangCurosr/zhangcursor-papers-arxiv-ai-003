@@ -4,5 +4,32 @@
  "title": "ReMem-Rethinking-Perception-and-Memory-in-Long-Context-Recom",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-09-30 08:00:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e4096efd-3c75-410d-a97f-8664a7df02dd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e4096efd-3c75-410d-a97f-8664a7df02dd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:19:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Recommendation Agents",
+    "Long-Context Reasoning",
+    "OCR-based Perception",
+    "Dynamic Memory",
+    "Reinforcement Learning",
+    "GRPO",
+    "LLM"
+   ],
+   "field": "推荐系统与LLM Agent交叉",
+   "innovations": [
+    "首个结合OCR多模态感知与强化学习增强动态记忆的推荐智能体框架",
+    "块级时序演化记忆机制实现线性复杂度长上下文推理",
+    "Multi-Memory GRPO训练策略将最终奖励传播至中间记忆更新"
+   ],
+   "benchmarks": [
+    "WebWalkerQA",
+    "HotpotQA",
+    "Amazon Reviews 2023 (MoviesTV/Books/Games)"
+   ]
+  }
+ }
 }

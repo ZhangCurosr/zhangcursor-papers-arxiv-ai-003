@@ -4,5 +4,10 @@
  "title": "SPLASH-SWITCHING-PARALLEL-LAYOUTS-OF-ATTENTION-WITH-SEAMLESS",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-09-30 18:50:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e277e483-ca06-48ec-ad73-ccede3a74ce5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e277e483-ca06-48ec-ad73-ccede3a74ce5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:22:43",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,33 @@
  "title": "SQUARE-STRUCTURED-QUANTUMREPRESENTATION-ADAPTERS-AS-COMPACTQ",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-09-30 18:51:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f93d369f-39af-4e44-9009-44235eea151a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f93d369f-39af-4e44-9009-44235eea151a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:23:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Parameter-Efficient Fine-Tuning",
+    "Quantum Machine Learning",
+    "Frozen Language Models",
+    "Adapters",
+    "Quadratic Feature Maps",
+    "Amplitude Encoding",
+    "Variational Quantum Circuits"
+   ],
+   "field": "冻结语言模型的低参适配器与结构化特征映射",
+   "innovations": [
+    "提出 SQUARE：通过 RY-RZ-Ring-CNOT-RY 电路测量生成耦合 PSD 二次型特征适配器",
+    "证明单一酉电路联合约束秩≤2 PSD 系数矩阵族并满足恒等分解",
+    "实现电路仿真训练到精确批量 PyTorch 部署的完整编译路径"
+   ],
+   "benchmarks": [
+    "GLUE-derived Controlled Interaction Classification",
+    "MNLI 2D Decision Boundary",
+    "Alpaca Candidate Reranking",
+    "OPT-350M / GPT-2 / OpenLLaMA-3B / Mistral-7B Frozen Backbones"
+   ]
+  }
+ }
 }

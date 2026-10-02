@@ -4,5 +4,30 @@
  "title": "SIMULTANEOUS-NEURAL-OPTIMAL-TRANSPORT",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-09-30 08:09:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5236d7e3-f3d2-4089-ab2e-e0baa3e0b8c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5236d7e3-f3d2-4089-ab2e-e0baa3e0b8c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:20:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "optimal transport",
+    "simultaneous OT",
+    "unbalanced OT",
+    "neural transport map",
+    "image restoration",
+    "distribution alignment"
+   ],
+   "field": "最优传输与生成建模",
+   "innovations": [
+    "提出基于散度松弛的同时无平衡 OT 神经网络求解器 SimNOT，共享映射无需源标签推理",
+    "推导同时 UOT 精确半对偶形式并建立神经网络一致逼近理论保证",
+    "证明二次代价+KL 散度下最优解为确定性映射，指导无噪声网络设计"
+   ],
+   "benchmarks": [
+    "CelebA 64x64 图像复原",
+    "Gaussian-to-Swiss-roll 合成实验"
+   ]
+  }
+ }
 }

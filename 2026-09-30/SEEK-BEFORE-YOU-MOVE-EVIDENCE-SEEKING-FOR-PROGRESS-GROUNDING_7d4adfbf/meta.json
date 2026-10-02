@@ -4,5 +4,30 @@
  "title": "SEEK-BEFORE-YOU-MOVE-EVIDENCE-SEEKING-FOR-PROGRESS-GROUNDING",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-30 08:00:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/091eae5d-704f-44f7-b7eb-99b54add47c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/091eae5d-704f-44f7-b7eb-99b54add47c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:19:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Navigation",
+    "Evidence Seeking",
+    "Progress Grounding",
+    "Reinforcement Learning",
+    "Counterfactual Learning",
+    "Embodied AI"
+   ],
+   "field": "视觉-语言导航",
+   "innovations": [
+    "提出Progress Myopia失败模式并设计主动证据寻求框架SeekVLN",
+    "设计FRG从离线轨迹反向生成证据寻求监督信号",
+    "引入C2PO通过反事实分支对比解决seeking决策信用分配"
+   ],
+   "benchmarks": [
+    "R2R-CE",
+    "RxR-CE"
+   ]
+  }
+ }
 }

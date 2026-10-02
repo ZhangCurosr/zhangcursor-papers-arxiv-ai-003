@@ -4,5 +4,34 @@
  "title": "SKILLCOME-GROUP-CONTRAST-SKILL-OPTIMIZA-TION-WITH-DUAL-MEMOR",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-09-30 18:51:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6cf8cd1d-eaaf-45fc-8dc0-fb1b3274deff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6cf8cd1d-eaaf-45fc-8dc0-fb1b3274deff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:21:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Skill Evolution",
+    "Group Contrast",
+    "Dual Memory",
+    "LLM Agents",
+    "Non-parametric Optimization",
+    "Trajectory Analysis"
+   ],
+   "field": "大语言模型技能演化与Agent自我改进",
+   "innovations": [
+    "提出组内对比优化（group contrast）作为可靠优化信号",
+    "引入双记忆系统跨步骤积累泛化模式",
+    "在6个基准5个模型上验证，平均超次优基线5.69个百分点"
+   ],
+   "benchmarks": [
+    "SpreadsheetBench",
+    "SearchQA",
+    "LiveMathematicianBench",
+    "ALFWorld",
+    "OfficeQA",
+    "DocVQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "SELFSEARCH-REWARD-FREE-SEARCH-FOR-SELF-IMPROVING-AGENTS",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-30 07:59:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/887a0518-c767-4a72-9251-cb4a0c7e3424.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/887a0518-c767-4a72-9251-cb4a0c7e3424.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:20:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-improving agents",
+    "reward-free search",
+    "LLM agent",
+    "automated code generation",
+    "experience sharing"
+   ],
+   "field": "Agent 自我改进与自动化搜索",
+   "innovations": [
+    "提出无需下游评估的 reward-free 自我改进搜索范式，利用 episode records 作为经验载体",
+    "双 lineage（capability/adaptive）并行搜索并通过跨 lineage 共享历史记录实现互补进化",
+    "自改进过程中涌现的调试工具（文本搜索、轨迹读取）可迁移复用至下游任务"
+   ],
+   "benchmarks": [
+    "SWE-bench Verified",
+    "SWE-bench Multilingual",
+    "Terminal-Bench 2.1"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "SOMNIVCBENCH-BENCHMARKING-EVIDENCE-GROUNDED-MULTIMODAL-REASO",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-30 18:50:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2447b132-4124-4d79-873f-a929f95f8c6a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2447b132-4124-4d79-873f-a929f95f8c6a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:22:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AIVC",
+    "多模态科学推理",
+    "基准测试",
+    "LLM-as-judge",
+    "MCQ干扰项生成",
+    "虚拟细胞",
+    "证据推理"
+   ],
+   "field": "多模态科学推理评估",
+   "innovations": [
+    "首个面向AIVC解释层的来源可追溯基准（6,077项）",
+    "任务条件化AIVC-Judge评分框架支持原子声明级证据追溯",
+    "MDHNM模型派生硬负例挖掘显著提升MCQ区分度"
+   ],
+   "benchmarks": [
+    "OMNIVCBENCH",
+    "OMNIVCTRAIN"
+   ]
+  }
+ }
 }

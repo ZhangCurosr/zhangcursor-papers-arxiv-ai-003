@@ -4,5 +4,36 @@
  "title": "WHEN-DO-MODEL-INTERNALS-HELP-EXPLOR-ING-THE-ROLE-OF-REPRESEN",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-09-29 19:08:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/170dba37-73fa-4f58-9497-ed7d2813958f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/170dba37-73fa-4f58-9497-ed7d2813958f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:17:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM safety",
+    "representation engineering",
+    "DPO",
+    "activation steering",
+    "safety monitoring",
+    "probe",
+    "jailbreak robustness"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "在统一协议下系统对比行为对齐（DPO）与表征 steering/probe 在控制与监测上的相对优劣",
+    "揭示表征 steering 在低数据高质量场景的竞争力及层选择敏感性",
+    "证明基于 native 表征的廉价 probes 可辅助 post-generation blocking 恢复微调退化安全"
+   ],
+   "benchmarks": [
+    "StrongREJECT",
+    "PKU-SafeRLHF",
+    "HarmBench",
+    "XSTest",
+    "MMLU",
+    "GSM8K",
+    "HumanEval"
+   ]
+  }
+ }
 }

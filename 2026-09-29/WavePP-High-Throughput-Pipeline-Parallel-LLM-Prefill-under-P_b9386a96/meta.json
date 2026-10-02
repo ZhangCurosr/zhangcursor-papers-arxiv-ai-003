@@ -4,5 +4,31 @@
  "title": "WavePP-High-Throughput-Pipeline-Parallel-LLM-Prefill-under-P",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-09-29 19:08:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fe71d64a-fdcf-46ea-95fe-f648d103bd9d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fe71d64a-fdcf-46ea-95fe-f648d103bd9d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:18:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Pipeline Parallelism",
+    "LLM Inference",
+    "Prefix Cache Reuse",
+    "KV Cache Management",
+    "Serving Runtime",
+    "Throughput Optimization"
+   ],
+   "field": "LLM 推理系统优化",
+   "innovations": [
+    "异步准入-执行解耦：将 reuse 协商、lease 保护和 escrow 容量预留提前于流水线执行，stage 0 可提前启动",
+    "分片 reuse hint 索引：基于 chained prefix hash 的快速近似查找，将 O(N) 树遍历降至 O(log N)，大幅降低 mutex 竞争",
+    "Local Lease + Capacity Escrow 两段式协议：先锁定复用前缀防止驱逐，再预留 suffix 容量 victim 引用但不物理驱逐，材料化延迟到 loop 线程"
+   ],
+   "benchmarks": [
+    "GLM 5.2 PP4",
+    "MiniMax M2.7 PP4",
+    "Kimi K3 TP1×PP8 / TP8×EP8"
+   ]
+  }
+ }
 }

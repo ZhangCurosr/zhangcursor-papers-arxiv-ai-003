@@ -4,5 +4,33 @@
  "title": "SOMNIVCBENCH-BENCHMARKING-EVIDENCE-GROUNDED-MULTIMODAL-REASO",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-30 07:59:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2447b132-4124-4d79-873f-a929f95f8c6a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2447b132-4124-4d79-873f-a929f95f8c6a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:22:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI virtual cell",
+    "multimodal reasoning benchmark",
+    "scientific figure interpretation",
+    "evidence-grounded reasoning",
+    "LLM-as-a-judge",
+    "MCQ distractor generation"
+   ],
+   "field": "多模态科学推理评测",
+   "innovations": [
+    "提出OMNIVCBENCH基准：6,077个来源可追溯的细胞生物学图表QA对，按L1-L3三级任务组织解释层推理",
+    "设计AIVC-Judge评估框架：任务条件化rubric与原子化主张证据追踪的分级评分机制",
+    "提出MDHNM策略：将真实模型错误转化为高区分度多选题干扰项"
+   ],
+   "benchmarks": [
+    "OMNIVCBENCH",
+    "OMNIVCTRAIN",
+    "MicroVQA",
+    "LABBench2",
+    "SciFIBench"
+   ]
+  }
+ }
 }

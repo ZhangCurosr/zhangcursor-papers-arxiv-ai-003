@@ -4,5 +4,33 @@
  "title": "SPLASH-SWITCHING-PARALLEL-LAYOUTS-OF-ATTENTION-WITH-SEAMLESS",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-09-30 07:59:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e277e483-ca06-48ec-ad73-ccede3a74ce5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e277e483-ca06-48ec-ad73-ccede3a74ce5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:22:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM serving",
+    "attention parallelism",
+    "tensor parallelism",
+    "context parallelism",
+    "data-parallel attention",
+    "MLA",
+    "runtime switching",
+    "inference system"
+   ],
+   "field": "大语言模型推理系统",
+   "innovations": [
+    "提出注意力布局所有权模型，将权重放置与KV所有权解耦，导出DOP零冗余布局",
+    "设计基于discard/all-gather/all-to-all原语的层内重叠切换，中位开销<0.51%",
+    "构建转换感知调度器，在四种布局间动态选取最快布局，端到端吞吐提升1.3-1.73x"
+   ],
+   "benchmarks": [
+    "GLM-5.3 on B200",
+    "DeepSeek-V3.2 on H200",
+    "GLM-5.3-Flash on DCU/BW1000"
+   ]
+  }
+ }
 }

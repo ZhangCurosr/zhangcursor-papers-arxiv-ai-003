@@ -4,5 +4,32 @@
  "title": "ROUTING-SHOULD-PAY-FOR-ITSELF-SPARSE-SUPERVISION-FOR-ECONOMI",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-09-30 18:50:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f359389a-b234-4ab1-aa1f-67f75dddf5e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f359389a-b234-4ab1-aa1f-67f75dddf5e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:18:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM routing",
+    "sparse supervision",
+    "cost-aware routing",
+    "break-even analysis",
+    "adaptive acquisition",
+    "model selection"
+   ],
+   "field": "LLM 路由与高效推理",
+   "innovations": [
+    "提出 SA-BEP 和 SA-CR 监督摊销评估指标，将前置监督成本纳入路由经济评估",
+    "设计 SAVEROUTER 框架，通过 UCB 自适应采集与分层能力估计从稀疏反馈中学习路由策略",
+    "证明决策充分性理论：估计误差小于决策边际时路由决策不变，为稀疏监督提供理论基础"
+   ],
+   "benchmarks": [
+    "LLMRouterBench",
+    "Mixinstruct",
+    "MMR-Bench",
+    "RouterBench"
+   ]
+  }
+ }
 }

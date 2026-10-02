@@ -4,5 +4,31 @@
  "title": "SKILLLITE-EVIDENCE-GUIDED-MALICIOUS-SKILL-AUDITING-WITH-COMP",
  "token": "sk-0Q9KcIM9N...",
  "created_at": "2026-09-30 08:09:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1764a39e-ddcb-41c3-8c79-d3d3dc82cbde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1764a39e-ddcb-41c3-8c79-d3d3dc82cbde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:21:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Skill安全审计",
+    "紧凑LLM",
+    "恶意代码检测",
+    "供应链安全",
+    "证据引导推理",
+    "LLM agent安全"
+   ],
+   "field": "AI Agent安全与漏洞检测",
+   "innovations": [
+    "证据外置+LLM专注裁决的解耦审计范式，显著降低紧凑LLM推理负担",
+    "引入功能规格P=(g,C_exp)作为风险判定的语义参照系",
+    "四层协作Agentic架构在三个基准上实现最优F1并保持<30秒延迟"
+   ],
+   "benchmarks": [
+    "MalSkillBench",
+    "SkillTrustBench",
+    "MaliciousAgentSkillsBench (MASB)"
+   ]
+  }
+ }
 }

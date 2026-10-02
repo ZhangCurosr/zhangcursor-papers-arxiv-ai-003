@@ -4,5 +4,32 @@
  "title": "SKILLGYM-TRAINING-SKILL-USE-AGENTS-WITH-AU-TOMATIC-VERIFIABL",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-30 08:01:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/678dc07d-13d7-483b-a8d7-9502b67fdc4f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/678dc07d-13d7-483b-a8d7-9502b67fdc4f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:21:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "skill-use agents",
+    "synthetic data generation",
+    "supervised finetuning",
+    "agent skills",
+    "environment synthesis",
+    "builder-reviewer pipeline"
+   ],
+   "field": "智能体技能学习",
+   "innovations": [
+    "提出SkillGym自动化管道，将社区技能转化为可验证任务并训练技能使用能力",
+    "通过builder-reviewer双智能体系统构建覆盖四种推理结构的技能关键任务",
+    "证明SFT训练主要提升智能体查阅技能的倾向，且泛化至未见过的技能与推理结构"
+   ],
+   "benchmarks": [
+    "SkillGym test set",
+    "SkillEval",
+    "SkillsBench",
+    "Skill-Use-Bench"
+   ]
+  }
+ }
 }

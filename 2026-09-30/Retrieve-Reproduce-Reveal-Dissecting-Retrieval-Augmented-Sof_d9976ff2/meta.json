@@ -4,5 +4,31 @@
  "title": "Retrieve-Reproduce-Reveal-Dissecting-Retrieval-Augmented-Sof",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-09-30 18:50:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/361b9783-9d08-4573-8230-9a1f5c0cc3a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/361b9783-9d08-4573-8230-9a1f5c0cc3a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:19:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "软件漏洞检测",
+    "检索增强生成",
+    "大语言模型",
+    "复现性",
+    "基准测试",
+    "组件分析"
+   ],
+   "field": "软件安全与大模型结合",
+   "innovations": [
+    "首个开源RAG4SVD系统的统一复现与跨系统可比基准",
+    "输入抽象-知识检索-检测三阶段组件级解剖分析框架",
+    "揭示组件对齐优于单一扩展的RAG评估新范式"
+   ],
+   "benchmarks": [
+    "PrimeVul Paired",
+    "PairVul",
+    "UniVul"
+   ]
+  }
+ }
 }

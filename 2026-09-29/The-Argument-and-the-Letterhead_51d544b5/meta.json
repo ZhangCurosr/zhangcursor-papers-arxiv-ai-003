@@ -4,5 +4,31 @@
  "title": "The-Argument-and-the-Letterhead",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-09-29 08:04:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a0dd3fee-50c1-4f34-bea7-d5ffc9320d8c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a0dd3fee-50c1-4f34-bea7-d5ffc9320d8c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:18:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "source attribution bias",
+    "LLM evaluation",
+    "source-position coherence",
+    "AI alignment",
+    "preregistered study",
+    "crossed comparison design"
+   ],
+   "field": "AI评估与对齐",
+   "innovations": [
+    "交叉比较设计隔离来源-立场一致性偏差",
+    "发现推理功能开启不消除来源偏差",
+    "三话题多模型稳定复现来源敏感性效应"
+   ],
+   "benchmarks": [
+    "US AI policy (national security vs. civil rights)",
+    "German debt brake (reform vs. retain)",
+    "Swiss nuclear energy (pro-nuclear vs. phase-out)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "SELFSEARCH-REWARD-FREE-SEARCH-FOR-SELF-IMPROVING-AGENTS",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-30 18:49:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/53e8b8f3-7c1e-4abc-b9b6-5f5745005227.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/53e8b8f3-7c1e-4abc-b9b6-5f5745005227.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:20:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Self-Improving Agents",
+    "Reward-Free Search",
+    "LLM Agent",
+    "Self-Modification",
+    "Agent Harness"
+   ],
+   "field": "自改进智能体",
+   "innovations": [
+    "提出无下游评估的自我改进搜索方法 SelfSearch，以 episode 记录替代任务分数作为改进信号",
+    "双谱系（capability/adaptive）并行改进并共享历史记录，实现跨谱系工具复用",
+    "以仅$4.03搜索成本在Terminal-Bench 2.1达到82.0%成功率，匹敌公开SOTA harness"
+   ],
+   "benchmarks": [
+    "SWE-bench Verified",
+    "SWE-bench Multilingual",
+    "Terminal-Bench 2.1"
+   ]
+  }
+ }
 }

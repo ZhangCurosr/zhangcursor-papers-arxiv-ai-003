@@ -4,5 +4,30 @@
  "title": "SEEK-BEFORE-YOU-MOVE-EVIDENCE-SEEKING-FOR-PROGRESS-GROUNDING",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-30 18:51:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/091eae5d-704f-44f7-b7eb-99b54add47c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/091eae5d-704f-44f7-b7eb-99b54add47c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:19:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Navigation",
+    "Progress Grounding",
+    "Evidence Seeking",
+    "Reinforcement Learning",
+    "Counterfactual Policy Optimization",
+    "Embodied AI"
+   ],
+   "field": "具身视觉语言导航",
+   "innovations": [
+    "提出双模式导航框架实现主动证据获取以解决进展近视问题",
+    "设计FRG逆向生成方法从离线专家轨迹构建证据寻求先验数据集",
+    "引入C2PO反事实对比信用分配机制联合优化寻求决策与导航"
+   ],
+   "benchmarks": [
+    "R2R-CE Val-Unseen",
+    "RxR-CE Val-Unseen"
+   ]
+  }
+ }
 }

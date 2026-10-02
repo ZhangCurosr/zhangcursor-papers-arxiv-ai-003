@@ -4,5 +4,28 @@
  "title": "Risk-Aware-Semantic-Grounding-for-Trustworthy-LLM-Based-Robo",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-09-30 18:50:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e50ccf07-dafc-49ce-91cf-88d9de745742.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e50ccf07-dafc-49ce-91cf-88d9de745742.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:19:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-based robot planning",
+    "semantic grounding",
+    "trustworthy AI",
+    "risk assessment",
+    "navigation benchmark"
+   ],
+   "field": "具身智能与语言导航",
+   "innovations": [
+    "将可信机器人规划表述为多维度风险估计问题，分离接地可靠性评估与计划生成",
+    "提出硬阈值+软阈值结合的风险感知决策层，实现执行/澄清/拒绝三级响应",
+    "构建TRUST-NAV基准测试，同时评估标准导航性能与风险场景下的可信决策能力"
+   ],
+   "benchmarks": [
+    "TRUST-NAV"
+   ]
+  }
+ }
 }

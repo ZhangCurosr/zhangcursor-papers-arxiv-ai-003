@@ -4,5 +4,10 @@
  "title": "WeaveData-A-Multimodal-Data-Analysis-System-with-Self-Critiq",
  "token": "sk-gFvvi8BZy...",
  "created_at": "2026-09-29 19:09:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3b7c11ab-56d1-470e-91be-79caa0295be0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3b7c11ab-56d1-470e-91be-79caa0295be0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:18:44",
+  "chunks": 1
+ }
 }

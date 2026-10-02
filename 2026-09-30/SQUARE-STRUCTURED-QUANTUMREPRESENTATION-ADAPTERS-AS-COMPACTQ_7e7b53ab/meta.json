@@ -4,5 +4,32 @@
  "title": "SQUARE-STRUCTURED-QUANTUMREPRESENTATION-ADAPTERS-AS-COMPACTQ",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-09-30 08:08:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f93d369f-39af-4e44-9009-44235eea151a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f93d369f-39af-4e44-9009-44235eea151a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:22:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "冻结语言模型",
+    "参数高效适配",
+    "量子特征映射",
+    "二次交互建模",
+    "幅度编码",
+    "PennyLane",
+    "GLUE基准"
+   ],
+   "field": "冻结LM下游适配器与结构化特征映射",
+   "innovations": [
+    "共享酉矩阵生成耦合归一化二次特征族，以少量电路参数约束O(d^2)交互系数",
+    "电路训练与精确经典PyTorch部署相结合的混合范式",
+    "机制匹配控制实验证明系数结构约束优于独立参数化二次模型"
+   ],
+   "benchmarks": [
+    "GLUE-derived controlled interaction classification",
+    "Alpaca candidate reranking",
+    "MNLI 2D decision boundary"
+   ]
+  }
+ }
 }

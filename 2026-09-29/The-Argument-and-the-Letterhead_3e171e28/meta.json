@@ -4,5 +4,33 @@
  "title": "The-Argument-and-the-Letterhead",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-09-29 19:08:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a0dd3fee-50c1-4f34-bea7-d5ffc9320d8c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a0dd3fee-50c1-4f34-bea7-d5ffc9320d8c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:17:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "source-position coherence bias",
+    "LLM evaluation",
+    "source attribution",
+    "crossed design",
+    "AI-assisted research",
+    "preregistration",
+    "interaction effect"
+   ],
+   "field": "AI评估偏差与可解释性",
+   "innovations": [
+    "2来源×2文本交叉设计分离additive preference与content-dependent bias",
+    "跨三议题（美/德/瑞）复现来源-立场一致性偏差",
+    "AI辅助研究的人类责任可追溯框架（greCAPTCHA应用）"
+   ],
+   "benchmarks": [
+    "Sonnet 4.5 US CP-CR I=-0.319 p<1e-36",
+    "Gemini Flash US CP-CR I=-0.449",
+    "Sol Germany GJ-JL I=+0.179",
+    "Jev Europe all |I|<0.05"
+   ]
+  }
+ }
 }

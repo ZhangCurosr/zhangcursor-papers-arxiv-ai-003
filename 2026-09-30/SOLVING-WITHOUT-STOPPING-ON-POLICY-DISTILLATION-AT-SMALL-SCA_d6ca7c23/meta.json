@@ -4,5 +4,33 @@
  "title": "SOLVING-WITHOUT-STOPPING-ON-POLICY-DISTILLATION-AT-SMALL-SCA",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-09-30 08:05:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3df8ca3f-75f6-499e-b2b7-880788a20e2d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3df8ca3f-75f6-499e-b2b7-880788a20e2d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:21:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "small language models",
+    "long reasoning",
+    "thinking mode",
+    "stopping behavior",
+    "knowledge distillation",
+    "math reasoning"
+   ],
+   "field": "小模型推理增强",
+   "innovations": [
+    "发现 on-policy distillation 在 thinking 模式下不教停止而是过滤已有停止，最小学生几乎丧失停止能力",
+    "提出求解能力与停止能力的解耦诊断框架，将 p@1 变化归因至 answer/accuracy/stop 三个维度",
+    "量化 on-policy distillation 的两个天花板：学生自身 reach(p@n) 和教师性能比例，并系统测量 across 尺寸与模式"
+   ],
+   "benchmarks": [
+    "AIME 2026",
+    "AMC23",
+    "GSM8K-200",
+    "DAPO-Math-17k"
+   ]
+  }
+ }
 }

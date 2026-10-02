@@ -4,5 +4,33 @@
  "title": "VSTRESS-CORRELATION-AWARE-AUDITING-ANDADAPTIVE-BUDGET-ALLOCA",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-09-30 08:04:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/659c361b-b0a5-4210-94a6-d381f059f34f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/659c361b-b0a5-4210-94a6-d381f059f34f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:28:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "verifier auditing",
+    "correlation-aware allocation",
+    "conditional mutual information",
+    "repeated verification",
+    "adaptive budget",
+    "RLVR",
+    "selective prediction"
+   ],
+   "field": "大模型验证器与可解释聚合",
+   "innovations": [
+    "提出先决策后审计的可回放合约 VSTRESS，防止事后评分污染在线投票",
+    "以条件边际判别力 I(Y;Vj|Vs) 作为通道选择的在线采集信号，替代模型身份代理",
+    "VSTRESS-CA 策略在固定预算下联合优化质量-覆盖-成本前沿，并提供依赖漂移保守回退"
+   ],
+   "benchmarks": [
+    "GSM8K fixture (512 records, 7 seeds)",
+    "Periodic binary oracle controlled study",
+    "Repeated real-verifier held-out evaluation",
+    "Downstream RLVR task score"
+   ]
+  }
+ }
 }

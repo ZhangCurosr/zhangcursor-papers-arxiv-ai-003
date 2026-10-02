@@ -4,5 +4,31 @@
  "title": "VIDEO2STL-GROUNDING-VLM-GENERATED-TEMPO-RAL-SPECIFICATIONS-F",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-30 18:50:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a7cec984-0245-4b06-8c68-2573c2eb2b38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a7cec984-0245-4b06-8c68-2573c2eb2b38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:27:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Signal Temporal Logic",
+    "VLM",
+    "reward shaping",
+    "cross-embodiment transfer",
+    "reinforcement learning",
+    "robot manipulation",
+    "locomotion"
+   ],
+   "field": "具身智能与机器人强化学习",
+   "innovations": [
+    "两阶段VLM从视频提取实体无关语义轨迹并生成参数化STL规范库",
+    "保号Boltzmann平滑STL语义以保持逻辑满足边界",
+    "两时间尺度奖励：短时滚动窗口稠密鲁棒性与长时因果进度奖励"
+   ],
+   "benchmarks": [
+    "ManiSkill3",
+    "Barkour quadruped locomotion"
+   ]
+  }
+ }
 }

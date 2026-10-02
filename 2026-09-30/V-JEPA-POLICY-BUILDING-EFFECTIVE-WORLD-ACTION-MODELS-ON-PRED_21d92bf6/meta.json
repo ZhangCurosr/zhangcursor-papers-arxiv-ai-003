@@ -4,5 +4,32 @@
  "title": "V-JEPA-POLICY-BUILDING-EFFECTIVE-WORLD-ACTION-MODELS-ON-PRED",
  "token": "sk-KgtqP1w4p...",
  "created_at": "2026-09-30 08:00:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/58186ff5-4c3a-4148-b545-b3abf7add3ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/58186ff5-4c3a-4148-b545-b3abf7add3ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:26:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "世界动作模型",
+    "预测性视觉表征",
+    "V-JEPA",
+    "视觉-语言-动作策略",
+    "机器人模仿学习",
+    "分布偏移泛化"
+   ],
+   "field": "视觉-语言-动作（VLA）模型与世界模型",
+   "innovations": [
+    "在冻结 V-JEPA 预测性视觉潜在空间上从零联合训练预测器与流匹配动作专家，无需继承预训练视觉生成模型",
+    "通过层级 future-informed context interface 将预测监督与动作监督联合优化，实现未来建模直接塑造动作生成",
+    "在 DROID 视频-指令对上进行无动作标签的 predictor-only pretraining，显著迁移未来建模知识到下游控制任务"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "LIBERO-Plus",
+    "RoboCasa-GR1",
+    "TianJi Marvin 真实双臂平台"
+   ]
+  }
+ }
 }

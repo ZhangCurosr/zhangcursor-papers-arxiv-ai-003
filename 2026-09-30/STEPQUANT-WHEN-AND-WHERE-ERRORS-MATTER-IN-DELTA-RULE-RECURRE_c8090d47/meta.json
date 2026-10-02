@@ -4,5 +4,35 @@
  "title": "STEPQUANT-WHEN-AND-WHERE-ERRORS-MATTER-IN-DELTA-RULE-RECURRE",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-30 07:58:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f392c353-6543-4573-bcc4-1f506822b04c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f392c353-6543-4573-bcc4-1f506822b04c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:24:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recurrent state quantization",
+    "post-training quantization",
+    "gated delta networks",
+    "linear attention",
+    "mixed-precision quantization",
+    "SGLang serving"
+   ],
+   "field": "高效 LLM 推理与量化",
+   "innovations": [
+    "提出时空双维误差分析框架，揭示 Delta-rule 循环状态量化误差的时间累积与空间非均匀性",
+    "设计 Lifetime-aware Bit Allocation 实现基于记忆寿命的混合精度位分配",
+    "提出 Key-Row-Aware Dual-axis Fitting 将 readout impact 嵌入双轴尺度拟合"
+   ],
+   "benchmarks": [
+    "Live-CodeBench v6",
+    "AIME 2026",
+    "MATH-500",
+    "GPQA Diamond",
+    "HMMT Feb 2026",
+    "MMLU",
+    "ARC-C"
+   ]
+  }
+ }
 }

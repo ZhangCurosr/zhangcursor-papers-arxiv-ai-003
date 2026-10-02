@@ -4,5 +4,32 @@
  "title": "Thinking-Before-Thinking-Scaling-Agentic-Inference-Through-M",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-30 07:58:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2425846d-2498-4c46-9654-50f0d3803b7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2425846d-2498-4c46-9654-50f0d3803b7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:25:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agentic meta-reasoning",
+    "inference-time computation",
+    "agent orchestration",
+    "artifact graph",
+    "metacognitive control",
+    "test-time scaling"
+   ],
+   "field": "Agentic AI / Inference-time Computation",
+   "innovations": [
+    "将控制决策与任务计算分离的四阶段meta-reasoning框架",
+    "artifact graph诊断方法量化coverage/selection/decomposition",
+    "Direct Control Agent对照实验精准隔离控制设计价值"
+   ],
+   "benchmarks": [
+    "IMO ProofBench-Advanced",
+    "ARC-AGI-2",
+    "LongCoT-mini",
+    "ProgramBench"
+   ]
+  }
+ }
 }

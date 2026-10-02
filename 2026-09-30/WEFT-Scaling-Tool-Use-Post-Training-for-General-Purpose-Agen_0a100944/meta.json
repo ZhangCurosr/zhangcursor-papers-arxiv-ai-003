@@ -4,5 +4,34 @@
  "title": "WEFT-Scaling-Tool-Use-Post-Training-for-General-Purpose-Agen",
  "token": "sk-ctUtc5ulp...",
  "created_at": "2026-09-30 08:04:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/da8e3c95-b68d-41ed-9706-df245d95d09f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/da8e3c95-b68d-41ed-9706-df245d95d09f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:29:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "工具使用后训练",
+    "智能体交互系统",
+    "执行驱动自进化",
+    "强化学习",
+    "MCP协议",
+    "信用分配",
+    "MegaMCP"
+   ],
+   "field": "工具使用后训练",
+   "innovations": [
+    "提出WEFT框架，将工具使用后训练从单一环境扩展到完整智能体交互系统",
+    "开发执行驱动自进化机制，利用执行痕迹迭代改进环境、任务和验证器",
+    "设计前缀保留重采样拒绝和原子轮次信用分配等稳定后训练技术"
+   ],
+   "benchmarks": [
+    "BFCL V4",
+    "τ²-Bench",
+    "Claw-Eval",
+    "Toolathlon-Verified",
+    "AutomationBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "V-Engram-Trigger-Indexed-External-Memory-for-Modular-Text-to",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-09-30 18:52:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a11478cf-d247-441c-a847-42ea5dcb4195.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a11478cf-d247-441c-a847-42ea5dcb4195.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:26:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-image personalization",
+    "trigger-indexed memory",
+    "external memory",
+    "gated residual injection",
+    "Stable Diffusion 3.5",
+    "MMDiT",
+    "parameter-efficient adaptation"
+   ],
+   "field": "文生图个性化与概念编辑",
+   "innovations": [
+    "触发器索引的外部记忆注册表，通过精确 token-id n-gram 匹配实现确定性概念寻址",
+    "门控相对残差注入机制，方向向量+tanh门控+detach隐藏范数缩放以实现稳定选择性条件化",
+    "冻结主干+层-wise记忆挂载的MMDiT适配范式，支持matched loading与多概念组合"
+   ],
+   "benchmarks": [
+    "Google DreamBooth 15-subject",
+    "Celebrity-1000 familiar identity refinement",
+    "Same-class dog disambiguation"
+   ]
+  }
+ }
 }

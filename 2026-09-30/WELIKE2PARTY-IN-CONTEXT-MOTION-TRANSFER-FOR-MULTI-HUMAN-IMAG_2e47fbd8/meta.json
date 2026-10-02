@@ -4,5 +4,31 @@
  "title": "WELIKE2PARTY-IN-CONTEXT-MOTION-TRANSFER-FOR-MULTI-HUMAN-IMAG",
  "token": "sk-ae40QN0Hy...",
  "created_at": "2026-09-30 18:52:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2b22240f-c8da-484e-82f0-643f89fd8168.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2b22240f-c8da-484e-82f0-643f89fd8168.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:29:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-human image animation",
+    "in-context conditioning",
+    "motion transfer",
+    "identity-motion binding",
+    "synthetic dataset",
+    "Rotary Position Embedding"
+   ],
+   "field": "多主体图像动画与身份保持",
+   "innovations": [
+    "RARC: 高分辨率参考的分数 RoPE 坐标映射保持 pretrained 空间分布",
+    "IBS: 基于实例掩码的 target-reference 注意力身份绑定监督",
+    "MotionTwin: 同构同相机跨身份合成配对数据集与 IAA 绑定基准"
+   ],
+   "benchmarks": [
+    "MotionTwin-Bench",
+    "VBench",
+    "VBench++"
+   ]
+  }
+ }
 }

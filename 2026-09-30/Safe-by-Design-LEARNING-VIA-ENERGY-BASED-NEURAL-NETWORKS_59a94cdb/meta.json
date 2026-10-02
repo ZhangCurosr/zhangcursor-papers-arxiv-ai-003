@@ -4,5 +4,35 @@
  "title": "Safe-by-Design-LEARNING-VIA-ENERGY-BASED-NEURAL-NETWORKS",
  "token": "sk-hGbDG10SO...",
  "created_at": "2026-09-30 18:52:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/25ba97c2-58f3-4122-9e1a-39b1405b271e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/25ba97c2-58f3-4122-9e1a-39b1405b271e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:25:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "port-Hamiltonian neural ODE",
+    "energy-based model",
+    "modern Hopfield network",
+    "safe-by-design",
+    "robust invariant set",
+    "barrier function certificate",
+    "nonlinear system identification",
+    "Polyak-Lojasiewicz condition"
+   ],
+   "field": "安全关键机器学习",
+   "innovations": [
+    "将现代Hopfield能量嵌入端口哈密顿框架，同时保证全局强制性和非凸表达力",
+    "从学习到的Hamiltonian直接导出逐点输入容许集和整体鲁棒半径的形式化证明",
+    "利用局部PL条件建立优化几何与鲁棒安全边界的定量联系"
+   ],
+   "benchmarks": [
+    "Silverbox",
+    "CED",
+    "Duffing double-well",
+    "n-link pendulum",
+    "NanoDrone"
+   ]
+  }
+ }
 }

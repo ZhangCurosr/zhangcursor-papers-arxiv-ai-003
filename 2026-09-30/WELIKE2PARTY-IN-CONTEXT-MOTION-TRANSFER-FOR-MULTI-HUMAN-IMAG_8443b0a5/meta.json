@@ -4,5 +4,10 @@
  "title": "WELIKE2PARTY-IN-CONTEXT-MOTION-TRANSFER-FOR-MULTI-HUMAN-IMAG",
  "token": "sk-ae40QN0Hy...",
  "created_at": "2026-09-30 08:10:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6591fd8a-804a-4d88-993a-d6c57c75fb6b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6591fd8a-804a-4d88-993a-d6c57c75fb6b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:29:37",
+  "chunks": 1
+ }
 }

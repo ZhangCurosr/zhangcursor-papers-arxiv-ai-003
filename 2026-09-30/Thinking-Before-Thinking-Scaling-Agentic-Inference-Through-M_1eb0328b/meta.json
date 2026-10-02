@@ -4,5 +4,32 @@
  "title": "Thinking-Before-Thinking-Scaling-Agentic-Inference-Through-M",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-30 18:49:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2425846d-2498-4c46-9654-50f0d3803b7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2425846d-2498-4c46-9654-50f0d3803b7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:26:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agentic meta-reasoning",
+    "test-time scaling",
+    "artifact graph",
+    "metacognitive control",
+    "program synthesis",
+    "inference-time computation",
+    "agent orchestration"
+   ],
+   "field": "Agentic 智能体推理与元认知控制",
+   "innovations": [
+    "将控制决策显式结构化为四阶段元推理循环（Assess–Propose–Evaluate–Dispatch），与对象级计算彻底分离",
+    "提出 Artifact Graph 与覆盖/监控/选择三维诊断框架，把单一最终分数拆解为可归因过程指标"
+   ],
+   "benchmarks": [
+    "ProgramBench",
+    "IMO ProofBench-Advanced",
+    "ARC-AGI-2",
+    "LongCoT-mini"
+   ]
+  }
+ }
 }

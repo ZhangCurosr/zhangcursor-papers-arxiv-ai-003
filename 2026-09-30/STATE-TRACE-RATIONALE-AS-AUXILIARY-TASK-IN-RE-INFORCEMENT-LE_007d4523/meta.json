@@ -4,5 +4,33 @@
  "title": "STATE-TRACE-RATIONALE-AS-AUXILIARY-TASK-IN-RE-INFORCEMENT-LE",
  "token": "sk-F3sFpZ8ji...",
  "created_at": "2026-09-30 18:51:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8ae72495-6272-4a73-80e4-a2b6a1141830.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8ae72495-6272-4a73-80e4-a2b6a1141830.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:24:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "auxiliary task",
+    "reinforcement learning",
+    "state representation",
+    "language rationale",
+    "sample efficiency",
+    "sparse reward",
+    "explainability"
+   ],
+   "field": "强化学习与表示学习",
+   "innovations": [
+    "提出STRAT辅助任务，基于人类空间导航知识在线生成结构化状态文本描述",
+    "证明三类导航知识（landmark/route/survey）联合对稀疏奖励下表征透明与不坍缩至关重要",
+    "用MDL探针与表征容量指标系统化评估辅助任务对解释性的增益"
+   ],
+   "benchmarks": [
+    "XLand-MiniGrid",
+    "small-1m",
+    "medium-1m",
+    "high-1m"
+   ]
+  }
+ }
 }

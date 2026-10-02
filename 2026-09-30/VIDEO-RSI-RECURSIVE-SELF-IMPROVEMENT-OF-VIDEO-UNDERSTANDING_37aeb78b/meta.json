@@ -4,5 +4,10 @@
  "title": "VIDEO-RSI-RECURSIVE-SELF-IMPROVEMENT-OF-VIDEO-UNDERSTANDING",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-30 18:50:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/09592f56-4362-46a6-9297-d13adeafbb2d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/09592f56-4362-46a6-9297-d13adeafbb2d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:27:06",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Safe-by-Design-LEARNING-VIA-ENERGY-BASED-NEURAL-NETWORKS",
  "token": "sk-hGbDG10SO...",
  "created_at": "2026-09-30 08:17:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/25ba97c2-58f3-4122-9e1a-39b1405b271e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/25ba97c2-58f3-4122-9e1a-39b1405b271e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:25:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "port-Hamiltonian",
+    "energy-based models",
+    "safe learning",
+    "neural ODEs",
+    "barrier certificates",
+    "system identification",
+    "nonlinear dynamics"
+   ],
+   "field": "安全关键的动态系统学习",
+   "innovations": [
+    "将现代Hopfield能量与端口哈密顿ODE结合，分离强制有界性与非凸表达能力",
+    "从学习能量直接推导显式状态依赖允许输入集与全局鲁棒半径",
+    "提出基于法向耗散、壳陡峭度与输入暴露的可解释几何下界"
+   ],
+   "benchmarks": [
+    "Silverbox",
+    "CED",
+    "Duffing double-well",
+    "n-link pendulum",
+    "NanoDrone"
+   ]
+  }
+ }
 }

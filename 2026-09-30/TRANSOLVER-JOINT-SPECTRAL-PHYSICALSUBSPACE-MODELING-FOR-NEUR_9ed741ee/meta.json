@@ -4,5 +4,36 @@
  "title": "TRANSOLVER-JOINT-SPECTRAL-PHYSICALSUBSPACE-MODELING-FOR-NEUR",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-09-30 08:12:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/66bf5867-721e-46ae-8eb4-7d230b34c536.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/66bf5867-721e-46ae-8eb4-7d230b34c536.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:25:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural PDE solver",
+    "spectral-physical modeling",
+    "autoregressive rollout",
+    "slice-residual attention",
+    "axis-factorized Fourier",
+    "RealPDEBench",
+    "multiphysics"
+   ],
+   "field": "神经算子与偏微分方程求解",
+   "innovations": [
+    "联合谱-物理双子空间并行建模+逐块SwiGLU重组",
+    "SRPA残差式切片注意力更新保留状态多样性",
+    "轴因子化谱算子适配深层backbone抑制rollout漂移"
+   ],
+   "benchmarks": [
+    "Darcy",
+    "Navier-Stokes 2D",
+    "Kolmogorov Flow 2D",
+    "3D Isotropic Turbulence",
+    "3D Smoke Buoyancy",
+    "RealPDEBench",
+    "REALM IgnitHIT/EvolveJet"
+   ]
+  }
+ }
 }

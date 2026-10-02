@@ -4,5 +4,33 @@
  "title": "STATE-TRACE-RATIONALE-AS-AUXILIARY-TASK-IN-RE-INFORCEMENT-LE",
  "token": "sk-F3sFpZ8ji...",
  "created_at": "2026-09-30 08:04:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8ae72495-6272-4a73-80e4-a2b6a1141830.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8ae72495-6272-4a73-80e4-a2b6a1141830.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:24:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "强化学习",
+    "辅助任务",
+    "稀疏奖励",
+    "可解释表征",
+    "Transformer-XL",
+    "语言辅助RL",
+    "XLand-MiniGrid"
+   ],
+   "field": "稀疏奖励强化学习",
+   "innovations": [
+    "STRAT辅助任务：从环境规则在线生成五元组状态轨迹文本监督信号，联合PPO训练",
+    "基于critic值变化的动作进展信号替代几何距离",
+    "通过MDL与表示容量指标联合验证STRAT表征的可解释性与抗坍缩能力"
+   ],
+   "benchmarks": [
+    "XLand-MiniGrid",
+    "small-1m",
+    "medium-1m",
+    "high-1m"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "VIDEO-RSI-RECURSIVE-SELF-IMPROVEMENT-OF-VIDEO-UNDERSTANDING",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-30 07:59:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/158cf682-d8b4-4ac7-929f-852ee7bc5c21.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/158cf682-d8b4-4ac7-929f-852ee7bc5c21.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:26:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video understanding",
+    "agent harness self-improvement",
+    "frozen model evolution",
+    "active investigation",
+    "accuracy-cost trade-off"
+   ],
+   "field": "视频理解与智能体系统",
+   "innovations": [
+    "提出 Video-RSI 框架，以同一冻结 LLM 同时担任 Solver 与 Editor 实现 harness 自改进",
+    "引入主动视频调查与成本感知选择门控的双目标演化循环",
+    "在多基准验证精度-效率权衡，并在 MLVU 较基线提升 4.8pp 同时降帧 27.2%"
+   ],
+   "benchmarks": [
+    "MLVU Test",
+    "LongVideoBench",
+    "Video-MME Long",
+    "EgoSchema"
+   ]
+  }
+ }
 }

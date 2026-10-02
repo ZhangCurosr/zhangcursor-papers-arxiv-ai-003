@@ -4,5 +4,31 @@
  "title": "V-JEPA-POLICY-BUILDING-EFFECTIVE-WORLD-ACTION-MODELS-ON-PRED",
  "token": "sk-KgtqP1w4p...",
  "created_at": "2026-09-30 18:51:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c3cf214e-1c08-43a8-a342-cdd443507996.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c3cf214e-1c08-43a8-a342-cdd443507996.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:26:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world-action model",
+    "V-JEPA",
+    "predictive visual latent",
+    "flow matching",
+    "robot policy",
+    "distribution shift"
+   ],
+   "field": "视觉-语言-动作模型与机器人学习",
+   "innovations": [
+    "在冻结的V-JEPA预测性潜空间上从零联合训练未来预测器与flow-matching动作专家，无需继承完整视觉生成模型",
+    "预测器-only在DROID视频-指令对上的无动作监督预训练可显著迁移至下游控制并提升分布外泛化"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "LIBERO-Plus",
+    "RoboCasa-GR1",
+    "TianJi Marvin 双臂真实平台"
+   ]
+  }
+ }
 }

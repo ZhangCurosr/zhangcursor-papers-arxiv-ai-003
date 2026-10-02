@@ -4,5 +4,34 @@
  "title": "WEFT-Scaling-Tool-Use-Post-Training-for-General-Purpose-Agen",
  "token": "sk-ctUtc5ulp...",
  "created_at": "2026-09-30 18:52:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/da8e3c95-b68d-41ed-9706-df245d95d09f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/da8e3c95-b68d-41ed-9706-df245d95d09f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:29:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool-use post-training",
+    "agent interaction system",
+    "execution-driven self-evolution",
+    "atomic-turn credit assignment",
+    "prefix-preserving rejection sampling",
+    "MegaMCP",
+    "reinforcement learning for agents"
+   ],
+   "field": "Agent Post-Training",
+   "innovations": [
+    "将整个agent交互系统（环境、任务、harness、评估器）纳入scaling范畴，通过执行驱动的自演化协同改进各组件",
+    "提出atomic-turn group-relative credit assignment，在同源同状态下采样多segment计算细粒度学习信号",
+    "设计prefix-preserving rejection sampling，以原子turn为粒度保留已验证进度并局部重采样"
+   ],
+   "benchmarks": [
+    "BFCL V4",
+    "τ²-Bench",
+    "Claw-Eval",
+    "Toolathlon-Verified",
+    "AutomationBench"
+   ]
+  }
+ }
 }

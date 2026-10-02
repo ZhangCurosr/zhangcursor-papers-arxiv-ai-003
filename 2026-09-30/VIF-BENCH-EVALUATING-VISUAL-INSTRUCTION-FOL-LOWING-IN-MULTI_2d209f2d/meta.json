@@ -4,5 +4,29 @@
  "title": "VIF-BENCH-EVALUATING-VISUAL-INSTRUCTION-FOL-LOWING-IN-MULTI",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-30 18:51:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2871f0d6-bb70-4a36-a094-85db96b7592b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2871f0d6-bb70-4a36-a094-85db96b7592b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:27:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉指令遵循",
+    "多参考图像生成",
+    "可控生成评测",
+    "VLM-as-Judge",
+    "指令-参考冲突",
+    "遵循-伪影权衡"
+   ],
+   "field": "可控图像生成评测",
+   "innovations": [
+    "首个支持多参考(最多7张)与多异构视觉指令(最多6种)联合评测的基准 VIF-Bench",
+    "引入参考-视觉指令冲突检测机制，定义朝向/光照/风/姿态四类冲突",
+    "揭示视觉指令遵循与指令残影之间的遵循-伪影权衡现象"
+   ],
+   "benchmarks": [
+    "VIF-Bench"
+   ]
+  }
+ }
 }

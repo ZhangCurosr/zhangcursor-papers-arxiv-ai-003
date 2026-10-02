@@ -4,5 +4,30 @@
  "title": "VIDEO2STL-GROUNDING-VLM-GENERATED-TEMPO-RAL-SPECIFICATIONS-F",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-30 07:59:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a7cec984-0245-4b06-8c68-2573c2eb2b38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a7cec984-0245-4b06-8c68-2573c2eb2b38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:27:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频驱动机器人学习",
+    "Signal Temporal Logic",
+    "VLM reward design",
+    "cross-embodiment transfer",
+    "temporal specification mining",
+    "smooth robustness"
+   ],
+   "field": "视觉引导机器人强化学习",
+   "innovations": [
+    "两阶段VLM管道将纯观察视频转换为可参数化STL规范库",
+    "保符号Boltzmann光滑近似使STL鲁棒性可微且保持逻辑边界",
+    "双时间尺度奖励：滚动窗口密集局部信号+因果前缀一次性里程碑信号"
+   ],
+   "benchmarks": [
+    "ManiSkill3 (PushCube, StackCube, LiftPegUpright, PlaceSphere)",
+    "Barkour quadruped locomotion (MJX simulator)"
+   ]
+  }
+ }
 }

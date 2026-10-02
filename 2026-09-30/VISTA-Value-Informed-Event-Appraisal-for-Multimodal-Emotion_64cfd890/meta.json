@@ -4,5 +4,34 @@
  "title": "VISTA-Value-Informed-Event-Appraisal-for-Multimodal-Emotion",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-09-30 18:51:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e8c25633-2a13-46c2-aad6-0fd2a843b4ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e8c25633-2a13-46c2-aad6-0fd2a843b4ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:27:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Emotion Recognition",
+    "Cross-Modal Conflict",
+    "Appraisal Theory",
+    "Modality Arbitration",
+    "Value-Informed Representation",
+    "Explainable Multimodal Learning",
+    "Conflicting Cues"
+   ],
+   "field": "多模态情感识别与跨模态冲突",
+   "innovations": [
+    "提出七字段评价接口分离情绪期望与线索诊断性，使模态仲裁条件化于事件情境意义",
+    "提供跨样本打乱、决策连接切断、外部解释改写等正交干预，定位评价接口的场景对应贡献",
+    "在 CA-MER/EmoMM/CH-SIMS v2/MELD/THERADIA 五个基准上验证冲突特异性提升与评价表示可读出性"
+   ],
+   "benchmarks": [
+    "CA-MER",
+    "EmoMM",
+    "CH-SIMS v2",
+    "MELD",
+    "THERADIA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "VACE-Validation-Gated-Alternating-Co-Evolution-of-Agent-Mode",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-09-30 18:51:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f856e721-8954-40b1-9899-ce55445ca2da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f856e721-8954-40b1-9899-ce55445ca2da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:26:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic RL",
+    "Harness Optimization",
+    "Model-Harness Co-Evolution",
+    "Validation Gate",
+    "Qwen3.5",
+    "OfficeQA",
+    "AutomationBench",
+    "GRPO"
+   ],
+   "field": "Agent 系统与多组件协同优化",
+   "innovations": [
+    "提出验证门控交替协同演化框架，将 Agentic RL 与轨迹驱动 Harness 修订连接为闭环",
+    "在同一更新 checkpoint 上进行 paired 验证，严格改进门控决定是否采纳 Harness 修订",
+    "实证表明 38.6% 的 Harness 修订在当前 checkpoint 上会降低性能，支撑门控设计的必要性"
+   ],
+   "benchmarks": [
+    "OfficeQA",
+    "AutomationBench"
+   ]
+  }
+ }
 }

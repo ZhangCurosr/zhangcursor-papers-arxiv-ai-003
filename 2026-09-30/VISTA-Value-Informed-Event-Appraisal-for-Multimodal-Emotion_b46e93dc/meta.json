@@ -4,5 +4,33 @@
  "title": "VISTA-Value-Informed-Event-Appraisal-for-Multimodal-Emotion",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-09-30 08:02:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e8c25633-2a13-46c2-aad6-0fd2a843b4ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e8c25633-2a13-46c2-aad6-0fd2a843b4ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:28:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态情感识别",
+    "跨模态冲突",
+    "评价理论",
+    "事件 appraisal",
+    "模态仲裁",
+    "Qwen2.5-Omni"
+   ],
+   "field": "多模态情感理解与冲突鲁棒性",
+   "innovations": [
+    "情感期望-线索诊断性对数几率分解提供评价条件化解读理论动机",
+    "七字段事件评价接口显式编码关切/一致性/规范/表达调节并条件化模态权重",
+    "保留联合证据残差的仲裁架构实现冲突特异性增益 S=2.3pp"
+   ],
+   "benchmarks": [
+    "CA-MER",
+    "EmoMM",
+    "CH-SIMS v2.0",
+    "THERADIA",
+    "MELD"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "VLALIGHT-A-VISION-LANGUAGE-ACTION-MODELFOR-TRAFFIC-SIGNAL-CO",
  "token": "sk-pbKDuH2mM...",
  "created_at": "2026-09-30 18:52:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8dc407a7-cc86-4efe-b2f5-9ab3b19a8a1b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8dc407a7-cc86-4efe-b2f5-9ab3b19a8a1b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:28:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉-语言-动作模型",
+    "交通信号控制",
+    "端到端控制",
+    "合作感知",
+    "自适应推理"
+   ],
+   "field": "智能交通系统",
+   "innovations": [
+    "首个端到端VLA交通信号控制模型，直接从多视角路边视频到协调信号动作",
+    "拓扑感知合作感知机制与快慢推理自适应分配策略"
+   ],
+   "benchmarks": [
+    "Jinan交通数据集",
+    "Hangzhou交通数据集",
+    "New York曼哈顿上东城交通数据集"
+   ]
+  }
+ }
 }

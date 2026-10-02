@@ -4,5 +4,30 @@
  "title": "RELMEM-LEARNING-RECURRENT-MEMORY-FORLONGITUDINAL-EHR-MODELIN",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-09-30 18:50:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/52a26583-a57d-4bbd-bf2d-5536d8b1b0c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/52a26583-a57d-4bbd-bf2d-5536d8b1b0c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:18:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "纵向 EHR 建模",
+    "循环记忆",
+    "上下文压缩",
+    "大语言模型",
+    "医疗预测",
+    "多粒度优化"
+   ],
+   "field": "纵向电子健康记录建模",
+   "innovations": [
+    "提出固定容量循环记忆框架 ReLMem，首次将循环压缩适配纵向 EHR 场景",
+    "设计多粒度优化策略，通过中间注意力对齐与最终预测监督联合保持历史信息",
+    "引入课程学习缓解循环更新中的信息累积丢失问题"
+   ],
+   "benchmarks": [
+    "MIMIC-IV 药物预测",
+    "MIMIC-IV 诊断预测"
+   ]
+  }
+ }
 }

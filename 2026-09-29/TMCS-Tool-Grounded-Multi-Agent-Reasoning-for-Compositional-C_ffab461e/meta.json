@@ -4,5 +4,31 @@
  "title": "TMCS-Tool-Grounded-Multi-Agent-Reasoning-for-Compositional-C",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-09-29 08:04:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/55ef08e0-7841-42cf-8441-ad482ba8582a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/55ef08e0-7841-42cf-8441-ad482ba8582a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:13:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "化学推理",
+    "多智能体系统",
+    "分子优化",
+    "工具接地",
+    "受限反射",
+    "药物设计",
+    "大语言模型"
+   ],
+   "field": "AI for Science - 计算化学",
+   "innovations": [
+    "双层级工具接地多智能体框架：任务级迭代精炼+工作流级组合管道",
+    "受限反射机制：固定轮次+六类错误分类+针对性纠正提示",
+    "离线轨迹记忆库：规范去重防污染+精确关键词匹配检索"
+   ],
+   "benchmarks": [
+    "ChemLLMBench",
+    "ChemCoT-Bench"
+   ]
+  }
+ }
 }

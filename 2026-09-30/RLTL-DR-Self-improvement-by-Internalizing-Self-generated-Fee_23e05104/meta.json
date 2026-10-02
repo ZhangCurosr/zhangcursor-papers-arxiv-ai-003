@@ -4,5 +4,31 @@
  "title": "RLTL-DR-Self-improvement-by-Internalizing-Self-generated-Fee",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-09-30 18:50:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/dd1da5a6-9a05-44eb-adf6-e14b8f4864af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/dd1da5a6-9a05-44eb-adf6-e14b8f4864af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:18:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "self-improvement",
+    "reinforcement learning",
+    "insight internalization",
+    "GRPO",
+    "agent",
+    "tool calling"
+   ],
+   "field": "大语言模型强化学习与自我改进",
+   "innovations": [
+    "顺序自生成TL;DR洞察+任务到洞察的内部化SFT损失打破Pass@128=0学习停滞",
+    "发现仅用(task,insight)元组做SFT可恢复大部分RL性能形成SFTL;DR紧凑范式"
+   ],
+   "benchmarks": [
+    "Appworld",
+    "Synthetic-API",
+    "Leetcode"
+   ]
+  }
+ }
 }

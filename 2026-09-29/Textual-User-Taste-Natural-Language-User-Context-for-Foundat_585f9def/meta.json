@@ -4,5 +4,29 @@
  "title": "Textual-User-Taste-Natural-Language-User-Context-for-Foundat",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-09-29 07:58:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c7bede92-38eb-489a-aa13-bb1e8fb58727.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c7bede92-38eb-489a-aa13-bb1e8fb58727.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:14:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Textual User Profile",
+    "Recommender Systems",
+    "Foundation Model",
+    "User Representation",
+    "Production AI"
+   ],
+   "field": "推荐系统用户建模",
+   "innovations": [
+    "提出文本品味档案作为行为嵌入的互补型可解释、可操控生产表示",
+    "构建无真值场景下的多维度综合评估框架",
+    "实证揭示文本档案在下游任务中的互补价值及可控性边界"
+   ],
+   "benchmarks": [
+    "Future-track Prediction (MRR, AUC, NDCG@10)",
+    "Search Ranking (SessionNDCG@7)"
+   ]
+  }
+ }
 }

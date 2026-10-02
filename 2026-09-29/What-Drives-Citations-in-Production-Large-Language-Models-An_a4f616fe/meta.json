@@ -4,5 +4,30 @@
  "title": "What-Drives-Citations-in-Production-Large-Language-Models-An",
  "token": "sk-mtb2NN4Ja...",
  "created_at": "2026-09-29 08:06:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/326b9c9d-f05e-4c71-be8f-e30914ee0655.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/326b9c9d-f05e-4c71-be8f-e30914ee0655.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:16:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM citation analysis",
+    "generative engine optimization",
+    "observational study",
+    "double machine learning",
+    "stability selection",
+    "Simpson's paradox"
+   ],
+   "field": "大型语言模型引用行为分析",
+   "innovations": [
+    "首次发现提示词-内容对齐是生产环境中最强的页面级引用预测因子(β=+0.37, q≈10⁻⁷³)",
+    "揭示AEO结构化信号效应在控制域固定效应后消失的辛普森悖论现象",
+    "提出九方法共识协议作为观测性LLM研究的可复用验证框架"
+   ],
+   "benchmarks": [
+    "Discovered Labs AEO benchmarking platform",
+    "Four production engines: ChatGPT/Claude/Google AI Overviews/Gemini"
+   ]
+  }
+ }
 }

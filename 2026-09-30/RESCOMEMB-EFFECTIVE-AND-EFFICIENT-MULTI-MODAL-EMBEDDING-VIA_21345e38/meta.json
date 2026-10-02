@@ -4,5 +4,30 @@
  "title": "RESCOMEMB-EFFECTIVE-AND-EFFICIENT-MULTI-MODAL-EMBEDDING-VIA",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-09-30 08:06:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/03c7cbe4-71d5-45d5-84f4-6f49d1e61b8f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/03c7cbe4-71d5-45d5-84f4-6f49d1e61b8f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:18:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态 embedding",
+    "多向量检索",
+    "视觉 token 压缩",
+    "晚期交互匹配",
+    "Matryoshka 表示学习"
+   ],
+   "field": "多模态表征学习",
+   "innovations": [
+    "残差同质性压缩（RHC）显式分离粒度内冗余与粒度间重复",
+    "基于 MRL 的嵌套监督使任意前缀均保持语义有效性",
+    "长度自适应双向晚期交互匹配提升检索鲁棒性"
+   ],
+   "benchmarks": [
+    "MMEB",
+    "ViDoRe V1",
+    "ViDoRe V2"
+   ]
+  }
+ }
 }

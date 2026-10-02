@@ -4,5 +4,10 @@
  "title": "When-Valid-Tool-Calls-Change-Meaning-Formation-Consistent-Di",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-09-29 19:08:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/88f847b8-0641-4df3-b6cc-a9c635342233.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/88f847b8-0641-4df3-b6cc-a9c635342233.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:16:48",
+  "chunks": 1
+ }
 }

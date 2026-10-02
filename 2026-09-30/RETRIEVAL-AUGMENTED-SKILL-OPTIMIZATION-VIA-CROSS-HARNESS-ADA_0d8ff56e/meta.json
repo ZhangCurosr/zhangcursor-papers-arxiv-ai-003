@@ -4,5 +4,30 @@
  "title": "RETRIEVAL-AUGMENTED-SKILL-OPTIMIZATION-VIA-CROSS-HARNESS-ADA",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-30 07:58:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2deb9963-8c11-4841-853a-b4ca4d501be9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2deb9963-8c11-4841-853a-b4ca4d501be9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:18:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Skill",
+    "Skill Optimization",
+    "Retrieval-Augmented",
+    "Cross-Harness Adaptation",
+    "LLM Agent"
+   ],
+   "field": "Agent技能优化与知识检索",
+   "innovations": [
+    "提出RASO框架，首次将外部技能语料库同时用于技能初始化和迭代更新",
+    "设计Cross-Harness Adaptation机制，解决跨领域/跨工具的技能迁移适配问题"
+   ],
+   "benchmarks": [
+    "OfficeQA",
+    "SpreadsheetBench",
+    "ALFWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

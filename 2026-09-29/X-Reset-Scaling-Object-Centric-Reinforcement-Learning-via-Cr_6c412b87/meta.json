@@ -4,5 +4,10 @@
  "title": "X-Reset-Scaling-Object-Centric-Reinforcement-Learning-via-Cr",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-29 19:07:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ded1174-a835-4bf0-ba99-7d97672266a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ded1174-a835-4bf0-ba99-7d97672266a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:17:32",
+  "chunks": 1
+ }
 }

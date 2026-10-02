@@ -4,5 +4,10 @@
  "title": "RESCOMEMB-EFFECTIVE-AND-EFFICIENT-MULTI-MODAL-EMBEDDING-VIA",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-09-30 18:51:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/68b67d8b-def3-4cf7-ad41-14bc9d7441c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/68b67d8b-def3-4cf7-ad41-14bc9d7441c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:18:40",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "ROUTING-SHOULD-PAY-FOR-ITSELF-SPARSE-SUPERVISION-FOR-ECONOMI",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-09-30 07:59:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f359389a-b234-4ab1-aa1f-67f75dddf5e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f359389a-b234-4ab1-aa1f-67f75dddf5e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:19:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM routing",
+    "sparse supervision",
+    "cost-aware inference",
+    "decision sufficiency",
+    "supervision amortization"
+   ],
+   "field": "大语言模型高效推理与路由",
+   "innovations": [
+    "提出SA-BEP/SA-CR两项计入前置监督成本的经济评估指标，揭示密集监督的经济过度配置现象",
+    "设计SAVEROUTER框架，通过分组自适应UCB获取与分层能力估计在33-41%反馈下实现竞争性路由质量",
+    "证明最小回本监督水平与最低服务成本监督水平可不同，并展示10%稀疏新模型onboarding可行性"
+   ],
+   "benchmarks": [
+    "LLMRouterBench",
+    "Mixinstruct",
+    "MMR-Bench",
+    "RouterBench"
+   ]
+  }
+ }
 }

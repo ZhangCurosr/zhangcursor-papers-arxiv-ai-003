@@ -4,5 +4,34 @@
  "title": "Teacher-Student-Gaps-Are-Not-Enough-Outcome-Guided-On-Policy",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-09-29 07:59:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b841c85b-684e-4927-9b1b-7927e2a9f492.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b841c85b-684e-4927-9b1b-7927e2a9f492.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:14:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "multi-turn agents",
+    "knowledge distillation",
+    "teacher-student gap",
+    "outcome-guided calibration",
+    "autonomous agents",
+    "ALFWorld",
+    "WebShop",
+    "ScienceWorld"
+   ],
+   "field": "多轮智能体蒸馏",
+   "innovations": [
+    "揭示监督-收益错配现象：大gap不等价于高指导收益，教师伤害率超过拯救率",
+    "提出OG-OPD：通过配对学生续跑的最终任务结果校准轨迹相对权重，选择性强化真正有益的教师监督",
+    "仅用<1%轮次的稀疏校准获得3.6-17.7pp的显著提升，无需将教师响应作为额外蒸馏目标"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "ScienceWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "What-Drives-Citations-in-Production-Large-Language-Models-An",
  "token": "sk-mtb2NN4Ja...",
  "created_at": "2026-09-29 19:08:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/326b9c9d-f05e-4c71-be8f-e30914ee0655.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/326b9c9d-f05e-4c71-be8f-e30914ee0655.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:15:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM citation",
+    "observational study",
+    "double machine learning",
+    "answer engine optimization",
+    "prompt-content alignment",
+    "domain fixed effects",
+    "Simpson's paradox"
+   ],
+   "field": "大语言模型引用行为分析",
+   "innovations": [
+    "九方法共识框架声明LLM引用驱动因子",
+    "揭示AEO清单效应的Simpson悖论",
+    "证实prompt-content alignment是唯一稳健强页级预测因子"
+   ],
+   "benchmarks": [
+    "Discovered Labs AEO benchmarking platform",
+    "Four production engines (ChatGPT, Claude, Google AI, Gemini)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "RLX-A-Unified-Multi-Backend-Tensor-Compiler-and-Distributed",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-30 18:50:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e2814f06-53f8-412c-9782-29c198ecd907.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e2814f06-53f8-412c-9782-29c198ecd907.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:19:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tensor compiler",
+    "intermediate representation",
+    "automatic differentiation",
+    "Rust ML",
+    "quantization",
+    "distributed computing",
+    "heterogeneous hardware"
+   ],
+   "field": "机器学习编译器系统",
+   "innovations": [
+    "三级透明IR管道(HIR/MIR/LIR)实现融合-微分-内存规划无翻译层组合",
+    "失败式透明调度支持native/common-IR/rewritten/unsupported四种算子路径",
+    "单Rust代码库统一14运行时设备+MCU/FPGA边缘部署与训练级高阶微分"
+   ],
+   "benchmarks": [
+    "all-MiniLM-L6-v2推理延迟",
+    "MNIST LeNet训练吞吐量",
+    "三阶标量导数性能",
+    "Qwen3/BioCLIP-2精度校验"
+   ]
+  }
+ }
 }

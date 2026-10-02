@@ -4,5 +4,30 @@
  "title": "eval-unlearn-Benchmarking-unlearning-in-Text-to-Image-Difusi",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-09-29 07:54:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/50949a22-d2da-4ce3-9d8f-1f92f1204e8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/50949a22-d2da-4ce3-9d8f-1f92f1204e8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:17:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "概念消除",
+    "文本到图像扩散模型",
+    "基准测试",
+    "机器学习去遗忘",
+    "生成模型安全"
+   ],
+   "field": "生成模型安全与可控性",
+   "innovations": [
+    "插件式统一基准框架，首次公平比较12种跨类别消除技术",
+    "九维标准化指标体系覆盖消除效果-对抗鲁棒性-生成质量-概念保留",
+    "HuggingFace公开排行榜揭示准确性-质量权衡"
+   ],
+   "benchmarks": [
+    "I2P",
+    "COCO 2017",
+    "TIFA"
+   ]
+  }
+ }
 }

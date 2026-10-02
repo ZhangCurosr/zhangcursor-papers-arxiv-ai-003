@@ -4,5 +4,30 @@
  "title": "TempoKV-Timely-Staging-of-LLM-KV-Caches-for-Memory-Semantic",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-09-29 19:08:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1f3a4040-e0e1-45f2-b94e-d34cdeeb9200.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1f3a4040-e0e1-45f2-b94e-d34cdeeb9200.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:13:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache",
+    "LLM Serving",
+    "CXL Memory",
+    "Staging",
+    "Resource Management",
+    "Inference Optimization"
+   ],
+   "field": "LLM系统优化与缓存管理",
+   "innovations": [
+    "双维时序估计TTU/TTR对比机制",
+    "Timing-based eligibility松弛度控制",
+    "Metadata-only claims分离知识与资源承诺"
+   ],
+   "benchmarks": [
+    "NarrativeQA",
+    "LooGLE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "SincDPNet-Interpretable-Raw-Waveform-Bathroom-Activity-Recog",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-09-29 19:08:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/af55dd0c-da5b-4ef0-b8c8-4bfc1a5fe053.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/af55dd0c-da5b-4ef0-b8c8-4bfc1a5fe053.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:13:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "声学事件分类",
+    "原始波形学习",
+    "可解释深度学习",
+    "TinyML",
+    "浴室活动识别",
+    "贝叶斯优化"
+   ],
+   "field": "边缘音频智能",
+   "innovations": [
+    "提出数千参数的可解释sinc前端+可分离卷积体的紧凑原始波形分类器",
+    "发布跨5环境的7类浴室声学数据集SnaanGhar7",
+    "将多目标贝叶斯优化作为准确率-尺寸权衡的工程探索工具"
+   ],
+   "benchmarks": [
+    "SnaanGhar7",
+    "环境不重叠划分",
+    "LOEO交叉验证"
+   ]
+  }
+ }
 }

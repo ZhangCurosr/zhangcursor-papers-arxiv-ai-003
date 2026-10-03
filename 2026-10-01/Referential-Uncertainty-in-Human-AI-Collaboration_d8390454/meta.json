@@ -4,5 +4,10 @@
  "title": "Referential-Uncertainty-in-Human-AI-Collaboration",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-10-01 08:24:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/65255ae4-0188-47e5-b403-042390ae9dbe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/65255ae4-0188-47e5-b403-042390ae9dbe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:44:30",
+  "chunks": 1
+ }
 }

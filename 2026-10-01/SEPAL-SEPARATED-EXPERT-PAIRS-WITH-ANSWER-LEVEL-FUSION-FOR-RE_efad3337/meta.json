@@ -4,5 +4,34 @@
  "title": "SEPAL-SEPARATED-EXPERT-PAIRS-WITH-ANSWER-LEVEL-FUSION-FOR-RE",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-10-01 08:20:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5c5f69d6-fbf9-4adb-997a-3c2238258989.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5c5f69d6-fbf9-4adb-997a-3c2238258989.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:46:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-agent collaboration",
+    "Actor-Critic",
+    "preference optimization",
+    "late fusion",
+    "LLM reasoning",
+    "DPO",
+    "self-consistency"
+   ],
+   "field": "大语言模型推理与多智能体协作",
+   "innovations": [
+    "私有 Actor-Critic 团队隔离修订 + 最终答案级多数投票",
+    "三个角色（Direct/Evidence/Verification）通过训练目标引入结构化多样性而非仅靠采样",
+    "以续写正确率为信号的 Critic/Actor 偏好学习在隔离团队上的独立应用"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "BoolQ",
+    "BBH",
+    "SciQ",
+    "ARC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Watch-Think-Interact-Bootstrapping-Long-Horizon-Multi-Turn-S",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-09-30 08:08:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c098be91-9436-4211-962d-cb5515e353a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c098be91-9436-4211-962d-cb5515e353a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:42:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "streaming video reasoning",
+    "multi-turn video QA",
+    "reinforcement learning",
+    "video large language model",
+    "memory-augmented reasoning",
+    "source-video recall"
+   ],
+   "field": "流式视频理解与多轮推理",
+   "innovations": [
+    "提出闭环Watch-Think-Interact框架，通过时序索引记忆与选择性源视频回忆解决前向压缩导致证据丢失的问题",
+    "构建WTI-82K因果对齐多轮轨迹数据集，覆盖实时/回溯/前瞻三类流式交互",
+    "设计Stream-GDPO轨迹级强化学习，对outcome/format/recall/memory四类奖励分别归一化后聚合以对齐状态化流式决策"
+   ],
+   "benchmarks": [
+    "OVO-Bench",
+    "StreamingBench",
+    "Video-MME",
+    "MLVU",
+    "LongVideoBench"
+   ]
+  }
+ }
 }

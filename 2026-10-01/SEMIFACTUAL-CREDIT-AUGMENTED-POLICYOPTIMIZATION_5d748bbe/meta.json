@@ -4,5 +4,35 @@
  "title": "SEMIFACTUAL-CREDIT-AUGMENTED-POLICYOPTIMIZATION",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-10-01 08:19:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/54b7ba46-8be1-457c-a276-39528d32096d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/54b7ba46-8be1-457c-a276-39528d32096d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:46:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "token-level credit assignment",
+    "semifactual intervention",
+    "GRPO",
+    "spurious dependence",
+    "reasoning robustness",
+    "reinforcement learning for LLMs"
+   ],
+   "field": "大语言模型推理强化学习",
+   "innovations": [
+    "提出 SCAPO，利用半反事实提示干预的固定回复概率漂移作为 token 级负向信用修正信号融入 GRPO",
+    "首次系统性揭示 LLM token 级虚假依赖的异质性并通过 d-filtered decoding 零权重更新验证其诊断价值",
+    "证明训练早期有限期的负向稳定性修正可显著提升数学推理与 OOD 泛化性能"
+   ],
+   "benchmarks": [
+    "AIME 2024–2026",
+    "AMC 2023–2025",
+    "HMMT 2025–2026",
+    "GPQA-Diamond",
+    "NoOp-AIME",
+    "ThinkBench-AIME"
+   ]
+  }
+ }
 }

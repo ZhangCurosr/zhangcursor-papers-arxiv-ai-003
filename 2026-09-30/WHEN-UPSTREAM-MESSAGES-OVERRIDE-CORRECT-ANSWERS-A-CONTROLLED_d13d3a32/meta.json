@@ -4,5 +4,33 @@
  "title": "WHEN-UPSTREAM-MESSAGES-OVERRIDE-CORRECT-ANSWERS-A-CONTROLLED",
  "token": "sk-MPIaIwMik...",
  "created_at": "2026-09-30 18:52:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8eb6dd3f-6988-4302-b5fc-15911f899660.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8eb6dd3f-6988-4302-b5fc-15911f899660.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:42:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent LLM",
+    "message passing reliability",
+    "answer substitution",
+    "controlled experiment",
+    "chain-of-thought",
+    "pipeline error recovery"
+   ],
+   "field": "多智能体LLM协作可靠性",
+   "innovations": [
+    "提出并验证answer substitution现象：下游代理在有充分独立证据时仍会被上游错误消息定向覆盖到其具体错误答案",
+    "建立2×2证据-消息因子设计的item-level因果框架，分离消息帮助与伤害的边界条件",
+    "通过结论反转与最小编辑控制证明结论标签具有独立因果效应，排除social framing等替代解释"
+   ],
+   "benchmarks": [
+    "BIRD",
+    "HotpotQA",
+    "LBMusique",
+    "2WikiMultihopQA",
+    "DROP"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "SCB-SpeechConversationBench-for-Evaluating-Multi-Turn-Reason",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-10-01 08:27:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/cf312aa3-2045-40f4-a5c6-cd96accbd4a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/cf312aa3-2045-40f4-a5c6-cd96accbd4a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:45:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Speech-to-Speech",
+    "多轮推理",
+    "上下文管理",
+    "GSM8K",
+    "语音评测基准",
+    "增量信息整合"
+   ],
+   "field": "语音对话系统评测",
+   "innovations": [
+    "提出适配语音模态的FULL/CONCAT/SHARDED多轮推理评测协议",
+    "设计绝对下降量与相对保持率双指标量化多轮上下文衰减",
+    "对比四种商业语音模型与自研显式上下文管理管道LEGO的系统级评测"
+   ],
+   "benchmarks": [
+    "SpeechConversationBench (SCB)",
+    "GSM8K"
+   ]
+  }
+ }
 }

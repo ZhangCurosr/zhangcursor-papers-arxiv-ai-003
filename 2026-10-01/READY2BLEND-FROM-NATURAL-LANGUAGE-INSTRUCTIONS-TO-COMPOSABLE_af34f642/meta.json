@@ -4,5 +4,35 @@
  "title": "READY2BLEND-FROM-NATURAL-LANGUAGE-INSTRUCTIONS-TO-COMPOSABLE",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-10-01 08:27:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a1a767e8-ba97-49e2-a962-899dbf016e17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a1a767e8-ba97-49e2-a962-899dbf016e17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:43:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "continual alignment",
+    "composable prompts",
+    "frozen backbone",
+    "preference optimization",
+    "prompt regularization",
+    "lifelong learning"
+   ],
+   "field": "大语言模型持续对齐",
+   "innovations": [
+    "提出可组合对齐范式，将每条对齐要求独立学习为冻结骨干上的固定长度提示，推理时通过向量凸组合实现多需求联合控制",
+    "引入组合性正则化（逐点+成对一致性），将句encoder语义几何转移到prompt空间，使独立训练的提示可算术混合",
+    "Ready2Blend是唯一冻结骨干且匹敌后训练方法的持续对齐方案，达到联合训练上限93.1%-98.5%，训练时间节省2.6-4.3倍"
+   ],
+   "benchmarks": [
+    "Capybara-Preferences",
+    "HC3",
+    "HH-RLHF-Harmless",
+    "HH-RLHF-Helpful",
+    "Safe-RLHF",
+    "TruthfulQA",
+    "FeedSum"
+   ]
+  }
+ }
 }

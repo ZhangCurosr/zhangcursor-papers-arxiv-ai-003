@@ -4,5 +4,30 @@
  "title": "SKILLFM-GENERATING-SKILLS-FOR-LLM-AGENTS-VIA-LATENT-FLOW-MAT",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-10-01 08:27:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2a29ff81-dc05-4337-ac40-02574ad42936.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2a29ff81-dc05-4337-ac40-02574ad42936.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:46:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agents",
+    "Skill Generation",
+    "Flow Matching",
+    "Latent Representation",
+    "Reinforcement Learning"
+   ],
+   "field": "大语言模型代理技能学习",
+   "innovations": [
+    "提出 SkillFM 框架通过潜在流匹配直接生成任务条件技能，避免测试时检索",
+    "结合可重构编解码器与改进 MeanFlow 实现单步潜在采样，在多个基准上达到最优性能",
+    "证明生成式技能指导比检索式方法对噪声技能库更鲁棒，且支持跨模型执行器复用"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "Search-QA",
+    "WebShop"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Right-Answers-Costly-Models-The-Efficiency-Gap-in-LLM-based",
  "token": "sk-eUuUuX3MU...",
  "created_at": "2026-10-01 08:30:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/0f0def57-2497-479c-a9c2-6823d04acd2f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/0f0def57-2497-479c-a9c2-6823d04acd2f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:44:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM optimization modeling",
+    "computational efficiency",
+    "benchmark construction",
+    "modeling techniques",
+    "solver time",
+    "multi-agent framework"
+   ],
+   "field": "LLM for operations research",
+   "innovations": [
+    "OptTips: 50-card expert technique knowledge base for optimization modeling",
+    "OptDachshund: multi-agent framework for automated benchmark construction with paired references",
+    "EfficientOpt: 561-task benchmark with hidden technique labels to evaluate correctness, technique use, and computational cost separately"
+   ],
+   "benchmarks": [
+    "EfficientOpt",
+    "MAMO EasyLP/ComplexLP",
+    "OptMATH"
+   ]
+  }
+ }
 }

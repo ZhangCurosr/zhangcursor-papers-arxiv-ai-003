@@ -4,5 +4,42 @@
  "title": "Scaling-Laws-for-Looped-Mixture-of-Experts",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-01 08:19:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/9abee621-b4d9-44fe-878a-702b29ff5559.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/9abee621-b4d9-44fe-878a-702b29ff5559.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:47:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scaling laws",
+    "mixture of experts",
+    "looped transformers",
+    "recurrence",
+    "sparsity",
+    "parameter-efficient scaling",
+    "test-time compute"
+   ],
+   "field": "大模型缩放定律与参数高效训练",
+   "innovations": [
+    "首个联合循环递归与MoE稀疏性的统一缩放定律",
+    "有界且稀疏条件的递推有效参数映射",
+    "万亿token实验验证LoopMoE以一半参数追平非循环更大模型"
+   ],
+   "benchmarks": [
+    "BBH",
+    "GSM8K",
+    "ARC-C/E",
+    "HellaSwag",
+    "PIQA",
+    "SIQA",
+    "WinoGrande",
+    "BoolQ",
+    "DROP",
+    "MMLU",
+    "Natural Questions",
+    "TriviaQA",
+    "OpenBookQA"
+   ]
+  }
+ }
 }

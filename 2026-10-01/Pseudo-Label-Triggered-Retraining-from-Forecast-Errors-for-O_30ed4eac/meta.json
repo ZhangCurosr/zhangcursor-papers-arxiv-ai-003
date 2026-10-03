@@ -4,5 +4,34 @@
  "title": "Pseudo-Label-Triggered-Retraining-from-Forecast-Errors-for-O",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-10-01 08:28:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ffe56181-ecd7-4be8-ade6-812de05e2f92.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ffe56181-ecd7-4be8-ade6-812de05e2f92.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:43:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pseudo-labeling",
+    "model retraining",
+    "time series forecasting",
+    "online learning",
+    "concept drift",
+    "forecast error"
+   ],
+   "field": "在线时间序列预测",
+   "innovations": [
+    "首个将伪标签用于在线时间序列预测重训练决策，通过未来误差增量构造监督信号",
+    "以预测误差动态为核心的 plug-in 触发器，兼容线性/Transformer/卷积 backbone",
+    "性能-计算权衡最优的重训练时机学习方法，匹配预算实验证明增益来自时机而非频率"
+   ],
+   "benchmarks": [
+    "ETTh1/2",
+    "ETTm1/2",
+    "Electricity",
+    "Exchange",
+    "Traffic",
+    "Weather"
+   ]
+  }
+ }
 }

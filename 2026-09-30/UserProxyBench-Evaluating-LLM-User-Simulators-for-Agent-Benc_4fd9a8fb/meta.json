@@ -4,5 +4,29 @@
  "title": "UserProxyBench-Evaluating-LLM-User-Simulators-for-Agent-Benc",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-09-30 07:58:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/105d3c26-82e5-4eb1-a4e2-daa6c45c8f56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/105d3c26-82e5-4eb1-a4e2-daa6c45c8f56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:42:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "user simulator",
+    "agent benchmark",
+    "LLM fidelity",
+    "cost-fidelity tradeoff",
+    "multi-turn RL"
+   ],
+   "field": "Agent 评估与训练",
+   "innovations": [
+    "提出 UFS 与 Task-grounded rubric 实现用户侧契约忠实度的独立量化",
+    "发现任务奖励对用户违规不敏感，24.4% 成功轨迹含用户违规",
+    "构建成本-忠实度前沿，给出满足 UFS 门槛的最低成本代理选择方案"
+   ],
+   "benchmarks": [
+    "UserProxyBench",
+    "tau2-bench"
+   ]
+  }
+ }
 }

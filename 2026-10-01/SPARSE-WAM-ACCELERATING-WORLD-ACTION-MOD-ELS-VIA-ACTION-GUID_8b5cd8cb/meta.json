@@ -4,5 +4,31 @@
  "title": "SPARSE-WAM-ACCELERATING-WORLD-ACTION-MOD-ELS-VIA-ACTION-GUID",
  "token": "sk-MTzedkBc1...",
  "created_at": "2026-10-01 08:32:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3a18166c-67ef-4468-85d9-ac8c432e9449.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3a18166c-67ef-4468-85d9-ac8c432e9449.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:46:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Action Model",
+    "Token Pruning",
+    "Robot Control",
+    "Diffusion Inference",
+    "Attention Sparsity",
+    "Inference Acceleration"
+   ],
+   "field": "机器人视觉语言动作模型高效推理",
+   "innovations": [
+    "发现相邻去噪步骤间 action-to-future 注意力空间高度重叠，提出跨步 token 选择重用机制",
+    "frame-specific core + shared anchor 双层 token 选择策略，分别追踪动态热点与跨帧稳定上下文",
+    "Pilot 轻量级执行引擎：复用 log-sum-exp 归一化器实现无完整矩阵的注意力分析，固定稀疏序列长度支持编译优化"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "LIBERO-Plus",
+    "RoboLab-120"
+   ]
+  }
+ }
 }

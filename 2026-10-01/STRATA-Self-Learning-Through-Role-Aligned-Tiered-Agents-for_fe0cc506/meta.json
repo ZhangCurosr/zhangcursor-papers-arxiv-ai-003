@@ -4,5 +4,32 @@
  "title": "STRATA-Self-Learning-Through-Role-Aligned-Tiered-Agents-for",
  "token": "sk-rxBzzlmRG...",
  "created_at": "2026-10-01 08:30:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/714961a5-ca7c-4c41-8e83-743c8546569e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/714961a5-ca7c-4c41-8e83-743c8546569e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:46:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "实时战略游戏",
+    "大型语言模型智能体",
+    "分层多智能体",
+    "跨局经验学习",
+    "红色警戒",
+    "异步决策"
+   ],
+   "field": "多智能体系统与游戏AI",
+   "innovations": [
+    "角色对齐的三层异步决策架构解耦战略/后勤/战术时间尺度",
+    "RA驱动的跨局经验验证与修订机制实现从零到可检索经验卡",
+    "经验卡在固定场景下将胜率从30%提升至100%并涌现差异化对手适应"
+   ],
+   "benchmarks": [
+    "OpenRA Red Alert",
+    "Normal AI",
+    "Rush AI",
+    "Turtle AI"
+   ]
+  }
+ }
 }

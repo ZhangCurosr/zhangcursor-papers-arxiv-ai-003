@@ -4,5 +4,34 @@
  "title": "Reinforcing-Multimodal-Reasoning-via-Token-Level-Perception",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-10-01 08:29:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ffa1511e-dfe8-445b-8415-4c7b95373f13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ffa1511e-dfe8-445b-8415-4c7b95373f13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:44:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Large Language Model",
+    "Multimodal Reasoning",
+    "Reinforcement Learning",
+    "Token-Level Advantage",
+    "Visual Dependency",
+    "Predictive Entropy"
+   ],
+   "field": "多模态大模型推理与强化学习",
+   "innovations": [
+    "提出TPAE算法，通过视觉依赖度与预测熵的联合分布构建token-level细粒度优势估计，无需辅助奖励模型",
+    "揭示正确/错误推理链在视觉-熵分布上的结构性差异，定位导致推理崩溃的统计异常token"
+   ],
+   "benchmarks": [
+    "MathVerse",
+    "We-Math",
+    "MathVision",
+    "DynaMath",
+    "Geo3k",
+    "LogicVista",
+    "MMMU-Pro"
+   ]
+  }
+ }
 }

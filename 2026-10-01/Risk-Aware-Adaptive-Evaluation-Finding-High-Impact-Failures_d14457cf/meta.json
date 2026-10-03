@@ -4,5 +4,10 @@
  "title": "Risk-Aware-Adaptive-Evaluation-Finding-High-Impact-Failures",
  "token": "sk-2ksG4dzmp...",
  "created_at": "2026-10-01 08:29:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6fd15624-eccf-4e10-ae66-f127d6a0f33c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6fd15624-eccf-4e10-ae66-f127d6a0f33c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:45:00",
+  "chunks": 1
+ }
 }

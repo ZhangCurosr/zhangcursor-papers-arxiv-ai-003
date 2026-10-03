@@ -4,5 +4,29 @@
  "title": "SEARCH-SHAPES-CONCLUSIONS-AUDITING-EVI-DENCE-SELECTION-BIAS",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-10-01 08:29:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/bc7e3212-4bdb-4d02-bc91-a51530ce8e5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/bc7e3212-4bdb-4d02-bc91-a51530ce8e5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:46:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Deep Research Agents",
+    "Evidence Selection Bias",
+    "Causal Inference",
+    "Off-policy Evaluation",
+    "Adaptive Sampling",
+    "Inverse Probability Weighting"
+   ],
+   "field": "LLM Agent 可信评估与因果审计",
+   "innovations": [
+    "提出 CESS 方法，结合预搜索证据预测与序列逆概率加权校正，实现对候选池目标的设计无偏估计；证明校正估计的跨策略对比无法识别搜索政策效应，确立干预实验的必要性"
+   ],
+   "benchmarks": [
+    "MS2",
+    "PERSPECTRUM",
+    "Open Deep Research public agent"
+   ]
+  }
+ }
 }

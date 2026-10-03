@@ -4,5 +4,34 @@
  "title": "SAFETY-OF-LATENT-COMMUNICATION-IN-MULTI-AGENT-SYSTEMS",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-10-01 08:30:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/28b3631f-60a2-4947-8828-c2b718ccde21.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/28b3631f-60a2-4947-8828-c2b718ccde21.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:45:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent communication",
+    "multi-agent systems",
+    "safety alignment",
+    "adversarial attack",
+    "reinforcement learning",
+    "data poisoning"
+   ],
+   "field": "多智能体系统安全",
+   "innovations": [
+    "揭示良性链路训练即破坏多智能体系统安全对齐（Agent 冻结），并定位至首token拒绝概率下降的机制",
+    "提出无需有害目标响应的奖励引导RL攻击，在三个拓扑上平均有害合规达76.9",
+    "设计仅更新链路参数的奖励引导修复方法，使九组合平均有害合规从70.3降至4.8"
+   ],
+   "benchmarks": [
+    "HarmBench",
+    "StrongREJECT",
+    "JailbreakBench",
+    "AdvBench",
+    "MATH500",
+    "GPQA-Diamond"
+   ]
+  }
+ }
 }

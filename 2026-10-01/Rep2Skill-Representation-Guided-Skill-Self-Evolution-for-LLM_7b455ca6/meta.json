@@ -4,5 +4,30 @@
  "title": "Rep2Skill-Representation-Guided-Skill-Self-Evolution-for-LLM",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-10-01 08:28:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2f9bb047-de8b-4e1b-9c81-bbdbb8c73b62.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2f9bb047-de8b-4e1b-9c81-bbdbb8c73b62.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:44:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent skill evolution",
+    "representation attribution",
+    "Neural CDE",
+    "self-evolving LLM",
+    "text-space skill optimization",
+    "group-wise rollout"
+   ],
+   "field": "LLM Agent 技能自我进化",
+   "innovations": [
+    "首次将内部表示轨迹引入文本技能演化闭环，通过 Neural CDE 建模成功动力学实现轮次级归因",
+    "表示→文本口译机制：将预测误差翻译为结构化诊断并经程序化精确引用校验保证可落地",
+    "组-wise 相对归因：利用同任务多 rollout 的组内差异作为结构化证据替代单次轨迹启发式"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

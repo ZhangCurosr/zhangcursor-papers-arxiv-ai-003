@@ -4,5 +4,10 @@
  "title": "RoboCoach-World-Models-as-Active-Coaches-for-Compositional-R",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-10-01 08:26:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/fcce4afd-927d-474d-b3b8-b0014f618ce2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/fcce4afd-927d-474d-b3b8-b0014f618ce2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:45:31",
+  "chunks": 1
+ }
 }

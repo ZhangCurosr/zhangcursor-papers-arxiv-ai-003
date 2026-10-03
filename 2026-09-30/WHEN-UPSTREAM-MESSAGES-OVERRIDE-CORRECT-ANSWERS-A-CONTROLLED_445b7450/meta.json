@@ -4,5 +4,33 @@
  "title": "WHEN-UPSTREAM-MESSAGES-OVERRIDE-CORRECT-ANSWERS-A-CONTROLLED",
  "token": "sk-MPIaIwMik...",
  "created_at": "2026-09-30 08:04:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8eb6dd3f-6988-4302-b5fc-15911f899660.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8eb6dd3f-6988-4302-b5fc-15911f899660.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:42:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent LLM",
+    "communication reliability",
+    "answer substitution",
+    "controlled experiment",
+    "chain-of-thought",
+    "error propagation"
+   ],
+   "field": "多智能体LLM协作可靠性",
+   "innovations": [
+    "首次通过固定证据+逐条操控消息的实验设计量化答案替换现象（最高32%覆盖）",
+    "发现94%的c→w转换中接收器直接复制上游特定错误答案",
+    "提出错误检测门控恢复策略并量化breakeven精度阈值"
+   ],
+   "benchmarks": [
+    "BIRD",
+    "HotpotQA",
+    "LBMusique",
+    "2WikiMultihopQA",
+    "DROP"
+   ]
+  }
+ }
 }

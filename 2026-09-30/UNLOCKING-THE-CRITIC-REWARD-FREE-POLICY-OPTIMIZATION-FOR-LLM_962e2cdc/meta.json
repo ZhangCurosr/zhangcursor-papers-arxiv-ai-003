@@ -4,5 +4,32 @@
  "title": "UNLOCKING-THE-CRITIC-REWARD-FREE-POLICY-OPTIMIZATION-FOR-LLM",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-09-30 18:51:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/89e8bcc6-88b6-4dc9-9bc3-4112d15eccd0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/89e8bcc6-88b6-4dc9-9bc3-4112d15eccd0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:41:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "critic reuse",
+    "reward-free RL",
+    "policy optimization",
+    "chain-of-thought reasoning",
+    "length debiasing",
+    "frozen value network"
+   ],
+   "field": "LLM 后训练与强化学习",
+   "innovations": [
+    "将单次监督训练的 critic 冻结并校准为训练期的唯一奖励/基线/前缀预言器",
+    "单步内循环策略更新即可恢复 critic-based RL 的稳定性",
+    "length-debias + 二值化同时消除连续奖励下的 length exploit 并保留稳定训练"
+   ],
+   "benchmarks": [
+    "AIME 2026",
+    "AMC 2023",
+    "GPQA-Diamond",
+    "AIME 2025"
+   ]
+  }
+ }
 }

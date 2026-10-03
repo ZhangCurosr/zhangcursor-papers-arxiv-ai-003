@@ -4,5 +4,32 @@
  "title": "Richard-Voice-First-Mobile-Interaction-for-Persistent-Tasks",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-01 08:27:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e2a409ee-ad75-432c-b4aa-c404711bc1da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e2a409ee-ad75-432c-b4aa-c404711bc1da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:44:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "voice interaction",
+    "mobile computing",
+    "AI agents",
+    "task lifecycle",
+    "human-agent collaboration",
+    "persistent tasks",
+    "asynchronous collaboration"
+   ],
+   "field": "移动语音交互与任务管理",
+   "innovations": [
+    "任务持久化：会话、执行、交付三分离，支持中断后恢复",
+    "请求版本追踪：执行中修订锁定当前尝试，确认后入队新版本",
+    "共享执行器：统一抽象即时工具调用与后台Agent任务"
+   ],
+   "benchmarks": [
+    "受控状态转换验证（修订-确认-执行序列）",
+    "真实编程任务端到端执行（T027/T028）",
+    "多输入源唤醒验证（内置麦克风/有线耳机/蓝牙耳机）"
+   ]
+  }
+ }
 }

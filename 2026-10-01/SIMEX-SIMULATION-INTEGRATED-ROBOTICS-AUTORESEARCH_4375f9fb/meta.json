@@ -4,5 +4,31 @@
  "title": "SIMEX-SIMULATION-INTEGRATED-ROBOTICS-AUTORESEARCH",
  "token": "sk-zzqRc1aqT...",
  "created_at": "2026-10-01 08:29:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f0d3ba8b-de35-47c6-b55d-7640371546e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f0d3ba8b-de35-47c6-b55d-7640371546e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:46:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Simulation-Integrated Autoresearch",
+    "Robot Tool Development",
+    "Sim-to-Real Transfer",
+    "Code as Policies",
+    "Open-ended Capability Discovery",
+    "Few-shot Physical Adaptation"
+   ],
+   "field": "具身智能与LLM结合",
+   "innovations": [
+    "将仿真作为编码代理的'实验室'而非精确克隆，支持定性正确的粗粒度模拟器",
+    "Open-ended probe–focus–optimize 循环实现无固定指标的通用工具箱自发现",
+    "Replay-based模拟器对齐与多候选修复筛选将单次物理试验扩展为多次仿真测试"
+   ],
+   "benchmarks": [
+    "Plate to Tote (7 tasks)",
+    "Towel Folding (7 tasks)",
+    "Barcode Scanning (7 tasks)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Prototype-guided-Bilateral-Alignment-Multimodal-Federated-Le",
  "token": "sk-yHDqoBBn3...",
  "created_at": "2026-10-01 08:29:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3fe54240-2d26-4d83-bed0-f62d83e37b6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3fe54240-2d26-4d83-bed0-f62d83e37b6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:43:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态联邦学习",
+    "异构联邦学习",
+    "原型学习",
+    "Gromov-Wasserstein 距离",
+    "模态失衡",
+    "双边对齐"
+   ],
+   "field": "多模态联邦学习",
+   "innovations": [
+    "提出特征级GW距离+对比学习与决策级熵权重logit聚合的双边对齐机制，解决异构编码器下特征空间不兼容问题",
+    "在模型异构与模态失衡复合场景下实现鲁棒知识迁移，理论证明非凸收敛率O(1/T)",
+    "通信开销仅比FedProto增加O(K·C·d_C)，远小于全参数或hypernetwork方法"
+   ],
+   "benchmarks": [
+    "Caltech101",
+    "Reuters",
+    "NUS-WIDE",
+    "Youtube"
+   ]
+  }
+ }
 }

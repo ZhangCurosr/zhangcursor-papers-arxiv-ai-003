@@ -4,5 +4,10 @@
  "title": "SCALE-SPLIT-NEURAL-OPERATOR-FOR-MEMORY-ANDDATA-EFFICIENT-3D",
  "token": "sk-9GUbCO4kb...",
  "created_at": "2026-10-01 08:29:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b09a16d9-67ed-4cf5-a12f-6b21bc830ae5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b09a16d9-67ed-4cf5-a12f-6b21bc830ae5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:45:48",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Steering-Fields-Adaptive-Vector-Fields-for-Safe-Image-Genera",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-10-01 08:27:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d2ffdc01-10f4-483f-b5a3-53e9ac822b91.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d2ffdc01-10f4-483f-b5a3-53e9ac822b91.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:04:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Steering Fields",
+    "Flow Matching",
+    "Image Generation",
+    "Safety Steering",
+    "Image Editing",
+    "Activation Steering"
+   ],
+   "field": "可控图像生成",
+   "innovations": [
+    "将固定引导向量推广为轨迹自适应向量场，实现状态/时间依赖的动态引导",
+    "在单一组合优化目标下统一支持概念诱导与抑制，无需反演即可结构保真编辑"
+   ],
+   "benchmarks": [
+    "Ring-a-Bell",
+    "P4D",
+    "COCO-1k",
+    "PieBench++"
+   ]
+  }
+ }
 }

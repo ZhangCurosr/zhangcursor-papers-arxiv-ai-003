@@ -4,5 +4,33 @@
  "title": "Structure-aware-Reinforcement-Learning-for-Protein-Directed",
  "token": "sk-UdpjjT427...",
  "created_at": "2026-10-01 08:29:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7514198c-4157-4717-9102-7c93bb44afc1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7514198c-4157-4717-9102-7c93bb44afc1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:04:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "protein directed evolution",
+    "structure-aware reinforcement learning",
+    "delta representation",
+    "hierarchical action network",
+    "fitness landscape optimization",
+    "active learning",
+    "epistasis discovery"
+   ],
+   "field": "蛋白质定向进化的结构感知强化学习",
+   "innovations": [
+    "提出 delta-structure fusion encoder 以特征差近似突变体结构变化，避免高昂的结构预测计算",
+    "设计结构对齐的分层动作网络将突变决策解耦为位点选择与氨基酸细化两阶段，并利用 detach 操作获得更干净的梯度信号",
+    "引入几何约束（强 Lipschitz 连续性）稳定 delta 特征学习，在 GFP 中发现经湿实验验证的三重突变上位效应模式"
+   ],
+   "benchmarks": [
+    "GB1",
+    "PhoQ",
+    "AAV",
+    "GFP"
+   ]
+  }
+ }
 }

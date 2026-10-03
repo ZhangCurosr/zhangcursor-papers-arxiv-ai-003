@@ -4,5 +4,30 @@
  "title": "Structure-vs-Chain-of-Thought-Evaluating-LLM-Criteria-Extrac",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-10-01 08:29:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/9fa3ac75-8ee1-4a63-be4c-8605ec779ab0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/9fa3ac75-8ee1-4a63-be4c-8605ec779ab0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:04:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "depression severity",
+    "chain-of-thought",
+    "criteria extraction",
+    "ordinal classification",
+    "clinical NLP",
+    "evaluation fairness"
+   ],
+   "field": "临床自然语言处理与心理健康计算",
+   "innovations": [
+    "揭示结构化准则提取对前沿模型的优势主要源于拟合阈值的标签泄漏而非方法本身",
+    "提出等监督单调重标校准检验，证明C1/C2在同等监督下仍可追平C3",
+    "发现有序一致性κw提升与SEVERE漏检上升之间存在系统性权衡"
+   ],
+   "benchmarks": [
+    "DepSeverity",
+    "DepSign"
+   ]
+  }
+ }
 }

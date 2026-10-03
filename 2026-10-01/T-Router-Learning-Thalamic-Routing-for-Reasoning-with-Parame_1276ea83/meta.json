@@ -4,5 +4,33 @@
  "title": "T-Router-Learning-Thalamic-Routing-for-Reasoning-with-Parame",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-10-01 08:30:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b1a33d45-057d-4122-8744-7c8e73dd6bfa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b1a33d45-057d-4122-8744-7c8e73dd6bfa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:05:09",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Parameter-Efficient Fine-Tuning",
+    "Reinforcement Learning",
+    "Cross-Layer Routing",
+    "Thalamic Router",
+    "Mathematical Reasoning",
+    "GRPO"
+   ],
+   "field": "参数高效大模型训练",
+   "innovations": [
+    "受丘脑启发的跨层路由架构，以0.466%参数超越全参数GRPO",
+    "RMS校准有符号门控实现稳定且可控的相对尺度写回",
+    "地址化块增量源库结合深度循环控制器复用已完成计算"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AIME",
+    "BrowseComp Plus",
+    "ASearch Test"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "RankEvolve-A-Reliable-Multi-Agent-Auto-Research-Harness-for",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-10-01 08:30:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3710e707-cfc9-44d8-b75d-8c1b7ea95770.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3710e707-cfc9-44d8-b75d-8c1b7ea95770.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:26:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "auto-research",
+    "multi-agent",
+    "ranking model evolution",
+    "execution accuracy",
+    "coding agent composition",
+    "HSTU recommender",
+    "executable protocol"
+   ],
+   "field": "自动化机器学习研究",
+   "innovations": [
+    "EOP将ML演化工作流编译为运行时强制状态机",
+    "meta-meta-harness组合不同coding-agent产品提升执行准确率至62.5%",
+    "双层级知识层持久化负面结果与经验教训"
+   ],
+   "benchmarks": [
+    "ExecML-HSTU",
+    "ExecML-LitGPT",
+    "MovieLens-20M NDCG@10"
+   ]
+  }
+ }
 }

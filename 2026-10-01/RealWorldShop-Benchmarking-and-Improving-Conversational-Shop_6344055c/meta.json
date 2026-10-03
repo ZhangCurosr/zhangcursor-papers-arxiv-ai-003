@@ -4,5 +4,30 @@
  "title": "RealWorldShop-Benchmarking-and-Improving-Conversational-Shop",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-10-01 08:29:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a19c40e0-e607-4737-b709-1d69c3865b2f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a19c40e0-e607-4737-b709-1d69c3865b2f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:26:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话式购物代理",
+    "会话级评估",
+    "状态追踪",
+    "目录地面化",
+    "LLM-as-judge",
+    "GRPO",
+    "用户模拟器"
+   ],
+   "field": "对话式推荐系统",
+   "innovations": [
+    "提出 REALWORLDSHOP 基准，首次在大规模真实 SKU 库存上评估会话级对话购物代理的状态追踪、约束更新与收敛能力",
+    "设计 REALSHOP_AGENT 框架，通过状态管理、六动作流控制、目录地面化检索与运行时防护实现显式会话控制",
+    "引入 Turn-Session Gap 度量与三终止状态分类，揭示当前系统单轮响应质量与多轮决策能力的显著落差"
+   ],
+   "benchmarks": [
+    "REALWORLDSHOP"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Speculative-Safety-Honeypot-Toward-Proactive-Defense-Against",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-10-01 08:28:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/0da74d1f-f85b-432a-b10d-9e0d095b5b54.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/0da74d1f-f85b-432a-b10d-9e0d095b5b54.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:26:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent安全",
+    "多轮攻击防御",
+    "推测性解码",
+    "间接Prompt注入",
+    "安全蜜罐",
+    "Beam Search"
+   ],
+   "field": "LLM Agent安全防御",
+   "innovations": [
+    "首次将推测解码思想从token级扩展到action级用于多轮安全防御，实现从回溯到前瞻的范式转换",
+    "提出多样性导向的Beam Search算法，通过行为聚类与Round-Robin选择在有限预算下最大化风险空间覆盖",
+    "差异化对齐策略：通过SFT分离保真度与敏感性优化目标，使小型模拟系统在对抗场景中更早暴露风险"
+   ],
+   "benchmarks": [
+    "AgentDojo",
+    "ActorAttack",
+    "XSTest",
+    "BFCL-v3"
+   ]
+  }
+ }
 }

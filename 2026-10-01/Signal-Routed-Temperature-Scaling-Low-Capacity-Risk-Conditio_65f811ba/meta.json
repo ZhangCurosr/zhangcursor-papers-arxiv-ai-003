@@ -4,5 +4,33 @@
  "title": "Signal-Routed-Temperature-Scaling-Low-Capacity-Risk-Conditio",
  "token": "sk-wUD9ZXHNo...",
  "created_at": "2026-10-01 08:31:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/00a3ada4-39bd-4e28-b731-139b0c325742.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/00a3ada4-39bd-4e28-b731-139b0c325742.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:27:23",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "post-hoc calibration",
+    "temperature scaling",
+    "signal routing",
+    "BCE loss",
+    "overfit diagnosis",
+    "logit margin",
+    "OOF risk"
+   ],
+   "field": "深度学习模型校准",
+   "innovations": [
+    "提出SRTS多温度组路由校准框架，固定K=3跨backbone鲁棒",
+    "系统证明BCE目标对路由信号可分性的关键作用（NLL下collapse）",
+    "揭示无限制自适应头在小验证集上的系统性overfit并给出容量约束设计"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "Tiny-ImageNet",
+    "ImageNet-1K",
+    "CIFAR-10-C"
+   ]
+  }
+ }
 }

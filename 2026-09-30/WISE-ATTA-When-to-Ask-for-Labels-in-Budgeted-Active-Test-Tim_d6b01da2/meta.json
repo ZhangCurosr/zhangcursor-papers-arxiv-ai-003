@@ -4,5 +4,32 @@
  "title": "WISE-ATTA-When-to-Ask-for-Labels-in-Budgeted-Active-Test-Tim",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-09-30 07:59:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f80521c2-4ccb-43f2-831d-e98cca1ee52f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f80521c2-4ccb-43f2-831d-e98cca1ee52f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:14:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "active test-time adaptation",
+    "budgeted supervision",
+    "distribution shift",
+    "test-time adaptation",
+    "online learning",
+    "label efficiency"
+   ],
+   "field": "测试时自适应与主动学习",
+   "innovations": [
+    "提出预算化主动测试时适配设定，将监督决策从批内扩展到跨时间预算分配",
+    "设计基于预算债务反馈的自适应批次选择策略",
+    "提出基于预测漂移（EMA锚点对比）的单样本选择准则以捕捉未收敛适应动力学"
+   ],
+   "benchmarks": [
+    "ImageNet-C",
+    "ImageNet-R",
+    "ImageNet-K",
+    "ImageNet-A"
+   ]
+  }
+ }
 }

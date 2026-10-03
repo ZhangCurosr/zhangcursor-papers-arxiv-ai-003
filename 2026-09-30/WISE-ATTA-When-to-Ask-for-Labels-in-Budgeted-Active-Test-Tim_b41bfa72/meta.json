@@ -4,5 +4,32 @@
  "title": "WISE-ATTA-When-to-Ask-for-Labels-in-Budgeted-Active-Test-Tim",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-09-30 18:50:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f80521c2-4ccb-43f2-831d-e98cca1ee52f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f80521c2-4ccb-43f2-831d-e98cca1ee52f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:14:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "测试时自适应",
+    "主动测试时自适应",
+    "预算化标注",
+    "在线决策",
+    "预测漂移",
+    "分布偏移鲁棒性"
+   ],
+   "field": "测试时自适应与主动学习",
+   "innovations": [
+    "提出预算化ATTA新设定，将监督决策从批量内选样扩展到时间轴上选批次",
+    "设计无回溯的预算债务节奏控制器，实现无需预知流长度的在线标注率均衡",
+    "基于EMA锚点预测漂移的单样本选择准则，避免静态熵标准对模糊样本的无效选择"
+   ],
+   "benchmarks": [
+    "ImageNet-C",
+    "ImageNet-R",
+    "ImageNet-K",
+    "ImageNet-A"
+   ]
+  }
+ }
 }

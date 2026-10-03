@@ -4,5 +4,31 @@
  "title": "RefCon-Iterative-Refinement-and-Contrastive-Memory-Extractio",
  "token": "sk-8zjLxCqN4...",
  "created_at": "2026-10-01 08:28:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4d3dc7c9-8345-41bf-9ffe-977fb00fbc16.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4d3dc7c9-8345-41bf-9ffe-977fb00fbc16.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:15:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "记忆提取",
+    "测试时缩放",
+    "上下文演化智能体",
+    "自修正",
+    "自对比",
+    "MaTTS"
+   ],
+   "field": "Agent 记忆与持续学习",
+   "innovations": [
+    "统一顺序自修正与并行自对比的记忆提取框架 RefCon",
+    "在无金标准条件下超越部分使用 ground-truth 的基线",
+    "精度-计算分解视角的 scaling law 分析揭示 refinement 优于 diversity 的可扩展性"
+   ],
+   "benchmarks": [
+    "AppWorld",
+    "BFCL-V3",
+    "SWE-bench Verified (Mini)"
+   ]
+  }
+ }
 }

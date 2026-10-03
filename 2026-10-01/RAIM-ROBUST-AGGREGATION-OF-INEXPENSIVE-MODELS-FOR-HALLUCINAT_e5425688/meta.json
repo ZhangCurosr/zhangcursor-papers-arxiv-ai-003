@@ -4,5 +4,38 @@
  "title": "RAIM-ROBUST-AGGREGATION-OF-INEXPENSIVE-MODELS-FOR-HALLUCINAT",
  "token": "sk-4xOJ8RgWe...",
  "created_at": "2026-10-01 08:27:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c817086e-4cc8-4ff9-b4d2-cade3ff4ba28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c817086e-4cc8-4ff9-b4d2-cade3ff4ba28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:15:28",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "hallucination detection",
+    "faithfulness evaluation",
+    "LLM-as-a-judge",
+    "model aggregation",
+    "stacked meta-learner",
+    "open-weight models",
+    "cost-efficient evaluation",
+    "admissibility test"
+   ],
+   "field": "大模型评估与幻觉检测",
+   "innovations": [
+    "提出 RAIM 框架：cross-fitted stacked logistic regression + admissibility test 实现廉价开源 judge 面板的鲁棒聚合",
+    "首次量化 panel-vs-frontier trade-off：median 93% κ保留、bacc仅损失2.9 points、成本约1/64",
+    "形式化 admissibility regime：用 competence spread(κ≥0.30) + error decorrelation(φ̄≤0.40) 两坐标刻画 panel 有效的充分条件"
+   ],
+   "benchmarks": [
+    "MedHallu",
+    "WiCE",
+    "RAGTruth",
+    "XSUM",
+    "FActScore",
+    "TruthfulQA",
+    "CNN",
+    "EXPERTQA"
+   ]
+  }
+ }
 }

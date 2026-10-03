@@ -4,5 +4,31 @@
  "title": "RESAIL-MITIGATING-COLLAPSE-IN-ITERATIVE-AGENT-SELF-DISTILLAT",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-10-01 08:30:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a16c5aaf-f824-42d8-815f-237a79e797b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a16c5aaf-f824-42d8-815f-237a79e797b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:14:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "iterative self-distillation",
+    "privileged information",
+    "agent collapse",
+    "selective distillation",
+    "recursive self-improvement",
+    "LLM agents"
+   ],
+   "field": "LLM智能体自蒸馏与迭代学习",
+   "innovations": [
+    "提出ReSAIL框架缓解迭代自蒸馏中的性能坍塌",
+    "设计基于PI敏感度的步骤选择与轨迹损失平衡机制",
+    "引入特权信息保留正则化跨轮保持监督能力"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "TextCraft",
+    "AITZ"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Schema-Discovering-Unknown-Environments-via-Agentic-Program",
  "token": "sk-57bzKRZBk...",
  "created_at": "2026-10-01 08:28:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/0623727e-6dc9-4573-9ba6-8c0bc51197de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/0623727e-6dc9-4573-9ba6-8c0bc51197de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:15:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic Program Induction",
+    "World Model",
+    "LLM Agent",
+    "Mechanism Discovery",
+    "Interactive Program Synthesis",
+    "Long-horizon Exploration"
+   ],
+   "field": "LLM Agent 与环境交互",
+   "innovations": [
+    "提出交互程序归纳(IPI)范式，将环境机制显式编码为可执行程序并在 hypothesize-certify-plan-act 闭环中持续修订",
+    "Schema harness 通过全历史回测(Certify)与逐动作验证(Act with Verification)防止知识退化、支持程序内搜索规划",
+    "在 ARC-AGI-3/DiG-bench/MazeBench 三个未知环境基准上达到或超越人类水平，消融证实各组件缺一不可"
+   ],
+   "benchmarks": [
+    "ARC-AGI-3",
+    "DiG-bench",
+    "MazeBench"
+   ]
+  }
+ }
 }

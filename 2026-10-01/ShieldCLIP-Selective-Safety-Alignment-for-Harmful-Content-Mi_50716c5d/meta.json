@@ -4,5 +4,38 @@
  "title": "ShieldCLIP-Selective-Safety-Alignment-for-Harmful-Content-Mi",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-10-01 08:20:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c12cf670-8aa3-4e76-b836-53689e86dfa1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c12cf670-8aa3-4e76-b836-53689e86dfa1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:15:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI Safety",
+    "Vision-Language",
+    "CLIP",
+    "Harmful Content Mitigation",
+    "Selective Alignment",
+    "Multimodal Encoder",
+    "Diffusion Models"
+   ],
+   "field": "可信多模态人工智能",
+   "innovations": [
+    "模态级条件化安全对齐：根据每个生成模态的实际安全状态分别执行保留或重定向，而非按样本来源统一处理",
+    "ViSUv2 数据集：195k 四元组含独立 per-modality 安全标签、578 细粒度概念与 28 类别",
+    "四路条件训练目标：preservation/redirection/mixed-coherence 的结构化损失设计"
+   ],
+   "benchmarks": [
+    "ViSUv2",
+    "I2P",
+    "ViSU",
+    "SneakyPrompt",
+    "MMA-Diffusion",
+    "Ring-A-Bell",
+    "LLaVA",
+    "Stable Diffusion v1.4",
+    "SDXL"
+   ]
+  }
+ }
 }

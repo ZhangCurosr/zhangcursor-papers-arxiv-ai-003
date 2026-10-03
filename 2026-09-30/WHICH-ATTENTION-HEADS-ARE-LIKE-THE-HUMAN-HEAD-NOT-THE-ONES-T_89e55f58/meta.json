@@ -4,5 +4,33 @@
  "title": "WHICH-ATTENTION-HEADS-ARE-LIKE-THE-HUMAN-HEAD-NOT-THE-ONES-T",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-30 18:49:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cfc73dab-49c4-4a46-84b6-2cc4e888f124.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cfc73dab-49c4-4a46-84b6-2cc4e888f124.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:14:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "brain-AI alignment",
+    "attention heads",
+    "ablation study",
+    "function vectors",
+    "concept vectors",
+    "attribution patching",
+    "EEG FRP",
+    "mechanistic interpretability"
+   ],
+   "field": "神经可解释性 / 脑-AI对齐",
+   "innovations": [
+    "首次对LLM注意力头执行脑对齐选择后直接因果消融检验，证明脑对齐与计算因果性解离",
+    "识别出脑对齐头中反复出现的novelty和repetition两类注意力profile及其差异化任务贡献",
+    "建立brain/FV/CV三评分框架系统刻画注意力头，验证attribution patching作为FV筛选的高效代理"
+   ],
+   "benchmarks": [
+    "abstract sequence completion (AAABAAA→B task)",
+    "8-extended-task battery (few-shot, prose, retrieval, coreference, etc.)",
+    "Pythia-1.4B training trajectory"
+   ]
+  }
+ }
 }

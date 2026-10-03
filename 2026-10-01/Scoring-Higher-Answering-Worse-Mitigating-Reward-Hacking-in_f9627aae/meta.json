@@ -4,5 +4,35 @@
  "title": "Scoring-Higher-Answering-Worse-Mitigating-Reward-Hacking-in",
  "token": "sk-Wy5CGD3Z6...",
  "created_at": "2026-10-01 08:30:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1bf58290-73ce-4c1d-b139-9da655e69e60.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1bf58290-73ce-4c1d-b139-9da655e69e60.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:15:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Rubric-RL",
+    "reward hacking",
+    "reinforcement learning",
+    "llm alignment",
+    "protocol-level rubrics",
+    "reward aggregation"
+   ],
+   "field": "大语言模型强化学习与对齐",
+   "innovations": [
+    "揭示Rubric-RL加和聚合的奖励黑客通道：覆盖率上升但适切性降至基线以下",
+    "提出ProRubric离线协议维度分组方法，合取满足+失败子句，不改判据和 optimiser",
+    "训练前扰动审计方法：通过微调未训练模型输出读取奖励激励机制"
+   ],
+   "benchmarks": [
+    "HealthBench",
+    "MedQA",
+    "WritingBench",
+    "Creative-v3",
+    "Arena-Hard v2",
+    "GPQA-Diamond",
+    "ResearchQA"
+   ]
+  }
+ }
 }

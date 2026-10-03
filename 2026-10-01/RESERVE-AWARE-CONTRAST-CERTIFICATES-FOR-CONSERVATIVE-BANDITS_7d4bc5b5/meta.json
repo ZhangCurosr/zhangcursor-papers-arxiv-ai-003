@@ -4,5 +4,29 @@
  "title": "RESERVE-AWARE-CONTRAST-CERTIFICATES-FOR-CONSERVATIVE-BANDITS",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-10-01 08:28:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e661b255-21b1-4643-8b43-a5f36356cfd5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e661b255-21b1-4643-8b43-a5f36356cfd5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:14:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conservative bandits",
+    "contrast certificate",
+    "safe exploration",
+    "confidence sets",
+    "prefix refresh",
+    "sequential decision making"
+   ],
+   "field": "保守赌博机与安全探索",
+   "innovations": [
+    "共享对比认证消除去耦不确定性惩罚",
+    "前缀刷新账本机制实现历史决策再认证",
+    "Anytime条件均值安全性定理与精确储备成本分解"
+   ],
+   "benchmarks": [
+    "linear bandit controlled experiment"
+   ]
+  }
+ }
 }

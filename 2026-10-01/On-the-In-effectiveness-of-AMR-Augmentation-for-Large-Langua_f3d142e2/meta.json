@@ -4,5 +4,42 @@
  "title": "On-the-In-effectiveness-of-AMR-Augmentation-for-Large-Langua",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-10-01 08:28:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/8e97d1b0-3714-467b-b92a-36fb01ffc38f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/8e97d1b0-3714-467b-b92a-36fb01ffc38f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:59:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AMR",
+    "Large Language Models",
+    "Structured Representation",
+    "Semantic Parsing",
+    "Fine-tuning",
+    "Reproducibility",
+    "Perplexity Analysis"
+   ],
+   "field": "大语言模型与结构化知识表示",
+   "innovations": [
+    "系统性复现并证伪AMR增强对现代LLM的有效性",
+    "提出基于困惑度的关系知识探针方法，分离结构化格式priming效应与实际关系知识增益",
+    "将AMR无效性结论从prompt场景扩展至fine-tuning场景"
+   ],
+   "benchmarks": [
+    "PAWS",
+    "SNLI",
+    "WMT16",
+    "CoNLL2003",
+    "SST-2",
+    "PubMed45",
+    "WiC",
+    "SPIDER",
+    "AG-News",
+    "RAMS",
+    "CNN/DailyMail",
+    "ANLI",
+    "LogiQA"
+   ]
+  }
+ }
 }

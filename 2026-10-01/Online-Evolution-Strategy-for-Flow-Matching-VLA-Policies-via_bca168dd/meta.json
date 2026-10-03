@@ -4,5 +4,30 @@
  "title": "Online-Evolution-Strategy-for-Flow-Matching-VLA-Policies-via",
  "token": "sk-F3sFpZ8ji...",
  "created_at": "2026-10-01 08:30:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/47845982-b2b0-4be4-8db4-2bd27cee3a73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/47845982-b2b0-4be4-8db4-2bd27cee3a73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:59:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Flow Matching",
+    "Vision-Language-Action",
+    "Evolution Strategy",
+    "Online Adaptation",
+    "Robot Manipulation",
+    "Self-Supervised Learning"
+   ],
+   "field": "机器人具身智能",
+   "innovations": [
+    "将进化策略从参数空间扩展到动作轨迹空间进行在线适应",
+    "构建反馈加权MSE自监督损失实现轨迹空间进化方向到参数空间的投影",
+    "失败感知正则化机制利用负反馈形成排斥力避免重复失败区域"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "AgiBot G1真实机器人抓取"
+   ]
+  }
+ }
 }

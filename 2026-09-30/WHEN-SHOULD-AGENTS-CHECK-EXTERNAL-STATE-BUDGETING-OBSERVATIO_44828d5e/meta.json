@@ -4,5 +4,29 @@
  "title": "WHEN-SHOULD-AGENTS-CHECK-EXTERNAL-STATE-BUDGETING-OBSERVATIO",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-09-30 18:51:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7d37f516-39e7-4a36-9485-3c4cc5e7b661.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7d37f516-39e7-4a36-9485-3c4cc5e7b661.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:57:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "前瞻性记忆",
+    "Agent预算分配",
+    "外部状态观测",
+    "资源受限决策",
+    "轻量策略蒸馏"
+   ],
+   "field": "Agent系统与记忆管理",
+   "innovations": [
+    "首个将存储意图的外部状态检查形式化为共享剧集预算资源分配问题",
+    "通过Outcome/Due匹配对照和结构余量诊断分离局部价值与时序分配的贡献",
+    "揭示需求-容量边界规律：局部门控与未来感知调度的适用条件切换点"
+   ],
+   "benchmarks": [
+    "PM-Bench",
+    "GoodAI LTM"
+   ]
+  }
+ }
 }

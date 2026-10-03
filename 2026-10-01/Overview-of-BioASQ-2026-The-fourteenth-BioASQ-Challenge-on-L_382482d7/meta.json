@@ -4,5 +4,10 @@
  "title": "Overview-of-BioASQ-2026-The-fourteenth-BioASQ-Challenge-on-L",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-10-01 08:19:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4c0c3c0c-293f-413e-a006-d0967360c8c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4c0c3c0c-293f-413e-a006-d0967360c8c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 03:00:39",
+  "chunks": 1
+ }
 }

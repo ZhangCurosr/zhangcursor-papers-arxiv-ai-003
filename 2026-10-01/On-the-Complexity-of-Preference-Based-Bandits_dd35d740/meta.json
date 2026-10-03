@@ -4,5 +4,35 @@
  "title": "On-the-Complexity-of-Preference-Based-Bandits",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-10-01 08:30:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/99fdd0a8-0940-4744-be64-dfa61faafefe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/99fdd0a8-0940-4744-be64-dfa61faafefe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:59:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "preference-based bandits",
+    "dueling bandits",
+    "Bradley-Terry model",
+    "eluder dimension",
+    "logistic bandits",
+    "regret analysis",
+    "optimism-in-the-face-of-uncertainty"
+   ],
+   "field": "在线学习与 bandit 算法",
+   "innovations": [
+    "提出局部敏感 eluder 维度 d_sigma，将 sigmoid 局部曲率直接嵌入复杂度定义，避免全局 eluder 维度必然携带的不利 kappa 依赖",
+    "设计 GINOP 算法，通过 log-loss 置信集与成对不确定性奖励联合选择 arm 对，首次证明偏好反馈学习与直接奖励学习具有同等的统计效率"
+   ],
+   "benchmarks": [
+    "MaxInP (Saha 2021)",
+    "CoLSTIM (Bengs 2022)",
+    "FGTS.CDB (Li 2024)",
+    "POP-BO (Xu 2024)",
+    "MaxMinLCB (Pasztor 2024)",
+    "MR-LPF (Kayal 2025)",
+    "NDB-UCB/T5 (Verma 2025)"
+   ]
+  }
+ }
 }

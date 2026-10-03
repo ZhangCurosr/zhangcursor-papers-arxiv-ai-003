@@ -4,5 +4,10 @@
  "title": "PREFPI-PREFERENCE-GUIDED-STEERING-INTO-OUT-OF-DISTRIBUTION-B",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-10-01 08:27:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2a0905bd-ab6e-4ae1-bf08-dcca204ff13d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2a0905bd-ab6e-4ae1-bf08-dcca204ff13d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 03:01:07",
+  "chunks": 1
+ }
 }

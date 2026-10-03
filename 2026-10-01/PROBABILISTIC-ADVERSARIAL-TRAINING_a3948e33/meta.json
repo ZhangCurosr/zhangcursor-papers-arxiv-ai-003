@@ -4,5 +4,30 @@
  "title": "PROBABILISTIC-ADVERSARIAL-TRAINING",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-10-01 08:29:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a3b0f066-a07f-4d98-85de-21ecdbfbba4c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a3b0f066-a07f-4d98-85de-21ecdbfbba4c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 03:01:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial robustness",
+    "probabilistic robustness",
+    "adversarial training",
+    "KL divergence",
+    "importance sampling",
+    "Langevin dynamics"
+   ],
+   "field": "对抗机器学习与鲁棒性",
+   "innovations": [
+    "证明KL散度是概率鲁棒性可计算下界并提出PAT训练框架",
+    "通过梯度先求导与自归一化重要性采样实现稳定的批级梯度估计",
+    "导出即插即用的指数权重可增强传统对抗训练的概率安全性"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100"
+   ]
+  }
+ }
 }

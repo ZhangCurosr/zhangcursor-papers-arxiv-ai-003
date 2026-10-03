@@ -4,5 +4,10 @@
  "title": "WHEN-TOOLS-SILENTLY-LIE-EVALUATING-AND-MIT-IGATING-BLIND-COM",
  "token": "sk-57bzKRZBk...",
  "created_at": "2026-09-30 18:51:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/935e35a0-f914-4e17-a4c6-2fc3d10e2c3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/935e35a0-f914-4e17-a4c6-2fc3d10e2c3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:57:55",
+  "chunks": 1
+ }
 }

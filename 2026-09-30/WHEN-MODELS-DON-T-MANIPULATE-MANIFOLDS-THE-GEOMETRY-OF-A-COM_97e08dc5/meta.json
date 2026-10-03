@@ -4,5 +4,32 @@
  "title": "WHEN-MODELS-DON-T-MANIPULATE-MANIFOLDS-THE-GEOMETRY-OF-A-COM",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-30 08:01:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ab90a3ff-caae-434f-ab26-e9172423effb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ab90a3ff-caae-434f-ab26-e9172423effb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:57:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "manifold hypothesis",
+    "linear representation",
+    "causal geometry",
+    "number comparison",
+    "attention copy head",
+    "MLP local-global circuit"
+   ],
+   "field": "语言模型机械可解释性",
+   "innovations": [
+    "证明数字比较任务中模型使用线性因果方向而非流形维度进行计算",
+    "提出基于加法混合与局部-全局 MLP 分段的比较算法并在因果干预下验证",
+    "将线性比较算法扩展至三数序列并刻画 flag 存储与末 token 汇总机制"
+   ],
+   "benchmarks": [
+    "two-digit max comparison (2000 pairs)",
+    "three-digit max comparison (1500 triples)",
+    "position recovery and IIA evaluation on Qwen2.5-7B-Instruct"
+   ]
+  }
+ }
 }

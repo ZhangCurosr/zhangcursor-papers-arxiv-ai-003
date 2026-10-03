@@ -4,5 +4,32 @@
  "title": "OVERFORGE-REASONING-THROUGH-STRATEGIES-ANDTACTICS-HELPS-COOP",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-10-01 08:27:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7e50b7a6-ed85-4348-9625-97a82bb0165e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7e50b7a6-ed85-4348-9625-97a82bb0165e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 03:00:42",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "multi-agent reinforcement learning",
+    "hierarchical reasoning",
+    "training-free agents",
+    "world model",
+    "overcooked-v2",
+    "metacognition"
+   ],
+   "field": "多智能体协作推理",
+   "innovations": [
+    "战略/战术双层分离的training-free层级框架",
+    "PCM元认知置信度门控与动态预算分配",
+    "伙伴条件化世界模型克隆rollout防污染机制"
+   ],
+   "benchmarks": [
+    "Overcooked-v2 connected room",
+    "Overcooked-v2 asymmetric room",
+    "MindForge baseline",
+    "IPPO baseline"
+   ]
+  }
+ }
 }

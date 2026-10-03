@@ -4,5 +4,32 @@
  "title": "What-Does-Post-Training-Change-in-Multilingual-Reasoning",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-09-30 08:00:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/87ed3760-ec71-4461-915d-badb77de99bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/87ed3760-ec71-4461-915d-badb77de99bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:58:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual reasoning",
+    "post-training audit",
+    "reinforcement learning",
+    "language adherence",
+    "delivery efficiency",
+    "chain-of-thought"
+   ],
+   "field": "多语言大语言模型推理",
+   "innovations": [
+    "提出J=C∧L∧T交付指标揭示correct-but-undelivered缺口",
+    "证明SFT准确性成本为通用现象而非多语言混合特有",
+    "设计正确性门控语言奖励R_gate以同时恢复终止性与语言遵循"
+   ],
+   "benchmarks": [
+    "AIME-2026",
+    "AMC-2023",
+    "DAPO-Math-17K",
+    "OpenR1"
+   ]
+  }
+ }
 }

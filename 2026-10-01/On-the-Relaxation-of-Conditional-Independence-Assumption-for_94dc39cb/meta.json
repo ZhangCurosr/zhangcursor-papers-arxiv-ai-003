@@ -4,5 +4,34 @@
  "title": "On-the-Relaxation-of-Conditional-Independence-Assumption-for",
  "token": "sk-aki8HlP1W...",
  "created_at": "2026-10-01 08:29:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e8c73879-6205-4bec-8361-07ae09524cb9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e8c73879-6205-4bec-8361-07ae09524cb9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:59:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semantic segmentation",
+    "Dice optimization",
+    "conditional independence",
+    "spatial dependence",
+    "post-processing",
+    "RankSEG",
+    "reciprocal moment approximation"
+   ],
+   "field": "图像语义分割/度量优化",
+   "innovations": [
+    "将RankSEG中的CIA放松为SLD结构以利用局部标签相关性",
+    "提出RMA+FFT实现O(d log d)复杂度的依赖建模",
+    "设计不动点迭代避免全局重排，实践中1-2步收敛"
+   ],
+   "benchmarks": [
+    "LiTS",
+    "KiTS",
+    "ADE20K",
+    "Cityscapes",
+    "DeepGlobe Land"
+   ]
+  }
+ }
 }

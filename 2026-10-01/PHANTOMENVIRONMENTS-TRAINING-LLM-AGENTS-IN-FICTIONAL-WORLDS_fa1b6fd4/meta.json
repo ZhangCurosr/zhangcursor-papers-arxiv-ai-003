@@ -4,5 +4,34 @@
  "title": "PHANTOMENVIRONMENTS-TRAINING-LLM-AGENTS-IN-FICTIONAL-WORLDS",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-10-01 08:19:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/82d896bd-7748-4522-a520-3167050b3ff1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/82d896bd-7748-4522-a520-3167050b3ff1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 03:00:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "LLM agents",
+    "synthetic environments",
+    "multi-hop retrieval",
+    "rule-generated worlds",
+    "search scaling"
+   ],
+   "field": "LLM agent 训练与合成环境",
+   "innovations": [
+    "提出零成本、零 LLM 参与、Prolog 可验证的规则生成虚构环境 PhantomEnvironments",
+    "证明虚构环境训练的 agent 可迁移到真实多跳搜索基准并在 OOD 新基准上超越真实训练",
+    "揭示仅在交互中涌现的 search scaling 行为并解耦环境复杂度轴对迁移的贡献"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "2WikiMultihopQA",
+    "MuSiQue",
+    "SynthWorlds-RM",
+    "SynthWorlds-SM",
+    "FRAMES"
+   ]
+  }
+ }
 }

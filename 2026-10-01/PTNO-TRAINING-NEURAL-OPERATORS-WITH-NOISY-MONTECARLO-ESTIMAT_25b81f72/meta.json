@@ -4,5 +4,10 @@
  "title": "PTNO-TRAINING-NEURAL-OPERATORS-WITH-NOISY-MONTECARLO-ESTIMAT",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-10-01 08:26:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d5ded012-fa5c-465e-b17a-21023ad0e066.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d5ded012-fa5c-465e-b17a-21023ad0e066.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 03:03:10",
+  "chunks": 4
+ }
 }

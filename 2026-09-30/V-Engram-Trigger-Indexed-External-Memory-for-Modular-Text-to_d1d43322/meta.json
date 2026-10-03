@@ -4,5 +4,10 @@
  "title": "V-Engram-Trigger-Indexed-External-Memory-for-Modular-Text-to",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-09-30 08:17:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a11478cf-d247-441c-a847-42ea5dcb4195.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a11478cf-d247-441c-a847-42ea5dcb4195.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:57:10",
+  "chunks": 1
+ }
 }

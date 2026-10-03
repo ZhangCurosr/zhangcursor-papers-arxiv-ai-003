@@ -4,5 +4,31 @@
  "title": "OpenJev-RLCD-A-Working-RLCD-Implementation",
  "token": "sk-MPIaIwMik...",
  "created_at": "2026-10-01 08:30:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/bad2de94-3c17-445f-b1ae-9d0424c8a542.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/bad2de94-3c17-445f-b1ae-9d0424c8a542.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 03:00:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "calibration",
+    "reinforcement learning",
+    "proper scoring rule",
+    "reasoning model",
+    "selective prediction",
+    "Qwen3"
+   ],
+   "field": "语言模型校准与选择性预测",
+   "innovations": [
+    "提出方差分解恒等式证明混合目标等价于per-rationale目标加Gini多样性奖励项",
+    "设计'先校准后强化'两阶段训练配方避免System-One坍缩和策略梯度淹没",
+    "以真确评分作为强化学习奖励替代1-bit正确性，使单查询决策校准并可自动化"
+   ],
+   "benchmarks": [
+    "GSM8K-Verify",
+    "MMLU-Pro",
+    "ChaosNLI"
+   ]
+  }
+ }
 }

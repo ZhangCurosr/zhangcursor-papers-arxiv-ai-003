@@ -4,5 +4,33 @@
  "title": "PIVOTOPD-Learning-to-Recover-from-Pivotal-Mistakes-in-Multi",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-01 08:27:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4fe223e0-98c9-46cc-82ec-fc17b9bfd520.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4fe223e0-98c9-46cc-82ec-fc17b9bfd520.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 03:01:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "multi-turn agents",
+    "pivotal mistake",
+    "recovery distillation",
+    "privileged self-teacher",
+    "group-based RL",
+    "PPO"
+   ],
+   "field": "多轮交互 Agent 的训练与对齐",
+   "innovations": [
+    "提出 preventive + recovery 双向蒸馏联合训练框架 PIVOTOPD，分别用 reverse KL 防错、forward KL 灌输学生在失误后状态中极少采样的恢复行为",
+    "在 ALFWorld 上用符号 oracle 量化证实 >50% 失败源自可恢复的关键失误且标准 OPD 无法修复",
+    "跨 Qwen3 与 Nemotron 两模型族、多基准验证 PIVOTOPD 在 Agent 任务上的有效性与泛化性"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop",
+    "Search-based QA",
+    "SWE-Bench Verified"
+   ]
+  }
+ }
 }

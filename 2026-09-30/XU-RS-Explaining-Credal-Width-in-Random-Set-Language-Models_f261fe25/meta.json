@@ -4,5 +4,29 @@
  "title": "XU-RS-Explaining-Credal-Width-in-Random-Set-Language-Models",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-30 18:50:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d0323ea5-6392-4e4c-a2ec-c20709df08c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d0323ea5-6392-4e4c-a2ec-c20709df08c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:58:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "credal width",
+    "uncertainty attribution",
+    "random-set classifiers",
+    "expected gradients",
+    "explainable AI",
+    "belief functions"
+   ],
+   "field": "可解释AI与不确定性量化",
+   "innovations": [
+    "提出XU-RS框架将credal width归因到输入tokens",
+    "推导概率修正对width梯度的影响机制",
+    "建立参考准备检查与数值精度检查的双重验证协议"
+   ],
+   "benchmarks": [
+    "MedQA US"
+   ]
+  }
+ }
 }

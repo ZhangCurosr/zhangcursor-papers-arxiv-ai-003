@@ -4,5 +4,32 @@
  "title": "YOU-CANNOT-PICK-A-PROVIDER-FROM-THE-PRICELIST-MARKET-AWARE-R",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-30 18:50:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f9259e58-e6fe-4648-bc46-c92050fb4c50.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f9259e58-e6fe-4648-bc46-c92050fb4c50.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:58:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM routing",
+    "provider selection",
+    "open-weight inference",
+    "cost-aware serving",
+    "online certification",
+    "inverse bandit",
+    "market-aware routing"
+   ],
+   "field": "LLM推理系统与cost-aware routing",
+   "innovations": [
+    "提出provider选择作为open-weight LLM路由中被忽视的独立维度，形式化为price-taker市场的inverse bandit问题",
+    "设计FACET在线可行性认证框架，通过certify-before-serve+per-task facet认证+CUSUM监控实现安全与成本权衡",
+    "基于6模型×多任务×多provider×三轮测量的实证体系，揭示provider可行性是task-selective且drifting的"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MMLU",
+    "HumanEval"
+   ]
+  }
+ }
 }

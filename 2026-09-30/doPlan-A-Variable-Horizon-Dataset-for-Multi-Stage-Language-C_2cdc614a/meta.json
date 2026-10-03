@@ -4,5 +4,32 @@
  "title": "doPlan-A-Variable-Horizon-Dataset-for-Multi-Stage-Language-C",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-30 07:58:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/070f7156-f8b2-4501-8abe-c5d273e8c552.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/070f7156-f8b2-4501-8abe-c5d273e8c552.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:59:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "language-conditioned driving",
+    "autonomous vehicle planning",
+    "multi-stage instruction",
+    "dataset",
+    "persistent intent",
+    "temporal grounding"
+   ],
+   "field": "语言条件自动驾驶规划",
+   "innovations": [
+    "首个可变时间跨度乘客指令公开数据集doPlan",
+    "提出轨迹分离度与方向响应诊断指标",
+    "揭示语言敏感度不等于方向遵从性的模型缺陷"
+   ],
+   "benchmarks": [
+    "OpenEMMA",
+    "AutoVLA",
+    "Alpamayo 1.5",
+    "Alpamayo 2.0"
+   ]
+  }
+ }
 }

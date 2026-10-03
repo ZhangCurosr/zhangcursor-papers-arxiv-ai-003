@@ -4,5 +4,10 @@
  "title": "PRETEXT-Defeating-Malicious-Skill-Detection-Frameworks-for-A",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-10-01 08:26:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/64cd97cf-0443-46d3-8772-5dcbb43f2fac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/64cd97cf-0443-46d3-8772-5dcbb43f2fac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 03:02:06",
+  "chunks": 1
+ }
 }

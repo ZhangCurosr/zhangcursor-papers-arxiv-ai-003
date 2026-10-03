@@ -4,5 +4,31 @@
  "title": "Width-Expansion-as-a-Method-for-Class-Incremental-Learning",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-30 07:59:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3ca1d8f8-9af6-42ac-9dcb-4fd23f1f5a65.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3ca1d8f8-9af6-42ac-9dcb-4fd23f1f5a65.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:58:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Class-Incremental Learning",
+    "Catastrophic Forgetting",
+    "Width Expansion",
+    "Continual Learning",
+    "Linear Attention",
+    "Persistent Memory",
+    "Architecture-based CL"
+   ],
+   "field": "类增量学习与灾难性遗忘",
+   "innovations": [
+    "基于归一化损失与神经元利用率的动态宽度扩展机制，无需任务标识符",
+    "带持久键值记忆的线性注意力稳定跨步特征表示",
+    "证明在Class-IL中可塑性优于预训练初始化质量"
+   ],
+   "benchmarks": [
+    "Split MNIST",
+    "Split CIFAR-100"
+   ]
+  }
+ }
 }

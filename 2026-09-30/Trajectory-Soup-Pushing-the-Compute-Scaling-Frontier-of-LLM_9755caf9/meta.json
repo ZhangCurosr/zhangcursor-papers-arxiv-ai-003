@@ -4,5 +4,34 @@
  "title": "Trajectory-Soup-Pushing-the-Compute-Scaling-Frontier-of-LLM",
  "token": "sk-EKa3zthlJ...",
  "created_at": "2026-09-30 18:51:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/acc08337-d9f1-44eb-a1ea-1c800542a7d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/acc08337-d9f1-44eb-a1ea-1c800542a7d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:56:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM mid-training",
+    "trajectory diversity",
+    "model merging",
+    "weight averaging",
+    "compute scaling",
+    "bias-variance decomposition"
+   ],
+   "field": "大语言模型训练效率与扩展",
+   "innovations": [
+    "提出Trajectory Soup两阶段融合方法，将计算预算分配给多条独立轨迹以提升中间训练性能",
+    "建立局部偏差-方差分析框架，证明均匀权重在两阶段融合中的方差最优性",
+    "实证表明轨迹多样性是独立增益源，且融合优势可传递至后训练阶段"
+   ],
+   "benchmarks": [
+    "ARC-Easy/Challenge",
+    "MMLU/MMLU-Pro",
+    "GSM8K",
+    "HumanEval",
+    "C-Eval",
+    "SuperGPQA"
+   ]
+  }
+ }
 }

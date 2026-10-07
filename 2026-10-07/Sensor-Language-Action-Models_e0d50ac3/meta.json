@@ -4,5 +4,33 @@
  "title": "Sensor-Language-Action-Models",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-10-07 08:13:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5df499d1-ba13-4da6-b60b-aab8cbd8153e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5df499d1-ba13-4da6-b60b-aab8cbd8153e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:49:25",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Sensor-Language-Action Models",
+    "Clinical Decision Support",
+    "Multimodal Medical AI",
+    "Hierarchical Memory",
+    "Structured Action Prediction"
+   ],
+   "field": "医疗多模态智能系统",
+   "innovations": [
+    "提出OpenSLA统一框架联合建模传感器编码、多面字幕生成与分层动作决策",
+    "设计两阶段分层记忆机制实现长序列传感器token压缩与加速",
+    "构建观测-关系-全局-动作四层次字幕生成机制增强可解释性"
+   ],
+   "benchmarks": [
+    "MC-MED",
+    "MIMIC-III",
+    "MOVER",
+    "VitalDB",
+    "MetaboNet",
+    "PEDAP"
+   ]
+  }
+ }
 }

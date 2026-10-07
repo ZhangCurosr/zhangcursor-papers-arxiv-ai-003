@@ -4,5 +4,33 @@
  "title": "TICDA-TABULAR-IN-CONTEXT-DATA-ATTRIBUTION",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-10-07 08:14:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a5ba0ecc-4aeb-4980-b726-4fcd2ec8b272.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a5ba0ecc-4aeb-4980-b726-4fcd2ec8b272.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:48:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tabular foundation models",
+    "in-context learning",
+    "data attribution",
+    "influence functions",
+    "context curation",
+    "active learning"
+   ],
+   "field": "可解释机器学习与数据归因",
+   "innovations": [
+    "将影响函数迁移到冻结表示的线性代理，实现单次前向传播的高效归因",
+    "提出自影响力与查询影响力两种互补得分，分别用于标签错误检测和上下文筛选",
+    "证明归因得分可跨不同TFM模型迁移，并在主动学习中提升标签效率"
+   ],
+   "benchmarks": [
+    "TabArena",
+    "TabICLv2",
+    "TabDPT 1.2",
+    "TabPFN-3",
+    "TabPFN-3.5"
+   ]
+  }
+ }
 }

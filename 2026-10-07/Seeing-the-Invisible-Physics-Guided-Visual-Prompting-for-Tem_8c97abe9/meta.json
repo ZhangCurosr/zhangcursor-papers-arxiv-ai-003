@@ -4,5 +4,32 @@
  "title": "Seeing-the-Invisible-Physics-Guided-Visual-Prompting-for-Tem",
  "token": "sk-OldJrHBbj...",
  "created_at": "2026-10-07 08:17:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d5e2a1b1-68a2-4b6d-8771-bc2bdc16c9dd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d5e2a1b1-68a2-4b6d-8771-bc2bdc16c9dd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:48:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "Vision-and-Language Navigation",
+    "Physics-Guided Visual Prompting",
+    "Multi-modal Perception",
+    "Radiation Avoidance",
+    "Thermal Hazard Navigation",
+    "Zero-shot Modality Extension"
+   ],
+   "field": "具身导航与多模态感知融合",
+   "innovations": [
+    "零样本即插即用的物理引导视觉提示模块，无需微调VLA权重即可避开不可见辐射/温度风险",
+    "异构物理模态映射到单一动态虚拟障碍视觉模式，保持与训练分布对齐",
+    "两阶段物理辅助MLP风险评估架构，集成逆平方律正则化实现辐射方向识别"
+   ],
+   "benchmarks": [
+    "R2R-CE val-unseen",
+    "RxR-CE val-unseen",
+    "OmniNav baseline"
+   ]
+  }
+ }
 }

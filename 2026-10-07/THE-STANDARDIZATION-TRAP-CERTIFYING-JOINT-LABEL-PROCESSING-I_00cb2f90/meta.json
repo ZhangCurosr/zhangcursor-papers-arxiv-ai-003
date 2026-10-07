@@ -4,5 +4,34 @@
  "title": "THE-STANDARDIZATION-TRAP-CERTIFYING-JOINT-LABEL-PROCESSING-I",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-10-07 08:16:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/21c521c3-33ff-4e0c-a71e-76c675d4c1d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/21c521c3-33ff-4e0c-a71e-76c675d4c1d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:49:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tabular foundation models",
+    "in-context learning",
+    "interpretability",
+    "label processing",
+    "standardization trap",
+    "certificate testing",
+    "joint label processing",
+    "attention mechanism"
+   ],
+   "field": "表格基础模型可解释性",
+   "innovations": [
+    "提出两个排除标准化陷阱的证书检验区分固定权重/独立变换/联合处理",
+    "证明所有五个公开TFM均对标签进行联合处理且该行为随训练涌现",
+    "定位联合处理主要通过注意力分数路径传递（阻断后下降85%）"
+   ],
+   "benchmarks": [
+    "OpenML kin8nm",
+    "OpenML pol",
+    "OpenML superconduct",
+    "synthetic_mi"
+   ]
+  }
+ }
 }

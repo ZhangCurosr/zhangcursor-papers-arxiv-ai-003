@@ -4,5 +4,30 @@
  "title": "TRANSECT-RETAINING-OBSERVABILITY-FOR-LONG-HORIZON-LLM-AGENT",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-10-07 08:14:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a89a5328-6198-4a05-a5ff-2812722bc7ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a89a5328-6198-4a05-a5ff-2812722bc7ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:49:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM evaluation",
+    "transcript analysis",
+    "observability",
+    "agentic evaluation",
+    "AI safety",
+    "LLM-as-judge",
+    "reproducible research"
+   ],
+   "field": "LLM Agent 评估与可观测性",
+   "innovations": [
+    "共享时间轴对齐多信号源的可导航报告框架",
+    "solo/k-roll/cohort 三模式判定机制与可审计诊断",
+    "Spec-based 评估族配置支持跨 run 复用"
+   ],
+   "benchmarks": [
+    "CRUX shadow evaluation (TabPFN research task)"
+   ]
+  }
+ }
 }

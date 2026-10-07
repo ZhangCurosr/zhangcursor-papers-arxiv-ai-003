@@ -4,5 +4,31 @@
  "title": "Symphony-for-Text-Generation-Benchmarking-Clinical-Note-Gene",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-10-07 08:09:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/8b8a52f4-2865-48ab-8e1c-03872acef04e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/8b8a52f4-2865-48ab-8e1c-03872acef04e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:48:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ambient clinical documentation",
+    "clinical note generation",
+    "LLM-as-judge",
+    "entailment metrics",
+    "PDSQI-9",
+    "MedConv dataset",
+    "cross-system benchmarking"
+   ],
+   "field": "临床自然语言处理与AI评估",
+   "innovations": [
+    "提出MedConv多语言临床数据集与蕴含指标+PDSQI-9成对比较的多维评估框架",
+    "实证Corti模板可配置性：最小干预即可定向优化简洁性等质量维度",
+    "构建受控跨厂商环境记录系统基准，揭示完整性为主要分化维度"
+   ],
+   "benchmarks": [
+    "ACI-BENCH",
+    "MedConv"
+   ]
+  }
+ }
 }

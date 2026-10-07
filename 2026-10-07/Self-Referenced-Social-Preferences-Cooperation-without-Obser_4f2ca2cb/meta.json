@@ -4,5 +4,30 @@
  "title": "Self-Referenced-Social-Preferences-Cooperation-without-Obser",
  "token": "sk-8dCw3hSU3...",
  "created_at": "2026-10-07 08:13:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5f4c37f4-a6e1-4906-b97d-66d033b541b3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5f4c37f4-a6e1-4906-b97d-66d033b541b3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:48:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体强化学习",
+    "社会偏好",
+    "合作学习",
+    "自参考",
+    "顺序社会困境"
+   ],
+   "field": "多智能体强化学习与社会偏好",
+   "innovations": [
+    "提出自参考社会偏好方法，使智能体在无法观测同伴奖励时仍能学习合作",
+    "设计 SRR 与 SRA 两种嵌入机制，分别适用于不平等厌恶与 benevolent 偏好",
+    "引入价值前瞻与持续台账，提升公平性与部分可观测性下的鲁棒性"
+   ],
+   "benchmarks": [
+    "Escape Room",
+    "Clean Up",
+    "Commons Harvest"
+   ]
+  }
+ }
 }

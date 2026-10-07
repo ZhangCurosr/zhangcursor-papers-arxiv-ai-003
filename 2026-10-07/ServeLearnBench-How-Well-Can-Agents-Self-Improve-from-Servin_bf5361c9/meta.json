@@ -4,5 +4,10 @@
  "title": "ServeLearnBench-How-Well-Can-Agents-Self-Improve-from-Servin",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-10-07 08:15:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/12ec453f-788b-4091-b2a8-a5781527e138.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/12ec453f-788b-4091-b2a8-a5781527e138.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:53:23",
+  "chunks": 1
+ }
 }

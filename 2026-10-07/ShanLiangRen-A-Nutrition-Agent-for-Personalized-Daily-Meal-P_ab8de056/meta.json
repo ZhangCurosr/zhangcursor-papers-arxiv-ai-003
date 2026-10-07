@@ -4,5 +4,30 @@
  "title": "ShanLiangRen-A-Nutrition-Agent-for-Personalized-Daily-Meal-P",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-10-07 08:17:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/20a6f238-0f94-4aae-8183-d6d1d12713d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/20a6f238-0f94-4aae-8183-d6d1d12713d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:53:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "膳食规划",
+    "检索增强生成",
+    "多目标优化",
+    "Pareto 优化",
+    "营养代理",
+    "LLM Agent"
+   ],
+   "field": "个性化健康与精准营养计算",
+   "innovations": [
+    "基于子图匹配的精确RAG用于硬约束先验满足",
+    "Pareto支配过滤与LLM最小修改精炼协同的多目标膳食优化",
+    "确定性营养计算与LLM生成器分离的可信架构"
+   ],
+   "benchmarks": [
+    "300个个性化规划实例",
+    "PCS/NIA/EPC/AND/Latency五维评估"
+   ]
+  }
+ }
 }

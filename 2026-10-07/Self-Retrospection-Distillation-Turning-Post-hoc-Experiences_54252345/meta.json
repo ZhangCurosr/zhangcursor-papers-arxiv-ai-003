@@ -4,5 +4,36 @@
  "title": "Self-Retrospection-Distillation-Turning-Post-hoc-Experiences",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-10-07 08:14:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/085dc86c-40e3-4f6d-9224-4c1aa3ad8fd9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/085dc86c-40e3-4f6d-9224-4c1aa3ad8fd9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:53:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-distillation",
+    "reinforcement learning with verifiable rewards",
+    "agent training",
+    "prospective learning",
+    "post-hoc experience",
+    "reward-uniform groups"
+   ],
+   "field": "大语言模型强化学习/智能体训练",
+   "innovations": [
+    "提出前瞻性学习范式，将后验经验用于训练交互前预测能力而非直接优化行为",
+    "设计SRD辅助损失，在GRPO/OPSD/RLSD基础上统一可用reward-uniform组的稠密监督",
+    "理论证明并实证验证SRD在reward-silent群体（如98%全失败）下仍有效学习"
+   ],
+   "benchmarks": [
+    "AIME 2024/2026",
+    "LiveCodeBench-v6",
+    "HotpotQA",
+    "2WikiMultiHopQA",
+    "ALFWorld",
+    "WebShop",
+    "BrowseComp-Plus",
+    "OJBench"
+   ]
+  }
+ }
 }

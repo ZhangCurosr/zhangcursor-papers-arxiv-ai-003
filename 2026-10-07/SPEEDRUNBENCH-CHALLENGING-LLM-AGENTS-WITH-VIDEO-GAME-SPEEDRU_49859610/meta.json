@@ -4,5 +4,29 @@
  "title": "SPEEDRUNBENCH-CHALLENGING-LLM-AGENTS-WITH-VIDEO-GAME-SPEEDRU",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-10-07 08:12:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/19b3b6f7-69ff-42ce-ad54-f00e0742932f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/19b3b6f7-69ff-42ce-ad54-f00e0742932f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:51:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Game Benchmark",
+    "Speedrunning",
+    "Strategy Formation",
+    "Long-horizon Reasoning",
+    "Contamination Control"
+   ],
+   "field": "大语言模型评测与基准构建",
+   "innovations": [
+    "提出以速度跑为核心的持续性Agent评测基准SPEEDRUNBENCH，区分完成能力与优化能力",
+    "设计ONLINE/OFFLINE-SEED/OFFLINE-SCRATCH三设置评估框架，分别捕捉实时感知、路线微调与自主发现能力",
+    "引入开源配对游戏控制预训练数据污染，量化记忆与推理的贡献差异"
+   ],
+   "benchmarks": [
+    "SPEEDRUNBENCH"
+   ]
+  }
+ }
 }

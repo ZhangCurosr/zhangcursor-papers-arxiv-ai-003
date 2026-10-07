@@ -4,5 +4,30 @@
  "title": "ST-Bench-A-Spatial-Temporal-Benchmark-for-Multi-Agent-System",
  "token": "sk-1W4pDEr0k...",
  "created_at": "2026-10-07 08:15:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b6639657-c3ee-46b4-998f-d419dcb1c357.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b6639657-c3ee-46b4-998f-d419dcb1c357.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:51:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent systems",
+    "scientific data analysis",
+    "benchmark",
+    "spatial-temporal",
+    "Earth science",
+    "workflow optimization",
+    "continuous reward"
+   ],
+   "field": "多智能体系统评测与科学AI",
+   "innovations": [
+    "首个支持MAS优化的科学数据分析基准，提供任务内查询池和连续奖励信号",
+    "参考感知连续奖励函数设计，结合合理性检查、不等式目标和参考值接近度",
+    "覆盖-质量分解评估框架，揭示MAS增益主要来自覆盖率而非度量质量提升"
+   ],
+   "benchmarks": [
+    "ST-Bench"
+   ]
+  }
+ }
 }

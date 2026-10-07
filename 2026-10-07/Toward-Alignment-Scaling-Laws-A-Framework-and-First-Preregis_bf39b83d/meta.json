@@ -4,5 +4,34 @@
  "title": "Toward-Alignment-Scaling-Laws-A-Framework-and-First-Preregis",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-07 08:12:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/7bdf3463-87f8-4a22-ad7d-d2874d444979.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/7bdf3463-87f8-4a22-ad7d-d2874d444979.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:54:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "alignment scaling laws",
+    "safety scaling",
+    "alignment burden",
+    "pre-registered measurement",
+    "model robustness",
+    "sycophancy",
+    "adversarial training"
+   ],
+   "field": "AI安全与对齐",
+   "innovations": [
+    "提出逐风险对齐缩放定律框架B_r(N)=a_r N^α_r，区分观测/审计/真实三种对齐度量",
+    "证明最大修正风险指数决定长期制度，小模型拟合低估大尺度指数",
+    "首次预注册测量对抗鲁棒性α=0.60、诚实性α=-0.05、明确立场α=0.48"
+   ],
+   "benchmarks": [
+    "Pythia adversarial robustness",
+    "Qwen2.5 sycophancy/truthfulness/dispositions",
+    "Qwen3 replication",
+    "TruthfulQA",
+    "Perez et al. sycophancy sets"
+   ]
+  }
+ }
 }

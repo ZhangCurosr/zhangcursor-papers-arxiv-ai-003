@@ -4,5 +4,32 @@
  "title": "Where-Rules-End-and-Judges-Begin-Measuring-the-Judgment-Boun",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-10-07 08:15:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6a3f5157-bc43-41e4-93c5-4ad352042517.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6a3f5157-bc43-41e4-93c5-4ad352042517.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:58:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-Agent Systems",
+    "Prompt Injection",
+    "LLM-as-a-Judge",
+    "Defense-in-Depth",
+    "Deterministic Guardrails",
+    "Agent Security",
+    "Memory Poisoning"
+   ],
+   "field": "多Agent系统安全",
+   "innovations": [
+    "提出DEFER级联框架，将28条确定性检查与LLM裁判按五原则编排，首次量化测量多Agent流水线中规则与裁判的边界",
+    "提出judge replay方法论，从日志离线复判裁判决策，无需重跑agent即可比较任意裁判组合",
+    "实证发现风险评分自动门呈反选择性（批90%攻击提案vs 36%合法提案），且同谱系裁判组合比多元组合弱3.5倍"
+   ],
+   "benchmarks": [
+    "Agent Security Bench (ASB)",
+    "TAMAS",
+    "InjecAgent"
+   ]
+  }
+ }
 }

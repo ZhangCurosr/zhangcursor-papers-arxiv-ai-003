@@ -4,5 +4,29 @@
  "title": "WORLDSOLVER-CAN-LLM-AGENTS-SIMULATE-THE-PHYSICAL-DYNAMICS-VI",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-07 08:14:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6738d776-bcca-4f4f-b0ee-e83969eee758.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6738d776-bcca-4f4f-b0ee-e83969eee758.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:57:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "物理仿真",
+    "求解器生成",
+    "LLM Agent",
+    "代码生成",
+    "物理合理性和视觉保真度",
+    "世界模型"
+   ],
+   "field": "物理仿真与Agent编码",
+   "innovations": [
+    "首次将物理动力学求解器生成定义为Agent编码任务，需同时考察物理理解、数学建模与软件工程能力",
+    "提出WorldSolver基准（168任务/61篇CG论文/7大物理域），通过固定代码脚手架隔离求解器实现变量",
+    "设计三维度统一评测协议（执行检查+视觉保真度+物理合理性），视觉与物理评估互补"
+   ],
+   "benchmarks": [
+    "WorldSolver"
+   ]
+  }
+ }
 }

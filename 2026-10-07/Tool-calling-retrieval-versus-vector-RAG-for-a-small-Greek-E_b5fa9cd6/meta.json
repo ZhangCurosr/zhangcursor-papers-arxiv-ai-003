@@ -4,5 +4,29 @@
  "title": "Tool-calling-retrieval-versus-vector-RAG-for-a-small-Greek-E",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-10-07 08:12:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/71cd521b-1336-4694-8454-a057e1c1dedd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/71cd521b-1336-4694-8454-a057e1c1dedd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:54:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "Tool Calling",
+    "Greeklish",
+    "Multilingual Robustness",
+    "Agricultural AI",
+    "Benchmark"
+   ],
+   "field": "多语言信息检索与问答系统",
+   "innovations": [
+    "构建了首个针对希腊语多书写变体的 KyGround 基准，直接对比工具调用检索与向量 RAG",
+    "揭示了工具检索在希腊语场景下的字面匹配脆弱性及弃权问题",
+    "证明对工具搜索接口进行归一化改进（去重音、词干匹配）可显著提升性能"
+   ],
+   "benchmarks": [
+    "KyGround"
+   ]
+  }
+ }
 }

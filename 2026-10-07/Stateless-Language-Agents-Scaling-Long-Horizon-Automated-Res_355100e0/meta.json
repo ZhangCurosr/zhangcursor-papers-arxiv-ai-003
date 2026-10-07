@@ -4,5 +4,32 @@
  "title": "Stateless-Language-Agents-Scaling-Long-Horizon-Automated-Res",
  "token": "sk-DZdSC3jNI...",
  "created_at": "2026-10-07 08:15:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/de222cd7-207d-4c87-888b-bb32b06dbe5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/de222cd7-207d-4c87-888b-bb32b06dbe5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:53:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动化研究",
+    "无状态代理",
+    "长时程评估",
+    "多agent系统",
+    "上下文管理",
+    "token效率"
+   ],
+   "field": "自动化科学研究(AutoResearch)",
+   "innovations": [
+    "stateful search with stateless agents架构",
+    "harness-controlled context reconstruction机制",
+    "evidence-driven work assignment设计"
+   ],
+   "benchmarks": [
+    "FrontierSWE",
+    "SOL-ExecBench",
+    "Anthropic VLIW SIMD Kernel",
+    "FrontierCS Structured-LWE"
+   ]
+  }
+ }
 }

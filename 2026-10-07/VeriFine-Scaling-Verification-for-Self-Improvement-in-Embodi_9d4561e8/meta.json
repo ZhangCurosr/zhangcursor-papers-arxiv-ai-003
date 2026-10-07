@@ -4,5 +4,32 @@
  "title": "VeriFine-Scaling-Verification-for-Self-Improvement-in-Embodi",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-07 08:14:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/75d642f4-5d47-4bf1-bb96-e2e7617486cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/75d642f4-5d47-4bf1-bb96-e2e7617486cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:56:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自我改进",
+    "具身推理",
+    "验证扩展",
+    "协同进化",
+    "评分标准评判者",
+    "主动校准",
+    "自动驾驶",
+    "机器人导航"
+   ],
+   "field": "具身智能与自主系统",
+   "innovations": [
+    "提出策略-课程-评判者协同进化的 VeriFine 框架以实现持续自我改进",
+    "设计无参考的评分标准评判者并结合主动校准机制突破验证瓶颈",
+    "通过双循环机制在驾驶和导航任务上实现策略与评判者能力的同步提升"
+   ],
+   "benchmarks": [
+    "VLNVerse (机器人导航)",
+    "内部驾驶推理数据集 (200万片段)"
+   ]
+  }
+ }
 }

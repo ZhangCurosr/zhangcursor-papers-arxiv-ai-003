@@ -4,5 +4,34 @@
  "title": "Token-Eficient-Multi-Agent-Collaboration-via-System-One-Guid",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-10-07 08:12:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e2e890e4-dad1-4d30-90dd-6c2ebf8364b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e2e890e4-dad1-4d30-90dd-6c2ebf8364b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:54:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-Agent Systems",
+    "Token Efficiency",
+    "System One",
+    "LLM Orchestration",
+    "Computational Division of Labor"
+   ],
+   "field": "多智能体系统效率优化",
+   "innovations": [
+    "提出System One控制器与LLM推理的解耦架构，将MAS协调决策从生成式LLM中分离",
+    "设计决策-证据闭环机制，通过轻量级reader定位evidence支持有界协调决策",
+    "引入累积性通信预算约束B_src控制重复传输开销"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "GSM8K",
+    "AQuA",
+    "MultiArith",
+    "SVAMP",
+    "HumanEval",
+    "WebSRC"
+   ]
+  }
+ }
 }

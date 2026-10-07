@@ -4,5 +4,32 @@
  "title": "What-Frame-Level-Labels-Can-and-Cannot-Do-for-Small-UAV-Poin",
  "token": "sk-8zjLxCqN4...",
  "created_at": "2026-10-07 08:14:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/df8b9861-16d2-420a-8d4b-f7fcdef5d84d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/df8b9861-16d2-420a-8d4b-f7fcdef5d84d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:57:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "frame-level labels",
+    "weakly supervised localization",
+    "small UAV detection",
+    "thermal infrared",
+    "point detection",
+    "false-alarm control",
+    "copy-paste augmentation"
+   ],
+   "field": "热红外小目标检测 / 弱监督空间定位",
+   "innovations": [
+    "在统一框架下同时报告 hit rate 与 Pd@FA，揭示两者可背离；提出 channel-mean/主成分诊断与 label-shuffle ablation 分离分类与读出贡献",
+    "在无框合成策略下系统性评估标签分布（多视频稀疏采样）与标签密度对两类指标的不同影响",
+    "给出跨数据集迁移下大目标与阈值不稳定的失败模式，并提出标注分配/合成/精度要求的证据化配置指南"
+   ],
+   "benchmarks": [
+    "CST Anti-UAV",
+    "Anti-UAV410",
+    "Airborne Object Tracking (AOT)"
+   ]
+  }
+ }
 }

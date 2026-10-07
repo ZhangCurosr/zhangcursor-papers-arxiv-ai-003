@@ -4,5 +4,31 @@
  "title": "Towards-the-Automatic-Synthesis-of-Interpretable-Chess-Tacti",
  "token": "sk-xC0qospQN...",
  "created_at": "2026-10-07 08:15:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/63cfdd69-599e-43d7-96d5-ec646cdbd717.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/63cfdd69-599e-43d7-96d5-ec646cdbd717.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:55:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解释强化学习",
+    "归纳逻辑编程",
+    "国际象棋战术",
+    "符号策略",
+    "棋盘模式学习",
+    "DCG散度指标"
+   ],
+   "field": "可解释AI / 棋类智能体",
+   "innovations": [
+    "将PAL归纳的棋盘模式转化为部分适用性符号子策略",
+    "提出基于DCG扩展的战术-引擎散度评估指标",
+    "双参考引擎（Stockfish 14 + Maia 1100）定位合成策略能力区间"
+   ],
+   "benchmarks": [
+    "lichess 2013年1月对局库（325830个位置）",
+    "Stockfish 14",
+    "Maia 1 (1100 Elo)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Which-alloy-composition-what-process-parameters-Inferring-th",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-10-07 08:17:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e757add3-6f1d-4d2e-86ea-e7cec15636e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e757add3-6f1d-4d2e-86ea-e7cec15636e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:58:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "microstructure-inferred recipe",
+    "inverse materials discovery",
+    "magnesium alloy extrusion",
+    "graph neural network for grains",
+    "Gaussian process discrete decoding",
+    "structure-property pipeline"
+   ],
+   "field": "材料信息学/微观结构逆向推断",
+   "innovations": [
+    "将配方腿形式化为已知工艺预测成分与已知成分预测工艺两个条件任务并在真实百级数据上评估",
+    "目录感知且保留相邻距离的 joint-grid GP 解码器在离散工艺恢复上显著优于普通分类器",
+    "guard metrics（WAPE_all + macro FP rate）揭示仅看 WAPE 会被虚构元素策略误导"
+   ],
+   "benchmarks": [
+    "107-condition Mg extrusion campaign, 14 alloys, 11 speed levels"
+   ]
+  }
+ }
 }

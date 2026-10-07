@@ -4,5 +4,33 @@
  "title": "Same-Feedback-Diferent-Answer-Measuring-Run-to-Run-Instabili",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-10-07 08:13:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3dac978f-d9ba-4e3c-9670-4692fbe9e60d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3dac978f-d9ba-4e3c-9670-4692fbe9e60d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:52:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "运行稳定性",
+    "主题归纳",
+    "客户反馈分析",
+    "重复运行评估",
+    "主题漂变",
+    "Taxonomy-Grounded Agent",
+    "LLM不确定性"
+   ],
+   "field": "大型语言模型可靠性与可重复性评估",
+   "innovations": [
+    "将不稳定性正交分解为主题漂变、排名不稳定性、数量分歧与证据漂变四个维度的重复运行评估协议",
+    "控制单一模型与语料下的 architecture 消融，证明持久主题库使主题漂变降低 86–88% 且数量分歧归零",
+    "在 100–5,000 条三档语料规模下测量原始模型与 TGA 的稳定性曲线，并配合运行级 jackknife/bootstrap 不确定性估计"
+   ],
+   "benchmarks": [
+    "Customer Feedback Analysis (内部私有多语言语料)",
+    "Frontier Model Screen (100 records)",
+    "Scale Study (100/1,000/5,000 records)",
+    "Opus-Controlled Ablation (1,000 records)"
+   ]
+  }
+ }
 }

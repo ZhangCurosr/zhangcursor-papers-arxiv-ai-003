@@ -4,5 +4,33 @@
  "title": "Unanimously-Wrong-Certified-Abstention-from-How-Medical-LLM",
  "token": "sk-rJF0pjIu8...",
  "created_at": "2026-10-07 08:17:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3e052ac5-4cc6-479d-8d33-c56f45f5e00d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3e052ac5-4cc6-479d-8d33-c56f45f5e00d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:55:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical LLM",
+    "certified abstention",
+    "multi-round consensus",
+    "semantic entropy",
+    "conformal prediction",
+    "selective risk",
+    "RAG"
+   ],
+   "field": "医学大模型可靠性与不确定性量化",
+   "innovations": [
+    "首个基于多轮共识形成过程而非最终投票的认证弃权决策",
+    "将语义熵从答案级别扩展至理由结论级别并引入主动反证探针",
+    "分层Learn-then-Test校准解决子群异质性导致的全局校准失效"
+   ],
+   "benchmarks": [
+    "MedQA",
+    "MMLU-Pro medicine",
+    "MedMCQA",
+    "MedXpertQA"
+   ]
+  }
+ }
 }

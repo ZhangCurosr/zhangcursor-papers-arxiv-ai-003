@@ -4,5 +4,30 @@
  "title": "When-Plans-Change-Answers-Formalizing-Cost-Accuracy-Optimiza",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-10-07 08:11:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f06e5828-fc10-408e-9ae4-c40dba16fc9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f06e5828-fc10-408e-9ae4-c40dba16fc9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:57:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义查询优化",
+    "成本-精度权衡",
+    "校准置信度",
+    "计划等价性",
+    "误差传播",
+    "拉格朗日分解"
+   ],
+   "field": "语义数据库系统",
+   "innovations": [
+    "提出基于校准置信度与贡献度加权的输出级质量预测方法，无需标注数据",
+    "证明点wise确定性策略下计划不变性但人口校准策略下选择下推非质量安全",
+    "通过两个Lagrange乘子将输出级recall/precision目标分解为每元组独立定价决策"
+   ],
+   "benchmarks": [
+    "合成工作负载(2000条评论)",
+    "SemBench(未来工作)"
+   ]
+  }
+ }
 }

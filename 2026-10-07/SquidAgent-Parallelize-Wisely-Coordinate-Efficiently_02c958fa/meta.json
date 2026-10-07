@@ -4,5 +4,29 @@
  "title": "SquidAgent-Parallelize-Wisely-Coordinate-Efficiently",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-10-07 08:13:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/56db633f-a89d-41fa-b82d-9667125d4fc1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/56db633f-a89d-41fa-b82d-9667125d4fc1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:53:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent LLM",
+    "parallel scheduling",
+    "task decomposition",
+    "DAG execution",
+    "token-cost estimation",
+    "agent coordination overhead"
+   ],
+   "field": "多智能体系统调度与并行执行",
+   "innovations": [
+    "提出基于预测输出 token 的层 Wise 并行化决策准则，显式建模再探索成本与对齐成本",
+    "通过 session fork 继承上下文将再探索成本压至近似为零，并以前置约定块将事后对齐转为可估成本",
+    "在 9 项跨任务评测上相比 Claude Code 获得 2.6× wall-time 加速与 2.2× 吞吐提升，同时取得最高任务质量"
+   ],
+   "benchmarks": [
+    "PixelCraft, ShopFlow, CompressKit, ArcadeBox, SlideKit, ClimateAnalysis, LinAlgBook, MathRef, CloudDocs"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Thin-Evidence-Thick-Priors",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-10-07 08:14:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c3cdc7fd-d04f-4251-8df4-46502f18f811.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c3cdc7fd-d04f-4251-8df4-46502f18f811.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:54:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM公平性",
+    "反事实审计",
+    "先验替代",
+    "机制可解释性",
+    "理财建议偏差",
+    "身份依赖",
+    "clustered bootstrap"
+   ],
+   "field": "LLM算法公平性与可解释性",
+   "innovations": [
+    "提出prior substitution curve测量身份依赖随财务证据量连续变化的动态过程",
+    "区分substitution effect与standing gap两类偏差模式并提供针对干预",
+    "证明persona-clustered推断可将会议版9项显著交互降为1项稳健效应"
+   ],
+   "benchmarks": [
+    "Llama-3.1-8B-Instruct审计（96,598 prompts）",
+    "Qwen2.5-1.5B-Instruct对照（同设计）"
+   ]
+  }
+ }
 }

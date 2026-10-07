@@ -4,5 +4,30 @@
  "title": "Supermarket-Product-Detection-and-Recognition-Utilizing-Deep",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-10-07 08:15:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5dcdc6ab-f14e-4d95-9692-df3b6d1438ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5dcdc6ab-f14e-4d95-9692-df3b6d1438ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:53:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Grocery Identification",
+    "Image Rectification",
+    "Hough Transform",
+    "Homography Estimation",
+    "Object Detection",
+    "Perspective Correction"
+   ],
+   "field": "零售场景目标检测",
+   "innovations": [
+    "提出无参几何预处理管线：Hough变换视角估计+静态Homography透视校正，零额外参数即可接入任意检测器",
+    "系统揭示矫正效果受拍摄角度(30-60°最佳)与对象密度(O/I=10-20最优)双重约束的定量边界"
+   ],
+   "benchmarks": [
+    "Grocer-Help (subset)",
+    "SKU110K",
+    "Freiburg Groceries Dataset"
+   ]
+  }
+ }
 }

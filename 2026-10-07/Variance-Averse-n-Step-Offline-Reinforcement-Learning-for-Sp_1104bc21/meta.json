@@ -4,5 +4,31 @@
  "title": "Variance-Averse-n-Step-Offline-Reinforcement-Learning-for-Sp",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-10-07 08:13:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/1be2c4d8-ed78-4ac2-a167-a705658568c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/1be2c4d8-ed78-4ac2-a167-a705658568c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 10:57:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "offline reinforcement learning",
+    "generative policy",
+    "variance-averse expectation",
+    "flow matching",
+    "categorical distributional critic",
+    "n-step return",
+    "long-horizon"
+   ],
+   "field": "离线强化学习（生成式策略与分布价值估计）",
+   "innovations": [
+    "提出方差厌恶期望算子对分类返回分布平滑重加权以联合偏好高回报与低色散",
+    "将流匹配actor与分布critic结合并通过拒绝采样实现可靠动作选择",
+    "证明n-step回报需配方差抑制才能在高异质数据上稳定训练"
+   ],
+   "benchmarks": [
+    "D4RL AntMaze",
+    "OGBench"
+   ]
+  }
+ }
 }

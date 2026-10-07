@@ -4,5 +4,40 @@
  "title": "WASD-Wasserstein-based-Knowledge-Distillation-for-Large-Lang",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-10-07 19:44:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a1ef4865-91b5-4599-bb3e-747f4ba33ae9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a1ef4865-91b5-4599-bb3e-747f4ba33ae9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:29:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识蒸馏",
+    "Wasserstein距离",
+    "Sinkhorn散度",
+    "大语言模型",
+    "词元语义对齐",
+    "最优运输"
+   ],
+   "field": "大语言模型高效训练与压缩",
+   "innovations": [
+    "提出WASD，利用基于词元嵌入代价的Sinkhorn散度进行语义感知的逐词元分布对齐",
+    "推导梯度等价的stop-gradient可优化目标，无需额外网络且不经运输求解器反向传播"
+   ],
+   "benchmarks": [
+    "Dolly Eval",
+    "Self-Instruct",
+    "Vicuna",
+    "Super-Natural Instructions",
+    "Unnatural Instructions",
+    "AlpacaEval",
+    "Evol-Instruct",
+    "UltraFeedback",
+    "HumanEval",
+    "MBPP",
+    "GSM8k",
+    "DialogSum",
+    "Flores-200"
+   ]
+  }
+ }
 }

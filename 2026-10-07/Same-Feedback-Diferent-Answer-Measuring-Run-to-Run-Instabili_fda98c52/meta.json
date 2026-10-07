@@ -4,5 +4,32 @@
  "title": "Same-Feedback-Diferent-Answer-Measuring-Run-to-Run-Instabili",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-10-07 19:44:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3dac978f-d9ba-4e3c-9670-4692fbe9e60d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3dac978f-d9ba-4e3c-9670-4692fbe9e60d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:24:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "run-to-run instability",
+    "theme churn",
+    "customer feedback analysis",
+    "taxonomy-grounded agent",
+    "LLM reproducibility",
+    "semantic alignment",
+    "structured output"
+   ],
+   "field": "大模型稳定性与可重复性评估",
+   "innovations": [
+    "提出面向重复多主题语料分析的主题漂移+数量分歧多粒度分解评估协议",
+    "证明持久分类法基础化架构可将主题漂移降低86-88%并使数量分歧降至零",
+    "通过严格控制的消融实验分离分解结构与分类法基础的稳定性贡献"
+   ],
+   "benchmarks": [
+    "Enterprise Customer Feedback Corpus (100/1000/5000 records)",
+    "Claude Opus 4.8 controlled ablation at 1000 records",
+    "Frontier model screen across 8 models"
+   ]
+  }
+ }
 }

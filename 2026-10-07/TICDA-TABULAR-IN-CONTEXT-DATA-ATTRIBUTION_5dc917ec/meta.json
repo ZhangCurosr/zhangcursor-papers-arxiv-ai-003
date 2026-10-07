@@ -4,5 +4,10 @@
  "title": "TICDA-TABULAR-IN-CONTEXT-DATA-ATTRIBUTION",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-10-07 19:44:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a5ba0ecc-4aeb-4980-b726-4fcd2ec8b272.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a5ba0ecc-4aeb-4980-b726-4fcd2ec8b272.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:26:14",
+  "chunks": 1
+ }
 }

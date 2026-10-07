@@ -4,5 +4,28 @@
  "title": "VISUAL-ABSTENTION-IN-UNIFIED-MULTIMODAL-MODELS",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-10-07 19:44:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3147b354-08af-4ec9-a6fe-69b68f8efec1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3147b354-08af-4ec9-a6fe-69b68f8efec1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:28:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual abstention",
+    "unified multimodal models",
+    "image editing",
+    "draw-or-decline benchmark",
+    "paired training"
+   ],
+   "field": "多模态生成与编辑",
+   "innovations": [
+    "形式化视觉弃权并构建DoD配对基准",
+    "提出VisTA配对训练方法实现编辑与弃权能力并存"
+   ],
+   "benchmarks": [
+    "DoD (Draw-or-Decline)",
+    "UniREditBench"
+   ]
+  }
+ }
 }

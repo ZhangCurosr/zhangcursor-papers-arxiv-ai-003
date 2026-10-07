@@ -4,5 +4,10 @@
  "title": "The-Geometry-of-Empowerment",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-10-07 19:44:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3166ed98-bac3-43bb-8374-ea8f493f917a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3166ed98-bac3-43bb-8374-ea8f493f917a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:27:30",
+  "chunks": 1
+ }
 }

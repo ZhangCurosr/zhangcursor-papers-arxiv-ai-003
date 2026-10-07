@@ -4,5 +4,30 @@
  "title": "Textual-Environmental-Context-and-Spatial-Graphs-for-LLM-Bas",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-10-07 08:13:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e19a62bb-288f-4b13-a83a-2167ea34d23f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e19a62bb-288f-4b13-a83a-2167ea34d23f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:26:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sea surface temperature forecasting",
+    "large language model",
+    "graph neural network",
+    "textual environmental context",
+    "spatial prefix",
+    "conditional numerical generation",
+    "tropical cyclone influence"
+   ],
+   "field": "时空预测与大语言模型交叉",
+   "innovations": [
+    "时间对齐的文本-图双通道LLM接口，将环境文本与双图前缀联合注入条件数值生成",
+    "静态地理-气候图与动态SST相关+局地气旋影响图组合的日期特定空间编码",
+    "因子化空间前缀投影实现图表示到低参数prefix的低成本适配"
+   ],
+   "benchmarks": [
+    "South China Sea OISST 0.25° 64x64 grid, 10-step forecasting"
+   ]
+  }
+ }
 }

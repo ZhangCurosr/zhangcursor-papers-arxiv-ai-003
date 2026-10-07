@@ -4,5 +4,29 @@
  "title": "Test-Time-Agent-Evolution-for-Long-Horizon-Legal-Reasoning",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-10-07 08:16:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b1c8730a-22bc-4715-8445-d1b8afbf6848.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b1c8730a-22bc-4715-8445-d1b8afbf6848.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:26:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Legal Agents",
+    "Test-Time Adaptation",
+    "Long-Horizon Reasoning",
+    "Multi-Role Collaboration",
+    "Memory Evolution"
+   ],
+   "field": "法律大模型智能体",
+   "innovations": [
+    "提出TALA训练-free测试时演化框架，通过部署时信号持续改进agent行为",
+    "Test-Time Memory Evolution实现跨案例经验的检索-适配-整合闭环",
+    "Rubric-Aligned Collaboration基于角色特定规则校验动作防止跨阶段错误传播"
+   ],
+   "benchmarks": [
+    "J1-EVAL",
+    "LegalWorld"
+   ]
+  }
+ }
 }

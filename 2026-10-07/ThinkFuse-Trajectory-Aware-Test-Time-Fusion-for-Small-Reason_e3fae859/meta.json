@@ -4,5 +4,32 @@
  "title": "ThinkFuse-Trajectory-Aware-Test-Time-Fusion-for-Small-Reason",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-10-07 19:44:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e5970226-46b9-4cae-90d1-b3990ff7e171.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e5970226-46b9-4cae-90d1-b3990ff7e171.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:27:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "测试时融合",
+    "小推理模型",
+    "不确定性度量",
+    "轨迹感知",
+    "思维链增强"
+   ],
+   "field": "小模型推理增强",
+   "innovations": [
+    "提出轨迹感知测试时融合框架 THINKFUSE，通过 EWCA 度量和自适应阈值选择性融合辅助推理路径",
+    "设计软预算惩罚机制控制融合频率，防止过度干预",
+    "采用主模型 PPL 作为轨迹兼容性评分器确保融合一致性"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "GSM8K",
+    "AIME 2024",
+    "GPQA-Diamond",
+    "NQ-Open"
+   ]
+  }
+ }
 }

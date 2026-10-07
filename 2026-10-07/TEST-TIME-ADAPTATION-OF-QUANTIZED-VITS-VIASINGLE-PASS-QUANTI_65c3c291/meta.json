@@ -4,5 +4,34 @@
  "title": "TEST-TIME-ADAPTATION-OF-QUANTIZED-VITS-VIASINGLE-PASS-QUANTI",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-10-07 19:44:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/958142c7-e7ee-4cb4-94d0-974bd90d094f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/958142c7-e7ee-4cb4-94d0-974bd90d094f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:27:16",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "test-time adaptation",
+    "quantized vision transformer",
+    "post-training quantization",
+    "distribution shift",
+    "edge deployment",
+    "single-pass recalibration"
+   ],
+   "field": "量化视觉模型的测试时自适应",
+   "innovations": [
+    "提出 QuAR 单 Pass 零反向 TTA 框架，直接在冻结量化器输入端进行矩匹配校准",
+    "理论证明最优部分匹配强度与 Lipschitz 传播有界性，避免噪声过拟合",
+    "双分支设计在 Jetson 边缘设备实现 170 KB 状态开销下全面超越回传与无回传基线"
+   ],
+   "benchmarks": [
+    "ImageNet-C",
+    "ImageNet-R",
+    "ImageNet-Sketch",
+    "DomainNet-126",
+    "CIFAR-10-C",
+    "CIFAR-100-C"
+   ]
+  }
+ }
 }

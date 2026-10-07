@@ -4,5 +4,10 @@
  "title": "WORLDSOLVER-CAN-LLM-AGENTS-SIMULATE-THE-PHYSICAL-DYNAMICS-VI",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-07 19:44:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6738d776-bcca-4f4f-b0ee-e83969eee758.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6738d776-bcca-4f4f-b0ee-e83969eee758.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:30:02",
+  "chunks": 1
+ }
 }

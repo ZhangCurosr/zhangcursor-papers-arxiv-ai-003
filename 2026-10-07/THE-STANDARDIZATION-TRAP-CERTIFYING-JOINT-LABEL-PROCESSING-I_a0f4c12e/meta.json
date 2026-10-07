@@ -4,5 +4,32 @@
  "title": "THE-STANDARDIZATION-TRAP-CERTIFYING-JOINT-LABEL-PROCESSING-I",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-10-07 19:44:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/21c521c3-33ff-4e0c-a71e-76c675d4c1d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/21c521c3-33ff-4e0c-a71e-76c675d4c1d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:25:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "表格基础模型",
+    "上下文学习",
+    "标签处理机制",
+    "模型可解释性",
+    "标准化陷阱",
+    "联合处理",
+    "微分几何证书"
+   ],
+   "field": "表格数据基础模型的可解释性",
+   "innovations": [
+    "提出基于标准流形切空间投影的两个证书，区分固定权重/独立非线性/联合处理三种标签处理模式",
+    "证明五个公开TFM均对上下文标签进行联合处理，且该行为在训练中涌现而非来自架构本身"
+   ],
+   "benchmarks": [
+    "OpenML kin8nm",
+    "OpenML pol",
+    "OpenML superconduct",
+    "synthetic_mi"
+   ]
+  }
+ }
 }

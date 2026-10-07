@@ -4,5 +4,32 @@
  "title": "VeriFine-Scaling-Verification-for-Self-Improvement-in-Embodi",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-07 19:43:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/75d642f4-5d47-4bf1-bb96-e2e7617486cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/75d642f4-5d47-4bf1-bb96-e2e7617486cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:29:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied reasoning",
+    "self-improvement",
+    "scaling verification",
+    "rubric judge",
+    "coactive calibration",
+    "policy-curriculum-judge co-evolution",
+    "autonomous driving",
+    "robot navigation"
+   ],
+   "field": "具身推理与自我改进",
+   "innovations": [
+    "提出策略-课程-裁判协同进化的VeriFine框架，打通自适应数据选择、策略优化与选择性人工校准闭环",
+    "参考无关的结构化rubric裁判（教师-学生蒸馏），支持从物理上下文进行可扩展的自由形式推理评估",
+    "协同校准机制：人-Agent基于证据迭代修订rubric并在累计集合上保持验证能力不退化"
+   ],
+   "benchmarks": [
+    "内部驾驶推理数据集（2,134评估/2,772测试）",
+    "VLNVerse机器人导航（182评估/220测试）"
+   ]
+  }
+ }
 }

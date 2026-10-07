@@ -4,5 +4,36 @@
  "title": "Toward-Alignment-Scaling-Laws-A-Framework-and-First-Preregis",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-07 19:44:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/44628898-057e-436a-87d8-088927c21e09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/44628898-057e-436a-87d8-088927c21e09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:28:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "alignment scaling laws",
+    "safety scaling",
+    "alignment burden",
+    "per-risk exponent",
+    "preregistered protocol",
+    "adversarial robustness",
+    "sycophancy",
+    "backdoor persistence"
+   ],
+   "field": "AI 安全与对齐的可扩展性度量",
+   "innovations": [
+    "提出 per-risk 对齐负担 B_r(N)=a_r N^α_r 的统一框架与三种操作化/O1-O3",
+    "建立玩具模型并严格证明最大修正指数决定长期余额格局与小模型拟合低估",
+    "发布预注册测量协议并在 Pythia 与 Qwen2.5/3 上给出首批可复现指数估计与浏览器演示器"
+   ],
+   "benchmarks": [
+    "HarmBench/StrongREJECT (jailbreak)",
+    "Pythia adversarial training exports (Spam, IMDB, PasswordMatch, WordLength)",
+    "Perez et al. sycophancy and disposition sets",
+    "TruthfulQA",
+    "Hubinger sleeper-agent backdoor template",
+    "MMLU (capability guard)"
+   ]
+  }
+ }
 }

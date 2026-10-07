@@ -4,5 +4,10 @@
  "title": "Test-Time-Agent-Evolution-for-Long-Horizon-Legal-Reasoning",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-10-07 19:44:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b1c8730a-22bc-4715-8445-d1b8afbf6848.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b1c8730a-22bc-4715-8445-d1b8afbf6848.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:26:43",
+  "chunks": 1
+ }
 }

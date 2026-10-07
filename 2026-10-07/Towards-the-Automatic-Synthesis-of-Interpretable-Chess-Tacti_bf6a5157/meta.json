@@ -4,5 +4,30 @@
  "title": "Towards-the-Automatic-Synthesis-of-Interpretable-Chess-Tacti",
  "token": "sk-xC0qospQN...",
  "created_at": "2026-10-07 19:45:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/066d7485-faaf-4e7b-95a0-fa9b341f0221.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/066d7485-faaf-4e7b-95a0-fa9b341f0221.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:27:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解释强化学习",
+    "归纳逻辑编程",
+    "国际象棋战术",
+    "符号策略",
+    "模式学习"
+   ],
+   "field": "可解释AI",
+   "innovations": [
+    "基于ILP自动生成可解释国际象棋战术规则",
+    "提出DCG散度度量评估符号策略质量",
+    "验证合成战术与初学者水平匹配"
+   ],
+   "benchmarks": [
+    "Maia-1100",
+    "Stockfish 14",
+    "Lichess公开棋谱"
+   ]
+  }
+ }
 }

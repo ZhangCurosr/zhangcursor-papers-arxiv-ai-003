@@ -4,5 +4,31 @@
  "title": "Variance-Averse-n-Step-Offline-Reinforcement-Learning-for-Sp",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-10-07 19:44:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/67fb3a9b-99e7-438f-820b-128146ea9344.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/67fb3a9b-99e7-438f-820b-128146ea9344.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:29:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "offline reinforcement learning",
+    "variance-averse expectation",
+    "categorical distributional critic",
+    "flow matching policy",
+    "n-step return",
+    "generative actor",
+    "risk-sensitive aggregation"
+   ],
+   "field": "离线强化学习",
+   "innovations": [
+    "提出方差厌恶期望算子E(·)，通过CDF平滑重加权原子概率同时偏好高回报与低方差动作，无需硬截断或辅助惩罚项",
+    "构建VAN-Flow统一框架，将分类分布型评论家、方差厌恶期望引导的rejection sampling与Q-guided flow-matching actor结合，实现可靠动作选择",
+    "从凸序理论证明方差厌恶期望的严格性质，并给出离散化误差界与收敛保证"
+   ],
+   "benchmarks": [
+    "D4RL AntMaze",
+    "OGBench"
+   ]
+  }
+ }
 }

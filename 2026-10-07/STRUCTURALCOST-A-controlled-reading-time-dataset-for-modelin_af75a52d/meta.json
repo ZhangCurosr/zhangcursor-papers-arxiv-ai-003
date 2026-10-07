@@ -4,5 +4,32 @@
  "title": "STRUCTURALCOST-A-controlled-reading-time-dataset-for-modelin",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-10-07 19:44:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/dcba9e39-0cf6-497f-bbb6-cfdeb945409e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/dcba9e39-0cf6-497f-bbb6-cfdeb945409e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:24:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "认知合理性",
+    "语言模型",
+    "自我节奏阅读",
+    "依赖长度",
+    " surprisal",
+    "工作记忆整合成本",
+    "结构复杂度"
+   ],
+   "field": "计算心理语言学",
+   "innovations": [
+    "提出全局/局部双对齐评估框架揭示 LM 记忆整合盲区",
+    "发布 STRUCTURALCOST 首个大规模控制性依赖长度数据集",
+    "发现跨架构系统性低估人类加工成本且缩放无效"
+   ],
+   "benchmarks": [
+    "STRUCTURALCOST",
+    "Natural Stories",
+    "UCL-SPR"
+   ]
+  }
+ }
 }

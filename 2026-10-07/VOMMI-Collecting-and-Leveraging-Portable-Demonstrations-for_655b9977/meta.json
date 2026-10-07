@@ -4,5 +4,31 @@
  "title": "VOMMI-Collecting-and-Leveraging-Portable-Demonstrations-for",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-10-07 19:44:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c50ff9d1-324c-4518-b164-9acfc50f8e5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c50ff9d1-324c-4518-b164-9acfc50f8e5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:29:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mobile manipulation",
+    "portable demonstration",
+    "visual odometry",
+    "VLA",
+    "R2-VO",
+    "residual adapter"
+   ],
+   "field": "具身智能-移动操作",
+   "innovations": [
+    "低成本双视角RGB便携式演示采集协议，无需机器人或IMU硬件",
+    "R2-VO双模态运动重建：在线因果token+离线VGGT锚点漂移校正",
+    "仅作用于基座动作的VO条件化残差适配器，解耦操控残差"
+   ],
+   "benchmarks": [
+    "Barriers-fruit",
+    "Room-bottle",
+    "Cabinet-box"
+   ]
+  }
+ }
 }

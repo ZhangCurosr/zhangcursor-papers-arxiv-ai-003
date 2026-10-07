@@ -4,5 +4,10 @@
  "title": "TRANSECT-RETAINING-OBSERVABILITY-FOR-LONG-HORIZON-LLM-AGENT",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-10-07 19:44:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a89a5328-6198-4a05-a5ff-2812722bc7ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a89a5328-6198-4a05-a5ff-2812722bc7ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:26:12",
+  "chunks": 1
+ }
 }

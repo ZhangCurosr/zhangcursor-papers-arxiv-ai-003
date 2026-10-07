@@ -4,5 +4,32 @@
  "title": "WORLDSONUS-BRINGING-SOUND-TO-WORLDS",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-10-07 19:44:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/8f9a57ba-3f67-4370-a9a2-62cf0c3f2b84.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/8f9a57ba-3f67-4370-a9a2-62cf0c3f2b84.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:29:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video-to-audio",
+    "causal streaming",
+    "spatial audio",
+    "world models",
+    "autoregressive diffusion",
+    "temporal alignment",
+    "interactive generation"
+   ],
+   "field": "视频-音频生成 / 交互式世界模型音频",
+   "innovations": [
+    "ShiftNCE: 训练期对比时序对齐蒸馏，推理零开销实现因果流式音视频同步",
+    "双时间尺度视觉条件：chunk级摘要token与frame级token分流，兼顾长期语义与帧级声学精度",
+    "流中prompt缓存替换机制：原地cross-attention更新支持mid-stream文本交互控制"
+   ],
+   "benchmarks": [
+    "VGGSound 5s/10s",
+    "Interactive 5s/10s/30s",
+    "Greatest Hits onset detection"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "ShanLiangRen-A-Nutrition-Agent-for-Personalized-Daily-Meal-P",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-10-07 19:44:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/20a6f238-0f94-4aae-8183-d6d1d12713d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/20a6f238-0f94-4aae-8183-d6d1d12713d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 22:25:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dietary Planning",
+    "Retrieval-Augmented Generation",
+    "Pareto Optimization",
+    "Personalized Nutrition",
+    "Nutrition Agent",
+    "Multi-objective Planning"
+   ],
+   "field": "个性化营养规划与检索增强生成",
+   "innovations": [
+    "基于子图匹配的精确RAG进行硬约束先验过滤与可行空间缩减",
+    "确定性营养计算与Pareto引导的LLM最小改动迭代精炼管线",
+    "全量化多目标饮食规划问题MDP的形式化定义与区间偏差优化框架"
+   ],
+   "benchmarks": [
+    "PCS (个人硬约束满足率)",
+    "NIA (营养目标区间达标率)",
+    "EPC (计划完整度)",
+    "AND (平均归一化营养偏差)"
+   ]
+  }
+ }
 }

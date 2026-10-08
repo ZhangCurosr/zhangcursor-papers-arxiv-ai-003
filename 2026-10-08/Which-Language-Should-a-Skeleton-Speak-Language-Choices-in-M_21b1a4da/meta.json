@@ -4,5 +4,33 @@
  "title": "Which-Language-Should-a-Skeleton-Speak-Language-Choices-in-M",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-10-08 08:32:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/cceef108-e207-4979-8ccb-1a63f50601d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/cceef108-e207-4979-8ccb-1a63f50601d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:45:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言推理",
+    "骨架提示",
+    "语言选择",
+    "低资源语言",
+    "Chain-of-Thought",
+    "数学推理"
+   ],
+   "field": "多语言大语言模型推理",
+   "innovations": [
+    "形式化骨架语言配置空间(查询/骨架/答案语言三元组)",
+    "识别三种骨架语言效应模式(方向一致/评估依赖/不对称负向)",
+    "建立MGSM-LowResource 34语言数据集及双模型翻译质量控制管道"
+   ],
+   "benchmarks": [
+    "MGSM",
+    "MATH-500",
+    "PolyMath",
+    "MSVAMP",
+    "MGSM-LowResource"
+   ]
+  }
+ }
 }

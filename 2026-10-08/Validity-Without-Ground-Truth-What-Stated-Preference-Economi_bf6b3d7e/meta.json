@@ -4,5 +4,31 @@
  "title": "Validity-Without-Ground-Truth-What-Stated-Preference-Economi",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-08 08:28:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/84ca7b0d-3cf0-4b58-948e-97381cee82f4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/84ca7b0d-3cf0-4b58-948e-97381cee82f4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:43:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM评估",
+    "陈述偏好经济学",
+    "效度框架",
+    "理论效度",
+    "收敛效度",
+    "支付意愿",
+    "无ground truth评估",
+    "激励相容"
+   ],
+   "field": "语言模型评估与测量",
+   "innovations": [
+    "将陈述偏好经济学效度框架首次系统引入LLM评估，适用于无正确答案场景",
+    "通过顾问框架将理论效度操作化为规范性检验标准，区分错误与偏好差异",
+    "构建理论效度与收敛效度的多维度评估矩阵，揭示单一准确率指标无法捕捉的模型分化"
+   ],
+   "benchmarks": [
+    "Vossler et al. 2023 水质 referendum 问卷"
+   ]
+  }
+ }
 }

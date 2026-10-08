@@ -4,5 +4,37 @@
  "title": "SquidAgent-Parallelize-Wisely-Coordinate-Efficiently",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-10-07 19:43:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/2d87c2dd-688e-43aa-8d8f-bfa64b333ee8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/2d87c2dd-688e-43aa-8d8f-bfa64b333ee8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:40:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent LLM",
+    "parallel scheduling",
+    "token-based cost estimation",
+    "agent orchestration",
+    "DAG decomposition",
+    "execution overhead"
+   ],
+   "field": "多 Agent LLM 系统调度优化",
+   "innovations": [
+    "提出基于预测输出 token 数的串行/并行代价判据，解决 wall-clock 估计失准问题",
+    "识别并重探索成本与对齐成本两项并行隐藏开销",
+    "通过会话分叉继承上下文和前置约定块将两项隐藏成本分别降至近零和可估计"
+   ],
+   "benchmarks": [
+    "PixelCraft",
+    "ShopFlow",
+    "CompressKit",
+    "ArcadeBox",
+    "SlideKit",
+    "ClimateAnalysis",
+    "LinAlgBook",
+    "MathRef",
+    "CloudDocs"
+   ]
+  }
+ }
 }

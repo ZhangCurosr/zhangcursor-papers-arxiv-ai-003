@@ -4,5 +4,33 @@
  "title": "Why-Software-Engineering-Is-Indispensable-in-the-Age-of-Codi",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-08 08:25:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/be35f196-4a81-4e60-9f9b-df94331afc45.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/be35f196-4a81-4e60-9f9b-df94331afc45.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:45:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "software engineering",
+    "AI coding agents",
+    "large language models",
+    "spec-driven development",
+    "vibe coding",
+    "software process governance",
+    "architecture decision records"
+   ],
+   "field": "软件工程与AI协作",
+   "innovations": [
+    "从LLM三大结构性属性推导'结构性真空'，论证SE不可替代的本质原因",
+    "提出四大知识杠杆+三角色的AI-SE协作模型",
+    "将PSEE研究范式从确定性执行转向概率化交付"
+   ],
+   "benchmarks": [
+    "Cui et al. 2025 现场实验（4,867开发者）",
+    "Becker et al. 2025 RCT（16开发者/246任务）",
+    "Xu et al. 2025 DID分析（2,755仓库）",
+    "DORA 2025 Report（~5,000从业者）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "UNROLLED-FLOW-MODELS-FOR-REASONING",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-10-08 08:26:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ab1b65d0-7f6a-49c3-8d7d-c7357d010632.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ab1b65d0-7f6a-49c3-8d7d-c7357d010632.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:43:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "flow matching",
+    "reasoning",
+    "latent rollout",
+    "sphere retraction",
+    "structured reasoning",
+    "graph reachability"
+   ],
+   "field": "生成式推理与流匹配模型",
+   "innovations": [
+    "终端 rollout 损失训练使 flow 积分步数在推理中有效",
+    "球面回退稳定长 rollout 潜在状态演化"
+   ],
+   "benchmarks": [
+    "ProsQA",
+    "Sudoku-Hard",
+    "Sudoku-Extreme",
+    "Maze-Hard"
+   ]
+  }
+ }
 }

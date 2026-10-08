@@ -4,5 +4,10 @@
  "title": "VIDEOEVOLVE-CO-EVOLVING-MEMORY-AND-RE-TRIEVAL-FOR-LONG-VIDEO",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-10-08 08:34:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/2665b10d-b732-46b6-9668-0865aacd1765.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/2665b10d-b732-46b6-9668-0865aacd1765.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:43:43",
+  "chunks": 1
+ }
 }

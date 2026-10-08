@@ -4,5 +4,34 @@
  "title": "Where-Can-a-Decision-Model-Diagnose-HVAC-Faults-Reasoning-De",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-10-08 08:38:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/88ae5039-8afb-4e43-af75-5529c733e951.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/88ae5039-8afb-4e43-af75-5529c733e951.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:45:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fault detection and diagnosis",
+    "HVAC",
+    "decision model",
+    "training-free",
+    "calibration",
+    "distribution shift",
+    "Brick schema",
+    "reasoning level"
+   ],
+   "field": "建筑AI与故障诊断",
+   "innovations": [
+    "系统评估免训练决策模型在HVAC故障诊断中的能力边界，提出推理层级框架",
+    "证明物理特征预计算是免训练模型有效诊断的必要条件",
+    "发现免训练模型在跨建筑分布偏移下校准稳定性优于监督模型"
+   ],
+   "benchmarks": [
+    "ORNL RTU",
+    "RP-1312 AHUs",
+    "FLEXLAB AHU",
+    "Nesbitt Hall"
+   ]
+  }
+ }
 }

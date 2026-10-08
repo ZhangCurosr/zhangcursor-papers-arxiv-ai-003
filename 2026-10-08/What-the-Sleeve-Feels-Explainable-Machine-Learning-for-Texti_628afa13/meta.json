@@ -4,5 +4,35 @@
  "title": "What-the-Sleeve-Feels-Explainable-Machine-Learning-for-Texti",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-10-08 08:28:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/c81117c7-20b1-4072-9ecd-c16a43fe9815.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/c81117c7-20b1-4072-9ecd-c16a43fe9815.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:44:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "smart textile",
+    "pressure sensing",
+    "human activity recognition",
+    "explainable AI",
+    "SHAP",
+    "wearable sensor",
+    "posture screening",
+    "XGBoost"
+   ],
+   "field": "可穿戴传感与可解释人体活动识别",
+   "innovations": [
+    "被试独立协议下的三类筛查映射与29维可解释压力特征体系",
+    "SHAP+特征族消融+子簇误差的联合解释分析",
+    "模拟穿脱圆周移位压力测试量化鲁棒性"
+   ],
+   "benchmarks": [
+    "Smart-Sleeve",
+    "LOSO cross-validation",
+    "bootstrap 95% CI",
+    "feature-group ablation",
+    "donning rotation stress test"
+   ]
+  }
+ }
 }

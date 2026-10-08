@@ -4,5 +4,32 @@
  "title": "When-Scientific-Cognition-Is-No-Longer-Scarce",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-10-08 08:28:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ad547c73-fd20-4516-b700-5068e5554db7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ad547c73-fd20-4516-b700-5068e5554db7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:44:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "稀缺性反转",
+    "AI科学",
+    "国家实验室",
+    "假设生成",
+    "科学验证",
+    "代理系统",
+    "可追溯性"
+   ],
+   "field": "AI for Science / 科研方法论",
+   "innovations": [
+    "提出稀缺性反转概念，将科学瓶颈从认知产出转向选择/物理/验证/问责四维度",
+    "以计算型科学（数学/算法）为早期窗口实证展示反转已发生",
+    "重构国家实验室价值命题：从通用推理转向可信证据转化与机构问责"
+   ],
+   "benchmarks": [
+    "度数-直径图问题2026年记录更新",
+    "OpenAI数学成果722篇手稿/372结果族",
+    "Co-Scientist生物医学湿实验验证"
+   ]
+  }
+ }
 }

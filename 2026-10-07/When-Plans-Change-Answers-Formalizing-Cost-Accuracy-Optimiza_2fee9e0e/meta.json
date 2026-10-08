@@ -4,5 +4,10 @@
  "title": "When-Plans-Change-Answers-Formalizing-Cost-Accuracy-Optimiza",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-10-07 19:44:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f06e5828-fc10-408e-9ae4-c40dba16fc9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f06e5828-fc10-408e-9ae4-c40dba16fc9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:42:45",
+  "chunks": 1
+ }
 }

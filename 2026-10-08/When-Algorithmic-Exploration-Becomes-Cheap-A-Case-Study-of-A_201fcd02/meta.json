@@ -4,5 +4,32 @@
  "title": "When-Algorithmic-Exploration-Becomes-Cheap-A-Case-Study-of-A",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-10-08 19:49:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/20bee94a-7a98-4466-afc8-7e4e06e42a9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/20bee94a-7a98-4466-afc8-7e4e06e42a9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:38:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "electronic design automation",
+    "agentic research",
+    "algorithm discovery",
+    "computational closure",
+    "meta-research",
+    "AI-assisted research"
+   ],
+   "field": "电子设计自动化(AIDA)",
+   "innovations": [
+    "提出ART框架展示AI代理在EDA算法探索中的能力边界与转化障碍",
+    "以97.7%计算闭环数据揭示EDA研究范式特征",
+    "提出代理时代EDA学术评价的三个开放问题"
+   ],
+   "benchmarks": [
+    "ISPD placement contest",
+    "EPFL combinational suite",
+    "OpenABC-D",
+    "VerilogEval"
+   ]
+  }
+ }
 }

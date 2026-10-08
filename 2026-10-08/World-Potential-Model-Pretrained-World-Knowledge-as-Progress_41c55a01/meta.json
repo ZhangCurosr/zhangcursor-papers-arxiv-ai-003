@@ -4,5 +4,32 @@
  "title": "World-Potential-Model-Pretrained-World-Knowledge-as-Progress",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-10-08 19:49:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f09d3099-7901-4069-a8d2-f1dace958fef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f09d3099-7901-4069-a8d2-f1dace958fef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:38:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Potential Model",
+    "long-horizon agent",
+    "process supervision",
+    "pretrained world knowledge",
+    "sparse reward",
+    "ordinal progress",
+    "potential-based reward shaping",
+    "group-relative policy optimization"
+   ],
+   "field": "长视野智能体过程监督",
+   "innovations": [
+    "提出WPM抽象，利用预训练模型世界知识零样本评估任务相对进展",
+    "锚定里程碑将序数判断转化为任务局部标量世界势能",
+    "引入参数ρ控制过程敏感回报的时间衰减，显式保留中间进展信号"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "ScienceWorld"
+   ]
+  }
+ }
 }

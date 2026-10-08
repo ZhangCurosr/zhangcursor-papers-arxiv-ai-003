@@ -4,5 +4,10 @@
  "title": "When-Tools-Lie-Reliability-of-Mathematical-Agents-Under-Corr",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-10-07 19:44:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ec506351-cdc0-4a7a-86be-dbc07bb3db69.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ec506351-cdc0-4a7a-86be-dbc07bb3db69.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:37:36",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "UNISKILL-LEARNING-ACTOR-ALIGNED-SKILLPROPOSALS-FOR-AN-EVOLVI",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-10-08 19:49:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/06907141-15b1-4d86-bb09-f7d65a1fbb61.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/06907141-15b1-4d86-bb09-f7d65a1fbb61.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:37:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "skill-augmented agent",
+    "actor-skill co-evolution",
+    "contrastive action feedback",
+    "reinforcement learning",
+    "LLM agent",
+    "skill extraction"
+   ],
+   "field": "LLM Agent 技能演化与强化学习",
+   "innovations": [
+    "提出对比动作反馈（contrastive action feedback），利用固定 actor 下已有轨迹的动作 log-likelihood 差距评估技能对齐度，无需额外环境 rollout",
+    "引入技能编辑支持正则化（skill-edit support regularization），防止编辑操作探索坍缩以维持联合训练稳定性",
+    "共享策略框架实现 actor 与 skillbank 协同演化，通过双重过滤（Δ⁺>0 且 R_align>0）严格控制技能入库质量"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

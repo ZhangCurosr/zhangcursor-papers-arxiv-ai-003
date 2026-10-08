@@ -4,5 +4,33 @@
  "title": "When-Scientific-Cognition-Is-No-Longer-Scarce",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-10-08 19:44:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/af96f7b6-9f54-4ce5-bcdd-04bf55ddf9b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/af96f7b6-9f54-4ce5-bcdd-04bf55ddf9b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 22:38:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学发现自动化",
+    "AI代理",
+    "科研方法论",
+    "稀缺性反转",
+    "国家实验室",
+    "可解释AI",
+    "验证与溯源"
+   ],
+   "field": "AI辅助科学研究方法",
+   "innovations": [
+    "提出稀缺性反转概念，将科学瓶颈从认知工作重新定位为选择/物理访问/验证/机构权威四重稀缺",
+    "以四维度框架系统分析推理充裕时代的科学体系转型",
+    "为国家实验室在AI时代重新定位，强调连接充裕推理与稀缺可信证据的独特价值"
+   ],
+   "benchmarks": [
+    "OpenAI数学仓库",
+    "degree-diameter问题表",
+    "FunSearch cap set",
+    "AlphaEvolve矩阵乘法"
+   ]
+  }
+ }
 }

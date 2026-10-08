@@ -4,5 +4,32 @@
  "title": "ULTRATEXT-BENCH-A-COMPREHENSIVE-BILINGUAL-BENCHMARK-FOR-EVAL",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-10-08 08:32:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/a7e79e5f-bd0f-4217-a3c7-511e41a1b74d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/a7e79e5f-bd0f-4217-a3c7-511e41a1b74d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:05:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉文本渲染",
+    "图像生成评估",
+    "VLM裁判",
+    "密集文本",
+    "双语基准",
+    "UltraText Bench"
+   ],
+   "field": "多模态生成评估",
+   "innovations": [
+    "提出结构化区域参考与四维解耦评分体系",
+    "构建432提示24场景3难度双语密集文本基准",
+    "揭示Base/Turbo模型在文本保真度上的性能分化"
+   ],
+   "benchmarks": [
+    "UltraText Bench",
+    "Qwen-Image-Bench",
+    "LongText-Bench",
+    "InfoTextBench"
+   ]
+  }
+ }
 }

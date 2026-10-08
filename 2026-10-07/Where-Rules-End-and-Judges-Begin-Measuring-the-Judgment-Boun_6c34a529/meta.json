@@ -4,5 +4,31 @@
  "title": "Where-Rules-End-and-Judges-Begin-Measuring-the-Judgment-Boun",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-10-07 19:45:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6a3f5157-bc43-41e4-93c5-4ad352042517.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6a3f5157-bc43-41e4-93c5-4ad352042517.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:05:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-Agent Systems",
+    "Prompt Injection",
+    "LLM-as-a-Judge",
+    "Defense-in-Depth",
+    "Guardrail",
+    "Security Evaluation"
+   ],
+   "field": "多智能体系统安全",
+   "innovations": [
+    "提出DEFER级联流水线首次系统测量MAS中规则与裁判的决策边界",
+    "提出裁判回放技术实现离线跨面板评估",
+    "发现风险评估门存在反选择性且裁判跨域不可迁移"
+   ],
+   "benchmarks": [
+    "Agent Security Bench",
+    "InjecAgent",
+    "TAMAS"
+   ]
+  }
+ }
 }

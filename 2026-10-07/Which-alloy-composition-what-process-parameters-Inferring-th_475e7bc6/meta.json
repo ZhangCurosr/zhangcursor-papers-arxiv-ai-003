@@ -4,5 +4,32 @@
  "title": "Which-alloy-composition-what-process-parameters-Inferring-th",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-10-07 19:44:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e757add3-6f1d-4d2e-86ea-e7cec15636e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e757add3-6f1d-4d2e-86ea-e7cec15636e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:24:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "配方腿",
+    "微观组织逆向推断",
+    "镁合金挤压",
+    "图神经网络",
+    "高斯过程",
+    "离散预测头",
+    "材料信息学"
+   ],
+   "field": "材料信息学/微观结构-工艺逆向推断",
+   "innovations": [
+    "将配方腿形式化为已知工艺/成分条件下从组织推断另一半配方的两个条件预测任务",
+    "提出joint-grid GP预测头，在已知工艺网格上解码并保留设置间距离",
+    "引入警戒指标（all-element WAPE和false-positive rate）暴露虚假高分的失败模式"
+   ],
+   "benchmarks": [
+    "107-condition Mg alloy extrusion campaign",
+    "14-alloy closed-set composition identification",
+    "Process parameter recovery (T_ext, v_ext)"
+   ]
+  }
+ }
 }

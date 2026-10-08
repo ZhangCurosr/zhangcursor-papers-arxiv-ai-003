@@ -4,5 +4,35 @@
  "title": "Wiki-Talkie-Multilingual-Benchmarking-of-Persona-Based-Agent",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-10-07 19:44:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/176441f8-9d46-49b4-8f30-c4e070156036.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/176441f8-9d46-49b4-8f30-c4e070156036.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:25:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persona-based agent",
+    "multilingual benchmarking",
+    "Wikipedia Talk pages",
+    "population fidelity",
+    "dialog act",
+    "LLM social behavior",
+    "conditioning strategy"
+   ],
+   "field": "多语言人机交互与社会模拟",
+   "innovations": [
+    "构建Wiki-Talkie多语言真实协作对话数据集，配套真实用户人设与行为特征",
+    "提出群体保真度评估框架，以分布行为还原替代个体级人设忠实度",
+    "系统揭示LLM在多语言协作场景中的系统性偏见（过度REQUEST/COMMIT、回避NEGATIVE情感）"
+   ],
+   "benchmarks": [
+    "Wiki-Talkie",
+    "ROUGE-L",
+    "BERTScore",
+    "rBERT",
+    "Jensen-Shannon Divergence",
+    "Wasserstein Distance"
+   ]
+  }
+ }
 }

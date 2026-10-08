@@ -4,5 +4,32 @@
  "title": "Stateless-Language-Agents-Scaling-Long-Horizon-Automated-Res",
  "token": "sk-DZdSC3jNI...",
  "created_at": "2026-10-07 19:45:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/de222cd7-207d-4c87-888b-bb32b06dbe5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/de222cd7-207d-4c87-888b-bb32b06dbe5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:23:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "stateless agents",
+    "automated research",
+    "long-horizon search",
+    "multi-agent coordination",
+    "context management",
+    "code optimization"
+   ],
+   "field": "自动化科学发现与多代理系统",
+   "innovations": [
+    "提出有状态搜索+无状态代理原则，将研究状态外置到harness而非agent会话中",
+    "Harness控制的上下文重建实现Advisor全局规划与Worker局部实验的清晰分工",
+    "从共享检查点继续的消融协议精确分离上下文隔离与工作分配的累积贡献"
+   ],
+   "benchmarks": [
+    "FrontierSWE",
+    "SOL-ExecBench",
+    "FrontierCS",
+    "Anthropic VLIW SIMD Kernel Optimization"
+   ]
+  }
+ }
 }

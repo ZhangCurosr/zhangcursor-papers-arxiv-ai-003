@@ -4,5 +4,34 @@
  "title": "ZKLLMPOT-EFFICIENT-ZERO-KNOWLEDGE-PROOF-OF-TRAINING-FOR-LARG",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-10-07 19:44:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ccdff810-f326-4431-a49b-1a7ddb5b3b4e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ccdff810-f326-4431-a49b-1a7ddb5b3b4e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:26:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-knowledge proof",
+    "proof of training",
+    "large language model",
+    "commit-then-challenge",
+    "sumcheck",
+    "lookup argument",
+    "Transformer circuit"
+   ],
+   "field": "可验证与隐私保护机器学习",
+   "innovations": [
+    "将zkPoT关系从训练轨迹验证弱化为前向评估，证明成本独立于训练步数",
+    "commit-then-challenge两阶段协议防止针对挑战数据的后验过拟合",
+    "算子级融合与mixed-radix softmax/lookup编译使1.1-13B Transformer可在数十秒内出证"
+   ],
+   "benchmarks": [
+    "OPT-1.3B",
+    "Llama-1.1B",
+    "Qwen2.5-1.5B",
+    "DeepSeek-Coder-1.3B",
+    "13B scale extrapolation"
+   ]
+  }
+ }
 }

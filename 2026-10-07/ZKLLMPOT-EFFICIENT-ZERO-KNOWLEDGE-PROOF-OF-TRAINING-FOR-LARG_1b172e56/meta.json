@@ -4,5 +4,33 @@
  "title": "ZKLLMPOT-EFFICIENT-ZERO-KNOWLEDGE-PROOF-OF-TRAINING-FOR-LARG",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-10-07 08:14:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ccdff810-f326-4431-a49b-1a7ddb5b3b4e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ccdff810-f326-4431-a49b-1a7ddb5b3b4e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:26:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零知识证明",
+    "大语言模型审计",
+    "训练证明",
+    "zk-SNARK",
+    "Transformer",
+    "commit-then-challenge"
+   ],
+   "field": "零知识机器学习审计",
+   "innovations": [
+    "将训练审计从反向传播轨迹证明转为单次前向评估，证明成本与训练步数无关",
+    "commit-then-challenge 协议顺序消除训练者过拟合审计数据的漏洞",
+    "算子级 sumcheck+lookup 编译覆盖 OPT/Llama/Qwen2.5/DeepSeek-Coder 四种模型族"
+   ],
+   "benchmarks": [
+    "OPT-1.3B",
+    "Llama-1.1B",
+    "Qwen2.5-1.5B",
+    "DeepSeek-Coder-1.3B",
+    "13B 规模扩展测试"
+   ]
+  }
+ }
 }

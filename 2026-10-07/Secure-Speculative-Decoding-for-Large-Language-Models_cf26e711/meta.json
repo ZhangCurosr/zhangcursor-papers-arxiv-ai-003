@@ -4,5 +4,10 @@
  "title": "Secure-Speculative-Decoding-for-Large-Language-Models",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-10-07 19:43:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/01a402af-7175-4e94-8bdd-1ca3e741aa83.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/01a402af-7175-4e94-8bdd-1ca3e741aa83.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:22:38",
+  "chunks": 1
+ }
 }

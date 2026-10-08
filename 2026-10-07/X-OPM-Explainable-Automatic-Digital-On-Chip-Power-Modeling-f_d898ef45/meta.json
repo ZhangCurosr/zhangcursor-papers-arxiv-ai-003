@@ -4,5 +4,31 @@
  "title": "X-OPM-Explainable-Automatic-Digital-On-Chip-Power-Modeling-f",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-10-07 08:16:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/4a3ea061-d101-4c56-9af5-e73376f53eb9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/4a3ea061-d101-4c56-9af5-e73376f53eb9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:26:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-chip power meter",
+    "power modeling",
+    "explainable ML",
+    "feature engineering",
+    "RISC-V",
+    "proactive power management",
+    "white-box modeling"
+   ],
+   "field": "芯片功耗建模与主动功耗管理",
+   "innovations": [
+    "将RTL三分类信号与低功耗设计规则系统性编码到自动化特征工程中，确保代理信号与功耗的物理因果正相关性",
+    "GBDT自动提取特征交互配合带物理约束的ElasticNet线性回归的混合白盒建模架构",
+    "利用功能验证测试用例的Direct/Random/Benchmark三分离策略评估OPM泛化鲁棒性"
+   ],
+   "benchmarks": [
+    "CoreMark",
+    "C906 RISC-V处理器后布局功耗仿真"
+   ]
+  }
+ }
 }

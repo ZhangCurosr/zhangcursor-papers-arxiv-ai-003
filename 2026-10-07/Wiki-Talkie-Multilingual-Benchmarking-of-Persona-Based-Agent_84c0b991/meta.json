@@ -4,5 +4,31 @@
  "title": "Wiki-Talkie-Multilingual-Benchmarking-of-Persona-Based-Agent",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-10-07 08:09:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/176441f8-9d46-49b4-8f30-c4e070156036.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/176441f8-9d46-49b4-8f30-c4e070156036.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:25:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persona-based agent",
+    "multilingual benchmark",
+    "population fidelity",
+    "Wikipedia Talk pages",
+    "dialogue act",
+    "LLM social behavior",
+    "role conditioning"
+   ],
+   "field": "多语言对话系统与社交代理评估",
+   "innovations": [
+    "提出Wiki-Talkie多语言真实讨论数据集，首次支持五语言群体保真度评估",
+    "证明历史评论行为示范显著优于显式角色描述，跨语言稳健",
+    "揭示LLM在协作讨论中的系统性agreeableness偏差（过度REQUEST/COMMIT、不足NEGATIVE）"
+   ],
+   "benchmarks": [
+    "Wiki-Talkie",
+    "SEWD (对话行为标注验证)"
+   ]
+  }
+ }
 }

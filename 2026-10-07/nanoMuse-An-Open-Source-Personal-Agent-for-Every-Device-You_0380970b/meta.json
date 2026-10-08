@@ -4,5 +4,34 @@
  "title": "nanoMuse-An-Open-Source-Personal-Agent-for-Every-Device-You",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-10-07 19:43:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/584e0766-fbab-4ce9-b002-4f10ccd6f5e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/584e0766-fbab-4ce9-b002-4f10ccd6f5e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:26:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "personal agent",
+    "GUI agent",
+    "screen manipulation",
+    "open-source AI",
+    "agent safety",
+    "cross-device orchestration",
+    "mobile automation"
+   ],
+   "field": "个人AI代理与GUI自动化",
+   "innovations": [
+    "进程内Sentinel策略边界与taint单向传播机制",
+    "多设备peer架构下scope-based权限传递",
+    "Hands模块以自然语言意图作为确定性策略判层"
+   ],
+   "benchmarks": [
+    "AndroidWorld",
+    "OSWorld",
+    "MemGUI-Bench",
+    "OS-Harm",
+    "MAS-Bench"
+   ]
+  }
+ }
 }

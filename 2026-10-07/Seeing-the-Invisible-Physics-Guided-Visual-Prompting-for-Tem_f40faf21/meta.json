@@ -4,5 +4,30 @@
  "title": "Seeing-the-Invisible-Physics-Guided-Visual-Prompting-for-Tem",
  "token": "sk-OldJrHBbj...",
  "created_at": "2026-10-07 19:45:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d5e2a1b1-68a2-4b6d-8771-bc2bdc16c9dd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d5e2a1b1-68a2-4b6d-8771-bc2bdc16c9dd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:22:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA导航",
+    "物理引导视觉提示",
+    "不可见风险规避",
+    "多模态感知",
+    "物理信息机器学习",
+    "核电站机器人"
+   ],
+   "field": "具身导航与多模态感知",
+   "innovations": [
+    "将不可见物理风险转化为动态虚拟障碍物视觉提示，零样本引导冻结VLA策略规避危险",
+    "两阶段PIML辐射风险评估（MLP+物理辅助损失）实现实时单前向推理避障方向输出",
+    "统一虚拟障碍表征异构风险模态，无需重训即可扩展新传感器类型"
+   ],
+   "benchmarks": [
+    "R2R-CE val-unseen",
+    "RxR-CE val-unseen"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "The-Polytopal-Neural-Network",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-10-09 08:30:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/dc98c1a3-84d5-40d5-9cbc-d8ce3e4e935e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/dc98c1a3-84d5-40d5-9cbc-d8ce3e4e935e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:13:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解释深度学习",
+    "原型分析",
+    "多面体约束",
+    "向量量化",
+    "单纯形投影",
+    "内在可解释性"
+   ],
+   "field": "可解释机器学习/表征学习",
+   "innovations": [
+    "逐层严格施加AA单纯形约束的Polytopal Neural Network架构，实现解释坐标即计算坐标",
+    "基于学习语料库的流式批次更新与摊销单纯形推理，实现可扩展的多面体约束训练",
+    "将PNN的单纯形约束替换为one-hot约束，得到无需EMA/commitment loss/STE的VQ训练新路径"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "FashionMNIST",
+    "CIFAR-10",
+    "MedMNIST v2 (PathMNIST, DermaMNIST, BloodMNIST)",
+    "ImageNet-100",
+    "ImageNet-1k"
+   ]
+  }
+ }
 }

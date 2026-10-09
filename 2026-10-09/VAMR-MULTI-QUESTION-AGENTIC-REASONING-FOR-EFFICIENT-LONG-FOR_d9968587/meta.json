@@ -4,5 +4,10 @@
  "title": "VAMR-MULTI-QUESTION-AGENTIC-REASONING-FOR-EFFICIENT-LONG-FOR",
  "token": "sk-Ow5x4gcSo...",
  "created_at": "2026-10-09 08:40:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/598adec4-d983-473f-82b2-7a709871a252.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/598adec4-d983-473f-82b2-7a709871a252.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:15:51",
+  "chunks": 1
+ }
 }

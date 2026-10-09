@@ -4,5 +4,31 @@
  "title": "Using-Weisfeiler-Leman-Features-for-Algorithm-Selection-in-C",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-10-09 08:36:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/06e4a973-2dbe-4716-b2e8-d778f661e3ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/06e4a973-2dbe-4716-b2e8-d778f661e3ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:15:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Algorithm Selection",
+    "Weisfeiler-Lehman",
+    "Constraint Programming",
+    "Graph Kernels",
+    "Feature Extraction",
+    "MiniZinc"
+   ],
+   "field": "约束规划与算法选择",
+   "innovations": [
+    "提出基于Cut的WL特征表示(WLc)，通过集合聚合解决全局约束的度敏感问题",
+    "设计FlatZinc到有向图的结构化转换方法，支持节点/边类型化",
+    "证明轻量级WL图核特征可显著增强SVM在算法选择任务上的性能"
+   ],
+   "benchmarks": [
+    "MiniZinc Challenge 2023-2025",
+    "Borda Count Maximization",
+    "Predictive Accuracy Maximization"
+   ]
+  }
+ }
 }

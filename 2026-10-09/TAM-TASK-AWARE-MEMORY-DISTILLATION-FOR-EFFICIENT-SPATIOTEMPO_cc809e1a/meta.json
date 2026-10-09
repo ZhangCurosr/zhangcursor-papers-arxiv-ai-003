@@ -4,5 +4,39 @@
  "title": "TAM-TASK-AWARE-MEMORY-DISTILLATION-FOR-EFFICIENT-SPATIOTEMPO",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-10-09 08:36:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6fb7c0a3-0bb1-4c0b-a387-c2646bd699d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6fb7c0a3-0bb1-4c0b-a387-c2646bd699d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:12:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge distillation",
+    "spatiotemporal prediction",
+    "task-aware memory",
+    "relational distillation",
+    "residual prototype",
+    "video prediction",
+    "weather forecasting",
+    "traffic flow prediction"
+   ],
+   "field": "时空预测中的高效蒸馏",
+   "innovations": [
+    "将教师历史预测组织为任务感知的有界记忆，并显式分离'存储量设计'与'参考选择规则'两个耦合选择",
+    "提出共享参考的关系匹配损失与观测条件化残差原型回归两种跨样本蒸馏目标",
+    "证明历史教师监督可叠加到常规 KD 且不增加推理成本，跨视频/天气/交通三域有效"
+   ],
+   "benchmarks": [
+    "Moving MNIST",
+    "Moving FMNIST",
+    "KTH",
+    "Human3.6M",
+    "HMDB51",
+    "BAIR",
+    "KittiCaltech",
+    "WeatherBench",
+    "TaxiBJ"
+   ]
+  }
+ }
 }

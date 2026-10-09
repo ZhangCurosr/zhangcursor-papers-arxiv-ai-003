@@ -4,5 +4,31 @@
  "title": "TIMER-M1-A-MULTIVARIATE-TIME-SERIES-FOUNDATION-MODEL-VIA-LEA",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-10-09 08:43:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bdbcf891-cd8d-49fc-9a82-2c4fa40d8e24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bdbcf891-cd8d-49fc-9a82-2c4fa40d8e24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:13:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列基础模型",
+    "零样本预测",
+    "原语学习",
+    "多变量预测",
+    "预训练数据合成",
+    "门控 Transformer"
+   ],
+   "field": "多变量时间序列预测",
+   "innovations": [
+    "原语驱动的时态/关系合成数据管线，联合真实与合成序列",
+    "Episode 化预训练统一目标/协变量角色与观测掩码",
+    "逐层可学习门控的二维 Transformer 控制跨变量交互深度分布"
+   ],
+   "benchmarks": [
+    "FEV",
+    "TIME",
+    "GIFT-Eval"
+   ]
+  }
+ }
 }

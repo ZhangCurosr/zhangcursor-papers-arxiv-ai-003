@@ -4,5 +4,10 @@
  "title": "Searching-for-Harmful-Refusal-A-Psychometric-Audit-of-an-AI",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-09 08:32:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/074b24aa-5773-4730-97fc-843997ea9a65.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/074b24aa-5773-4730-97fc-843997ea9a65.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:11:36",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "OnTrack-Real-Time-Monitoring-and-Intervention-in-LLM-Agent-T",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-10-09 08:36:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d5c4d253-b4d1-48b9-b452-a4370fc658e0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d5c4d253-b4d1-48b9-b452-a4370fc658e0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:10:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "流式监控",
+    "最优传输",
+    "Gromov-Wasserstein",
+    "Agent 安全",
+    "轨迹对齐",
+    "实时干预"
+   ],
+   "field": "LLM Agent 运行时监控与安全",
+   "innovations": [
+    "首次将结构化最优传输从离线评分扩展到在线流式监控，引入前沿掩码解决前缀比较偏差",
+    "设计三层可降级架构（L1/L2/L3）支持无参考到完整参考的多粒度监控",
+    "流式条件梯度求解器实现每步约1毫秒的结构感知对齐，支持实时干预决策"
+   ],
+   "benchmarks": [
+    "SWE-bench trajectories (sailplane/swe-agent-trajs)",
+    "Controlled fault injection (8 scenarios)"
+   ]
+  }
+ }
 }

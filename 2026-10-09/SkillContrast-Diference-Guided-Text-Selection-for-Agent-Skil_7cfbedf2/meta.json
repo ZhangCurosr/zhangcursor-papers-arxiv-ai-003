@@ -4,5 +4,28 @@
  "title": "SkillContrast-Diference-Guided-Text-Selection-for-Agent-Skil",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-10-09 08:35:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/acced5ab-3169-4de1-a6e7-fc16e139e144.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/acced5ab-3169-4de1-a6e7-fc16e139e144.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:11:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent skill retrieval",
+    "reranking",
+    "text selection",
+    "difference-guided selection",
+    "MMR",
+    "SameCapRisk-Bench"
+   ],
+   "field": "Agent 技能检索与重排序",
+   "innovations": [
+    "免训练差异引导文本选择：通过候选对比提取差异块+上下文，为冻结重排器构建紧凑高区分度输入",
+    "组件替换实验证明差异文本是 CH@3 提升的主因，替代查询相关选择带来 54-72 个干净命中增益"
+   ],
+   "benchmarks": [
+    "SameCapRisk-Bench"
+   ]
+  }
+ }
 }

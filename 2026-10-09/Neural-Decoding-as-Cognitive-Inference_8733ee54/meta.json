@@ -4,5 +4,39 @@
  "title": "Neural-Decoding-as-Cognitive-Inference",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-10-09 08:37:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/00551eff-1963-4698-8ae8-b9151e823806.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/00551eff-1963-4698-8ae8-b9151e823806.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:09:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经解码",
+    "贝叶斯大脑",
+    "认知推理",
+    "皮层几何",
+    "元神经语义",
+    "跨时间稳定性",
+    "内部思维"
+   ],
+   "field": "神经解码与计算神经科学",
+   "innovations": [
+    "将神经解码重新定义为受大脑内在结构先验约束的认知推理过程",
+    "引入皮层几何特征模态作为独立于认知内容的结构先验",
+    "实现跨数月神经漂移的稳定解码并扩展到内部思维生成"
+   ],
+   "benchmarks": [
+    "BCIC-IV-2a",
+    "FACED",
+    "SEED-V",
+    "NSD",
+    "ECoG Speech",
+    "AJILE12",
+    "Spacetop",
+    "LPPC-fMRI",
+    "StudyForrest",
+    "Alice"
+   ]
+  }
+ }
 }

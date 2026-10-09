@@ -4,5 +4,32 @@
  "title": "On-the-estimation-and-validity-of-AI-time-horizons-a-statist",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-10-09 08:41:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/375e6542-189e-4c3a-9092-8c34d05f0e4f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/375e6542-189e-4c3a-9092-8c34d05f0e4f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:10:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "time horizon",
+    "item-response theory",
+    "construct validity",
+    "capability anchoring",
+    "proper scoring rules",
+    "METR benchmark",
+    "AI evaluation"
+   ],
+   "field": "AI能力评估与基准度量",
+   "innovations": [
+    "提出共享单调样条和解释性IRT模型放松线性假设，全面超越基线估计",
+    "构建时间-难度转换图和条件成功轨迹图诊断时间视界预测性与可比性",
+    "发现2-30分钟平坦区域揭示同倍数跃升的非等价性"
+   ],
+   "benchmarks": [
+    "METR Time Horizon 1.1",
+    "228 software engineering tasks",
+    "26 AI models"
+   ]
+  }
+ }
 }

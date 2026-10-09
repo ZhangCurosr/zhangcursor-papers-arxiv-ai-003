@@ -4,5 +4,31 @@
  "title": "VERDICT-WITHOUT-THE-RULE",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-10-09 08:36:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d226aa7a-699a-4f0c-b6b9-9fb085387498.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d226aa7a-699a-4f0c-b6b9-9fb085387498.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:15:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM合规",
+    "规则敏感性",
+    "反事实审计",
+    "激活探测",
+    "OCS",
+    "ICS-delta"
+   ],
+   "field": "大模型合规与监管AI",
+   "innovations": [
+    "提出OCS与ICS-delta双重审计框架，首次系统性检验LLM合规裁决对给定监管规则的行为学与表征层依赖性",
+    "设计规则必要性控制，揭示高精度背后隐藏的两阶段敏感性格局（删规则临界案例敏感度跃升至0.73-1.00）",
+    "发现规则文本句法复杂度（MDD）是域级规则敏感性最强预测因子，且安全guard模型跨域适配同时呈现最低敏与最低准的双重失败模式"
+   ],
+   "benchmarks": [
+    "OmniCompliance-100K",
+    "LegalBench",
+    "ContractNLI"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Scalable-AI-Uncertainty-Quantification-via-Generalized-Lapla",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-10-09 08:42:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/427d1dcd-b13e-4bd8-98d5-f16c3c038e0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/427d1dcd-b13e-4bd8-98d5-f16c3c038e0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:11:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "uncertainty quantification",
+    "Laplace approximation",
+    "active subspaces",
+    "generalized Bayes",
+    "neural networks",
+    "low-rank approximation"
+   ],
+   "field": "神经网络不确定性量化",
+   "innovations": [
+    "揭示广义贝叶斯后验缩放（求和损失vs均值损失）对低秩拉普拉斯子空间维度的决定性影响",
+    "提出矩阵自由Lanczos + empirical Bayes校准的低秩广义拉普拉斯主动子空间方法",
+    "证明均值损失缩放可在d=2~4维下实现校准且尖锐的预测区间，远优于标准缩放的d≥31"
+   ],
+   "benchmarks": [
+    "UCI Concrete Compressive Strength",
+    "REINVENT SMILES分子生成",
+    "解析正弦回归"
+   ]
+  }
+ }
 }

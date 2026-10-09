@@ -4,5 +4,32 @@
  "title": "Unifying-Policy-Learning-and-State-Prediction-through-Spatia",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-10-09 08:43:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/66dade7a-3b68-47e1-b590-fbf4ce24e0d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/66dade7a-3b68-47e1-b590-fbf4ce24e0d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:15:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spatial Language Modeling",
+    "Policy Learning",
+    "World Model",
+    "Push-T",
+    "Autoregressive Transformer",
+    "Robot Manipulation",
+    "State Prediction",
+    "Imitation Learning"
+   ],
+   "field": "机器人学习/具身智能",
+   "innovations": [
+    "提出语法结构化的空间语言表示（SLS），将场景几何、动作目标和未来状态统一为离散坐标token序列，通过共享next-token目标同时学习动作生成与状态预测",
+    "设计两阶段训练方案：随机交互预训练学习动作条件转移动力学，专家演示联合训练对齐目标导向动作，两者共享模型参数",
+    "推理时通过语法状态机实现仅动作解码闭环控制，训练融入状态监督而执行保持简洁"
+   ],
+   "benchmarks": [
+    "Push-T仿真（200条专家演示）",
+    "真实机器人Push-T（40条演示+20条随机交互）"
+   ]
+  }
+ }
 }

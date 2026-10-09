@@ -4,5 +4,33 @@
  "title": "Social-Pain-Disrupts-Emotion-Action-Brain-State-Dynamics-in",
  "token": "sk-L9xk33MRr...",
  "created_at": "2026-10-09 08:40:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ea435080-99f8-41ca-a918-4f01de1eae06.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ea435080-99f8-41ca-a918-4f01de1eae06.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:11:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Non-suicidal self-injury",
+    "EEG microstates",
+    "Social pain",
+    "Emotion-action coupling",
+    "PatchTST",
+    "Neurodynamic modeling",
+    "Domain adversarial learning",
+    "Adolescent depression"
+   ],
+   "field": "计算精神病学与神经动力学",
+   "innovations": [
+    "提出多目标联合优化的PatchTST微状态序列建模框架，首次显式捕获NSSI青少年毫秒级情绪-动作脑状态转换依赖",
+    "发现MS3↔MS5双向转换受损是社交疼痛条件下NSSI的核心神经动力学标志，揭示情绪-动作耦合断裂机制",
+    "方向依赖性中介分析揭示DN−青少年中MS5→MS3转换中介社交评价敏感性与情感结局，而DN+中此路径中断"
+   ],
+   "benchmarks": [
+    "HUSM EEG数据集（MDD vs HC）",
+    "MODMA EEG数据集（MDD vs HC）",
+    "自制青少年抑郁NSSI队列（DN+ vs DN−）"
+   ]
+  }
+ }
 }

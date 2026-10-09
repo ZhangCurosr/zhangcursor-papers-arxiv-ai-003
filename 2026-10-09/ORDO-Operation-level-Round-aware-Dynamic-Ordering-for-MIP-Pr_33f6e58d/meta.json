@@ -4,5 +4,10 @@
  "title": "ORDO-Operation-level-Round-aware-Dynamic-Ordering-for-MIP-Pr",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-10-09 08:39:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/89c184a5-26db-4c22-b6b6-f5d09a384653.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/89c184a5-26db-4c22-b6b6-f5d09a384653.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:10:38",
+  "chunks": 4
+ }
 }

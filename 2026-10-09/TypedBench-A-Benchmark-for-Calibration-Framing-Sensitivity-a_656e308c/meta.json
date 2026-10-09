@@ -4,5 +4,30 @@
  "title": "TypedBench-A-Benchmark-for-Calibration-Framing-Sensitivity-a",
  "token": "sk-57bzKRZBk...",
  "created_at": "2026-10-09 08:39:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/fbac1831-7fc6-40ed-b0af-7c3efff257a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/fbac1831-7fc6-40ed-b0af-7c3efff257a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:14:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "System One 模型",
+    "校准评估",
+    "措辞敏感性",
+    "决策代价",
+    "TypedBench",
+    "有限样本噪声底",
+    "混合路由"
+   ],
+   "field": "决策模型评测与校准",
+   "innovations": [
+    "提出 ECE/null 噪声底对照方法量化校准误差",
+    "政策推导的程序化标签框架实现零污染基准",
+    "首次揭示最准模型的概率决策可能劣于 argmax"
+   ],
+   "benchmarks": [
+    "TypedBench"
+   ]
+  }
+ }
 }

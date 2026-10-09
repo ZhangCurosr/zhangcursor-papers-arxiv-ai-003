@@ -4,5 +4,30 @@
  "title": "Trajectory-Guided-Fault-Localization-for-Agent-Skill-Evoluti",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-10-09 08:41:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d6fe0172-74fc-49d0-ab83-00c2ed6f8b1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d6fe0172-74fc-49d0-ab83-00c2ed6f8b1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:14:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Skills",
+    "Skill Evolution",
+    "Fault Localization",
+    "Trajectory Analysis",
+    "LLM Agents",
+    "SWE"
+   ],
+   "field": "Agent Skill Engineering & Evolution",
+   "innovations": [
+    "首次将谱-Based故障定位(SBFL)思想引入Agent Skill Evolution，以动作级别替代黑盒LLM推理进行可追溯的edit-site定位",
+    "设计跨重复执行-演化循环-任务三层的证据聚合机制（含Yule's Q历史加权），区分系统性技能缺陷与随机行为",
+    "提出LLM递归定位Agent实现'技能→文件→段落'由粗到细的edit-site定位，支持跨多skill的协同修订"
+   ],
+   "benchmarks": [
+    "SWE-Skills-Bench",
+    "CannBot (NPUKernelBench)"
+   ]
+  }
+ }
 }

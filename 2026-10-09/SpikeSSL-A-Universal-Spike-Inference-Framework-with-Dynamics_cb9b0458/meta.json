@@ -4,5 +4,10 @@
  "title": "SpikeSSL-A-Universal-Spike-Inference-Framework-with-Dynamics",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-10-09 08:43:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/fca3c03d-874b-4abf-a51f-0b67805549fa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/fca3c03d-874b-4abf-a51f-0b67805549fa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:12:31",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Sera-Semantic-Representation-Aggregation-for-Reliable-and-In",
  "token": "sk-SRpYy0JAC...",
  "created_at": "2026-10-09 08:45:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/07e9f8ef-b1cf-45c5-8084-075527f05a0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/07e9f8ef-b1cf-45c5-8084-075527f05a0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:11:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "电池健康预测",
+    "语义表示聚合",
+    "大语言模型",
+    "时间序列",
+    "可解释AI",
+    "多模态融合",
+    "门控聚合"
+   ],
+   "field": "电池状态预测",
+   "innovations": [
+    "提出结构化退化语义表示与时间序列的门控聚合框架，提升预测准确性与可解释性"
+   ],
+   "benchmarks": [
+    "MIT Battery Degradation Dataset",
+    "H=30/50/70/90"
+   ]
+  }
+ }
 }

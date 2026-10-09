@@ -4,5 +4,33 @@
  "title": "SpaceFlow-Locally-Controllable-3D-Generation",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-09 08:35:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/56694604-0391-4bc6-9615-3982937d60e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/56694604-0391-4bc6-9615-3982937d60e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:11:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D generation",
+    "local control",
+    "structured latent",
+    "rectified flow",
+    "appearance routing",
+    "training-free",
+    "superquadric"
+   ],
+   "field": "3D内容生成与可控编辑",
+   "innovations": [
+    "逐基元局部几何控制（高/低控制强度分离）",
+    "基于PartField语义匹配的外观条件路由",
+    "RePaint-inspired resampling用于流匹配区间约束"
+   ],
+   "benchmarks": [
+    "83-asset自定义benchmark",
+    "GPT-5.6 Sol VLM Judge",
+    "Regional Chamfer Distance",
+    "CLIP similarity"
+   ]
+  }
+ }
 }

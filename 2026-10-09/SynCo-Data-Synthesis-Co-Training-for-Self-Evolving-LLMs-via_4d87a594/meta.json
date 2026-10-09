@@ -4,5 +4,38 @@
  "title": "SynCo-Data-Synthesis-Co-Training-for-Self-Evolving-LLMs-via",
  "token": "sk-W9Ytd4ppc...",
  "created_at": "2026-10-09 08:38:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/401380f3-ffaf-4482-bed0-e8fa7eeb0c8d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/401380f3-ffaf-4482-bed0-e8fa7eeb0c8d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:13:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-evolving LLM",
+    "multi-agent reinforcement learning",
+    "data synthesis",
+    "GRPO",
+    "synthetic data",
+    "mathematical reasoning",
+    "agent-data co-training",
+    "curriculum evolution"
+   ],
+   "field": "自进化大语言模型与多智能体强化学习",
+   "innovations": [
+    "将数据合成与任务求解建模为耦合的多智能体 RL 问题，在同一在线批次中联合优化 Synthesizer 和 Reasoner",
+    "提出 outcome-grounded gated reward，以 Reasoner 实际 rollout 结果（teachability）动态评估合成任务的学习价值",
+    "建立 agent-data 闭环自进化框架，Synthesizer 随 Reasoner 能力演化自适应调整训练分布"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "SVAMP",
+    "ASDiv",
+    "GSM-Hard",
+    "MATH-500",
+    "AIME24",
+    "AIME25",
+    "Minerva"
+   ]
+  }
+ }
 }

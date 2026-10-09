@@ -4,5 +4,27 @@
  "title": "TARED-TOOL-AWARE-RECURSIVE-DECOMPOSITION-FOR-LONG-HORIZON-TA",
  "token": "sk-MTzedkBc1...",
  "created_at": "2026-10-09 08:59:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c4d0f11b-28ae-4a1a-890e-38ae4999639b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c4d0f11b-28ae-4a1a-890e-38ae4999639b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:13:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tool-using Agent",
+    "Recursive Task Decomposition",
+    "Long-horizon Planning",
+    "Tool Library Management",
+    "AppWorld Benchmark"
+   ],
+   "field": "Agent 任务规划与工具调用",
+   "innovations": [
+    "将工具库组织为功能能力层次结构并支持按需导航",
+    "提出能力对齐的递归任务分解协议与延迟契约绑定机制"
+   ],
+   "benchmarks": [
+    "AppWorld Challenge Set (Test-C)"
+   ]
+  }
+ }
 }

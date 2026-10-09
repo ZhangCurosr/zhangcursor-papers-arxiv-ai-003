@@ -4,5 +4,35 @@
  "title": "USE-AND-DISUSE-INTENT-STRUCTURED-EXPERIENCE-CONSOLIDATION-FO",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-10-09 08:35:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/72c2c8b8-ec7b-445b-b501-dc8fae52f0c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/72c2c8b8-ec7b-445b-b501-dc8fae52f0c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:14:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Memory Consolidation",
+    "Continual Learning",
+    "Context Management",
+    "Intent-Structured Memory",
+    "Use-and-Disuse"
+   ],
+   "field": "LLM Agent 记忆与持续学习",
+   "innovations": [
+    "双重巩固机制（意图巩固 + 递归前缀巩固）模拟人类记忆的 use-and-disuse 动态",
+    "意图结构化工作上下文 + 消息树渐进式回忆实现按需知识检索",
+    "无需参数更新，通过交互历史自然积累可迁移知识与技能"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "ScienceWorld",
+    "StreamBench",
+    "GoodAI LTM",
+    "LoCoMo",
+    "MemoryAgentBench",
+    "FEVER"
+   ]
+  }
+ }
 }

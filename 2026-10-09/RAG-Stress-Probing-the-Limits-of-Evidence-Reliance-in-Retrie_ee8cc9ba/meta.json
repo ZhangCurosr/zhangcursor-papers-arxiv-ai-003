@@ -4,5 +4,32 @@
  "title": "RAG-Stress-Probing-the-Limits-of-Evidence-Reliance-in-Retrie",
  "token": "sk-GAGmasUl1...",
  "created_at": "2026-10-09 08:39:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/34e7eaca-10e6-45c1-b31c-d950bb55e9a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/34e7eaca-10e6-45c1-b31c-d950bb55e9a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:18:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "retrieval-augmented generation",
+    "evidence reliability",
+    "knowledge conflict",
+    "adversarial evaluation",
+    "diagnostic benchmark"
+   ],
+   "field": "检索增强生成评估与鲁棒性",
+   "innovations": [
+    "提出RAG-Stress协议，在基线正确子集上测量指定干扰答案的采纳率，解耦答案替换与既有错误",
+    "首次系统交叉Instruction(Soft/Strict)与Word Position(Beg/Mid/End)对误导遵循的影响",
+    "构建HOR/BCR配对审计框架分离有害覆盖与有益修正，证明Strict仅增加有害覆盖而无对应收益"
+   ],
+   "benchmarks": [
+    "TriviaQA-RC",
+    "HotpotQA",
+    "SearchQA",
+    "MedQA (EN/ZH)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "REWIRING-SEMANTICS-DYNAMICS-AND-CONTROL-A-SIMPLE-YET-EFFECTI",
  "token": "sk-EKa3zthlJ...",
  "created_at": "2026-10-09 08:38:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/78a2573a-f01e-4b50-ad3d-ab72ae298315.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/78a2573a-f01e-4b50-ad3d-ab72ae298315.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:20:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "World Model",
+    "Multi-Stream Transformer",
+    "Flow Matching",
+    "Robot Manipulation",
+    "Acton-Centric Attention"
+   ],
+   "field": "具身智能/视觉-语言-动作策略",
+   "innovations": [
+    "提出动作中心三流Transformer，仅通过动作查询层间注意力整合语义与动力学上下文",
+    "设计不对称交叉注意力掩码，保持语义与动力学流独立前向计算并支持联合微调"
+   ],
+   "benchmarks": [
+    "RoboCasa",
+    "LIBERO",
+    "LIBERO-Plus",
+    "AgileX CobotMagic 真实操作"
+   ]
+  }
+ }
 }

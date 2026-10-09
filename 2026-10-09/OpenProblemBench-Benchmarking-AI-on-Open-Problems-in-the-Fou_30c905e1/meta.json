@@ -4,5 +4,30 @@
  "title": "OpenProblemBench-Benchmarking-AI-on-Open-Problems-in-the-Fou",
  "token": "sk-ae40QN0Hy...",
  "created_at": "2026-10-09 08:40:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/68003217-d87d-4d67-bf16-b2c83cf667d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/68003217-d87d-4d67-bf16-b2c83cf667d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:15:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open problems",
+    "scientific reasoning",
+    "benchmarking",
+    "agent-as-judge",
+    "partial progress",
+    "theoretical physics",
+    "mathematics"
+   ],
+   "field": "AI for Research Benchmarking",
+   "innovations": [
+    "提出基于文献的82题未解决问题基准与Agent-as-judge无参考解评估协议",
+    "建立Trivial/Nontrivial/Breakthrough部分进展分级与Overclaim诊断",
+    "跨模型策略对比揭示表示变换、有限到一般与必要引理补全的关键差异"
+   ],
+   "benchmarks": [
+    "OpenProblemBench"
+   ]
+  }
+ }
 }

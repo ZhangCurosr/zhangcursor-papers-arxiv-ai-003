@@ -4,5 +4,31 @@
  "title": "Q-SHAPED-OPTIONS-FOR-HIERARCHICAL-REINFORCEMENT-LEARNING",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-10-09 08:37:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/074d2115-1187-4142-8859-b0f5ed0b8b1a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/074d2115-1187-4142-8859-b0f5ed0b8b1a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:17:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "分层强化学习",
+    "离线强化学习",
+    "动作抽象",
+    "目标条件 RL",
+    "Hierarchical RL",
+    "Offline RL"
+   ],
+   "field": "分层强化学习与抽象表示学习",
+   "innovations": [
+    "首个通过Q函数学习动作抽象的分层RL算法，同时满足控制充分性和冗余区分丢弃",
+    "证明低层Q塑形蕴含控制充分性，推导分层策略离线PAC误差界"
+   ],
+   "benchmarks": [
+    "OGBench",
+    "antmaze-giant-stitch-v0",
+    "humanoidmaze-giant-stitch-v0",
+    "cube-quadruple-play-v0"
+   ]
+  }
+ }
 }

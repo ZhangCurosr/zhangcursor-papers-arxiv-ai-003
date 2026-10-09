@@ -4,5 +4,30 @@
  "title": "PIVOT-Perplexity-Informed-KD-to-RL-Transition-Scheduling-for",
  "token": "sk-7wel9Fhtk...",
  "created_at": "2026-10-09 08:59:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/5affa408-4c5f-4148-a1e1-887a17e4f09f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/5affa408-4c5f-4148-a1e1-887a17e4f09f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:15:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "On-Policy Distillation",
+    "GRPO",
+    "Knowledge Distillation",
+    "Reinforcement Learning",
+    "Few-Shot Adaptation",
+    "Transition Scheduling"
+   ],
+   "field": "垂直领域少样本知识蒸馏与强化学习协同优化",
+   "innovations": [
+    "基于教师困惑度的样本级异步KD-to-RL动态路由机制",
+    "渐进式余弦调度替代全局固定切换",
+    "揭示蒸馏质量与精炼就绪度非单调对齐关系"
+   ],
+   "benchmarks": [
+    "Banking77",
+    "HWU64"
+   ]
+  }
+ }
 }

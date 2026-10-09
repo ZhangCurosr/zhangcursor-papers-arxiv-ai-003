@@ -4,5 +4,30 @@
  "title": "RECOMPOSE-AND-REFINE-LATENT-REASONING-FLOWS-FOR-VISION-LANGU",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-10-09 08:38:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a991f4c6-9657-4b93-8362-ba756266c08d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a991f4c6-9657-4b93-8362-ba756266c08d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:19:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "Latent Reasoning",
+    "Memory-Augmented RL",
+    "Embodied AI",
+    "Reasoning Flow",
+    "Robotic Manipulation"
+   ],
+   "field": "具身视觉-语言-动作模型",
+   "innovations": [
+    "将成功潜式推理组织为可跨episode复用的有序推理流",
+    "多源片段锚点对齐检索 + 约束重组 + 当前情境残差修正的统一框架",
+    "潜对齐损失直接监督可复用推理token并保留原生flow-matching动作目标"
+   ],
+   "benchmarks": [
+    "RoboMME",
+    "LIBERO-Plus"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Visual-Jev-Rewards-Reference-Bound-Verification-for-Multi-Su",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-10-08 19:51:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e39d660c-bf37-4c9e-a14c-c04f0a52e375.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e39d660c-bf37-4c9e-a14c-c04f0a52e375.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:13:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多主体图像生成",
+    "参考绑定验证",
+    "Visual Jev",
+    "GRPO",
+    "奖励模型",
+    "原子视觉问答"
+   ],
+   "field": "多主体图像生成与强化学习",
+   "innovations": [
+    "将参考主体身份嵌入原子判断正标签语义，实现身份依赖的视觉验证",
+    "基于固定任务问题与冻结视觉验证器的 GRPO 奖励框架",
+    "直接从语言模型头读出 Yes 概率作为可检查的图像级奖励"
+   ],
+   "benchmarks": [
+    "MICo-Bench (897-task subset)",
+    "GPT-5.4 composite score"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Rethinking-Contrastive-Loss-in-CLIP-Post-training-A-Compleme",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-10-09 08:44:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/fb8b0d4f-236f-45e3-8374-9a50b9c35cd0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/fb8b0d4f-236f-45e3-8374-9a50b9c35cd0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:21:53",
+  "chunks": 1
+ }
 }

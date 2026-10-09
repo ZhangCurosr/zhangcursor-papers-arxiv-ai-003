@@ -4,5 +4,28 @@
  "title": "R-sub-u-sub-nn-sub-a-sub-bl-sub-e-sub-C-sub-o-sub-mmit-Unt-s",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-10-09 08:42:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/aeb29d7e-2d2e-415b-bcc1-c0b4b85d6615.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/aeb29d7e-2d2e-415b-bcc1-c0b4b85d6615.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:18:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码Agent",
+    "提交解缠",
+    "软件工程",
+    "回归修复",
+    "可运行性",
+    "LLM"
+   ],
+   "field": "软件工程与AI交叉研究",
+   "innovations": [
+    "首个保证中间版本可运行的Agent驱动提交解缠方法RucTangle",
+    "首个量化解缠提交对代码Agent回归修复帮助的评测框架TangleEval"
+   ],
+   "benchmarks": [
+    "SWE-CI"
+   ]
+  }
+ }
 }

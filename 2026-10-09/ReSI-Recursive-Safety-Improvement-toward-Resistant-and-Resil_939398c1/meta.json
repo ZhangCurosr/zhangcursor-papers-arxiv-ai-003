@@ -4,5 +4,33 @@
  "title": "ReSI-Recursive-Safety-Improvement-toward-Resistant-and-Resil",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-10-09 08:39:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/553d0f80-9c4f-4003-b8f7-6967013c0511.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/553d0f80-9c4f-4003-b8f7-6967013c0511.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:22:11",
+  "chunks": 3,
+  "meta": {
+   "keywords": [
+    "安全对齐",
+    "递归自我改进",
+    "红队评估",
+    "resistance",
+    "resilience",
+    "自动化研究",
+    "Pareto 门控"
+   ],
+   "field": "AI 安全与对齐",
+   "innovations": [
+    "提出 ReSI 递归安全改进框架，通过评估→改进→再评估循环实现 resistance 与 resilience 双重目标",
+    "设计三阶段迭代流程（红队评估/飞行员初筛/全规模精炼）与联合配方搜索空间 Ω_t",
+    "引入 Pareto 门控机制，以 M_0 为基准筛选安全增益最大且能力达标的 checkpoint"
+   ],
+   "benchmarks": [
+    "X-Teaming",
+    "H-CoT",
+    "WildJailbreak",
+    "HarmBench"
+   ]
+  }
+ }
 }

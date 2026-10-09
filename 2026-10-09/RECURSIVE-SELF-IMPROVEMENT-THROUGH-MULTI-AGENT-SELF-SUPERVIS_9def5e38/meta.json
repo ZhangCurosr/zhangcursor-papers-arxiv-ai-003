@@ -4,5 +4,35 @@
  "title": "RECURSIVE-SELF-IMPROVEMENT-THROUGH-MULTI-AGENT-SELF-SUPERVIS",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-10-09 08:43:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/eaf1bdee-4a81-49bf-93aa-a1b5fdafa11d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/eaf1bdee-4a81-49bf-93aa-a1b5fdafa11d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:19:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recursive self-improvement",
+    "multi-agent",
+    "self-supervision",
+    "workflow optimization",
+    "SFT",
+    "agent coordination",
+    "language model"
+   ],
+   "field": "多代理智能体与模型自我改进",
+   "innovations": [
+    "提出MASS方法通过多代理工作流优化与SFT交替打破RSI同构循环的自我强化偏差",
+    "证明多代理轨迹比单代理轨迹具有更高的训练效率（更少token达成更好性能）",
+    "揭示工作流优化而非评估器能力是RSI速度瓶颈"
+   ],
+   "benchmarks": [
+    "ScienceAgentBench",
+    "MLR-Bench",
+    "AstaBench",
+    "DSBench",
+    "Terminal-Bench 2.0",
+    "SWE-bench Verified"
+   ]
+  }
+ }
 }

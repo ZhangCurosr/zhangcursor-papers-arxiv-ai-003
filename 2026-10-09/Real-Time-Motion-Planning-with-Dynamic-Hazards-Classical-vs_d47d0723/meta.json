@@ -4,5 +4,33 @@
  "title": "Real-Time-Motion-Planning-with-Dynamic-Hazards-Classical-vs",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-10-09 08:32:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/5a19dd04-7dd1-47f4-ab0f-555b286400b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/5a19dd04-7dd1-47f4-ab0f-555b286400b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:21:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Motion Planning",
+    "Dynamic Obstacles",
+    "Reinforcement Learning",
+    "Classical Planning",
+    "A*",
+    "UCT",
+    "PPO",
+    "Real-time Navigation"
+   ],
+   "field": "运动规划与自主导航",
+   "innovations": [
+    "构建四维工况统一基准测试床实现经典与RL规划器的公平对比",
+    "揭示障碍演化不确定性而非部分可观测性是决定规划范式选择的核心因素",
+    "量化经典搜索在随机场景下对计算预算的高度敏感性并展示RL的竞争优势"
+   ],
+   "benchmarks": [
+    "100x50矩形工作空间1000场景/工况",
+    "Rotating Sprinkler Dynamic Hazard Benchmark",
+    "Four Regime Testbed: (Full/Limited Visibility) x (Deterministic/Stochastic Dynamics)"
+   ]
+  }
+ }
 }

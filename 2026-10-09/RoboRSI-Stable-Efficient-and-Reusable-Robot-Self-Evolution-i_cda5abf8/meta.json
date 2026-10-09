@@ -4,5 +4,32 @@
  "title": "RoboRSI-Stable-Efficient-and-Reusable-Robot-Self-Evolution-i",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-09 08:36:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a20645e1-74f0-4dc0-bd09-96341363b55e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a20645e1-74f0-4dc0-bd09-96341363b55e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:21:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Robot Self-Improvement",
+    "Code as Policy",
+    "Top-Down Skill Refinement",
+    "Multi-Agent System",
+    "Skill Learning",
+    "Mobile Manipulation"
+   ],
+   "field": "具身智能/机器人自我进化",
+   "innovations": [
+    "自顶向下技能精炼（TSR）：通过任务-技能层级定位最早失败节点并限制修订作用域，实现局部可追溯的技能改进",
+    "四智能体执行-精炼循环：Manager/Planner/Engineer/Reviewer 分离规划/执行/诊断/验证，使每次失败经独立复核后再进入修订",
+    "复合技能整合机制：稳定执行序列被参数化为可复用策略，降低在线推理开销并减少累积错误"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "LIBERO-PRO",
+    "LIBERO-Plus",
+    "RoboTwin"
+   ]
+  }
+ }
 }

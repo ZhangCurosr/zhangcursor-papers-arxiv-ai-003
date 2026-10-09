@@ -4,5 +4,10 @@
  "title": "PROBABILITY-SIGNATURE-DYNAMICS-UNPACKING-MODULAR-ADDITION-LE",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-10-09 08:38:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4f7943f9-3ced-4ab1-96d2-da209e2e489f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4f7943f9-3ced-4ab1-96d2-da209e2e489f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:16:52",
+  "chunks": 1
+ }
 }

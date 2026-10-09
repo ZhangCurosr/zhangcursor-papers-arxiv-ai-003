@@ -4,5 +4,35 @@
  "title": "PULSEBOUND-FUTURE-BEAT-STATE-FORECASTING-UNDER-AN-EXPLICIT-I",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-10-09 08:42:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/0efbad3d-3a17-4496-8a40-8b635665e5a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/0efbad3d-3a17-4496-8a40-8b635665e5a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:16:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PPG",
+    "predictive representation learning",
+    "information boundary",
+    "future-beat forecasting",
+    "self-supervised physiological signals"
+   ],
+   "field": "生理信号自监督表征学习",
+   "innovations": [
+    "提出 stored-suffix invariance 可审计信息边界，通过 content-independent cutoff 与 prefix-only normalization 阻断未来样本渗入编码器",
+    "在边界约束下预测 9 个确定性 PPG 衍生心跳描述符与可选 PAT，配合逐元素 validity mask",
+    "将条件预测、边界审计、系统级迁移作为三个正交可检验命题分开评估"
+   ],
+   "benchmarks": [
+    "MIMIC-III Waveform Database Matched Subset",
+    "VitalDB",
+    "BIDMC",
+    "PPG-BP",
+    "WESAD",
+    "DaLiA",
+    "Real-World PPG",
+    "Stanford quality"
+   ]
+  }
+ }
 }

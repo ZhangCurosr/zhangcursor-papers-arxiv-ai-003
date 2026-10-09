@@ -4,5 +4,31 @@
  "title": "We-Query-Therefore-We-Compute-On-Oracle-Computation-beyond-t",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-10-08 19:48:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/58fb1c1a-bdc6-4bc4-a76a-293cb4d32ee5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/58fb1c1a-bdc6-4bc4-a76a-293cb4d32ee5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:18:44",
+  "chunks": 8,
+  "meta": {
+   "keywords": [
+    "LLM-as-Oracle",
+    "Hardware Security",
+    "RISC-V Extension",
+    "Frame-faithfulness",
+    "Formal Verification",
+    "AI Accelerator"
+   ],
+   "field": "AI 硬件安全与可信执行",
+   "innovations": [
+    "提出 ArchNights 框架：将 LLM 作为安全可信 Oracle 嵌入 RISC-V 硬件指令集",
+    "定义 Frame-faithfulness 形式化契约，确保 LLM 输出在 Frame 边界处历史一致",
+    "分类推理生命周期策略（Kept/Dropped/Hidden）并分析其对系统安全与性能的影响"
+   ],
+   "benchmarks": [
+    "形式化验证（Theorem 4.4, Proposition 4.10）",
+    "硬件指令集正确性",
+    "安全属性验证（SMEP/SMAP, replay policy）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "RL-ARC-Calibrating-Large-Reasoning-Models-via-Reasoning-guid",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-10-09 08:38:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/06383c36-a007-4337-a467-df2eb71c2b63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/06383c36-a007-4337-a467-df2eb71c2b63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:21:09",
+  "chunks": 1
+ }
 }

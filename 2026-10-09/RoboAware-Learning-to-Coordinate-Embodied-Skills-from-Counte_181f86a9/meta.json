@@ -4,5 +4,32 @@
  "title": "RoboAware-Learning-to-Coordinate-Embodied-Skills-from-Counte",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-10-09 08:39:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2245f5ec-9a20-4b34-b48e-40be71cf1e9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2245f5ec-9a20-4b34-b48e-40be71cf1e9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:22:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied coding agent",
+    "policy coordination",
+    "counterfactual outcomes",
+    "hierarchical MDP",
+    "VLA orchestration",
+    "simulation save-restore",
+    "Q-learning"
+   ],
+   "field": "具身智能策略编排与协调",
+   "innovations": [
+    "P^5技能模式将任意技能统一分解为五个语义阶段并定义责任边界",
+    "State-Locked Counterfactual Branching在同态恢复状态下生成Mod与E2E配对反事实结果",
+    "Execution-Aware Learning结合MCTS探索与Q-learning训练家庭条件值协调器"
+   ],
+   "benchmarks": [
+    "LIBERO-Pro",
+    "RoboSuite",
+    "RoboTwin 2.0"
+   ]
+  }
+ }
 }

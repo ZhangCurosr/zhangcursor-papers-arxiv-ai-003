@@ -4,5 +4,10 @@
  "title": "REMORY-LEARNING-RESIDUAL-MEMORY-FOR-CONTEXT-COMPACTION",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-10-09 08:39:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/073f5d46-751b-48c8-921a-846121835bd6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/073f5d46-751b-48c8-921a-846121835bd6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:19:52",
+  "chunks": 1
+ }
 }

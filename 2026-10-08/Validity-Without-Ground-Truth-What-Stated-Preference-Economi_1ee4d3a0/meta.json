@@ -4,5 +4,10 @@
  "title": "Validity-Without-Ground-Truth-What-Stated-Preference-Economi",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-08 19:43:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8578e7b5-7339-4578-bdea-496ab4c6a176.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8578e7b5-7339-4578-bdea-496ab4c6a176.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:13:19",
+  "chunks": 1
+ }
 }

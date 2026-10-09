@@ -4,5 +4,32 @@
  "title": "PREDICTING-ALIGNMENT-GENERALIZATION-WITH-VALUE-REPRESENTATIO",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-10-09 08:35:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6d0b0481-afa2-4858-b7e7-8801d01a1cd9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6d0b0481-afa2-4858-b7e7-8801d01a1cd9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:16:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "alignment generalization",
+    "value representation",
+    "persona vector",
+    "LLM safety",
+    "steering",
+    "model interpretability",
+    "alignment target design"
+   ],
+   "field": "LLM对齐与价值观研究",
+   "innovations": [
+    "提出对齐泛化预测任务并建立评估基准",
+    "发现激活表征（PERSONA/GRADIENT）显著优于文本嵌入预测价值泛化",
+    "构建首个基于实证泛化动力学的LLM价值分类体系VALUEMAP"
+   ],
+   "benchmarks": [
+    "CONSTITUTION价值集（66值）",
+    "VITW价值集（266值）",
+    "ConflictScope评估管道"
+   ]
+  }
+ }
 }

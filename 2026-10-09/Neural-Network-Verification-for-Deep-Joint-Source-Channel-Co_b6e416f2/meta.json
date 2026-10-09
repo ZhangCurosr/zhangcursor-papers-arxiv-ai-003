@@ -4,5 +4,30 @@
  "title": "Neural-Network-Verification-for-Deep-Joint-Source-Channel-Co",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-10-09 08:42:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3723afcd-641d-4178-be28-46af2692149a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3723afcd-641d-4178-be28-46af2692149a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:14:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "DeepJSCC",
+    "Neural Network Verification",
+    "Bound Propagation",
+    "Lipschitz Robustness",
+    "Rayleigh Fading",
+    "Semantic Communication"
+   ],
+   "field": "无线通信中的AI可靠性与形式验证",
+   "innovations": [
+    "PReLU线性松弛扩展至α-Crown，sound且保留学习斜率",
+    "转置卷积等价替换为上采样后卷积（Prop. 3）以适配验证器",
+    "将共享Rayleigh相位建模为2自由度结构扰动层，降低验证维度"
+   ],
+   "benchmarks": [
+    "CIFAR-10 Image Transmission",
+    "ADALM-PlutoSDR Over-the-Air"
+   ]
+  }
+ }
 }

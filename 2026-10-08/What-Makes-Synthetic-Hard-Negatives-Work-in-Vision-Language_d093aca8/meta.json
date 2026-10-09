@@ -4,5 +4,36 @@
  "title": "What-Makes-Synthetic-Hard-Negatives-Work-in-Vision-Language",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-10-08 19:42:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/76d9f1f9-aa14-402c-a1b2-21e24d1f35ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/76d9f1f9-aa14-402c-a1b2-21e24d1f35ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:27:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CLIP",
+    "contrastive learning",
+    "hard negatives",
+    "synthetic negatives",
+    "vision-language pretraining",
+    "zero-shot transfer",
+    "modality gap"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "识别并量化表征空间合成负样本在视觉-语言预训练中的两种几何失效模式（模态间隙坍缩、正样本泄漏）",
+    "提出SNAP方法，仅使用同模态、不含正样本的Mixup和噪声注入策略生成合成hard negatives",
+    "发现固定温度τ=0.07可避免logit饱和并显著提升下游性能"
+   ],
+   "benchmarks": [
+    "Flickr30k",
+    "MSCOCO",
+    "ImageNet",
+    "CC3M",
+    "CC12M",
+    "Stanford Cars",
+    "FGVC Aircraft"
+   ]
+  }
+ }
 }

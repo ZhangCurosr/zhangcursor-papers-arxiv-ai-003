@@ -4,5 +4,33 @@
  "title": "VIDEOEVOLVE-CO-EVOLVING-MEMORY-AND-RE-TRIEVAL-FOR-LONG-VIDEO",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-10-08 19:49:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6c723cb0-d731-4f04-9572-33c3ca9b227f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6c723cb0-d731-4f04-9572-33c3ca9b227f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:26:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long video understanding",
+    "memory-based reasoning",
+    "agentic reinforcement learning",
+    "self-evolving agents",
+    "multimodal large language models",
+    "memory-retrieval co-evolution"
+   ],
+   "field": "长视频理解",
+   "innovations": [
+    "交替代理强化学习实现记忆构建与检索策略的协同进化",
+    "瓶颈感知进化反馈（BEF）动态分配记忆与检索的训练资源",
+    "能力感知进化反馈（CEF）基于九类视频理解能力重加权训练课程"
+   ],
+   "benchmarks": [
+    "Video-MME",
+    "LongVideoBench",
+    "LVBench",
+    "MLVU",
+    "MMVU"
+   ]
+  }
+ }
 }

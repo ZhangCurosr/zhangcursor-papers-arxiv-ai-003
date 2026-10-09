@@ -4,5 +4,31 @@
  "title": "UNISKILL-LEARNING-ACTOR-ALIGNED-SKILLPROPOSALS-FOR-AN-EVOLVI",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-10-08 08:35:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/735266d5-7e3e-4d1c-a1c6-45c8a670f84a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/735266d5-7e3e-4d1c-a1c6-45c8a670f84a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:26:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent skill evolution",
+    "contrastive action feedback",
+    "actor-aligned skill proposal",
+    "shared-policy co-evolution",
+    "skill-edit regularization",
+    "ALFWorld",
+    "WebShop"
+   ],
+   "field": "LLM Agent 技能自进化",
+   "innovations": [
+    "用固定成功/失败轨迹的条件 log-likelihood 对比替代 rollout 级技能评估，得到 actor 对齐信号 R_align",
+    "共享策略同时扮演 actor 与 skill proposer，使策略与技能库联合梯度更新",
+    "Skill-Edit Support Regularization 防止 ADD/UPDATE/NO EDIT 三种编辑操作在训练中坍缩到单一类型"
+   ],
+   "benchmarks": [
+    "ALFWorld (success rate)",
+    "WebShop (task score & success rate)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "TokenBank-Financial-Infrastructure-for-AI-Services",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-10-09 19:25:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/d5b659f3-fa2b-4232-aba5-9f90cfa4cbbe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/d5b659f3-fa2b-4232-aba5-9f90cfa4cbbe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:30:39",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "AI金融服务",
+    "合约化权利声明",
+    "API价格远期",
+    "收益权融资",
+    "服务故障保护",
+    "TokenBank"
+   ],
+   "field": "AI服务金融基础设施",
+   "innovations": [
+    "可合约化AI服务权利类型化声明",
+    "现金结算API价格远期合约",
+    "收益权融资支持二次市场转让"
+   ],
+   "benchmarks": [
+    "BurstGPT",
+    "τ²-Bench"
+   ]
+  }
+ }
 }

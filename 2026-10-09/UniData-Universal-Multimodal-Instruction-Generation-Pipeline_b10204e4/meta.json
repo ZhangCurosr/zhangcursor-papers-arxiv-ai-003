@@ -4,5 +4,34 @@
  "title": "UniData-Universal-Multimodal-Instruction-Generation-Pipeline",
  "token": "sk-L0ZhgdlAv...",
  "created_at": "2026-10-09 19:23:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/0c09d11f-6fea-4089-993b-d776c51f6c33.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/0c09d11f-6fea-4089-993b-d776c51f6c33.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:30:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态指令生成",
+    "任何到任何模型",
+    "数据合成",
+    "多轮对话",
+    "多模态大语言模型"
+   ],
+   "field": "多模态数据生成与指令微调",
+   "innovations": [
+    "提出通用多模态指令生成管道，从单一关键词扩展为多轮九模态指令",
+    "构建跨九种模态的20,000条UniDataset数据集解决训练数据短缺",
+    "设计基于余弦相似度的推理链校正机制实现多轮指令质量闭环控制"
+   ],
+   "benchmarks": [
+    "MMMU",
+    "ChartQA",
+    "TextVQA",
+    "MBPP",
+    "MMLU-Pro",
+    "MathVista",
+    "SEED-Bench-2"
+   ]
+  }
+ }
 }

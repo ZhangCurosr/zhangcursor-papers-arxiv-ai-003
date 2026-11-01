@@ -4,5 +4,32 @@
  "title": "Structure-Tax-How-Structured-Output-affects-LLMs-Performance",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-10-09 19:23:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/bad91102-553c-402e-b554-c23545571b3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/bad91102-553c-402e-b554-c23545571b3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:28:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structured output",
+    "field ordering",
+    "structure tax",
+    "calibration",
+    "CKA",
+    "reasoning-first"
+   ],
+   "field": "LLM输出格式与推理可靠性",
+   "innovations": [
+    "字段排序控制结构化税而非结构本身，推理优先(R,A)匹配或超越自由生成",
+    "揭示逆结构梯度：格式敏感性随任务固有结构化程度反向变化",
+    "建立精度-校准-表示几何三位一体分析框架，识别两种失败模式"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MMLU",
+    "LogicBench",
+    "Spider"
+   ]
+  }
+ }
 }

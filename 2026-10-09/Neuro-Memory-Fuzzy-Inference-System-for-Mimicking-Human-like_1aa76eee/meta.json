@@ -4,5 +4,10 @@
  "title": "Neuro-Memory-Fuzzy-Inference-System-for-Mimicking-Human-like",
  "token": "sk-zzqRc1aqT...",
  "created_at": "2026-10-09 19:24:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/34162d43-6a79-45ac-a1bc-84360973e103.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/34162d43-6a79-45ac-a1bc-84360973e103.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:22:44",
+  "chunks": 1
+ }
 }

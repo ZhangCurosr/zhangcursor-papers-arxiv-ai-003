@@ -4,5 +4,31 @@
  "title": "Traceable-World-State-A-Provenance-Aware-State-Representatio",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-10-09 19:28:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/b3cb759a-c2e9-4ef9-bf10-0759870f49de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/b3cb759a-c2e9-4ef9-bf10-0759870f49de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:29:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "robotic systems",
+    "provenance",
+    "deterministic replay",
+    "semantic state",
+    "event log",
+    "tamper-evident",
+    "traceable world state"
+   ],
+   "field": "机器人可复现状态管理与溯源",
+   "innovations": [
+    "版本化实体-关系-观测-置信度快照表示与确定性迁移契约",
+    "基于规范化序列化与SHA-256链的防篡改事件日志",
+    "面向机器人状态的故障注入与跨公开轨迹回放评估"
+   ],
+   "benchmarks": [
+    "BEHAVIOR-1K BDDL v3.6.0",
+    "NVIDIA PhysicalAI-Robotics-GR00T-X-Embodiment-Sim Unitree G1 LMPnPAppleToPlateDC"
+   ]
+  }
+ }
 }

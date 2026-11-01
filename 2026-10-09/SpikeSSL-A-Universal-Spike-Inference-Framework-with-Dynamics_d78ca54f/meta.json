@@ -4,5 +4,30 @@
  "title": "SpikeSSL-A-Universal-Spike-Inference-Framework-with-Dynamics",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-10-09 19:27:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a1564add-5376-47dd-a16b-92cddea4f400.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a1564add-5376-47dd-a16b-92cddea4f400.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:28:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "calcium spike inference",
+    "state-space layer",
+    "cross-indicator generalization",
+    "heteroscedastic uncertainty",
+    "biophysical simulation",
+    "domain adaptation"
+   ],
+   "field": "计算神经科学 / 钙成像信号处理",
+   "innovations": [
+    "双向 IIR 状态空间骨干与钙指数衰减同构",
+    "多模态条件编码器经 AdaLN 实现指示剂动力学调制",
+    "异方差不确定性头自然涌现 OOD 探测能力"
+   ],
+   "benchmarks": [
+    "Spikefinder ground-truth database (33 datasets, 11 indicators)",
+    "Five fixed LOIO splits: V1-OGB, V1-GCaMP6s, V1-GCaMP8, Other-RCaMP, SC-GCaMP6s"
+   ]
+  }
+ }
 }

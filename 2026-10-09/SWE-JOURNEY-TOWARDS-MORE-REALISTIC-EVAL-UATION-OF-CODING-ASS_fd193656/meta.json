@@ -4,5 +4,10 @@
  "title": "SWE-JOURNEY-TOWARDS-MORE-REALISTIC-EVAL-UATION-OF-CODING-ASS",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-10-09 19:27:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/063cfdd8-1aac-4331-a779-598a96b9f360.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/063cfdd8-1aac-4331-a779-598a96b9f360.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:27:33",
+  "chunks": 4
+ }
 }

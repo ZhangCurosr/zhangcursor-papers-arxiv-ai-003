@@ -4,5 +4,30 @@
  "title": "Tracing-the-Thoughts-of-a-Coding-Agent-Playing-ARC-AGI-3-Les",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-10-09 19:25:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a87c12f2-e93c-470a-97d7-195ebc44248d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a87c12f2-e93c-470a-97d7-195ebc44248d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:29:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "coding agent",
+    "ARC-AGI-3",
+    "程序化记忆",
+    "负迁移",
+    "白盒分析",
+    "知识转移"
+   ],
+   "field": "agent持续学习与可解释性",
+   "innovations": [
+    "提出跨任务思想追踪测量协议，直接计数保留与转移",
+    "发现跨任务知识转移以重新推导而非跨任务引用为主要机制",
+    "提出将硬编码常量转为参数的负迁移修复方法"
+   ],
+   "benchmarks": [
+    "ARC-AGI-3"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Same-Outcome-Different-Evidence-Intent-Recovery-in-LLM-Safet",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-10-09 19:24:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/d6df3f09-49cb-45e0-b14c-07d16fc950d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/d6df3f09-49cb-45e0-b14c-07d16fc950d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:25:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM 安全评估",
+    "意图恢复",
+    "ASR",
+    "UR",
+    "越狱攻击",
+    "Toki Pona",
+    "意图隐藏"
+   ],
+   "field": "大语言模型安全与对齐评估",
+   "innovations": [
+    "提出 IRIS 框架，将操作性理解率（UR）作为 ASR 的互补归因信号配对报告",
+    "控制性重建实验揭示恢复率与有害输出率在意图隐藏接口下可独立变化",
+    "开源一套人工审核的跨界面意图恢复与安全评估流水线"
+   ],
+   "benchmarks": [
+    "HarmBench",
+    "StrongREJECT",
+    "JailbreakBench"
+   ]
+  }
+ }
 }

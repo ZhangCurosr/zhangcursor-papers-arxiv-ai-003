@@ -4,5 +4,29 @@
  "title": "On-the-estimation-and-validity-of-AI-time-horizons-a-statist",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-10-09 19:15:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/c25c6da6-eacb-4cfa-8dd7-e20ce3993594.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/c25c6da6-eacb-4cfa-8dd7-e20ce3993594.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:23:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI能力评估",
+    "时间范围",
+    "项目反应理论",
+    "构建效度",
+    "统计诊断",
+    "METR"
+   ],
+   "field": "AI度量与评估",
+   "innovations": [
+    "提出放松线性假设的样条/IRT模型以提升时间范围估计精度",
+    "建立能力锚定框架并提供预测力与可比性诊断工具",
+    "发现2-30分钟区间内时间范围尺度的非线性特性"
+   ],
+   "benchmarks": [
+    "METR Time Horizon 1.1 Dataset"
+   ]
+  }
+ }
 }

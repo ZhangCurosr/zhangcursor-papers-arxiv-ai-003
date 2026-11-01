@@ -4,5 +4,33 @@
  "title": "UNIVERSAL-TEXTUAL-TEACHING-FOR-LLMS",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-10-09 19:16:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a852c884-eaa5-4e37-bb1f-cb915b1e735c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a852c884-eaa5-4e37-bb1f-cb915b1e735c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:30:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Universal Textual Teaching",
+    "知识蒸馏",
+    "参数更新无关",
+    "Primer",
+    "LLM跨模型迁移",
+    "多角色交互",
+    "数学推理",
+    "代码生成"
+   ],
+   "field": "大语言模型知识蒸馏与提示工程",
+   "innovations": [
+    "将LLM知识蒸馏表述为文本优化而非参数优化，实现可解释且跨模型复用的知识载体",
+    "提出参数更新无关的闭环多角色交互框架，通过学生尝试、诊断、教师示范与合成整合迭代产出Primer",
+    "以教师-学生观测差距驱动合成并引入验证门控，保证保留能力不被退化"
+   ],
+   "benchmarks": [
+    "KernelBench",
+    "Omni-MATH-2",
+    "MathVerse"
+   ]
+  }
+ }
 }

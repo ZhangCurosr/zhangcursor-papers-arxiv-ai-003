@@ -4,5 +4,31 @@
  "title": "Scalable-AI-Uncertainty-Quantification-via-Generalized-Lapla",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-10-09 19:27:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/77234136-d52e-4240-a077-ca8c9f617257.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/77234136-d52e-4240-a077-ca8c9f617257.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:26:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "uncertainty quantification",
+    "Laplace approximation",
+    "active subspaces",
+    "generalized Bayesian inference",
+    "neural networks",
+    "curvature estimation"
+   ],
+   "field": "可微分模型不确定性量化",
+   "innovations": [
+    "提出广义贝叶斯 mean-loss 缩放避免低秩 Laplace 后验的数据量过收缩",
+    "基于矩阵自由 GGN 特征对计算的 scalable 活动子空间 UQ 框架",
+    "经验贝叶斯联合校准先验方差与活动维度 d，实现自动后验预测区间校准"
+   ],
+   "benchmarks": [
+    "Synthetic sine regression (known/unknown noise)",
+    "UCI Concrete Compressive Strength",
+    "REINVENT molecular SMILES generation"
+   ]
+  }
+ }
 }

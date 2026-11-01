@@ -4,5 +4,31 @@
  "title": "Social-Pain-Disrupts-Emotion-Action-Brain-State-Dynamics-in",
  "token": "sk-L9xk33MRr...",
  "created_at": "2026-10-09 19:27:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/28721cae-123e-438f-a755-429851381c2e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/28721cae-123e-438f-a755-429851381c2e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:27:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "非自杀性自伤",
+    "EEG微状态",
+    "社会疼痛",
+    "情绪-行动耦合",
+    "PatchTST",
+    "神经动力学建模",
+    "领域对抗学习"
+   ],
+   "field": "精神障碍脑电生物标记与可解释深度学习",
+   "innovations": [
+    "将EEG微状态序列作为端到端深度序列建模输入，直接捕获高阶时序依赖",
+    "提出疾病特异性+域对抗+一致性+对比学习四维联合损失框架",
+    "揭示MS3↔MS5双向转换受损为NSSI社会疼痛加工的核心神经动力学标志物"
+   ],
+   "benchmarks": [
+    "HUSM MDD EEG数据集",
+    "MODMA多模态精神障碍数据集"
+   ]
+  }
+ }
 }

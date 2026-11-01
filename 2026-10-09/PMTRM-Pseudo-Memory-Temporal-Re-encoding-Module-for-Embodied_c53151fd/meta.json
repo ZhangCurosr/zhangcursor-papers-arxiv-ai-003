@@ -4,5 +4,34 @@
  "title": "PMTRM-Pseudo-Memory-Temporal-Re-encoding-Module-for-Embodied",
  "token": "sk-OldJrHBbj...",
  "created_at": "2026-10-09 19:26:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/fdbc30a2-03d9-4ebf-a743-915df7e3771a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/fdbc30a2-03d9-4ebf-a743-915df7e3771a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:24:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "phase ambiguity",
+    "temporal memory",
+    "robot manipulation",
+    "imitation learning",
+    "diffusion policy",
+    "action chunking"
+   ],
+   "field": "具身智能-重复操作相位消解",
+   "innovations": [
+    "提出轻量级有界历史时间重编码模块PMTRM，仅7.61M参数",
+    "引入时间异质性目标在无标签条件下区分执行相位",
+    "镜像掩码渐进式训练增强时序鲁棒性"
+   ],
+   "benchmarks": [
+    "MuJoCo Button Press-and-Release",
+    "LIBERO Drawer Open-and-Close",
+    "Wipe Table (Real)",
+    "Open and Close Drawer (Real)",
+    "Transfer Cube",
+    "Bimanual Insertion"
+   ]
+  }
+ }
 }

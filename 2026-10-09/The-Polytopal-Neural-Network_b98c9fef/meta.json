@@ -4,5 +4,33 @@
  "title": "The-Polytopal-Neural-Network",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-10-09 19:22:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a27d6b59-2c3b-4af8-9132-96fece05ed5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a27d6b59-2c3b-4af8-9132-96fece05ed5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:29:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解释深度学习",
+    "Archetypal Analysis",
+    "Polytope约束",
+    "向量量化",
+    "内蕴可解释性"
+   ],
+   "field": "可解释人工智能（XAI）",
+   "innovations": [
+    "逐层施加严格单纯形约束实现内蕴可解释的凸组合表示",
+    "Amortized单纯形推理与语料库流式更新实现可扩展训练",
+    "PNN-VQ提供无需EMA/commitment loss/STE的直接梯度VQ训练途径"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "FashionMNIST",
+    "CIFAR-10",
+    "MedMNIST v2",
+    "ImageNet-100",
+    "ImageNet-1k"
+   ]
+  }
+ }
 }

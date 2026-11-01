@@ -4,5 +4,38 @@
  "title": "Syn-Omni-Structured-Specialization-and-Progressive-Collabora",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-10-09 19:23:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/dda59e24-04c1-4bc4-b3a2-3ea63e7ed1b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/dda59e24-04c1-4bc4-b3a2-3ea63e7ed1b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:28:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "omnimodal embedding",
+    "LoRA adaptation",
+    "mixture of experts",
+    "cross-modal synergy",
+    "contrastive learning",
+    "parameter-efficient fine-tuning"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "提出 OME-LoRA 将共享与模态专家 LoRA 路径正交分解，显式解耦通用语义与模态特异性",
+    "设计 PSR 渐进式协同路由，通过课程式 hard-to-soft 调度平衡专家特化与跨模态交互",
+    "引入 SML 协同边际损失替代 BCE，保留缺失模态专家的有效激活以维持跨模态协同能力"
+   ],
+   "benchmarks": [
+    "MMEB-v1",
+    "MMEB-v2",
+    "VALOR-32k",
+    "AVHBench",
+    "MMAU",
+    "MMAR",
+    "AudioCaps",
+    "MSCOCO",
+    "VATEX",
+    "DiDeMo"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "OA-MAP-EVIDENCE-GROUNDED-MULTI-AGENT-MULTIMODAL-FRAMEWORK-FO",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-10-09 19:23:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/7bee45d9-2ed7-4ef9-a8d1-6cc9a94d4bbc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/7bee45d9-2ed7-4ef9-a8d1-6cc9a94d4bbc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:23:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体框架",
+    "膝关节骨关节炎",
+    "多模态预测",
+    "可解释AI",
+    "文献证据对齐",
+    "不确定性量化"
+   ],
+   "field": "医学多模态可解释预测",
+   "innovations": [
+    "以模态来源与文献方向一致性作为智能体分工与证据落地的依据",
+    "从评分边界距离、跨模态分歧与文献充分性三源聚合不确定性并支持医生修正回传"
+   ],
+   "benchmarks": [
+    "FNIH Osteoarthritis Biomarkers Consortium",
+    "结构进展AUROC",
+    "疼痛进展AUROC"
+   ]
+  }
+ }
 }

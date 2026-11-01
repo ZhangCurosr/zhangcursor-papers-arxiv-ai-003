@@ -4,5 +4,30 @@
  "title": "Stochastic-Grouping-Conformal-Prediction-for-Effective-Subgr",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-10-09 19:22:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/997a96c2-7b8b-4bf9-8473-ffa141d744ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/997a96c2-7b8b-4bf9-8473-ffa141d744ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:28:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conformal prediction",
+    "subgroup fairness",
+    "uncertainty quantification",
+    "calibration",
+    "covertage gap"
+   ],
+   "field": "公平共形预测与子群体可靠性",
+   "innovations": [
+    "提出基于随机分组映射的局部 score law 学习框架，避免显式敏感属性与最差组瓶颈",
+    "理论上证明 SGCP 保留 split conformal 边际有效性，并给出子群体覆盖率下界的 Kolmogorov 距离控制"
+   ],
+   "benchmarks": [
+    "SYN synthetic cardiopulmonary diagnosis",
+    "Nursery UCI",
+    "MIMIC-IV in-hospital mortality and ICU delay",
+    "BACH breast cancer histology"
+   ]
+  }
+ }
 }

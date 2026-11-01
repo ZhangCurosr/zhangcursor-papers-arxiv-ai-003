@@ -4,5 +4,32 @@
  "title": "SanSi-A-Looped-Typed-Decision-Model-for-System-1-5-Thinking",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-10-07 08:14:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a03a9150-1968-4bb5-b943-54f95346907a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a03a9150-1968-4bb5-b943-54f95346907a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:25:03",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "System 1.5",
+    "typed decision model",
+    "循环语言模型",
+    "proper scoring rule",
+    "GRPO",
+    "温度校准",
+    "2WikiMultiHopQA"
+   ],
+   "field": "大模型高效推理与决策",
+   "innovations": [
+    "提出循环 typed decision 框架实现 System 1.5 思维，支持 anytime 读取",
+    "冻结骨干仅微调 LoRA+readout（61M参数），用计算换精度",
+    "跨分布温度校准显著降低 ECE 至 0.019，并在 2WikiMultiHopQA 上 F1 提升 +7.7"
+   ],
+   "benchmarks": [
+    "2WikiMultiHopQA",
+    "59-source decision benchmark",
+    "10,027-item typed decision test set"
+   ]
+  }
+ }
 }

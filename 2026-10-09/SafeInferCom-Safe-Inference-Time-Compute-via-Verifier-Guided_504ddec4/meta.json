@@ -4,5 +4,30 @@
  "title": "SafeInferCom-Safe-Inference-Time-Compute-via-Verifier-Guided",
  "token": "sk-dqq3c6Uup...",
  "created_at": "2026-10-09 08:44:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bb20402f-2ba7-4098-a25f-3e7ec4cd9bdb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bb20402f-2ba7-4098-a25f-3e7ec4cd9bdb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:25:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Reasoning Language Models",
+    "robotic task planning",
+    "inference-time verification",
+    "mid-generation intervention",
+    "PDDL",
+    "plan validity"
+   ],
+   "field": "机器人任务规划与推理时计算调控",
+   "innovations": [
+    "推理时推理监控器：非侵入式提取并验证中间计划，分析推理-响应不一致性",
+    "SafeInferCom四动作干预框架：根据验证结果执行继续/修正/终止/重规划",
+    "KV-cache复用降低干预开销，实现高效中期生成控制"
+   ],
+   "benchmarks": [
+    "PDDL 5-domain planning (Blocksworld, Logistics, Depots, Gripper, Miconic)",
+    "VirtualHome household task simulation"
+   ]
+  }
+ }
 }

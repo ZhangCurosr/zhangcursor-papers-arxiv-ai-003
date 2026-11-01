@@ -4,5 +4,10 @@
  "title": "TIMER-M1-A-MULTIVARIATE-TIME-SERIES-FOUNDATION-MODEL-VIA-LEA",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-10-09 19:27:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/d12858cd-f470-4df3-95bc-f943018810e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/d12858cd-f470-4df3-95bc-f943018810e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:29:18",
+  "chunks": 1
+ }
 }

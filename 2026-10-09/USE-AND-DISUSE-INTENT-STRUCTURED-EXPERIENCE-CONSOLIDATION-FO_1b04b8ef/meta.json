@@ -4,5 +4,35 @@
  "title": "USE-AND-DISUSE-INTENT-STRUCTURED-EXPERIENCE-CONSOLIDATION-FO",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-10-09 19:19:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/fb4d0b68-33d7-4646-899f-2ea70070a626.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/fb4d0b68-33d7-4646-899f-2ea70070a626.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:30:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "持续学习",
+    "记忆管理",
+    "意图结构化",
+    "经验巩固",
+    "上下文压缩"
+   ],
+   "field": "LLM Agent 长期记忆与持续学习",
+   "innovations": [
+    "提出基于意图堆栈的嵌套工作上下文，通过 JANUS 动态管理意图开/关/深化",
+    "设计目标条件性 Intent Consolidation（PRECIP）与递归前缀 Consolidation（PALIM），实现叙事粗化与知识保留的分离",
+    "构建使用与不使用驱动的统一记忆-学习循环，无需参数更新即可从交互历史中持续进化"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "ScienceWorld",
+    "StreamBench",
+    "GoodAI LTM",
+    "LoCoMo",
+    "MemoryAgentBench",
+    "FEVER"
+   ]
+  }
+ }
 }

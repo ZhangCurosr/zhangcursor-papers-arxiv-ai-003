@@ -4,5 +4,30 @@
  "title": "OpenProblemBench-Benchmarking-AI-on-Open-Problems-in-the-Fou",
  "token": "sk-ae40QN0Hy...",
  "created_at": "2026-10-09 19:25:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3aebe6dd-97ce-4b0b-af77-1b3bfa55ced8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3aebe6dd-97ce-4b0b-af77-1b3bfa55ced8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:24:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "OpenProblemBench",
+    "开放科学问题",
+    "多代理评估",
+    "AI 研究能力",
+    "理论数学",
+    "理论物理",
+    "无参考答案基准"
+   ],
+   "field": "科学AI评测与基准",
+   "innovations": [
+    "提出首个扎根理论文献的开放问题基准（82题）",
+    "设计无参考答案的多代理独立评估协议",
+    "引入overclaim诊断与部分进展细粒度分类"
+   ],
+   "benchmarks": [
+    "OpenProblemBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Real-Time-Motion-Planning-with-Dynamic-Hazards-Classical-vs",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-10-09 19:21:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/72975df5-f280-4b34-9d88-2e026395f0b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/72975df5-f280-4b34-9d88-2e026395f0b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:20:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Motion Planning",
+    "Dynamic Obstacles",
+    "Reinforcement Learning",
+    "Classical Search",
+    "U CT",
+    "Real-Time Navigation"
+   ],
+   "field": "动态环境运动规划",
+   "innovations": [
+    "构建统一基准实现经典方法与RL的受控对比",
+    "揭示障碍物随机性而非部分可观测性是范式切换的主导因素",
+    "系统刻画随机环境下计算预算与规划性能的定量关系"
+   ],
+   "benchmarks": [
+    "Sprinkler Dynamic Hazard Benchmark",
+    "100x50 rectangular workspace with rotating sectors"
+   ]
+  }
+ }
 }

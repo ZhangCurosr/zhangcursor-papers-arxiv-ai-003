@@ -4,5 +4,34 @@
  "title": "REMORY-LEARNING-RESIDUAL-MEMORY-FOR-CONTEXT-COMPACTION",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-10-09 19:24:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/68b3b88a-6f62-43d1-b5fb-647974446c16.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/68b3b88a-6f62-43d1-b5fb-647974446c16.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:18:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Residual Memory",
+    "Context Compaction",
+    "Long-Horizon Agent",
+    "Reverse KL Distillation",
+    "Soft Memory Tokens",
+    "Frozen Actor",
+    "DFlash"
+   ],
+   "field": "长上下文 Agent 记忆与压缩",
+   "innovations": [
+    "提出在文本摘要后拼接残差软 token 序列的连续补充机制",
+    "冻结 Actor 下两阶段 reverse KL 蒸馏训练记忆网络",
+    "同预算文本对照证明连续补充优于等长生成文本"
+   ],
+   "benchmarks": [
+    "SummHay",
+    "AutomationBench",
+    "JobBench",
+    "Terminal-Bench 2.1",
+    "BrowseComp"
+   ]
+  }
+ }
 }

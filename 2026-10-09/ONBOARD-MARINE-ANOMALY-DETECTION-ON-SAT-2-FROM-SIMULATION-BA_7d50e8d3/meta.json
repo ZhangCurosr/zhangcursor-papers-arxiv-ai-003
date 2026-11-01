@@ -4,5 +4,31 @@
  "title": "ONBOARD-MARINE-ANOMALY-DETECTION-ON-SAT-2-FROM-SIMULATION-BA",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-10-09 19:24:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/2d1c9449-7999-41b2-9e2b-9c54749acecd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/2d1c9449-7999-41b2-9e2b-9c54749acecd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:16:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "星载AI",
+    "海洋异常检测",
+    "在轨部署",
+    "自监督学习",
+    "模块化管线",
+    "仿真到真实"
+   ],
+   "field": "星载遥感AI部署",
+   "innovations": [
+    "模块化轻量级在轨异常检测管线架构",
+    "结合自监督编码与GMM的无监督异常检测",
+    "面向在轨真实数据的模糊标注与重新训练策略"
+   ],
+   "benchmarks": [
+    "仿真数据海陆分割F1 93.9%",
+    "真实数据测试集海陆分割F1 94.31%",
+    "真实数据测试集异常检测F1 94.28%"
+   ]
+  }
+ }
 }

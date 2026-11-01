@@ -4,5 +4,32 @@
  "title": "RAG-Stress-Probing-the-Limits-of-Evidence-Reliance-in-Retrie",
  "token": "sk-GAGmasUl1...",
  "created_at": "2026-10-09 19:25:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/930aad3e-b7f7-4d6d-be68-a31ce042304e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/930aad3e-b7f7-4d6d-be68-a31ce042304e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:18:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG evaluation",
+    "misleading rate",
+    "evidence reliance",
+    "instruction contrast",
+    "counterfactual evidence",
+    "paired audit"
+   ],
+   "field": "RAG 可靠性与鲁棒性评测",
+   "innovations": [
+    "以闭卷正确子集为条件的误导性接受率 MR，分离替换与既有错误",
+    "指令 Strict/Soft 与词位置 Beginning/Middle/End 的受控交叉诊断",
+    "有害覆盖 HOR 与参考恢复 BCR 的分层配对审计"
+   ],
+   "benchmarks": [
+    "TriviaQA-RC",
+    "HotpotQA",
+    "SearchQA",
+    "MedQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "RISR-RESIDUAL-INFORMED-SCIENTIFIC-EQUATION-DISCOVERY-WITH-LA",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-10-09 19:27:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/641e0221-4bbe-433b-9b5f-efb99fb3d8e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/641e0221-4bbe-433b-9b5f-efb99fb3d8e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:19:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "符号回归",
+    "残差引导",
+    "大语言模型",
+    "科学方程发现",
+    "双视角编码",
+    "合成数据训练"
+   ],
+   "field": "符号回归与科学发现",
+   "innovations": [
+    "残差编码为连续token条件化冻结LLM进行公式搜索",
+    "加性/正则化乘法双视角关系编码器预测修正效用",
+    "合成数据独立训练各子模块与主干LLM解耦"
+   ],
+   "benchmarks": [
+    "LLM-SRBench (LSR-Synth)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "RETEACH-BUILDING-A-SELF-TEACHER-THROUGHMULTI-ROUND-REFLECTIO",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-10-09 19:22:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/4ad928dc-cac2-41b5-b4b8-3285f20b7498.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/4ad928dc-cac2-41b5-b4b8-3285f20b7498.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:19:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-distillation",
+    "on-policy distillation",
+    "reflective reasoning",
+    "multi-round reflection",
+    "mathematical reasoning",
+    "chain-of-thought"
+   ],
+   "field": "语言模型自我改进与蒸馏",
+   "innovations": [
+    "多轮反思-重试构建无需参考信息的自我教师",
+    "按修正结果分组的三类加权蒸馏损失",
+    "在六基准上以零特权信息取得最高平均准确率"
+   ],
+   "benchmarks": [
+    "AIME 2024",
+    "AIME 2025",
+    "HMMT 2025",
+    "SciKnowEval-Physics",
+    "SciKnowEval-Material",
+    "ToolAlpaca"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "OVERCOMING-PRIOR-BARRIERS-SUPERVISED-FINE-TUNING-UNDER-LONG",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-10-09 19:21:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/f97bfbec-906c-4ce4-913a-12dc25bc9e00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/f97bfbec-906c-4ce4-913a-12dc25bc9e00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:16:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "监督微调",
+    "指令选择",
+    "长尾分布",
+    "先验障碍",
+    "数据选择",
+    "大语言模型"
+   ],
+   "field": "大语言模型高效微调",
+   "innovations": [
+    "提出先验障碍概念刻画预训练支撑差异并发现其长尾分布",
+    "推导先验障碍与区分证据共同决定SFT预测风险的理论界",
+    "设计PASS方法联合优化区分证据估计与障碍感知的自适应预算分配"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "BBH",
+    "GSM8K",
+    "TruthfulQA",
+    "TyDi QA"
+   ]
+  }
+ }
 }

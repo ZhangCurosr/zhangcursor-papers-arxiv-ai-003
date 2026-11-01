@@ -4,5 +4,31 @@
  "title": "Neural-Networks-for-Temporal-Patern-Recognition-and-Dynamic",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-10-09 19:22:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3ced044d-6b97-4c03-ae04-c502a7a2dc10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3ced044d-6b97-4c03-ae04-c502a7a2dc10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:16:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时序模式识别",
+    "手势速度估计",
+    "神经网络架构基准",
+    "骨架关键点",
+    "机器人交互",
+    "时序回归"
+   ],
+   "field": "人机交互与时序模式识别",
+   "innovations": [
+    "18架构×10任务的系统性时序基准与排名聚合方法",
+    "GRUReLU轻量改进跻身Top3",
+    "揭示标量基准排名与多元真实数据性能的解耦"
+   ],
+   "benchmarks": [
+    "Peak Count速度估计",
+    "Period Time速度估计",
+    "Spike Spacing速度估计"
+   ]
+  }
+ }
 }

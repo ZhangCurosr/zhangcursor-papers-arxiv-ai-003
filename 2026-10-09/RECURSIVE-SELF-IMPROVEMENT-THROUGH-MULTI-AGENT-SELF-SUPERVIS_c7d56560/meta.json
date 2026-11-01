@@ -4,5 +4,34 @@
  "title": "RECURSIVE-SELF-IMPROVEMENT-THROUGH-MULTI-AGENT-SELF-SUPERVIS",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-10-09 19:25:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/5d9f8b56-bbd1-4e91-9f60-e83eafecbd47.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/5d9f8b56-bbd1-4e91-9f60-e83eafecbd47.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:19:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Recursive Self-Improvement",
+    "Multi-Agent Systems",
+    "Self-Supervision",
+    "Workflow Optimization",
+    "Large Language Models",
+    "Agent Coordination"
+   ],
+   "field": "大语言模型自主改进与多智能体系统",
+   "innovations": [
+    "提出MASS框架，通过多智能体工作流进化搜索+ SFT蒸馏实现递归自我改进",
+    "证明多智能体轨迹训练效率高于单智能体（同token预算下表现提升4.3pp）",
+    "揭示工作流优化是同质RSI回路的瓶颈而非评估能力，并发现SFT可泛化至优化/评估角色"
+   ],
+   "benchmarks": [
+    "ScienceAgentBench",
+    "MLR-Bench",
+    "AstaBench E2E-Bench-Hard",
+    "DSBench",
+    "Terminal-Bench 2.0",
+    "SWE-bench Verified"
+   ]
+  }
+ }
 }

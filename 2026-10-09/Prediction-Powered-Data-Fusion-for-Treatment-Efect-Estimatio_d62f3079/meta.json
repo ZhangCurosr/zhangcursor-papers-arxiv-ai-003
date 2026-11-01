@@ -4,5 +4,31 @@
  "title": "Prediction-Powered-Data-Fusion-for-Treatment-Efect-Estimatio",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-10-09 19:19:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/0e1ff6f9-f7c3-4ccd-aeba-a965b327d2c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/0e1ff6f9-f7c3-4ccd-aeba-a965b327d2c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:17:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "causal inference",
+    "treatment effect estimation",
+    "RCT-OBS fusion",
+    "double robust",
+    "prediction-powered inference",
+    "heterogeneous treatment effects"
+   ],
+   "field": "因果推断与数据处理融合",
+   "innovations": [
+    "提出双通道AIPW-PPI融合框架，在任意OBS混杂下保持RCT无偏同时提升精度",
+    "构建DRF/RF两个CATE学习器，无需建模混杂函数且数据驱动选模provably不劣于RCT-only",
+    "提出基于KL投影的校准密度比估计，控制比率误设导致的偏差阶"
+   ],
+   "benchmarks": [
+    "IHDP",
+    "ACIC 2016",
+    "Synthetic design with latent confounder"
+   ]
+  }
+ }
 }

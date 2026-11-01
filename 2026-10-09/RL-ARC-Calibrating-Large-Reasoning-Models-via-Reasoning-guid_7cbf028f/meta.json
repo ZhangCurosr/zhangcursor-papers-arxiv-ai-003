@@ -4,5 +4,39 @@
  "title": "RL-ARC-Calibrating-Large-Reasoning-Models-via-Reasoning-guid",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-10-09 19:23:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/aefc1ac0-36b7-404c-85a9-68d126e1265f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/aefc1ac0-36b7-404c-85a9-68d126e1265f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:19:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "校准感知训练",
+    "大推理模型",
+    "过度自信缓解",
+    "推理置信度",
+    "强化学习"
+   ],
+   "field": "大语言模型可靠性与校准",
+   "innovations": [
+    "提出推理引导的条件化正则化/惩罚机制联合校准答案置信度",
+    "在保持准确率的同时显著改善 ID/OOD 校准性",
+    "引入推理置信度辅助评估推理过程可靠性"
+   ],
+   "benchmarks": [
+    "Big-Math",
+    "GSM8K",
+    "MATH-500",
+    "AMC23",
+    "AIME24",
+    "AIME25",
+    "StrategyQA",
+    "GPQA",
+    "HotpotQA",
+    "SimpleQA",
+    "NQ-Open",
+    "TriviaQA"
+   ]
+  }
+ }
 }

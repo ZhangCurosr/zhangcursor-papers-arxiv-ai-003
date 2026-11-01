@@ -4,5 +4,32 @@
  "title": "ONE-WORD-OPENS-THE-GATE-THE-OPTION-CHANNEL-ATTACK-ON-TYPED-D",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-10-09 19:15:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a0444ccf-0bda-4b39-8feb-1f58a79ec957.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a0444ccf-0bda-4b39-8feb-1f58a79ec957.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:16:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "typed decision model",
+    "agent guardrail",
+    "option-channel attack",
+    "fail-open fail-closed",
+    "prompt injection defense",
+    "security evaluation"
+   ],
+   "field": "AI安全与护栏评估",
+   "innovations": [
+    "提出选项通道攻击：仅改一个选项标签即可将fail-open率推至100%",
+    "证明无信息文本注入可翻转多数正确阻断决策",
+    "揭示低置信度升级策略对语义攻击完全无效"
+   ],
+   "benchmarks": [
+    "GuardBench",
+    "deepset/prompt-injections",
+    "jackhhao/jailbreak-classification",
+    "toxicchat"
+   ]
+  }
+ }
 }

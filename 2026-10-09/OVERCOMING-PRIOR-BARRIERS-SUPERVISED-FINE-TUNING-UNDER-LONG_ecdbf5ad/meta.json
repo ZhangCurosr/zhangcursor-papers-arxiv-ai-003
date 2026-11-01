@@ -4,5 +4,33 @@
  "title": "OVERCOMING-PRIOR-BARRIERS-SUPERVISED-FINE-TUNING-UNDER-LONG",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-10-09 08:36:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9d49c673-aaa2-4160-9c76-3cbd7fe0d1f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9d49c673-aaa2-4160-9c76-3cbd7fe0d1f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:16:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Supervised Fine-Tuning",
+    "Instruction Selection",
+    "Prior Barrier",
+    "Long-tail Distribution",
+    "Data Selection",
+    "Large Language Models"
+   ],
+   "field": "大语言模型指令微调与数据选择",
+   "innovations": [
+    "提出先验壁垒概念量化预训练支持的不对称性并发现其长尾分布",
+    "推导SFT预测风险界揭示先验壁垒与区分性证据如何联合决定性能",
+    "提出PASS框架在有限预算下按先验壁垒自适应分配指令选择预算"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "BBH",
+    "GSM8K",
+    "TRUTHFULQA",
+    "TYDIQA"
+   ]
+  }
+ }
 }

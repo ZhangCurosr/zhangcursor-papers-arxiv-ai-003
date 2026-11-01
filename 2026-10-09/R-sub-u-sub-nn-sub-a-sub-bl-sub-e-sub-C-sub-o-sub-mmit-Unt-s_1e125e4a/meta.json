@@ -4,5 +4,30 @@
  "title": "R-sub-u-sub-nn-sub-a-sub-bl-sub-e-sub-C-sub-o-sub-mmit-Unt-s",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-10-09 19:26:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/7c3f89b9-ce3f-47d0-bea5-a6adc91a52ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/7c3f89b9-ce3f-47d0-bea5-a6adc91a52ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:18:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "commit untangling",
+    "coding agents",
+    "runnable commits",
+    "regression repair",
+    "software engineering",
+    "program repair"
+   ],
+   "field": "AI for Software Engineering",
+   "innovations": [
+    "RucTangle：首个保证每次提交后代码可运行的 Agent 驱动提交拆分方法，通过执行反馈闭环修正分组与顺序",
+    "TangleEval：首个同时评测可运行性和下游修复收益的提交拆分框架",
+    "实证证明可运行提交历史可帮助 Coding Agent 修复回归，平均相对提升 16.6% pass@1"
+   ],
+   "benchmarks": [
+    "SWE-CI",
+    "TangleEval"
+   ]
+  }
+ }
 }

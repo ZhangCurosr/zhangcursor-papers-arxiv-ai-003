@@ -4,5 +4,38 @@
  "title": "SCALABLE-HIERARCHICAL-GRAPH-GENERATION-VIA-SOFT-COMMUNITY-ST",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-10-09 19:26:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/521091c9-c9dd-40ad-a4e7-089ea80f984e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/521091c9-c9dd-40ad-a4e7-089ea80f984e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:21:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph Generation",
+    "Single Large Graph",
+    "Hierarchical Decomposition",
+    "Soft Community",
+    "Scalable",
+    "Attributed Graph"
+   ],
+   "field": "大规模图生成",
+   "innovations": [
+    "将单大图生成分解为层次软社区的三阶段独立生成",
+    "引入学习无关的软社区分配和桥节点机制",
+    "提出包含结构、记忆、下游效用和可扩展性的综合评估协议"
+   ],
+   "benchmarks": [
+    "Citeseer",
+    "Cora ML",
+    "Amazon Computers",
+    "Amazon Photo",
+    "Flickr",
+    "Reddit",
+    "Yelp",
+    "OGBN Products",
+    "DGraphFin",
+    "IGB Medium"
+   ]
+  }
+ }
 }

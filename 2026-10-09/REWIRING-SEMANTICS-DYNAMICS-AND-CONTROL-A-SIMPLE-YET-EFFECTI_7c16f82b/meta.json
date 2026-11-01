@@ -4,5 +4,31 @@
  "title": "REWIRING-SEMANTICS-DYNAMICS-AND-CONTROL-A-SIMPLE-YET-EFFECTI",
  "token": "sk-EKa3zthlJ...",
  "created_at": "2026-10-09 19:23:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/b8d8873f-68e3-4eb0-9796-2fdb9eb624e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/b8d8873f-68e3-4eb0-9796-2fdb9eb624e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:19:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "World Model",
+    "Multi-Stream Transformer",
+    "Flow Matching",
+    "Robotic Manipulation",
+    "Embodied AI"
+   ],
+   "field": "具身智能/机器人操作策略学习",
+   "innovations": [
+    "Action-centric tri-stream transformer with layerwise cross-stream attention only at action queries",
+    "Joint S-D tuning via action supervision gradients flowing through K/V",
+    "Generated future context decoupled from auxiliary dynamics prediction loss"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "RoboCasa",
+    "LIBERO-Plus"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "REACT-Rolling-Denoising-and-Dual-Decoupling-for-Reactive-Rob",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-10-09 19:22:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ddc217b1-1a9c-47c6-a738-e2325266bb5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ddc217b1-1a9c-47c6-a738-e2325266bb5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:18:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA Models",
+    "Flow Matching",
+    "Reactive Robot Control",
+    "Action Chunking",
+    "Rolling Denoising",
+    "Dual Decoupling"
+   ],
+   "field": "机器人视觉语言动作模型",
+   "innovations": [
+    "提出滚动去噪框架，通过持久化动作缓冲区和交错时间步进实现多观测渐进精炼",
+    "设计双解耦调度机制，在保持模型权重不变下实现高吞吐实时部署",
+    "开发阶梯训练策略，使用确定性多时间步监督对齐训练与推理"
+   ],
+   "benchmarks": [
+    "RoboTwin 2.0",
+    "ARX X5",
+    "Franka R3"
+   ]
+  }
+ }
 }

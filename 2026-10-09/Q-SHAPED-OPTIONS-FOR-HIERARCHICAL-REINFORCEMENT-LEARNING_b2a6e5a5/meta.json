@@ -4,5 +4,29 @@
  "title": "Q-SHAPED-OPTIONS-FOR-HIERARCHICAL-REINFORCEMENT-LEARNING",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-10-09 19:21:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9f964ded-3f4e-4f3c-830e-8e824d671f0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9f964ded-3f4e-4f3c-830e-8e824d671f0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:17:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hierarchical reinforcement learning",
+    "offline RL",
+    "action abstraction",
+    "Q-learning",
+    "goal-conditioned RL",
+    "temporal abstraction"
+   ],
+   "field": "层次强化学习与离线学习",
+   "innovations": [
+    "首个通过双层Q函数联合塑造动作抽象的HRL算法",
+    "形式化control-sufficient抽象并证明低层Q-shaping蕴含该性质",
+    "基于离线PAC界给出选项压缩减少error bound的理论依据"
+   ],
+   "benchmarks": [
+    "OGBench (antmaze, humanoidmaze, cube, puzzle, scene)"
+   ]
+  }
+ }
 }

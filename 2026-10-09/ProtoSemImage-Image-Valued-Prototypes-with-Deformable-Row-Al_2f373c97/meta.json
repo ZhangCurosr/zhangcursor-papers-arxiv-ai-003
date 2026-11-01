@@ -4,5 +4,32 @@
  "title": "ProtoSemImage-Image-Valued-Prototypes-with-Deformable-Row-Al",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-10-09 19:23:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/2a927b12-9d59-4f15-8aaa-df7976fa1919.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/2a927b12-9d59-4f15-8aaa-df7976fa1919.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:17:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Image-Valued Prototypes",
+    "Soft-DTW",
+    "Interpretable Document Classification",
+    "Disentangled Representations",
+    "Text-as-Image",
+    "HSV Color Space"
+   ],
+   "field": "可解释文档分类",
+   "innovations": [
+    "将类别原型从向量扩展为可展示的 HSV 多通道图像，保留布局与通道语义",
+    "通过 Skip-Gram 目标端到端学习四维颜色瓶颈，使话语边界行可微",
+    "将软 DTW 适配到行轴对齐，返回可解释对应路径并输出类型化差异图"
+   ],
+   "benchmarks": [
+    "CatRev",
+    "20 Newsgroups",
+    "IMDB",
+    "CatRev-Order"
+   ]
+  }
+ }
 }

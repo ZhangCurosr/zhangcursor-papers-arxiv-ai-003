@@ -4,5 +4,35 @@
  "title": "PULSEBOUND-FUTURE-BEAT-STATE-FORECASTING-UNDER-AN-EXPLICIT-I",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-10-09 19:25:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/66e7e119-d0c8-40f7-be95-bbba501273a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/66e7e119-d0c8-40f7-be95-bbba501273a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:17:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PPG representation learning",
+    "information boundary",
+    "self-supervised learning",
+    "physiological signal forecasting",
+    "predictive pretraining",
+    "stored-suffix invariance"
+   ],
+   "field": "生理信号自监督表征学习",
+   "innovations": [
+    "显式信息边界契约与后缀不变性保证",
+    "九维可解释未来心跳状态预测",
+    "条件预测与迁移质量的分离测试框架"
+   ],
+   "benchmarks": [
+    "MIMIC-III Waveform Database",
+    "VitalDB",
+    "BIDMC",
+    "PPG-BP",
+    "WESAD",
+    "DaLiA",
+    "Stanford"
+   ]
+  }
+ }
 }

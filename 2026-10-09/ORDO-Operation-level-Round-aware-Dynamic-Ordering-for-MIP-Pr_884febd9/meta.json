@@ -4,5 +4,30 @@
  "title": "ORDO-Operation-level-Round-aware-Dynamic-Ordering-for-MIP-Pr",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-10-09 19:24:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a022c4ac-579f-4689-85d0-42e310bf5ab9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a022c4ac-579f-4689-85d0-42e310bf5ab9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:17:32",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "MIP Presolve",
+    "Sequence Generation",
+    "Operation Ordering",
+    "Zero-shot Transfer",
+    "Racing Portfolio",
+    "Combinatorial Optimization"
+   ],
+   "field": "MIP 求解器自动化优化",
+   "innovations": [
+    "将 MIP presolve 规划重定义为统一原子 action 空间上的条件自回归序列生成问题",
+    "提出 sequence racing 部署机制并以尾部截断定理形式化分析其 gain 来源",
+    "在 presolve action sequence 领域实现首个跨域零样本泛化结果"
+   ],
+   "benchmarks": [
+    "D-MIPLIB",
+    "SCIP 10.0.1"
+   ]
+  }
+ }
 }

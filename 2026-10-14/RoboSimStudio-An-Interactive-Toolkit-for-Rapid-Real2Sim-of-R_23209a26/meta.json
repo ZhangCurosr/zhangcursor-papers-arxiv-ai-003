@@ -4,5 +4,31 @@
  "title": "RoboSimStudio-An-Interactive-Toolkit-for-Rapid-Real2Sim-of-R",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-14 18:26:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/67e2078e-98e5-4802-bdac-c7cfde255590.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/67e2078e-98e5-4802-bdac-c7cfde255590.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:46:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Real2Sim",
+    "多物理仿真",
+    "机器人操作",
+    "LLM 代理",
+    "Sim2Real",
+    "牛顿引擎",
+    "软体接触"
+   ],
+   "field": "机器人操作仿真",
+   "innovations": [
+    "交互式多物理仿真工具包支持人类与代理共享迭代",
+    "视频驱动代理 Real2Sim2Real 闭环",
+    "失败驱动的仿真约束自动修正"
+   ],
+   "benchmarks": [
+    "18 接触密集型操作任务",
+    "双人海绵擦拭真实部署"
+   ]
+  }
+ }
 }

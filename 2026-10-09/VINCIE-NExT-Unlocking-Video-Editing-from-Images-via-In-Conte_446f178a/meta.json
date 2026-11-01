@@ -4,5 +4,30 @@
  "title": "VINCIE-NExT-Unlocking-Video-Editing-from-Images-via-In-Conte",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-10-09 19:24:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9be56adf-4142-4638-86b4-2e00519b1af1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9be56adf-4142-4638-86b4-2e00519b1af1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:44:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video editing",
+    "in-context learning",
+    "diffusion models",
+    "image-to-video",
+    "temporal consistency",
+    "position encoding"
+   ],
+   "field": "视频生成与编辑",
+   "innovations": [
+    "V→I→I→V 子任务分解将图像编辑能力迁移到视频",
+    "TDF3D-RoPE 实现像素级跨 shot 空间对应",
+    "Chain-of-Editing 提供测试时扩展无需重训练"
+   ],
+   "benchmarks": [
+    "OpenVE-Bench",
+    "VBench"
+   ]
+  }
+ }
 }

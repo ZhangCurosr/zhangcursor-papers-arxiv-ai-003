@@ -4,5 +4,32 @@
  "title": "SWEPATCHTEST-EVALUATING-SOFTWARE-TESTS-BEYOND-REPRODUCTION",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-10-14 07:24:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/40db31d7-5497-49b0-9015-a9efedb1915a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/40db31d7-5497-49b0-9015-a9efedb1915a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:49:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test generation",
+    "software patch evaluation",
+    "coding agents",
+    "SWE-bench",
+    "joint validation rate",
+    "SFT data selection"
+   ],
+   "field": "软件测试与验证",
+   "innovations": [
+    "提出JVR联合验证率，同时要求参考复现、正确补丁接受、错误补丁拒绝",
+    "构建82,579候选补丁的仓库级测试生成基准SWEPATCHTEST",
+    "用执行级验证信号（WDR/CAR/JVR）指导测试生成SFT演示选择"
+   ],
+   "benchmarks": [
+    "SWE-bench Pro",
+    "SWE-bench Multilingual",
+    "DeepSWE",
+    "SWE-bench Verified"
+   ]
+  }
+ }
 }

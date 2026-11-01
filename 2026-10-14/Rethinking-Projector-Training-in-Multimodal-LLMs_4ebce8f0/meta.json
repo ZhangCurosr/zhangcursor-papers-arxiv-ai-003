@@ -4,5 +4,10 @@
  "title": "Rethinking-Projector-Training-in-Multimodal-LLMs",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-10-14 18:28:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/26d1c78a-8d1d-48c0-8598-037bf67577b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/26d1c78a-8d1d-48c0-8598-037bf67577b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:45:52",
+  "chunks": 1
+ }
 }

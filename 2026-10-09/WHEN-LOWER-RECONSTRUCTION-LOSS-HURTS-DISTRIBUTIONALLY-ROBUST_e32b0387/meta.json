@@ -4,5 +4,37 @@
  "title": "WHEN-LOWER-RECONSTRUCTION-LOSS-HURTS-DISTRIBUTIONALLY-ROBUST",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-10-09 19:26:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a3ca57ca-4f21-4718-befd-6bcb1a5989cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a3ca57ca-4f21-4718-befd-6bcb1a5989cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:45:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "后训练量化",
+    "分布鲁棒优化",
+    "低比特LLM",
+    "重建损失",
+    "权重精炼",
+    "PTQ"
+   ],
+   "field": "模型压缩与量化",
+   "innovations": [
+    "揭示重建损失最小化与模型性能之间的根本性失配并给出理论解释",
+    "提出分布鲁棒量化DRQ，在约束激活分布集上最小化最坏情况重建损失",
+    "推导最坏情况重建损失的闭式等价解并设计固定格点整数码精炼算法"
+   ],
+   "benchmarks": [
+    "WikiText-2",
+    "C4",
+    "PIQA",
+    "HellaSwag",
+    "MMLU",
+    "BoolQ",
+    "ARC-Easy",
+    "ARC-Challenge",
+    "WinoGrande"
+   ]
+  }
+ }
 }

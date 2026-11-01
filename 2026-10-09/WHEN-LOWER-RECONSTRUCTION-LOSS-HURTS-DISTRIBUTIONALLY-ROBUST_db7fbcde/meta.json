@@ -4,5 +4,38 @@
  "title": "WHEN-LOWER-RECONSTRUCTION-LOSS-HURTS-DISTRIBUTIONALLY-ROBUST",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-10-09 08:39:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7fedab7e-fd8f-4fd2-95d3-c530875fa3df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7fedab7e-fd8f-4fd2-95d3-c530875fa3df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:45:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "weight-only PTQ",
+    "distributionally robust optimization",
+    "LLM quantization",
+    "reconstruction loss",
+    "worst-case directional error",
+    "integer-code refinement",
+    "MoE quantization"
+   ],
+   "field": "大语言模型低比特权重量化与分布鲁棒优化",
+   "innovations": [
+    "揭示校准重构损失最小化与部署性能提升之间的错配，并提出分布鲁棒目标进行纠正",
+    "将最坏输入方向误差与校准重建损失结合为可计算目标并在固定量化网格上离线精修整数码",
+    "在稠密与 MoE 模型、多种 PTQ 基线及多比特设置上验证零推理开销的通用性能提升"
+   ],
+   "benchmarks": [
+    "WikiText-2",
+    "C4",
+    "PIQA",
+    "HellaSwag",
+    "MMLU",
+    "BoolQ",
+    "ARC-Easy",
+    "ARC-Challenge",
+    "WinoGrande"
+   ]
+  }
+ }
 }

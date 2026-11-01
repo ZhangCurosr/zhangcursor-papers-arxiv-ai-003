@@ -4,5 +4,34 @@
  "title": "SEAR-Self-Evolving-Agentic-Robotics",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-10-14 18:25:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e04865a1-dd6b-408b-ba21-215bc01817fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e04865a1-dd6b-408b-ba21-215bc01817fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:47:44",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Self-Evolving Agent",
+    "机器人学习",
+    "泛化评估",
+    "混淆控制",
+    "VLA",
+    "Sim2Real"
+   ],
+   "field": "机器人自主技能学习",
+   "innovations": [
+    "提出五项混淆控制机制分离学习与尝试次数影响",
+    "建立T1-T5五级泛化评估体系",
+    "设计CaP/AaP/AR三种Agent运行模式的系统对比框架"
+   ],
+   "benchmarks": [
+    "Robosuite",
+    "LIBERO",
+    "LIBERO-PRO",
+    "LIBERO-RIG",
+    "RoboLab",
+    "YAM-Ultra物理任务"
+   ]
+  }
+ }
 }

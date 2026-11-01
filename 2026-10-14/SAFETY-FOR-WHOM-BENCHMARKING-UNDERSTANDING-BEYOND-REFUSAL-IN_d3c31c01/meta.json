@@ -4,5 +4,30 @@
  "title": "SAFETY-FOR-WHOM-BENCHMARKING-UNDERSTANDING-BEYOND-REFUSAL-IN",
  "token": "sk-2ksG4dzmp...",
  "created_at": "2026-10-14 07:21:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/c86f61bc-2fc2-4615-b3aa-54fd5c450062.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/c86f61bc-2fc2-4615-b3aa-54fd5c450062.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:46:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态安全评估",
+    "以自我为中心助手",
+    "安全理解",
+    "拒绝行为",
+    "危害目标分类",
+    "STOU基准",
+    "可穿戴AI安全"
+   ],
+   "field": "多模态大模型安全对齐",
+   "innovations": [
+    "提出以交互为中心的伤害目标分类体系，解耦安全理解与拒绝行为评估",
+    "设计双探针框架量化模型对伤害因果链的理解程度",
+    "揭示模型即使理解伤害仍频繁协助的行为-认知差距"
+   ],
+   "benchmarks": [
+    "STOU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "SWEPATCHTEST-EVALUATING-SOFTWARE-TESTS-BEYOND-REPRODUCTION",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-10-14 18:32:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/fbebf604-3764-4f6f-97f8-1928baf6665d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/fbebf604-3764-4f6f-97f8-1928baf6665d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:49:16",
+  "chunks": 1
+ }
 }

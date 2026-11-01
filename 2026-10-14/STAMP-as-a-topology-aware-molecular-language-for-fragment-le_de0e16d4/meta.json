@@ -4,5 +4,35 @@
  "title": "STAMP-as-a-topology-aware-molecular-language-for-fragment-le",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-10-14 18:25:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/1e898b79-38cf-4e49-a593-78510b4beaba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/1e898b79-38cf-4e49-a593-78510b4beaba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:49:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "molecular language",
+    "fragment tree",
+    "STAMP",
+    "molecular generation",
+    "property prediction",
+    "molecular optimization",
+    "LLM-driven editing"
+   ],
+   "field": "分子语言与可编辑表征",
+   "innovations": [
+    "提出 STAMP 四 token 类（motif/joint/branch/ctrl）将片段身份、连接位点与子树拓扑分离表示，实现确定性编译解码",
+    "构建可寻址子树空间与 TreeCrossover 算子，支持兼容替换与骨架保留的片段搜索",
+    "在生成、性质预测、PMO 优化与冻结 LLM 编辑四项任务上统一验证，编辑成功率提升 9–56 pp"
+   ],
+   "benchmarks": [
+    "ZINC-250K",
+    "MoleculeNet",
+    "MoleculeACE",
+    "PMO",
+    "S²-Bench",
+    "ChEBI-20"
+   ]
+  }
+ }
 }

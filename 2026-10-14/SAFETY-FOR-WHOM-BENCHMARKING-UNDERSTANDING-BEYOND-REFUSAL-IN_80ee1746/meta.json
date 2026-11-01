@@ -4,5 +4,31 @@
  "title": "SAFETY-FOR-WHOM-BENCHMARKING-UNDERSTANDING-BEYOND-REFUSAL-IN",
  "token": "sk-2ksG4dzmp...",
  "created_at": "2026-10-14 18:29:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/1f20f9a8-589a-474e-9a74-8036288e76fa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/1f20f9a8-589a-474e-9a74-8036288e76fa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:46:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "egocentric multimodal assistants",
+    "safety benchmark",
+    "refusal behavior",
+    "safety understanding",
+    "harm target taxonomy"
+   ],
+   "field": "多模态大模型安全评估",
+   "innovations": [
+    "提出交互中心主义伤害目标分类（Self/The Others/Others/Unspecified）",
+    "构建超越拒绝行为的安全理解双轴评估框架",
+    "揭示第一人称助手在Self伤害上的系统性安全漏洞"
+   ],
+   "benchmarks": [
+    "STOU",
+    "Ego4D",
+    "AEA",
+    "Nymeria+"
+   ]
+  }
+ }
 }

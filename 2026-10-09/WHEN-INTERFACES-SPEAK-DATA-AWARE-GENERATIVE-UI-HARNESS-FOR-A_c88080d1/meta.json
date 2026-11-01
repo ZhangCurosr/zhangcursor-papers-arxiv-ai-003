@@ -4,5 +4,31 @@
  "title": "WHEN-INTERFACES-SPEAK-DATA-AWARE-GENERATIVE-UI-HARNESS-FOR-A",
  "token": "sk-wmVet9QXD...",
  "created_at": "2026-10-09 19:27:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/23c08c13-41d0-41eb-b2dc-a0367b299756.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/23c08c13-41d0-41eb-b2dc-a0367b299756.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:44:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generative UI",
+    "multi-agent",
+    "reinforcement learning",
+    "tool use",
+    "human-agent interaction",
+    "reward modeling",
+    "benchmark"
+   ],
+   "field": "多智能体系统与人机交互",
+   "innovations": [
+    "提出GENUI-Harness双角色框架将数据库接地检索与生成式UI主动交互端到端集成",
+    "设计Dynamic UX会话隔离渲染引擎和Reward Auditor元奖励自动修订机制解决UI生成RL训练难题",
+    "构建UI-TAU Bench基准并证明4B模型可超越Claude Opus 5完成数据库状态精确匹配任务"
+   ],
+   "benchmarks": [
+    "UI-TAU Bench (Lite 300 / Full 1000)",
+    "Tau-Bench"
+   ]
+  }
+ }
 }

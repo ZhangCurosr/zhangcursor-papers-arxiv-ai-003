@@ -4,5 +4,31 @@
  "title": "Saliency-Guided-Replay-for-Continual-Learning-in-Deep-Spikin",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-10-14 07:21:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/bd97c9ce-44dd-47af-b012-e0b062e8dfea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/bd97c9ce-44dd-47af-b012-e0b062e8dfea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:49:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spiking Neural Networks",
+    "Continual Learning",
+    "Experience Replay",
+    "Explainable AI",
+    "Memory-Efficient Learning",
+    "Saliency Maps"
+   ],
+   "field": "神经形态持续学习",
+   "innovations": [
+    "将EPR适配至SNN，首次使用SAM前向传播解释引导spatiotemporal patch选择",
+    "以44%存储成本在紧约束下提升3-5.8点精度，揭示SNN解释漂移的时间稳定性",
+    "提出不依赖解释匹配损失的轻量回放机制，保持与现有SNN训练pipeline完全兼容"
+   ],
+   "benchmarks": [
+    "Split CIFAR10 (5 tasks)",
+    "Split CIFAR100 (10 tasks)",
+    "Split CIFAR100 (20 tasks)"
+   ]
+  }
+ }
 }

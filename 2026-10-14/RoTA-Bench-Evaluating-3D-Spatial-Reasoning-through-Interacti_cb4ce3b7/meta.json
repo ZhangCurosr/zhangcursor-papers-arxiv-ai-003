@@ -4,5 +4,29 @@
  "title": "RoTA-Bench-Evaluating-3D-Spatial-Reasoning-through-Interacti",
  "token": "sk-j48TqhxQD...",
  "created_at": "2026-10-14 18:30:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/d4b9edcd-9f1c-4912-8c56-2e3eeb65881d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/d4b9edcd-9f1c-4912-8c56-2e3eeb65881d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:46:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D spatial reasoning",
+    "vision-language models",
+    "interactive benchmark",
+    "projection alignment",
+    "rotation control",
+    "human-model gap"
+   ],
+   "field": "多模态空间推理与3D理解",
+   "innovations": [
+    "提出RoTA-Bench交互式投影对齐基准，通过可逆初始化保证100%可解性",
+    "揭示图像空间与姿态空间优化的系统性分化：模型偏好提升剪影重叠而恶化3D姿态",
+    "量化交互历史对精细旋转控制的关键作用：移除历史后96.8%动作退化至30°粗步长"
+   ],
+   "benchmarks": [
+    "RoTA-Bench"
+   ]
+  }
+ }
 }

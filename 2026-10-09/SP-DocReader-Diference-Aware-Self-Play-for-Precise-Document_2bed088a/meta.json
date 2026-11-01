@@ -4,5 +4,36 @@
  "title": "SP-DocReader-Diference-Aware-Self-Play-for-Precise-Document",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-10-09 19:25:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/05e72d01-c4ee-45f1-ab67-0fe9b39232f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/05e72d01-c4ee-45f1-ab67-0fe9b39232f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:43:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Document OCR",
+    "Self-Play Fine-Tuning",
+    "Vision-Language Model",
+    "Reading Discrepancy Masking",
+    "Modular Adaptation",
+    "Low-Resource Training"
+   ],
+   "field": "文档视觉语言模型",
+   "innovations": [
+    "提出基于LCS对齐的差异感知自对弈训练框架，仅更新OCR模块（0.5B参数）即可显著提升页级转录精度",
+    "设计RDM对比损失与FFL直接监督的双重目标，两者互补且可通过联合梯度严格分解",
+    "在低分辨率（48 DPI）和低数据预算（30k页）下仍实现优于120k页SFT的零样本泛化效果"
+   ],
+   "benchmarks": [
+    "Vary-600K",
+    "DocBank",
+    "IIT-CDIP",
+    "DocVQA",
+    "InfographicVQA",
+    "OmniDocBench",
+    "OCRBench v2",
+    "CC-OCR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "ReTerm-Recovery-Training-for-Self-Improving-Terminal-Agents",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-10-14 18:27:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/cc1e7fff-221e-4584-9b61-455d38055a3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/cc1e7fff-221e-4584-9b61-455d38055a3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:45:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "terminal agents",
+    "self-recovery",
+    "reinforcement learning",
+    "error recovery",
+    "GRPO",
+    "post-training"
+   ],
+   "field": "Agent训练与自我改进",
+   "innovations": [
+    "提出ReTerm-10K数据集，从智能体自身失败状态生成高质量恢复轨迹用于SFT冷启动",
+    "提出ReTerm-GRPO在线强化学习算法，从演化策略的失败状态分支恢复尝试并联合优化",
+    "设计恢复任务队列跨越训练步维持失败样本供给，使恢复能力与任务解决能力共演化"
+   ],
+   "benchmarks": [
+    "Terminal-Bench 2.0",
+    "SWE-bench Verified",
+    "OpenThoughts-TBLite",
+    "AIME 2025",
+    "SpreadsheetBench Verified"
+   ]
+  }
+ }
 }

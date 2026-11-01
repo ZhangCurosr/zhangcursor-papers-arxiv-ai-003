@@ -4,5 +4,36 @@
  "title": "STAMP-as-a-topology-aware-molecular-language-for-fragment-le",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-10-14 07:17:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/4c71bb8a-0c5d-45ec-a014-c79d89f6f414.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/4c71bb8a-0c5d-45ec-a014-c79d89f6f414.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:48:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "molecular language",
+    "fragment representation",
+    "molecular generation",
+    "molecular optimization",
+    "molecular editing",
+    "STAMP",
+    "activity cliff"
+   ],
+   "field": "分子表征与生成",
+   "innovations": [
+    "提出STAMP片段树语言，将motif身份、joint连接位点与branch树拓扑解耦为独立token族，使同一片段可在不同附着上下文中复用且子树对应连续token段",
+    "构建确定性栈机编译与解码器，实现STAMP序列与分子图的严格可逆映射并提供容错规则",
+    "在同一表示上打通分子生成、性质预测、片段树搜索优化与冻结LLM指令引导编辑四类任务并给出统一基准对比"
+   ],
+   "benchmarks": [
+    "ZINC-250K",
+    "MoleculeNet",
+    "MoleculeACE",
+    "PMO",
+    "S²-Bench",
+    "ChEBI-20",
+    "GenMol generation protocol"
+   ]
+  }
+ }
 }

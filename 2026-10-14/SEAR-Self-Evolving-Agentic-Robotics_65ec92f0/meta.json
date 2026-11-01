@@ -4,5 +4,33 @@
  "title": "SEAR-Self-Evolving-Agentic-Robotics",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-10-14 07:19:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/8f589624-6a19-4fed-af58-c3cd3c36e444.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/8f589624-6a19-4fed-af58-c3cd3c36e444.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:47:44",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Code-as-Policy",
+    "VLA",
+    "self-evolving agent",
+    "robotic continuous learning",
+    "library reuse",
+    "sealed evaluation"
+   ],
+   "field": "具身智能与机器人策略学习",
+   "innovations": [
+    "首次系统对比CaP与AR/VLA两大自我进化范式在机器人任务上的性能",
+    "量化跨任务库机制的增益（+8~10分），揭示知识复用的边际收益",
+    "揭露密封测试机制的可利用漏洞，提出评估可靠性警示"
+   ],
+   "benchmarks": [
+    "robosuite",
+    "LIBERO",
+    "LIBERO-PRO",
+    "LIBERO-RIG",
+    "RoboLab"
+   ]
+  }
+ }
 }

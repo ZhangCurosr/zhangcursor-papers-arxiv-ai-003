@@ -4,5 +4,29 @@
  "title": "RadarGSOcc-Doppler-Aware-3D-Semantic-Occupancy-Prediction-Us",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-10-14 07:18:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/e6d381e9-eb52-46da-a6a7-ee0b61490ec3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/e6d381e9-eb52-46da-a6a7-ee0b61490ec3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:00:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D semantic occupancy prediction",
+    "4D radar tensor",
+    "Doppler-aware perception",
+    "adverse-weather robustness",
+    "benchmark dataset",
+    "geometric-semantic feature extraction"
+   ],
+   "field": "自动驾驶多模态感知",
+   "innovations": [
+    "分离几何与 Doppler 语义特征并用可变形注意力精化",
+    "提出面向 4D 雷达的细粒度占据基准与无真值天气一致性代理指标 EBKL"
+   ],
+   "benchmarks": [
+    "K-Radar 3DSemOcc",
+    "RadarOcc baseline"
+   ]
+  }
+ }
 }

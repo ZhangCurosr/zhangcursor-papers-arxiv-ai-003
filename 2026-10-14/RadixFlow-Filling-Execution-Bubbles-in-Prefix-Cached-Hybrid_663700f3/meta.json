@@ -4,5 +4,31 @@
  "title": "RadixFlow-Filling-Execution-Bubbles-in-Prefix-Cached-Hybrid",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-10-14 07:24:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/2ed8af32-955a-4e42-b6b4-a65c59a21511.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/2ed8af32-955a-4e42-b6b4-a65c59a21511.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:00:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prefix caching",
+    "hybrid LLM serving",
+    "Mamba",
+    "batch scheduling",
+    "execution bubble",
+    "KV cache reuse",
+    "state-ready traversal"
+   ],
+   "field": "大语言模型推理服务调度",
+   "innovations": [
+    "提出状态就绪遍历策略，将同轮依赖的消费者从批次扫描中隔离而非停止扫描，消除可避免的执行气泡",
+    "建立 READY/BLOCKED/OTHER 三态判定框架，形式化 hybrid LLM 前缀缓存中的同轮依赖",
+    "通过 worker cost 分解公式（round credit vs cost shift）定量分析批次密度与延迟收益的权衡"
+   ],
+   "benchmarks": [
+    "QuALITY",
+    "RACE-M"
+   ]
+  }
+ }
 }

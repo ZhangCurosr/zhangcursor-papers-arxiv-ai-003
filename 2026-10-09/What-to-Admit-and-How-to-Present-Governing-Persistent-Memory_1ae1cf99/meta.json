@@ -4,5 +4,31 @@
  "title": "What-to-Admit-and-How-to-Present-Governing-Persistent-Memory",
  "token": "sk-gFvvi8BZy...",
  "created_at": "2026-10-09 19:24:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9a4aaba4-4a4c-4673-acd2-e1c2d24a2abd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9a4aaba4-4a4c-4673-acd2-e1c2d24a2abd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:58:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persistent memory",
+    "sycophancy",
+    "cross-domain leakage",
+    "admission control",
+    "LLM agents",
+    "memory safety",
+    "inference-time governance"
+   ],
+   "field": "LLM Agent 记忆安全与治理",
+   "innovations": [
+    "提出准入-呈现二分治理框架并在同一系统上分离测量两杠杆效应",
+    "两种无需重训的推理时准入设计（FC/PS），通过情境化裁决+确定性编译实现物理排除",
+    "严格预注册+三项互补受控实验设计，揭示准入是主要效应来源而呈现差异不显著"
+   ],
+   "benchmarks": [
+    "PersistBench",
+    "MemSyco-Bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "WHERE-DRAFT-TREES-LOSE-TARGET-MASS-EXIT-GUIDED-SPECULATIVE-D",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-10-09 19:18:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ac4951b4-2022-422f-94aa-99e69e757118.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ac4951b4-2022-422f-94aa-99e69e757118.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:57:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "tree verification",
+    "draft-target mismatch",
+    "exit law",
+    "LLM inference acceleration"
+   ],
+   "field": "投机解码与高效推理",
+   "innovations": [
+    "证明固定草稿树上任意精确验证器的期望输出块长度上界为 1+C_p(T)，揭示 predraw 与顺序残差验证器已饱和",
+    "提出 TEV 一次性采样出口节点并采样 bonus token 的直接验证方法，降低验证延迟",
+    "提出 ExitTrain，用出口权重 w(v) 作为节点级训练信号引导草稿树预算重新分配"
+   ],
+   "benchmarks": [
+    "MT-Bench",
+    "HumanEval",
+    "GSM8K",
+    "MATH-500"
+   ]
+  }
+ }
 }

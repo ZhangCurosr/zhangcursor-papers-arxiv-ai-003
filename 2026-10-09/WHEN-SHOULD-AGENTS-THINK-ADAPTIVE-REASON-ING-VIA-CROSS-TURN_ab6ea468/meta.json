@@ -4,5 +4,33 @@
  "title": "WHEN-SHOULD-AGENTS-THINK-ADAPTIVE-REASON-ING-VIA-CROSS-TURN",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-10-09 08:42:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/98f6bb4e-a625-4165-a80a-e2c0041a078d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/98f6bb4e-a625-4165-a80a-e2c0041a078d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:57:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adaptive reasoning",
+    "agent",
+    "reinforcement learning",
+    "reasoning efficiency",
+    "cross-turn estimation",
+    "SFT",
+    "GRPO"
+   ],
+   "field": "Agent 推理效率优化",
+   "innovations": [
+    "提出跨轮推理持久性概念，发现参考动作似然下降可作为推理移除的轻量代理信号",
+    "设计 LoGiC 算法实现渐进式推理覆盖检测，仅需似然计算无需重复生成",
+    "构建 cover-aware agentic RL 框架，联合推理掩码与终止监督学习自适应行为"
+   ],
+   "benchmarks": [
+    "ScienceWorld",
+    "WebShop",
+    "AppWorld",
+    "DeepSearch"
+   ]
+  }
+ }
 }

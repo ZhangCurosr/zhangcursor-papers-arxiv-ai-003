@@ -4,5 +4,30 @@
  "title": "Unifying-Policy-Learning-and-State-Prediction-through-Spatia",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-10-09 19:25:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/2caf7604-fce5-40c4-bda3-c85127260af5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/2caf7604-fce5-40c4-bda3-c85127260af5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:56:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial language modeling",
+    "policy learning",
+    "world model",
+    "Push-T",
+    "imitation learning",
+    "action-state unification"
+   ],
+   "field": "机器人操作与视觉-语言-动作建模",
+   "innovations": [
+    "用语法化坐标-语义 token 统一动作与状态预测",
+    "random-play 过渡预训练与专家联合训练共享参数",
+    "grammar 驱动的 action-only 闭环解码"
+   ],
+   "benchmarks": [
+    "Push-T simulation",
+    "real-robot Push-T"
+   ]
+  }
+ }
 }

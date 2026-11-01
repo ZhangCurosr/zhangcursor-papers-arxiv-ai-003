@@ -4,5 +4,10 @@
  "title": "Why-machines-will-still-not-rule-the-world",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-10-09 08:38:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2e862843-f890-425f-8822-179c40ea637b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2e862843-f890-425f-8822-179c40ea637b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:59:57",
+  "chunks": 1
+ }
 }

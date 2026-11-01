@@ -4,5 +4,31 @@
  "title": "RadarGSOcc-Doppler-Aware-3D-Semantic-Occupancy-Prediction-Us",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-10-14 18:27:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/c3091080-c94c-4674-88d0-203ab7734908.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/c3091080-c94c-4674-88d0-203ab7734908.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:00:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "4D雷达",
+    "3D语义体素预测",
+    "多普勒感知",
+    "恶劣天气鲁棒性",
+    "可变形注意力",
+    "K-Radar基准",
+    "EBKL指标"
+   ],
+   "field": "自动驾驶感知",
+   "innovations": [
+    "几何-语义特征分离提取与可变形注意力融合的Doppler感知雷达体素预测框架",
+    "首个面向4D雷达张量的细粒度3D语义体素预测大规模基准K-Radar 3DSemOcc",
+    "提出EBKL代理指标用于无ground truth条件下恶劣天气预测一致性评估"
+   ],
+   "benchmarks": [
+    "K-Radar 3DSemOcc",
+    "RadarOcc baseline reproduction"
+   ]
+  }
+ }
 }

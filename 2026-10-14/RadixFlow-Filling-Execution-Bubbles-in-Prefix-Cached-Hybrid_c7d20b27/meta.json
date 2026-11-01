@@ -4,5 +4,30 @@
  "title": "RadixFlow-Filling-Execution-Bubbles-in-Prefix-Cached-Hybrid",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-10-14 18:30:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/5123ec87-5635-4ff1-a794-db4070d9dff2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/5123ec87-5635-4ff1-a794-db4070d9dff2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:01:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM inference serving",
+    "prefix caching",
+    "hybrid LLM",
+    "scheduling",
+    "Mamba",
+    "KV cache"
+   ],
+   "field": "大语言模型推理服务与调度",
+   "innovations": [
+    "状态就绪遍历：仅阻塞同轮依赖消费者，继续调度独立分支消除执行气泡",
+    "前缀命中与可执行状态的语义分离与形式化",
+    "灵活准入与遍历协同的批量构建策略"
+   ],
+   "benchmarks": [
+    "QuALITY",
+    "RACE-M"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "SFT-AS-CONTEXT-MITIGATES-FORGETTINGIN-SUPERVISED-FINE-TUNING",
  "token": "sk-2ksG4dzmp...",
  "created_at": "2026-10-09 08:40:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ad6cb1c5-998d-4340-bcd4-64e234be22bc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ad6cb1c5-998d-4340-bcd4-64e234be22bc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:56:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Supervised Fine-Tuning",
+    "Catastrophic Forgetting",
+    "In-Context Learning",
+    "Model Combination",
+    "Post-training"
+   ],
+   "field": "大语言模型微调与能力保持",
+   "innovations": [
+    "提出无需训练的推理时方法SFT-as-context，利用父模型的上下文学习能力缓解SFT遗忘",
+    "从贝叶斯框架推导理论误差保证，并揭示选择性注意力的工作机制",
+    "证明该方法能融合专业与通用能力，超越单一模型及简单路由策略"
+   ],
+   "benchmarks": [
+    "AIME 2024",
+    "LiveCodeBench",
+    "NutriBench",
+    "IFEval",
+    "MathIF",
+    "SQuAD2.0",
+    "CoQA",
+    "MGSM",
+    "FQuAD2.0",
+    "ACPBench",
+    "LiveCodeBenchIF"
+   ]
+  }
+ }
 }

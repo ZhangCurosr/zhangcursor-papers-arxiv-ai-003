@@ -4,5 +4,29 @@
  "title": "When-Has-a-Bayesian-Neural-Network-Sampled-Enough-Adaptive-I",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-10-09 08:38:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/334333bd-92e9-4c51-a460-1660c5c9f408.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/334333bd-92e9-4c51-a460-1660c5c9f408.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:59:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Bayesian Neural Networks",
+    "Confidence Sequences",
+    "Adaptive Inference",
+    "Monte Carlo Sampling",
+    "Anytime-Valid Stopping",
+    "Uncertainty Quantification"
+   ],
+   "field": "贝叶斯深度学习 / 高效推理",
+   "innovations": [
+    "提出基于置信序列的任意时间有效停止规则，面向类别选择/分布近似/阈值决策三类任务",
+    "利用单纯形约束与时间取交两层收紧 bounding-box 置信序列，在保持覆盖保证的同时提升区间紧致性"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "模拟三分类实验"
+   ]
+  }
+ }
 }

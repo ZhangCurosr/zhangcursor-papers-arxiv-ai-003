@@ -4,5 +4,31 @@
  "title": "WHERE-DRAFT-TREES-LOSE-TARGET-MASS-EXIT-GUIDED-SPECULATIVE-D",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-10-09 08:32:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d812f6f0-21bf-4599-910e-3cd21f2680f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d812f6f0-21bf-4599-910e-3cd21f2680f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:57:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "tree speculation",
+    "draft model training",
+    "inference acceleration",
+    "probabilistic verification"
+   ],
+   "field": "大语言模型高效推理",
+   "innovations": [
+    "证明固定草稿树上精确验证器的期望输出块长度上界为1+C_p(T)，并导出规范退出律w(v)=P(v)ρ(v)",
+    "提出TEV验证器直接实现规范退出律，与predraw和顺序残差验证统计等价但计算更高效",
+    "提出ExitTrain利用节点级退出权重w(v)重加权草稿模型位置级边际概率，引导树预算重新分配"
+   ],
+   "benchmarks": [
+    "MT-Bench",
+    "HumanEval",
+    "GSM8K",
+    "MATH-500"
+   ]
+  }
+ }
 }

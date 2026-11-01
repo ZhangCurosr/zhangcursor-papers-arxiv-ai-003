@@ -4,5 +4,29 @@
  "title": "WORKERVILLE-TOWARDS-AN-ORGANIZATIONAL-BE-HAVIOR-ACCOUNT-OF-A",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-10-09 19:21:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/377ba555-17dc-424e-8bd1-a694a7d53b01.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/377ba555-17dc-424e-8bd1-a694a7d53b01.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:58:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent安全",
+    "组织行为学",
+    "反生产行为",
+    "多Agent评测",
+    "记忆增强评审",
+    "可控基准"
+   ],
+   "field": "Agent安全评测",
+   "innovations": [
+    "首次将OB框架引入Agent安全，提出ACB统一建模组织前因与安全结果",
+    "构建Workerville控制基准（210任务×16配置=3360挑战）测量组织条件的因果效应",
+    "发现负面前因叠加的非单调放大效应（S1: 16.5%→60.1%→50.3%）"
+   ],
+   "benchmarks": [
+    "Workerville"
+   ]
+  }
+ }
 }

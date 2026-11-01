@@ -4,5 +4,35 @@
  "title": "WHERE-TO-ADAPT-MATTERS-LAYER-SELECTIVEFINE-TUNING-FOR-CAPABI",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-10-09 08:36:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a0a11dcb-4cd1-45e5-9e27-b8c30f6615f7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a0a11dcb-4cd1-45e5-9e27-b8c30f6615f7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:58:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "parameter-efficient fine-tuning",
+    "layer selection",
+    "capability retention",
+    "LoRA",
+    "Fisher information",
+    "input-output similarity"
+   ],
+   "field": "大语言模型参数高效微调与能力保持",
+   "innovations": [
+    "提出输入-输出余弦相似度作为Fisher敏感度的前向代理指标，无需反向传播",
+    "设计LS-LoRA在选定低相似度层插入适配器，实现性能与保留的双重提升",
+    "跨DoRA/PiSSA验证层选择策略的通用性"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "AQuA",
+    "SVAMP",
+    "HumanEval+",
+    "ARC-Challenge",
+    "OpenBookQA",
+    "Social IQA"
+   ]
+  }
+ }
 }

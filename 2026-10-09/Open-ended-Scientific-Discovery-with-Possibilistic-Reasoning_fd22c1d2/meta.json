@@ -4,5 +4,10 @@
  "title": "Open-ended-Scientific-Discovery-with-Possibilistic-Reasoning",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-10-09 19:26:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/dc014c66-96e9-40cc-94ce-7d7c5e6ef708.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/dc014c66-96e9-40cc-94ce-7d7c5e6ef708.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:55:43",
+  "chunks": 1
+ }
 }

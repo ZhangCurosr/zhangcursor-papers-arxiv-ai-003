@@ -4,5 +4,31 @@
  "title": "Who-Verifies-the-Verifier-Co-Evolving-Inspectable-Graders-wi",
  "token": "sk-P8BsCmEP8...",
  "created_at": "2026-10-09 19:23:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/00e9222e-5415-444d-987c-719bacab77db.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/00e9222e-5415-444d-987c-719bacab77db.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:59:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "verifier evolution",
+    "self-improving agents",
+    "reward hacking",
+    "anchor discipline",
+    "inspectable graders",
+    "co-evolution"
+   ],
+   "field": "AI Agent Safety & Verification",
+   "innovations": [
+    "将验证器本身作为演化对象，通过锚点纪律和可解释检测器组合自动演化评分器",
+    "发现下游任务分数不能验证自我演化的验证器，锚点纪律而非检测器生命周期承载安全性",
+    "提出Double Ratchet架构，协同演化验证器与技能循环，并保留大部分参考循环的学习提升"
+   ],
+   "benchmarks": [
+    "MBPP+",
+    "Spider 2.0-Snow",
+    "Report Generation"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "One-Skill-Too-Many-How-Co-Installed-Skills-Conflict-in-Codin",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-10-09 19:28:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/bc4ed3be-a3af-4975-8e4e-5d452534db84.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/bc4ed3be-a3af-4975-8e4e-5d452534db84.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 18:55:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent skills",
+    "skill conflicts",
+    "coding agents",
+    "Claude Code",
+    "empirical study",
+    "core function evaluation",
+    "pre-tool hook"
+   ],
+   "field": "AI Agent 安全性与可验证性",
+   "innovations": [
+    "首次大规模实证量化共安装相似技能的隐性冲突规模与行为损失",
+    "提出核心功能保真度评估替代传统任务通过率",
+    "定位冲突决定点于首次技能读取并验证预工具钩子可完全恢复保真度"
+   ],
+   "benchmarks": [
+    "SWE-Skills-Bench",
+    "SkillsBench",
+    "SLBench"
+   ]
+  }
+ }
 }

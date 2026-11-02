@@ -4,5 +4,32 @@
  "title": "Stable-Token-level-Scheduling-for-Serverless-LLM-Inference",
  "token": "sk-QyQNBxyAI...",
  "created_at": "2026-10-14 07:22:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/825b79aa-e3cd-4cfd-9a48-9cb6442bf7f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/825b79aa-e3cd-4cfd-9a48-9cb6442bf7f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:05:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Serverless LLM Inference",
+    "Token-level Scheduling",
+    "Inter-Token Latency",
+    "Admission Control",
+    "Chunked Prefill",
+    "Feedback Control"
+   ],
+   "field": "大语言模型推理调度与资源管理",
+   "innovations": [
+    "提出ITL反馈闭环的Token Window自适应admission控制",
+    "双守卫门（token budget+KV-cache headroom）+防饥饿综合排序",
+    "chunked prefill跨decode step注入以降低noisy-neighbor干扰"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "TTFT P99",
+    "ITL Coefficient of Variation",
+    "Throughput (req/s)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Steertuning-Policies-from-a-Few-Human-Videos",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-10-14 18:24:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e46f293f-d8dd-4929-ab01-d2b5795ac289.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e46f293f-d8dd-4929-ab01-d2b5795ac289.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:05:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Robot Learning",
+    "Diffusion Policy",
+    "Few-shot Adaptation",
+    "Human Video",
+    "Embodiment Transfer",
+    "Steering",
+    "Smart Glasses"
+   ],
+   "field": "机器人少样本学习与人类视频适应",
+   "innovations": [
+    "结合LoRA微调与扩散策略动作引导实现2分钟极速任务适应",
+    "纯人类首尾视频预训练实现跨环境泛化",
+    "通过形态遮蔽消除人-机视觉域偏移"
+   ],
+   "benchmarks": [
+    "12 tasks in 12 new environments (Airbnb & Lab)",
+    "Success Rate 71%"
+   ]
+  }
+ }
 }

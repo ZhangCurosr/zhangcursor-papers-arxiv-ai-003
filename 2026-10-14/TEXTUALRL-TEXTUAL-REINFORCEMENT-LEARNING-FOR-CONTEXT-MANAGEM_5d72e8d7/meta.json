@@ -4,5 +4,33 @@
  "title": "TEXTUALRL-TEXTUAL-REINFORCEMENT-LEARNING-FOR-CONTEXT-MANAGEM",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-10-14 18:31:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/c1060501-985b-4933-9a14-2e30d990df13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/c1060501-985b-4933-9a14-2e30d990df13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:06:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "textual reinforcement learning",
+    "context management",
+    "LLM agents",
+    "gradient-free optimization",
+    "prompt engineering"
+   ],
+   "field": "语言模型上下文优化",
+   "innovations": [
+    "基于收益模式的组级策略批判，分离提案与证据",
+    "跨组证据审查实现有界的上下文更新",
+    "无梯度优化固定模型 agent 的共享文本上下文"
+   ],
+   "benchmarks": [
+    "SearchQA",
+    "Spreadsheet",
+    "OfficeQA",
+    "DocVQA",
+    "LiveMath",
+    "ALFWorld"
+   ]
+  }
+ }
 }

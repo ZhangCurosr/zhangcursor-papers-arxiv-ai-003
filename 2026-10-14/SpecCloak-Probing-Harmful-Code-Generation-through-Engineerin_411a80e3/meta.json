@@ -4,5 +4,30 @@
  "title": "SpecCloak-Probing-Harmful-Code-Generation-through-Engineerin",
  "token": "sk-y9PdQWlPV...",
  "created_at": "2026-10-14 07:24:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/3e0cb867-4436-41c7-ab12-b570d55af9b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/3e0cb867-4436-41c7-ab12-b570d55af9b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:05:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "jailbreak attack",
+    "code generation",
+    "mechanistic interpretability",
+    "red-teaming",
+    "LLM safety",
+    "engineering specification"
+   ],
+   "field": "大语言模型代码安全与越狱攻击",
+   "innovations": [
+    "提出PseudoSpec工程规格模板揭示任务框架对拒绝行为的影响机制",
+    "构建SpecCloak黑盒红队框架实现28.91%平均执行验证攻击成功率",
+    "设计SpecReveal免微调双视图防御原型达到96.88%攻击检测率"
+   ],
+   "benchmarks": [
+    "RedCode-Gen",
+    "RMCBench"
+   ]
+  }
+ }
 }

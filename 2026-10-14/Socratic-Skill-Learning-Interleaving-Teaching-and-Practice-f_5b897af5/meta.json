@@ -4,5 +4,10 @@
  "title": "Socratic-Skill-Learning-Interleaving-Teaching-and-Practice-f",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-10-14 18:28:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/2845d944-c8a7-4dd4-a8ae-921b84c6e2d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/2845d944-c8a7-4dd4-a8ae-921b84c6e2d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:04:30",
+  "chunks": 1
+ }
 }

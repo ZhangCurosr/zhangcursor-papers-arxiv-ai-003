@@ -4,5 +4,29 @@
  "title": "SimInter-Evidence-Grounded-User-Simulation-with-Interview-Ba",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-10-14 18:27:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/754c9c42-4428-4b6a-aea7-c657f99dfa3e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/754c9c42-4428-4b6a-aea7-c657f99dfa3e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:03:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conversational Recommender Systems",
+    "User Simulation",
+    "Large Language Models",
+    "Profile Enrichment",
+    "Evidence-Based Auditing"
+   ],
+   "field": "对话推荐系统用户模拟",
+   "innovations": [
+    "基于合成采访和证据审核的隐式行为属性提取",
+    "不对称采访设计防止捏造强化",
+    "逐轮审核与分层决策机制"
+   ],
+   "benchmarks": [
+    "ReDial",
+    "MovieLens-25M"
+   ]
+  }
+ }
 }

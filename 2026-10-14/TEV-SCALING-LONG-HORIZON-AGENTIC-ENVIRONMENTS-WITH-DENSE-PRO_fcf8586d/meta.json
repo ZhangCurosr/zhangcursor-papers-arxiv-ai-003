@@ -4,5 +4,32 @@
  "title": "TEV-SCALING-LONG-HORIZON-AGENTIC-ENVIRONMENTS-WITH-DENSE-PRO",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-10-14 07:19:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/3cd47667-c53a-4ff4-b85f-796fabacf950.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/3cd47667-c53a-4ff4-b85f-796fabacf950.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:05:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长视距智能体",
+    "强化学习",
+    "奖励塑形",
+    "合成数据集",
+    "潜在世界",
+    "GRPO"
+   ],
+   "field": "长视距智能体训练",
+   "innovations": [
+    "潜在世界优先的数据合成框架，从完整正确世界逆向生成可验证任务",
+    "进度潜力奖励塑形PPRS，将DAG中间状态匹配转化为密集步骤奖励",
+    "首个具备渐进奖励的长视距智能体训练数据集TEV-GYM（1,170环境/7领域）"
+   ],
+   "benchmarks": [
+    "ALE-CM",
+    "Terminal-Bench 3.0 CM",
+    "Terminal-Bench 4.0 CM",
+    "Terminal-Bench 2.1"
+   ]
+  }
+ }
 }

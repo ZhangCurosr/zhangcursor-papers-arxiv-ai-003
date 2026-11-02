@@ -4,5 +4,28 @@
  "title": "SkillScreen-High-Recall-Screening-of-Malicious-Agent-Skills",
  "token": "sk-WLNedHnmw...",
  "created_at": "2026-10-14 07:25:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7262e761-91e5-430b-8ee9-703f583fad96.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7262e761-91e5-430b-8ee9-703f583fad96.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:03:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Safety",
+    "Malicious Skill Detection",
+    "NLI",
+    "High-Recall Screening",
+    "Software Supply Chain Security",
+    "Decision Models"
+   ],
+   "field": "AI Agent 安全与恶意技能检测",
+   "innovations": [
+    "将 NLI 接口专门化为技能恶意性连续打分模型，支持灵活阈值校准",
+    "在未见攻击家族和未见来源上均实现 99% 召回率下的低误报率，优于全参微调编码器与提示式 LLM 裁判"
+   ],
+   "benchmarks": [
+    "MaliciousSkillBench (MSD, SD, SBR protocols)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Task-evoked-eye-movements-as-candidate-digital-biomarkers-of",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-10-14 07:23:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/94959476-982e-46d5-94db-e59873c5101a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/94959476-982e-46d5-94db-e59873c5101a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:08:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adolescent depression",
+    "eye tracking",
+    "digital biomarker",
+    "visual attention",
+    "spatial memory",
+    "cascade classifier",
+    "HAMD-17",
+    "fixation dispersion"
+   ],
+   "field": "精神计算与数字生物标志物",
+   "innovations": [
+    "任务驱动的六域眼动特征体系与有序趋势双轨检验",
+    "三级级联分类器实现抑郁严重度四分类的上界提升",
+    "在记忆相关情境下否定广义负性注意偏向并定位视觉探索与记忆引导控制为核心标记"
+   ],
+   "benchmarks": [
+    "HAMD-17四严重度分层分类",
+    "探索性两分类无/轻 vs 中/重判别"
+   ]
+  }
+ }
 }

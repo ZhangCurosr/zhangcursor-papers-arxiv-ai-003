@@ -4,5 +4,31 @@
  "title": "SolBehave-Evaluating-the-Behavioural-Correctness-of-LLM-Gene",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-10-14 18:26:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/61056d90-dbf8-411d-848b-9e225a649397.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/61056d90-dbf8-411d-848b-9e225a649397.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:04:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "smart contracts",
+    "large language models",
+    "differential fuzzing",
+    "DCR graphs",
+    "code generation evaluation",
+    "Ethereum",
+    "behavioral verification"
+   ],
+   "field": "智能合约形式化验证与评估",
+   "innovations": [
+    "提出三种互补的行为保真度预言机用于LLM生成智能合约评估",
+    "首次使用LLM提取的DCR图驱动合成交易序列生成",
+    "建立编译成功率与行为正确性之间巨大差距的经验证据"
+   ],
+   "benchmarks": [
+    "SolBehave",
+    "Etherscan主网合约"
+   ]
+  }
+ }
 }

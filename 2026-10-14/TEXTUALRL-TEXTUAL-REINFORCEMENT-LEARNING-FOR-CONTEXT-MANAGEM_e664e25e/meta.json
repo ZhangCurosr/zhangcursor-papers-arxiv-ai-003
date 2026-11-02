@@ -4,5 +4,33 @@
  "title": "TEXTUALRL-TEXTUAL-REINFORCEMENT-LEARNING-FOR-CONTEXT-MANAGEM",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-10-14 07:24:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/b34c0668-aca8-4341-82fb-3447e5265057.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/b34c0668-aca8-4341-82fb-3447e5265057.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:06:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Textual RL",
+    "Context Management",
+    "LLM Agent",
+    "Gradient-free Optimization",
+    "Reinforcement Learning",
+    "Prompt Engineering"
+   ],
+   "field": "LLM Agent 上下文优化",
+   "innovations": [
+    "Groupwise Policy Critique: 按结果分布模式路由的同任务 rollout 分组审查机制",
+    "Cross-Group Policy Update: 基于 pooled 证据的提议语义审查与有界补丁生成"
+   ],
+   "benchmarks": [
+    "SearchQA",
+    "Spreadsheet",
+    "OfficeQA",
+    "DocVQA",
+    "LiveMath",
+    "ALFWorld"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Steertuning-Policies-from-a-Few-Human-Videos",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-10-14 07:16:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/60dc8378-b3d5-4fbc-b92f-a6d251d28a2e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/60dc8378-b3d5-4fbc-b92f-a6d251d28a2e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:05:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Steertuning",
+    "diffusion policy",
+    "few-shot adaptation",
+    "human video",
+    "action steering",
+    "LoRA",
+    "embodied AI"
+   ],
+   "field": "机器人学习与具身智能",
+   "innovations": [
+    "结合 2 分钟 LoRA 微调与最近邻演示动作引导的 few-shot 适配机制，显著提升速度与成功率",
+    "基于对象布局匹配的轨迹检索策略，优于 context latent 或姿态匹配置信度",
+    "纯人类 egocentric 视频预训练 + embodiment masking 实现的跨域泛化策略"
+   ],
+   "benchmarks": [
+    "12 tasks in 12 new environments (lab + Airbnb)",
+    "3 lab tasks for ablation (Trash, Flower, Bread)",
+    "Object generalization (Toy task)"
+   ]
+  }
+ }
 }

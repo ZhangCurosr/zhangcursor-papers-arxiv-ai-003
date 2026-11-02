@@ -4,5 +4,34 @@
  "title": "THE-TOKENS-STRIKE-BACK-SAFETY-AWARE-DE-NOISING-WITH-DIRECTIO",
  "token": "sk-d32lj3sMR...",
  "created_at": "2026-10-14 18:30:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/d89c151a-4375-4903-8e8d-ccaef09d1801.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/d89c151a-4375-4903-8e8d-ccaef09d1801.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:07:41",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "扩散语言模型",
+    "安全对齐",
+    "推理时引导",
+    "激活空间",
+    "选择性干预",
+    "文本扩散"
+   ],
+   "field": "扩散语言模型安全对齐",
+   "innovations": [
+    "激活空间位置级安全门控调制 SAD 更新",
+    "选择性干预策略平衡安全-质量-成本",
+    "remasking 与 warm-up 增强机制"
+   ],
+   "benchmarks": [
+    "RealToxicityPrompts",
+    "BeaverTails",
+    "JailbreakBench",
+    "XSTest",
+    "AdvBench",
+    "HarmBench"
+   ]
+  }
+ }
 }

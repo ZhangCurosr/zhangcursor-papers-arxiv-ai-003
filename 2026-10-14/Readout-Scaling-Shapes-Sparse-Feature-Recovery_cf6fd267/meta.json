@@ -4,5 +4,33 @@
  "title": "Readout-Scaling-Shapes-Sparse-Feature-Recovery",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-10-14 07:25:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/933a4f81-88ce-44bf-a3ef-e265a2d8c96e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/933a4f81-88ce-44bf-a3ef-e265a2d8c96e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:02:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse autoencoders",
+    "readout scaling",
+    "feature recovery",
+    "interpretability",
+    "coordinate geometry",
+    "language models"
+   ],
+   "field": "稀疏自编码器与模型可解释性",
+   "innovations": [
+    "提出RC-DS坐标系统去除读出增益同时保留决策信息",
+    "证明生成几何决定最优训练坐标而非仅条件数",
+    "构造精确包装器隔离训练几何效应与信息差异"
+   ],
+   "benchmarks": [
+    "Emotion",
+    "AG News",
+    "IMDb",
+    "OpenSpiel Bargaining",
+    "OpenSpiel Goofspiel"
+   ]
+  }
+ }
 }

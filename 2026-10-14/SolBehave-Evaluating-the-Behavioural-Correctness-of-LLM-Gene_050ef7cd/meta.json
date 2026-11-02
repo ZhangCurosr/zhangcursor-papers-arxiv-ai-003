@@ -4,5 +4,34 @@
  "title": "SolBehave-Evaluating-the-Behavioural-Correctness-of-LLM-Gene",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-10-14 07:19:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/53035fda-032d-434d-897c-238bf401c2c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/53035fda-032d-434d-897c-238bf401c2c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:04:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "smart contracts",
+    "large language models",
+    "code generation",
+    "differential testing",
+    "dynamic condition response graphs",
+    "Solidity",
+    "Ethereum",
+    "behavioural fidelity"
+   ],
+   "field": "智能合约代码生成评估",
+   "innovations": [
+    "提出三类互补的行为保真度预言机（差分模糊测试、历史交易回放、DCR图引导合成回放）统一评估LLM生成合约的行为正确性",
+    "设计神经符号交易序列生成器：LLM提取DCR图约束、确定性图遍历结合on-chain guard求值生成合法调用序",
+    "实证揭示编译成功率与行为等价性的巨大鸿沟，并证明提取DCR图与生成Solidity是两项独立能力"
+   ],
+   "benchmarks": [
+    "SolBehave",
+    "Ethereum mainnet verified contracts",
+    "SolBench",
+    "SolContractEval"
+   ]
+  }
+ }
 }

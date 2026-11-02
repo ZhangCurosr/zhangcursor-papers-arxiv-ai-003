@@ -4,5 +4,32 @@
  "title": "Read-the-Room-Before-Your-Model-Generates",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-10-14 07:17:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/4820fe67-29d6-45f6-aeee-f076099bc06c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/4820fe67-29d6-45f6-aeee-f076099bc06c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:01:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "temperature selection",
+    "scenario-adaptive decoding",
+    "large language models",
+    "DIAMONDS",
+    "contextual generation",
+    "contrastive learning"
+   ],
+   "field": "可控文本生成与解码策略",
+   "innovations": [
+    "提出 Scenario-Actor 框架，基于 Transformer 隐藏状态提取结构化场景嵌入并映射到采样温度",
+    "引入 DIAMONDS 心理学五维场景轴，实现可解释的场景几何表征与温度插值",
+    "验证中间层隐藏状态（第16层）更适合提取语义结构，揭示任务导向 prompt 的场景推断边界"
+   ],
+   "benchmarks": [
+    "AgentSense",
+    "AlpacaEval",
+    "MT-Bench",
+    "GSM8K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "TEV-SCALING-LONG-HORIZON-AGENTIC-ENVIRONMENTS-WITH-DENSE-PRO",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-10-14 18:22:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/28f1d7c9-b647-42ce-ac9a-da82ada97fb0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/28f1d7c9-b647-42ce-ac9a-da82ada97fb0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:05:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长程智能体",
+    "强化学习",
+    "奖励塑造",
+    "合成数据",
+    "Terminal-Bench",
+    "GRPO",
+    "潜在世界"
+   ],
+   "field": "长程 Agent 训练",
+   "innovations": [
+    "latent-world-first 合成管线：以单一潜在世界 W 统一生成任务、验证器和进展信号，从根本上消除 artifact drift",
+    "PPRS 稠密奖励塑造：基于 DAG 节点进展潜力 Φ 将每步奖励转为非零方差信号，修复 GRPO 在长程全失败组中的梯度枯竭问题",
+    "TEV-GYM 首个长程渐进奖励训练数据集：1,170 个跨 7 领域任务，median 12.4 min/rollout，带 8 项自动生成资格门验证"
+   ],
+   "benchmarks": [
+    "ALE-CM",
+    "Terminal-Bench 3.0-CM",
+    "Terminal-Bench 4.0-CM",
+    "Terminal-Bench 2.1"
+   ]
+  }
+ }
 }

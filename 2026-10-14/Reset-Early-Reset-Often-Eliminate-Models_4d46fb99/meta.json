@@ -4,5 +4,30 @@
  "title": "Reset-Early-Reset-Often-Eliminate-Models",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-10-14 18:30:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e1ded727-fffb-4046-801e-a1f9d4c03589.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e1ded727-fffb-4046-801e-a1f9d4c03589.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:02:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "连接表定理证明",
+    "SAT 集成",
+    "增量求解器",
+    "重置策略",
+    "自动定理证明",
+    "TPTP"
+   ],
+   "field": "连接表定理证明与 SAT 集成",
+   "innovations": [
+    "提出激进重置策略将表降格为基子句生成器",
+    "设计仅在SAT状态停滞时递增深度的懒惰调度",
+    "统一后端实现四种策略确保公平对比"
+   ],
+   "benchmarks": [
+    "TPTP CNF/FOF",
+    "MPTP2078"
+   ]
+  }
+ }
 }

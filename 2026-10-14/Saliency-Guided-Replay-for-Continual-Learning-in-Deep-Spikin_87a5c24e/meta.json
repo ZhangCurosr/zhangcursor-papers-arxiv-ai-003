@@ -4,5 +4,30 @@
  "title": "Saliency-Guided-Replay-for-Continual-Learning-in-Deep-Spikin",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-10-14 18:28:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/64b05877-6bfd-486f-b569-0623f5af6990.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/64b05877-6bfd-486f-b569-0623f5af6990.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:02:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spiking Neural Networks",
+    "Continual Learning",
+    "Saliency-guided Replay",
+    "Spike Activation Maps",
+    "Experience Packing",
+    "Catastrophic Forgetting"
+   ],
+   "field": "脉冲神经网络持续学习",
+   "innovations": [
+    "首次将XAI显著性引导回放适配至SNN，用SAM替代Grad-CAM实现前向-only时空显著性提取",
+    "提出EPR-SP方法，通过Spike Activation Maps选择判别性patch进行回放，存储成本降低44%",
+    "在低延迟VGG9 SNN（T=25）上验证SAM-guided replay在tight memory budget下优于标准经验回放"
+   ],
+   "benchmarks": [
+    "Split CIFAR10",
+    "Split CIFAR100"
+   ]
+  }
+ }
 }

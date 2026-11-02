@@ -4,5 +4,33 @@
  "title": "SkillScreen-High-Recall-Screening-of-Malicious-Agent-Skills",
  "token": "sk-WLNedHnmw...",
  "created_at": "2026-10-14 18:32:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/8d8b0131-0332-4165-9a0b-39a0b06f2855.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/8d8b0131-0332-4165-9a0b-39a0b06f2855.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 09:03:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent safety",
+    "malicious skill detection",
+    "NLI-based classification",
+    "high-recall screening",
+    "software supply chain security",
+    "LoRA fine-tuning",
+    "false-positive control"
+   ],
+   "field": "AI Agent 安全与恶意检测",
+   "innovations": [
+    "将技能恶意检测形式化为 NLI 连续评分任务，支持高召回阈值校准",
+    "提出紧凑 LoRA 决策模型 SkillScreen，在 99% 召回率下 FPR 显著优于全参编码器与 LLM judges",
+    "揭示 benign-source coverage 是部署瓶颈而非攻击新颖性，建立配对重采样的高召回对比评测协议"
+   ],
+   "benchmarks": [
+    "MaliciousSkillBench",
+    "MSD (Malicious-Structural-Disjoint)",
+    "SD (Source-Disjoint)",
+    "SBR (Source-Balanced Random)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Who-Improves-the-Robot-Toward-Physical-Recursive-Self-Improv",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-14 07:19:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/164aa9a9-4591-41f0-a614-69f7740aa660.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/164aa9a9-4591-41f0-a614-69f7740aa660.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:56:13",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "VLA模型",
+    "递归自我改进",
+    "具身AI",
+    "安全约束",
+    "世界模型",
+    "代码即策略",
+    "Sim-to-Real"
+   ],
+   "field": "具身智能与机器人学习",
+   "innovations": [
+    "提出VLA递归自我改进的统一框架，整合策略-世界模型-安全监控器三模块循环",
+    "设计动态学习型安全边界替代静态Barrier，平衡改进性能与部署安全",
+    "构建端到端RSI能力评估协议，整合多基准验证泛化与鲁棒性"
+   ],
+   "benchmarks": [
+    "Libero",
+    "Robotwin 2.0",
+    "Robodojo",
+    "BEHAVIOR-1K",
+    "Open X-Embodiment",
+    "CALVIN",
+    "ManiSkill3"
+   ]
+  }
+ }
 }

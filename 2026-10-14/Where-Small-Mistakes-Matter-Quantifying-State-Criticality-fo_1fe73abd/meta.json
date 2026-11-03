@@ -4,5 +4,32 @@
  "title": "Where-Small-Mistakes-Matter-Quantifying-State-Criticality-fo",
  "token": "sk-8cLXv6NBp...",
  "created_at": "2026-10-14 07:21:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/4cc75fd3-e3ee-46a8-9cc0-227539da101f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/4cc75fd3-e3ee-46a8-9cc0-227539da101f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:54:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Imitation Learning",
+    "Behavior Cloning",
+    "State Criticality",
+    "Data Curation",
+    "Adversarial Residual RL",
+    "Robotic Manipulation"
+   ],
+   "field": "模仿学习与数据质量",
+   "innovations": [
+    "形式化状态关键性为有界扰动下的最坏值函数劣化",
+    "提出 SCRIM 通过对抗残差 MDP + 保守 critic 离线估计关键性分数",
+    "证明对抗式残差 RL 比修正式残差 RL 样本效率更高且可迁移至真机 VLA"
+   ],
+   "benchmarks": [
+    "MetaWorld Hammer",
+    "ManiSkill2 StackCube",
+    "ManiSkill2 TurnFaucet",
+    "ManiSkill2 PegInsertion"
+   ]
+  }
+ }
 }

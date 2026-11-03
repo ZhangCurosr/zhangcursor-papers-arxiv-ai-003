@@ -4,5 +4,32 @@
  "title": "VideoHarness-SRSI-Structured-Recursive-Self-Improvement-fo-V",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-10-15 18:09:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/bbfe22be-cd5c-4234-b29b-b62065ce15ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/bbfe22be-cd5c-4234-b29b-b62065ce15ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:58:30",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "VideoHarness",
+    "SRSI",
+    "结构化自我改进",
+    "长视频理解",
+    "验证过拟合",
+    "方差分解"
+   ],
+   "field": "多模态机器学习系统",
+   "innovations": [
+    "内容无关反馈臂隔离可转移性与实例特异性",
+    "三臂方差分解量化验证信号可靠性",
+    "弱proposer通过信息隔离超越强proposer"
+   ],
+   "benchmarks": [
+    "Video-MME",
+    "LongVideoBench",
+    "OVO-Bench",
+    "MomentSeeker"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Who-Improves-the-Robot-Toward-Physical-Recursive-Self-Improv",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-14 18:26:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/7c553b61-974b-4284-98aa-cba995bcdce2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/7c553b61-974b-4284-98aa-cba995bcdce2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:56:02",
+  "chunks": 4
+ }
 }

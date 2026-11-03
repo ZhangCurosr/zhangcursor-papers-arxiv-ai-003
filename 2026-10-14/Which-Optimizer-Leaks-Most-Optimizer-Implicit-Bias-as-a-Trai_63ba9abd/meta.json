@@ -4,5 +4,33 @@
  "title": "Which-Optimizer-Leaks-Most-Optimizer-Implicit-Bias-as-a-Trai",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-10-14 07:17:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/b0c0ee39-7994-49b6-b7eb-3ee7808216c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/b0c0ee39-7994-49b6-b7eb-3ee7808216c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:54:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "训练数据隐私",
+    "优化器隐式偏置",
+    "模型重构攻击",
+    "KKT条件",
+    "权重特异性",
+    "Muon",
+    "Adam",
+    "SGD"
+   ],
+   "field": "机器学习隐私与安全",
+   "innovations": [
+    "提出基于优化器margin范数的通用KKT重构攻击框架，修正谱/ℓ∞情形的直接推广失败",
+    "引入权重特异性理论证明Adam的ℓ∞目标特异性为零且一阶不可识别",
+    "结合特异性与可达性双轴导出泄露排序Muon≻SGD≻Adam并实验验证"
+   ],
+   "benchmarks": [
+    "MNIST binary",
+    "CIFAR-10 binary",
+    "CIFAR-10 10-class"
+   ]
+  }
+ }
 }

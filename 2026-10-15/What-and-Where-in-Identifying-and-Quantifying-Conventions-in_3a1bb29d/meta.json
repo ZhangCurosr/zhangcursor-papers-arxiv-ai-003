@@ -4,5 +4,30 @@
  "title": "What-and-Where-in-Identifying-and-Quantifying-Conventions-in",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-10-15 18:07:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/fb4637ca-d3a1-4a85-85bb-fce1822cf755.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/fb4637ca-d3a1-4a85-85bb-fce1822cf755.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 09:00:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "convention gap",
+    "off-belief learning",
+    "zero-shot coordination",
+    "Hanabi",
+    "implicit communication",
+    "multi-agent interpretability"
+   ],
+   "field": "多智能体协作与零样本协调",
+   "innovations": [
+    "提出基于精确字面基线的惯例差距度量，实现隐性通信的直接定位与量化",
+    "建立人类与OBL智能体可比框架，揭示间接引用等人类特有惯例",
+    "设计频率匹配干预实验，证明惯例贡献度不等于因果重要性"
+   ],
+   "benchmarks": [
+    "hanab.live公开对局数据集",
+    "AH2AC2基准"
+   ]
+  }
+ }
 }

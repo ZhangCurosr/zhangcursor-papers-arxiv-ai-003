@@ -4,5 +4,31 @@
  "title": "VideoHarness-SRSI-Structured-Recursive-Self-Improvement-fo-V",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-10-15 07:05:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/0aeca28e-35bb-4661-924d-e26a9a096800.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/0aeca28e-35bb-4661-924d-e26a9a096800.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:58:40",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "视频理解",
+    "递归自我改进",
+    "自动化框架搜索",
+    "验证过拟合",
+    "统计功效"
+   ],
+   "field": "多模态大模型推理优化",
+   "innovations": [
+    "提出VideoHarness-SRSI框架，通过内容无关反馈、仪器化热身和隔离机制分支缓解三大失败模式",
+    "建立搜索空间统计功效理论上界，证明广度×耦合的权衡关系",
+    "提出Probe-Race双阶段评估协议，平衡探索效率与检测功效"
+   ],
+   "benchmarks": [
+    "Video-MME",
+    "LongVideoBench",
+    "OVO-Bench",
+    "MomentSeeker"
+   ]
+  }
+ }
 }

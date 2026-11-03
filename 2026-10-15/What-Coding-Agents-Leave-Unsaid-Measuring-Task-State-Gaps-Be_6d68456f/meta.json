@@ -4,5 +4,30 @@
  "title": "What-Coding-Agents-Leave-Unsaid-Measuring-Task-State-Gaps-Be",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-10-15 07:14:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/274fb995-9853-4a01-8ca1-c5ec4dd90d53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/274fb995-9853-4a01-8ca1-c5ec4dd90d53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 09:00:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "coding agent",
+    "task-state recoverability",
+    "report evaluation",
+    "SWE-bench",
+    "agent observability",
+    "execution context",
+    "information gap"
+   ],
+   "field": "Agent评估与可观测性",
+   "innovations": [
+    "提出CTXGAP框架量化编码代理报告与执行上下文间的任务状态可恢复性差距",
+    "首次实证发现报告-上下文差距40.7个百分点且在任务修复成功后仍达34.8个百分点",
+    "区分'完全未提及'与'已提及但缺乏支持细节'两种信息缺失类型"
+   ],
+   "benchmarks": [
+    "SWE-bench Verified"
+   ]
+  }
+ }
 }

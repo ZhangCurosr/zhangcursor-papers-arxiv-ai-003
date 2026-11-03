@@ -4,5 +4,31 @@
  "title": "The-Smart-Buildings-Challenge-Learning-Foundation-Models-for",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-10-14 07:22:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7526c48b-f325-4847-bcdc-c82d5159cb48.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7526c48b-f325-4847-bcdc-c82d5159cb48.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:51:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Foundation Models",
+    "Transfer Learning",
+    "HVAC Control",
+    "Building Optimization",
+    "Reinforcement Learning",
+    "Climate Change",
+    "Common Task Framework"
+   ],
+   "field": "建筑能效与可持续AI",
+   "innovations": [
+    "首次提出面向跨建筑HVAC控制迁移的基础模型竞赛",
+    "程序化生成异构建筑与多气候站数据以支撑大规模迁移学习",
+    "基于遗憾的多目标奖励与混合动作空间统一建模"
+   ],
+   "benchmarks": [
+    "Smart Buildings Control Suite",
+    "NeurIPS 2026 Competition Track Smart Buildings Challenge"
+   ]
+  }
+ }
 }

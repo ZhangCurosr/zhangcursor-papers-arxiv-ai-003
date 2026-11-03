@@ -4,5 +4,31 @@
  "title": "VLRLA-DEPLOYMENT-TIME-ADAPTATION-OF-VISION-LANGUAGE-ACTION-M",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-10-15 07:06:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/9321210a-c399-4dc2-a9d4-34619b97dec7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/9321210a-c399-4dc2-a9d4-34619b97dec7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:56:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA",
+    "in-context reinforcement learning",
+    "deployment-time adaptation",
+    "algorithm distillation",
+    "robot manipulation",
+    "flow matching"
+   ],
+   "field": "视觉-语言-动作模型",
+   "innovations": [
+    "提出通用VLRLA框架，使预训练VLA模型具备无需参数更新的上下文强化学习能力，通过累积交互历史和奖励反馈实现部署时渐进适应",
+    "设计两种策略变体（VLRLA-simp和VLRLA-bridge），兼容多种VLM后端和三种学习历史构建策略",
+    "在仿真和真实机器人上系统验证，VLRLA-bridge相比π0.5平均提升12.4个百分点，且在未见任务和跨episode记忆任务中有效"
+   ],
+   "benchmarks": [
+    "RoboTwin",
+    "Fruit Placement",
+    "Cross-Episode Memory"
+   ]
+  }
+ }
 }

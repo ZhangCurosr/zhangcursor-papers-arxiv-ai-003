@@ -4,5 +4,31 @@
  "title": "Vision-Language-Models-Integrate-Conflicting-Evidence-Like-B",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-10-15 07:08:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/386950f4-2c8a-4091-a711-7691ecc6a0a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/386950f4-2c8a-4091-a711-7691ecc6a0a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:57:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language models",
+    "modality conflict",
+    "Bayesian cue combination",
+    "multimodal preference",
+    "evidence integration",
+    "out-of-distribution generalization"
+   ],
+   "field": "多模态机器学习",
+   "innovations": [
+    "提出两参数线性线索组合模型预测VLM图文冲突偏好",
+    "发现模态权重在不同退化形式间可迁移",
+    "统一解释文本盲信与视觉主导的矛盾发现"
+   ],
+   "benchmarks": [
+    "DocVQA",
+    "VQAv2",
+    "RealworldQA"
+   ]
+  }
+ }
 }

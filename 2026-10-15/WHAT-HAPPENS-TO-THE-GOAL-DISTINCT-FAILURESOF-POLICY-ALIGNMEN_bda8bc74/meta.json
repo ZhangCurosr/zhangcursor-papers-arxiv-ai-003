@@ -4,5 +4,31 @@
  "title": "WHAT-HAPPENS-TO-THE-GOAL-DISTINCT-FAILURESOF-POLICY-ALIGNMEN",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-10-15 07:13:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/ce940635-cc72-4f0b-b39d-e67acad1cca8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/ce940635-cc72-4f0b-b39d-e67acad1cca8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 09:00:44",
+  "chunks": 9,
+  "meta": {
+   "keywords": [
+    "goal misgeneralization",
+    "policy alignment",
+    "Fisher information",
+    "representation audit",
+    "agent alignment",
+    "mechanistic interpretability"
+   ],
+   "field": "AI 对齐与表征审计",
+   "innovations": [
+    "首次将GM系统分类为功能目标替代/策略捷径/线索竞争三种深度特异故障机制",
+    "提出基于策略Fisher敏感度的不变量因果审计框架及有符号目标选择导数",
+    "建立深度选择性DAgger恢复实验并证明可解码不等于闭环可用"
+   ],
+   "benchmarks": [
+    "Procgen MAZE/COIN/ATTRIBUTE MAZE",
+    "ManiSkill3 PUSHTOMARKER,LOCATIONREACH,ATTRIBUTETABLE,SORTZONES",
+    "Isaac Lab WALKTOFLAG"
+   ]
+  }
+ }
 }

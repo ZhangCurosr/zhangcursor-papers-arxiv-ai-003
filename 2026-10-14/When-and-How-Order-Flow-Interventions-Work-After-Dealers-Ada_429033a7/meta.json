@@ -4,5 +4,32 @@
  "title": "When-and-How-Order-Flow-Interventions-Work-After-Dealers-Ada",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-10-14 18:26:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e7be69c5-5a5b-4662-8274-b09906d8446a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e7be69c5-5a5b-4662-8274-b09906d8446a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:53:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent reinforcement learning",
+    "market making",
+    "market design",
+    "order flow allocation",
+    "agent-based simulation",
+    "mechanism evaluation",
+    "algorithmic collusion"
+   ],
+   "field": "多智能体强化学习与金融市场机制设计",
+   "innovations": [
+    "配对再适应协议：固定干预量、共享checkpoint再适应、逐链断开的归因评估框架",
+    "SOFA合约：基于公开滞后的低风险状态评分+预算化事前承诺+报价竞争度加权分配",
+    "行为学区分即时报价-流响应与惩罚式协同：forced-undercut测试排除continuation punishment"
+   ],
+   "benchmarks": [
+    "ABIDES事件级市场模拟器",
+    "MAPPO / IPPO 全策略学习者",
+    "no-intervention / calibrated lagged-spread trigger 参考基线"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "The-Singularity-Has-a-Distribution",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-10-14 07:19:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/52d683f0-e87e-4b47-9d34-473cc885022f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/52d683f0-e87e-4b47-9d34-473cc885022f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:51:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "intelligence explosion",
+    "pure birth process",
+    "explosion time",
+    "perpetuity",
+    "hypothesis testing",
+    "q-series",
+    "self-similarity",
+    "delay differential equation"
+   ],
+   "field": "AI 安全与治理的理论建模",
+   "innovations": [
+    "证明 Good process 爆炸时间精确分布（q-级数/Lomax→Gamma）并给出残差时间自相似预测定理",
+    "推导固定样本检测的最小样本量立方根律 n* ~ (12 z_alpha^2)^(1/3) l^(-2/3)",
+    "证明任意固定部署延迟 D>0 消除爆炸，给出幂律转移努力的临界阈值 gamma = 1-1/r"
+   ],
+   "benchmarks": [
+    "Fluid ODE blow-up time T* = 1/(eps*g) = 16.65 months (illustrative)",
+    "Chan et al. 2026 working paper parameter estimates lambda=1.40, beta=1.01"
+   ]
+  }
+ }
 }

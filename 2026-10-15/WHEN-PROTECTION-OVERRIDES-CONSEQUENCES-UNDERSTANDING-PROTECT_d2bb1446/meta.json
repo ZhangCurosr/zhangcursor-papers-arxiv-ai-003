@@ -4,5 +4,30 @@
  "title": "WHEN-PROTECTION-OVERRIDES-CONSEQUENCES-UNDERSTANDING-PROTECT",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-10-15 07:10:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/97c5da9c-7b71-4742-81b3-ab38d6b786ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/97c5da9c-7b71-4742-81b3-ab38d6b786ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:59:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型",
+    "安全对齐",
+    "决策偏差",
+    "知识-行动分离",
+    "ProtectionBench",
+    "保护优先"
+   ],
+   "field": "大语言模型安全与对齐评估",
+   "innovations": [
+    "定义 Protection Mode 并构建 ProtectionBench 基准，系统化测量模型在低风险活体 vs 高风险物体间的优先选择偏差",
+    "识别两条通向 Protection Mode 的路径：物理风险误判与知识-行动分离（KAD），并通过语义干预证明保护优先推理具有因果效应",
+    "揭示 Protection Mode 在预训练阶段即已存在，post-training 主要改变解释话语而非消除该模式"
+   ],
+   "benchmarks": [
+    "ProtectionBench",
+    "IFEval"
+   ]
+  }
+ }
 }

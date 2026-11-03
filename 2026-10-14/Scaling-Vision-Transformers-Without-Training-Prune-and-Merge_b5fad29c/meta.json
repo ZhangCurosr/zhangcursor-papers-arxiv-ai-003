@@ -4,5 +4,29 @@
  "title": "Scaling-Vision-Transformers-Without-Training-Prune-and-Merge",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-10-14 07:21:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/e801651f-a187-4f72-b663-0e4c50c5532a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/e801651f-a187-4f72-b663-0e4c50c5532a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:51:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "token compression",
+    "training-free",
+    "token pruning",
+    "token merging",
+    "model efficiency",
+    "robustness evaluation"
+   ],
+   "field": "高效视觉Transformer推理",
+   "innovations": [
+    "双阶段无训练token压缩框架（先语义裁剪再相似度合并）",
+    "提出RAD和PFR两个预测稳定性评估指标"
+   ],
+   "benchmarks": [
+    "ImageNet-100"
+   ]
+  }
+ }
 }

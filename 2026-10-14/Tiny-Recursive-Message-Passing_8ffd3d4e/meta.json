@@ -4,5 +4,34 @@
  "title": "Tiny-Recursive-Message-Passing",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-10-14 18:27:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/cdf12b9e-7fb3-42b8-8e95-a46c979a306b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/cdf12b9e-7fb3-42b8-8e95-a46c979a306b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:52:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "message passing neural network",
+    "recursive GNN",
+    "deep supervision",
+    "truncated gradient",
+    "deduction lattice",
+    "algorithmic reasoning",
+    "tiny recursive model"
+   ],
+   "field": "图神经网络 / 算法推理",
+   "innovations": [
+    "将 Tiny Recursive Model 训练机器（深度监督+截断递归+ACT+格）完整适配到递归消息传递 GNN",
+    "证明图结构编码与递归训练技巧正交互补，16k 参数在 Sudoku-Extreme 达 99%+",
+    "系统揭示截断代价随图直径增长，给出 peer/factor graph 在鲁棒性-外推间的显式权衡"
+   ],
+   "benchmarks": [
+    "Sudoku-Extreme",
+    "Maze-Unique",
+    "N-Queens",
+    "G4SATBench",
+    "RandCSPBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "WHEN-PROTECTION-OVERRIDES-CONSEQUENCES-UNDERSTANDING-PROTECT",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-10-15 18:12:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/770181ea-a024-4a30-ab27-25cfbbe6e4b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/770181ea-a024-4a30-ab27-25cfbbe6e4b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:59:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "保护模式",
+    "知识-行为分歧",
+    "RLM 决策",
+    "ProtectionBench",
+    "对齐分析",
+    "因果干预"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "提出 Protection Mode 及 ProtectionBench 基准，系统度量低风险活体优先选择的普遍性",
+    "定义 KAD 并分离两条可观测路径（风险误判 vs 正确判断仍选 subject）",
+    "通过语义干预证明保护优先推理对动作选择的局部因果效应，且该模式存在于 Base 模型"
+   ],
+   "benchmarks": [
+    "ProtectionBench",
+    "IFEval"
+   ]
+  }
+ }
 }

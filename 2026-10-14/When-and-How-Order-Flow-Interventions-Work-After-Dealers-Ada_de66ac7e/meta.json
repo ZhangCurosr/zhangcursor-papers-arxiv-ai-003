@@ -4,5 +4,32 @@
  "title": "When-and-How-Order-Flow-Interventions-Work-After-Dealers-Ada",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-10-14 07:18:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/c9fc34f9-a9d8-4e96-bb3e-0caeacb75772.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/c9fc34f9-a9d8-4e96-bb3e-0caeacb75772.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:53:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "market making",
+    "multi-agent reinforcement learning",
+    "order flow allocation",
+    "market design",
+    "intervention attribution",
+    "paired re-adaptation"
+   ],
+   "field": "多智能体强化学习与金融市场机制设计",
+   "innovations": [
+    "提出配对重适配协议，在固定干预强度下逐一断开因果链路以归因",
+    "提出 SOFA 合约：状态评分+预算限速承诺+报价导向分配，无需访问做市商奖励/梯度",
+    "首次系统量化适应后干预的收益/成本归属与经济阈值（ωL/ωH>1.38）"
+   ],
+   "benchmarks": [
+    "ABIDES",
+    "MAPPO",
+    "IPPO",
+    "Controlled PPO"
+   ]
+  }
+ }
 }

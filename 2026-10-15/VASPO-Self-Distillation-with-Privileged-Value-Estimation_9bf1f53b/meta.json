@@ -4,5 +4,34 @@
  "title": "VASPO-Self-Distillation-with-Privileged-Value-Estimation",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-10-15 18:08:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/a8f58db4-bf43-402c-9ebc-404d00d487d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/a8f58db4-bf43-402c-9ebc-404d00d487d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:56:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "self-distillation",
+    "privileged information",
+    "value estimation",
+    "mathematical reasoning",
+    "PPO",
+    "token-level supervision"
+   ],
+   "field": "推理模型强化学习训练",
+   "innovations": [
+    "共享特权信息同时用于privileged critic延续值估计与self-teacher token调制，actor保持prompt-only",
+    "揭示critic收益随响应位置递增、self-teacher KL早期高期末回升的互补位置动态，驱动双读者分工设计"
+   ],
+   "benchmarks": [
+    "AIME 2024/2025/2026",
+    "HMMT 2025",
+    "Minerva Math",
+    "OlympiadBench",
+    "Knights and Knaves",
+    "DeepMath-103K"
+   ]
+  }
+ }
 }

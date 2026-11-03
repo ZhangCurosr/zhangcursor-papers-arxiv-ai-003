@@ -4,5 +4,34 @@
  "title": "Where-Small-Mistakes-Matter-Quantifying-State-Criticality-fo",
  "token": "sk-8cLXv6NBp...",
  "created_at": "2026-10-14 18:29:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/951dd169-f491-4890-99f5-42ea367a7d09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/951dd169-f491-4890-99f5-42ea367a7d09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 08:53:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "imitation learning",
+    "behavior cloning",
+    "state criticality",
+    "adversarial residual RL",
+    "data curation",
+    "robotic manipulation",
+    "policy reweighting"
+   ],
+   "field": "模仿学习中的数据关键性与策略鲁棒性",
+   "innovations": [
+    "形式化状态关键性为有界扰动下的最坏 outcome 退化量",
+    "在残差 MDP 中以 SAC 训练对抗扰动策略+保守 critic 估计 SCRIM",
+    "用 ESS%-校准的采样分布同时支持 BC 重加权与 25% 数据筛选"
+   ],
+   "benchmarks": [
+    "MetaWorld Hammer",
+    "ManiSkill2 StackCube",
+    "ManiSkill2 TurnFaucet",
+    "ManiSkill2 PegInsertion",
+    "Franka Panda 真机 StackCube/TapeHang"
+   ]
+  }
+ }
 }

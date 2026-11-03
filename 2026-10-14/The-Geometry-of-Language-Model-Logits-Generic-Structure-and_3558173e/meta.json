@@ -4,5 +4,34 @@
  "title": "The-Geometry-of-Language-Model-Logits-Generic-Structure-and",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-10-14 07:24:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/0f67a1a3-684a-4b6b-a000-c841fff218bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/0f67a1a3-684a-4b6b-a000-c841fff218bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:33:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "language model logits",
+    "ordered statistics",
+    "log-linear geometry",
+    "spectral slope",
+    "next-token distribution",
+    "decoding",
+    "Zipfian assumption",
+    "pretraining dynamics"
+   ],
+   "field": "语言模型输出几何与解码理论",
+   "innovations": [
+    "发现自回归 LM 排序后 logit 在跨上下文/架构/规模下遵循高度一致的 log-linear 几何（R²>0.99）",
+    "用受控序统计基线分离通用排序效应与模型学到的谱斜率 α（训练后 α≈1.4–1.7 vs 初始化 α≈0.2）",
+    "提出 top-K 精确 logit + 两参数谱可高效重构完整 next-token 分布（K=500 时 JS≈0.0083），并证明其与条件 Zipf 分布的理论等价性"
+   ],
+   "benchmarks": [
+    "Project Gutenberg 10 books",
+    "WikiText-2",
+    "French Wikipedia",
+    "GPT-2 / Pythia / Llama-3.2 / Qwen-2.5 model families"
+   ]
+  }
+ }
 }

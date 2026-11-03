@@ -4,5 +4,30 @@
  "title": "The-Many-Morals-of-AI-The-cautionary-bias-of-North-American",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-10-14 07:23:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/4b597c83-d8bd-45a6-852f-8f6f45a4650d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/4b597c83-d8bd-45a6-852f-8f6f45a4650d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:33:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "story moral inference",
+    "AI news framing",
+    "cross-regional comparison",
+    "LLM-based annotation",
+    "media sentiment bias",
+    "computational narrative"
+   ],
+   "field": "计算叙事与媒体分析",
+   "innovations": [
+    "首次将story moral推理系统应用于AI新闻的跨区域比较",
+    "揭示北美谨慎叙事主要源于区域情感偏见而非AI特有担忧",
+    "双模型多prompt随机化框架有效缓解LLM标注偏差"
+   ],
+   "benchmarks": [
+    "12,924篇多地区英文新闻数据集",
+    "GPT-4o与Gemini-2.0-Flash双模型标注"
+   ]
+  }
+ }
 }

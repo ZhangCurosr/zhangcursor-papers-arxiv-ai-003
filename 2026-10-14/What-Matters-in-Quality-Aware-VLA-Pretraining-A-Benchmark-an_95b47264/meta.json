@@ -4,5 +4,32 @@
  "title": "What-Matters-in-Quality-Aware-VLA-Pretraining-A-Benchmark-an",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-10-14 18:26:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/02753a3e-c7fd-410b-b6c7-b2673452b6e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/02753a3e-c7fd-410b-b6c7-b2673452b6e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:37:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA预训练",
+    "质量感知学习",
+    "行为克隆",
+    "仿真到实机",
+    "AXIS-Bench",
+    "条件化策略",
+    "机器人模仿学习"
+   ],
+   "field": "视觉-语言-动作模型预训练与数据利用",
+   "innovations": [
+    "提出AXIS-Bench基准，系统对比加权/过滤/条件化三种质量利用方式在VLA预训练中的效果",
+    "发现approach-aware episode conditioning在三种VLA上均稳定优于朴素行为克隆",
+    "揭示标签粒度与方法选择的耦合规律及模型依赖性反转，并提出constant-tag FT的适用条件"
+   ],
+   "benchmarks": [
+    "AXIS-Bench",
+    "24个桌面目标任务",
+    "Franka FR3实机验证"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "The-Singularity-Has-a-Distribution",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-10-14 18:27:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/23fd5a53-9ffe-4318-9d97-c3eb1a50b4aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/23fd5a53-9ffe-4318-9d97-c3eb1a50b4aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:34:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "intelligence explosion",
+    "pure birth process",
+    "explosion time",
+    "q-series",
+    "perpetuity",
+    "fixed-sample detection",
+    "discrete scale invariance",
+    "Lomax distribution"
+   ],
+   "field": "AI安全与对齐理论建模",
+   "innovations": [
+    "推导Good过程爆炸时间的精确分布律（q级数/Gamma/perpetuity统一框架）",
+    "证明剩余时间自相似性：相对预测不确定性在爆炸临近时不收敛到零",
+    "建立固定样本检测的立方根定律 n*~(12z_alpha^2)^(1/3)*ell^(-2/3) 及非渐近上下界"
+   ],
+   "benchmarks": [
+    "Table 2: 不同idea规模下的爆炸时间矩与分位数",
+    "Table 3: alpha=0.05下固定样本检测阈值n*与剩余时间预测"
+   ]
+  }
+ }
 }

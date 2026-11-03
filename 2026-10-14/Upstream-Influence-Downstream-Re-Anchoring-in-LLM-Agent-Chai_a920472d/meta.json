@@ -4,5 +4,32 @@
  "title": "Upstream-Influence-Downstream-Re-Anchoring-in-LLM-Agent-Chai",
  "token": "sk-ae40QN0Hy...",
  "created_at": "2026-10-14 07:21:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/d98f962d-a41e-41a8-87e2-4192e41960d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/d98f962d-a41e-41a8-87e2-4192e41960d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:36:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent chain",
+    "information architecture",
+    "opinion manipulation",
+    "re-anchoring",
+    "multi-agent reasoning",
+    "political disinformation",
+    "Taiwan recall 2025"
+   ],
+   "field": "LLM Agent 安全与多智能体推理",
+   "innovations": [
+    "揭示部分重新锚定机制，接收方依据自身证据拉回上游立场",
+    "量化信息架构两杠杆（源访问、交接格式）对残留影响的控制力",
+    "发现注入主要通过语气通道而非显式主张传播，使传统审计失效"
+   ],
+   "benchmarks": [
+    "Taiwan 2025 recall cases (n=32)",
+    "LEAD-ONLY vs ALL-ACCESS source access",
+    "STANCE-ONLY vs REASON-ONLY vs FULL handoff format"
+   ]
+  }
+ }
 }

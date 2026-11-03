@@ -4,5 +4,35 @@
  "title": "Two-Clocks-Why-Larger-Rollout-Batches-Learn-Slower-but-Fail",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-14 07:18:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/9a98064b-4d18-424b-83f0-9d3de6c0ca36.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/9a98064b-4d18-424b-83f0-9d3de6c0ca36.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:34:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning with verifiable rewards",
+    "GRPO",
+    "batch scaling",
+    "square-root learning rate rule",
+    "training stability",
+    "critical batch size",
+    "ratio clipping",
+    "policy optimization"
+   ],
+   "field": "大语言模型强化学习训练动力学",
+   "innovations": [
+    "提出双时钟框架统一解释多步GRPO中进度延迟与样本不变崩溃现象",
+    "证明平方根规则保持每样本漂移不变但曲率导致进度下降",
+    "导出基于漂移阈值的失败律并经21次实验验证，优于随机游走假设"
+   ],
+   "benchmarks": [
+    "DAPO-Math-17k",
+    "DeepScaleR-Preview",
+    "Qwen2.5-Math-1.5B",
+    "Qwen2.5-Math-7B",
+    "Qwen2.5-1.5B-Instruct"
+   ]
+  }
+ }
 }

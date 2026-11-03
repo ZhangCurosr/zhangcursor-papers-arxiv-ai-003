@@ -4,5 +4,33 @@
  "title": "UNIW-A-M-A-UNIFIED-MIXTURE-OF-EXPERTS-FRAMEWORK-FOR-WORLD-AN",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-10-14 18:27:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/484feae6-f5e8-40a4-a96a-afb27f0252a3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/484feae6-f5e8-40a4-a96a-afb27f0252a3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:35:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Models",
+    "World-Action Models",
+    "Mixture of Experts",
+    "Diffusion Transformer",
+    "Embodied AI",
+    "Action-Conditioned Generation",
+    "Interface Routing"
+   ],
+   "field": "具身智能与世界模型",
+   "innovations": [
+    "提出原子能力专家与CATR路由机制，实现五接口联合训练",
+    "首次证明AC-WM共训练对各类WAM动作生成的正向迁移",
+    "PAIR部署期chunk级接口自适应提升OOD成功率13.4pp"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "RoboTwin 2.0",
+    "WorldArena",
+    "真实操作任务（Folding Clothes/Box/Tabletop Cleaning）"
+   ]
+  }
+ }
 }

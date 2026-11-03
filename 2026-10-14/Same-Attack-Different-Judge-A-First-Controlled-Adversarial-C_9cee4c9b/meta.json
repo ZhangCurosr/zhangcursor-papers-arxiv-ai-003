@@ -4,5 +4,33 @@
  "title": "Same-Attack-Different-Judge-A-First-Controlled-Adversarial-C",
  "token": "sk-dpgvlEWCZ...",
  "created_at": "2026-10-14 07:25:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/438cd871-b133-42b7-99db-11d9b8aa475d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/438cd871-b133-42b7-99db-11d9b8aa475d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:32:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial robustness",
+    "LLM judges",
+    "structured decision models",
+    "prompt injection",
+    "safety classification",
+    "JEV",
+    "controlled evaluation"
+   ],
+   "field": "LLM安全评估与对抗鲁棒性",
+   "innovations": [
+    "首个跨三类判决器设计的受控对抗对比框架，固定载荷与策略实现公平比较",
+    "揭示鲁棒性依赖任务：JEV在规则类任务上免疫伪造攻击，但在判断类任务上脆弱性显著高于GLM judges",
+    "发现专用安全分类器非天然鲁棒：Llama Guard 3在训练示例声明攻击下漏检率达62%"
+   ],
+   "benchmarks": [
+    "JailbreakBench",
+    "InjecAgent",
+    "Phishing Email Dataset",
+    "XSTest v2"
+   ]
+  }
+ }
 }

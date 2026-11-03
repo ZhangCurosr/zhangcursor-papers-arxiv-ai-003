@@ -4,5 +4,36 @@
  "title": "Unlocking-Token-Rewards-via-Training-Free-Reward-Attribution",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-10-14 07:17:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/ccce742f-cb1d-4f18-a412-8139b904af17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/ccce742f-cb1d-4f18-a412-8139b904af17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:36:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Token-level Reward",
+    "Process Reward Model",
+    "Reinforcement Fine-Tuning",
+    "Training-free Attribution",
+    "GRPO",
+    "Reasoning LLM"
+   ],
+   "field": "大模型推理强化学习",
+   "innovations": [
+    "训练无关的一阶梯度近似将PRM过程级奖励分配为token级奖励，复杂度从O(N)降至O(1)",
+    "提出magnitude-based归一化再分配策略，在GRPO中无缝集成token reward",
+    "无需额外训练奖励模型即可显著提升推理模型准确率与训练效率"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "AMC23",
+    "MATH-500",
+    "MinervaMath",
+    "MathVista",
+    "OlympiadBench",
+    "GaoKao2023en"
+   ]
+  }
+ }
 }

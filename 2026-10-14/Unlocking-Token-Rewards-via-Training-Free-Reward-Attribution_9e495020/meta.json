@@ -4,5 +4,35 @@
  "title": "Unlocking-Token-Rewards-via-Training-Free-Reward-Attribution",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-10-14 18:23:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/334a9706-562b-4050-b2e7-24e38d0d3765.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/334a9706-562b-4050-b2e7-24e38d0d3765.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:36:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Token Reward Attribution",
+    "Process Reward Model",
+    "Training-Free RL",
+    "Chain-of-Thought Reasoning",
+    "Reward Shaping",
+    "GRPO",
+    "Credit Assignment"
+   ],
+   "field": "大语言模型推理强化学习",
+   "innovations": [
+    "提出训练免费的P2T方法将过程奖励高效分解为token级奖励",
+    "基于一阶泰勒近似将O(N)复杂度降至O(1)实现单次反向传播归因",
+    "在40个model-benchmark组合上稳定超越结果奖励与现有token奖励方法"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "MathVista",
+    "MinervaMath",
+    "MATH-500",
+    "AMC23",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

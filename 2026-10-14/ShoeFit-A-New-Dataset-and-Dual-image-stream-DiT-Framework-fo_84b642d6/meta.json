@@ -4,5 +4,35 @@
  "title": "ShoeFit-A-New-Dataset-and-Dual-image-stream-DiT-Framework-fo",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-10-14 07:24:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/72aa7315-4feb-4001-9989-aedf389d2aa2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/72aa7315-4feb-4001-9989-aedf389d2aa2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:33:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "虚拟鞋履试穿",
+    "VFTON",
+    "DiT",
+    "多视角条件",
+    "3D RoPE",
+    "分层注意力",
+    "Diffusion Model"
+   ],
+   "field": "虚拟试穿与图像生成",
+   "innovations": [
+    "双流DiT架构解耦条件提取与去噪生成，节省约40%参数",
+    "3D RoPE扩展位置编码以处理多视角拼接的语义不连续",
+    "LayeredRefAttention前景-背景解耦抑制颜色污染"
+   ],
+   "benchmarks": [
+    "MVShoes",
+    "SSIM",
+    "LPIPS",
+    "FID",
+    "KID",
+    "DISTS"
+   ]
+  }
+ }
 }

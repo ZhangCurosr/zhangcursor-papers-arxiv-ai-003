@@ -4,5 +4,36 @@
  "title": "Reading-Right-Acting-Wrong-Diagnosing-Decision-Failures-of-S",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-10-14 18:25:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/0dd5fd74-aa15-4d0b-8963-f0affdcee954.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/0dd5fd74-aa15-4d0b-8963-f0affdcee954.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:32:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "System One models",
+    "agent decision diagnostics",
+    "paired measurement",
+    "reading versus deciding",
+    "behavioral evaluation",
+    "probe sufficiency",
+    "cost-aware routing"
+   ],
+   "field": "Agent评估与可解释性",
+   "innovations": [
+    "配对测量框架：在同一决策状态上独立回答动作选择与事实探针，分离理解失败与决策失败",
+    "探针充分性形式化准则：通过∩G(s)≠∅检验探针集是否足以归因决策错误",
+    "三阶段诊断链路：控制状态→真实状态probe-then-decide→decision-oriented probes，定位composition vs. sub-goal缺失"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "BabyAI-Text",
+    "TextWorld cooking",
+    "τ²-bench",
+    "AgentRM",
+    "SWE-smith coding traces",
+    "Mind2Web"
+   ]
+  }
+ }
 }

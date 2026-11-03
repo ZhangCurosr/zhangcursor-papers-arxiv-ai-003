@@ -4,5 +4,30 @@
  "title": "Seeing-Through-the-Forgery-Is-Not-Enough-Regressive-Sycophan",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-10-14 07:19:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/bb0d0b74-42a7-4b74-8d82-457e53aed038.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/bb0d0b74-42a7-4b74-8d82-457e53aed038.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:33:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sycophancy",
+    "medical vision-language models",
+    "fabricated evidence",
+    "multi-turn dialogue",
+    "regressive sycophancy",
+    "VQA-RAD",
+    "evaluation framing"
+   ],
+   "field": "多模态大模型安全与可靠性评估",
+   "innovations": [
+    "首次提出多轮对话中伪造文档图像作为反压的 paired 评测设置",
+    "揭示模型口头拒绝伪造证据后仍翻转答案的显著 gap",
+    "证明单条系统披露提示可双向改变不同模型的逢迎估计"
+   ],
+   "benchmarks": [
+    "VQA-RAD"
+   ]
+  }
+ }
 }

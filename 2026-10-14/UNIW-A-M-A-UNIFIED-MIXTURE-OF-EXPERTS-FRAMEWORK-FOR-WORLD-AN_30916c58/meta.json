@@ -4,5 +4,33 @@
  "title": "UNIW-A-M-A-UNIFIED-MIXTURE-OF-EXPERTS-FRAMEWORK-FOR-WORLD-AN",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-10-14 07:17:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7041fffb-4e99-49d3-92b7-139d778247ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7041fffb-4e99-49d3-92b7-139d778247ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:36:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world model",
+    "world-action model",
+    "mixture of experts",
+    "diffusion transformer",
+    "robotic manipulation",
+    "action-conditioned generation",
+    "adaptive routing"
+   ],
+   "field": "具身智能与世界模型",
+   "innovations": [
+    "基于MoE的统一框架联合训练AC-WM与四种WAM接口，通过视频-动作可见性掩码保持各接口条件路径",
+    "能力对齐Token路由(CATR)按预测角色为token group分配合法专家集，解决多接口联合训练的接口退化问题",
+    "可插拔自适应接口路由器(PAIR)在冻结骨干前提下实现chunk级WAM接口动态选择，提升OOD泛化"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "RoboTwin 2.0",
+    "WorldArena",
+    "真实折衣/折盒/桌面清理任务"
+   ]
+  }
+ }
 }

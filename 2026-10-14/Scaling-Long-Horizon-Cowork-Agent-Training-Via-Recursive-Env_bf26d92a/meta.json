@@ -4,5 +4,33 @@
  "title": "Scaling-Long-Horizon-Cowork-Agent-Training-Via-Recursive-Env",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-10-14 18:30:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/7eeba991-b025-4552-abba-413d0c8608b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/7eeba991-b025-4552-abba-413d0c8608b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:33:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-horizon agent",
+    "reinforcement learning",
+    "environment synthesis",
+    "credit assignment",
+    "cowork agent",
+    "recursive repair"
+   ],
+   "field": "长horizon agent训练与 Reward Shaping",
+   "innovations": [
+    "Harness驱动的语义对齐环境联合构建与依赖追踪",
+    "FCR因子兼容性重放实现递归环境修复与最小化选择",
+    "VTCA确定性检查与依赖分配实现回合级信用学习信号"
+   ],
+   "benchmarks": [
+    "JobBench",
+    "GDPval v2",
+    "AutomationBench",
+    "WorkBuddy Bench",
+    "OfficeQA Pro"
+   ]
+  }
+ }
 }

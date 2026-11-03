@@ -4,5 +4,10 @@
  "title": "Two-Clocks-Why-Larger-Rollout-Batches-Learn-Slower-but-Fail",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-14 18:27:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/31dfa4da-0bf2-4e16-af30-31104c0650c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/31dfa4da-0bf2-4e16-af30-31104c0650c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:35:17",
+  "chunks": 1
+ }
 }

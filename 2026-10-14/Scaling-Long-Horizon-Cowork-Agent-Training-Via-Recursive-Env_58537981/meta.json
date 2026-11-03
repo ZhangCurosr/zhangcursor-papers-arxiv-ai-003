@@ -4,5 +4,10 @@
  "title": "Scaling-Long-Horizon-Cowork-Agent-Training-Via-Recursive-Env",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-10-14 07:22:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/12132b2c-e008-4c6f-a19e-678eee71569c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/12132b2c-e008-4c6f-a19e-678eee71569c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:33:22",
+  "chunks": 1
+ }
 }

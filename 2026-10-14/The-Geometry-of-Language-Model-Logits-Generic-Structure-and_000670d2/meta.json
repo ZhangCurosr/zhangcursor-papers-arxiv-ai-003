@@ -4,5 +4,32 @@
  "title": "The-Geometry-of-Language-Model-Logits-Generic-Structure-and",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-10-14 18:27:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/2d3ebba7-8f61-46fa-ac73-233726ed140a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/2d3ebba7-8f61-46fa-ac73-233726ed140a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:33:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "language model logits",
+    "ordered logit geometry",
+    "spectral slope",
+    "order statistics",
+    "spectral reconstruction",
+    "predictive uncertainty",
+    "Zipfian decoding"
+   ],
+   "field": "语言模型可解释性与理论几何",
+   "innovations": [
+    "系统刻画自回归LM词汇头logit的跨上下文对数线性几何",
+    "通过受控顺序统计基线分离通用排序效应与训练学到的光谱斜率α",
+    "证明α与预测熵/NLL/token秩显著相关并可用于分布紧凑重构"
+   ],
+   "benchmarks": [
+    "Project Gutenberg 10 books",
+    "WikiText-2",
+    "French Wikipedia"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Two-Routes-to-Interoceptive-Prioritisation-Dissociating-Like",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-10-14 07:22:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/ee3b39f1-eaab-47ff-94d8-dd2a094ce9ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/ee3b39f1-eaab-47ff-94d8-dd2a094ce9ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:35:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "active inference",
+    "interoception",
+    "prioritisation",
+    "precision routing",
+    "preference reweighting",
+    "homeostatic control",
+    "Dirichlet learning"
+   ],
+   "field": "主动推断与具身智能",
+   "innovations": [
+    "首次在同一任务中分别对比并量化似然精度路由与偏好重加权对内感受优先级处理的不同影响",
+    "揭示偏好参数不直接参与学习却通过改变经验分布间接重塑身体模型的间接耦合机制",
+    "提出结合内部可观察量（后验熵、安全余量、状态覆盖率、模型质量）的多维度评估体系以区分优先级机制"
+   ],
+   "benchmarks": [
+    "AffectWorld 6x6 网格世界",
+    "11 个原始布局 + 72 个额外生成布局"
+   ]
+  }
+ }
 }

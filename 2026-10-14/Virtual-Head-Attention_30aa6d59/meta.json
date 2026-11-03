@@ -4,5 +4,34 @@
  "title": "Virtual-Head-Attention",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-10-14 07:22:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/62d5c835-4443-4eb6-b400-5667792e6a45.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/62d5c835-4443-4eb6-b400-5667792e6a45.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:37:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Virtual Head Attention",
+    "KV Cache Compression",
+    "Grouped-Query Attention",
+    "Attention Mechanism",
+    "Parameter Efficiency",
+    "Long Context"
+   ],
+   "field": "大语言模型注意力机制设计",
+   "innovations": [
+    "提出 Q Premix 和 Linear Postmix 两个轻量级线性操作，在 2 个 KV 头配置下同时实现 KV cache 压缩、训练 FLOPs 降低和模型质量提升",
+    "全线性设计支持推理时完全折叠为标准 GQA-2 架构，零额外开销复用现有 Serving 框架优化",
+    "揭示 Premix 组条件化查询变换与 Postmix 低秩跨头通信的功能互补性，两者缺一不可"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu Pretraining",
+    "12-Benchmark Base Model Suite (30B-A3B MoE)",
+    "RULER (8K-128K)",
+    "LongBench-v2",
+    "BABILong",
+    "HELMET"
+   ]
+  }
+ }
 }

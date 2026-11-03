@@ -4,5 +4,31 @@
  "title": "Uncertainty-Evaluation-Bridging-Machine-Learning-and-Measure",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-10-14 07:19:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/014506a0-b36a-40a0-a18f-4b9cf61ee39a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/014506a0-b36a-40a0-a18f-4b9cf61ee39a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:35:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "uncertainty quantification",
+    "machine learning",
+    "metrology",
+    "aleatoric uncertainty",
+    "epistemic uncertainty",
+    "GUM",
+    "distribution shift",
+    "out-of-distribution detection"
+   ],
+   "field": "可信机器学习与不确定性评估",
+   "innovations": [
+    "类比计量学GUM框架批判ML中aleatoric/epistemic二分法的模型依赖性",
+    "倡导系统性识别-量化-传播的不确定性统一评估方法",
+    "引入过程级/产品级质量区分与两步验证流程（模型范围验证+不确定度评估）"
+   ],
+   "benchmarks": [
+    "无（理论分析论文）"
+   ]
+  }
+ }
 }

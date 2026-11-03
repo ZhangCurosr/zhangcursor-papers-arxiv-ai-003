@@ -4,5 +4,32 @@
  "title": "The-Smart-Buildings-Challenge-Learning-Foundation-Models-for",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-10-14 18:29:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/2be0e769-799d-4fca-92a5-4ad03798ce67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/2be0e769-799d-4fca-92a5-4ad03798ce67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:34:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Foundation Models",
+    "Building HVAC Control",
+    "Transfer Learning",
+    "Reinforcement Learning",
+    "Energy Efficiency",
+    "Smart Buildings",
+    "Simulation-to-Real"
+   ],
+   "field": "建筑节能与人工智能控制",
+   "innovations": [
+    "提出首个建筑基础控制模型竞赛，强调跨建筑与跨气候迁移",
+    "设计程序化多样性建筑生成器与确定性仿真评估管道，防止记忆与泄漏",
+    "定义兼顾舒适度后悔值、能耗与碳排放的多目标奖励函数"
+   ],
+   "benchmarks": [
+    "Smart Buildings Control Suite",
+    "Kaggle Smart Buildings Challenge (2026)",
+    "30 unseen building-weather scenarios"
+   ]
+  }
+ }
 }

@@ -4,5 +4,26 @@
  "title": "Uncertainty-Evaluation-Bridging-Machine-Learning-and-Measure",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-10-14 18:27:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/f8b0c142-7de1-43dc-8e49-7f2a7417fb2a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/f8b0c142-7de1-43dc-8e49-7f2a7417fb2a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:35:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "不确定性评估",
+    "计量学",
+    "aleatoric-epistemic二分法",
+    "GUM框架",
+    "OOD检测",
+    "跨学科类比"
+   ],
+   "field": "机器学习可靠性与可信度",
+   "innovations": [
+    "系统性类比ML不确定性评估与计量学测量不确定度框架",
+    "批判aleatoric-epistemic二分法的模型依赖性并提出GUM-inspired替代方案",
+    "提出测量与ML中操作条件失配的两类类比及两步验证-评估流程"
+   ]
+  }
+ }
 }

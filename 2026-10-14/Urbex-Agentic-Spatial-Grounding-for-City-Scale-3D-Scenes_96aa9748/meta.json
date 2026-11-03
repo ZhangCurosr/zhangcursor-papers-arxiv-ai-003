@@ -4,5 +4,31 @@
  "title": "Urbex-Agentic-Spatial-Grounding-for-City-Scale-3D-Scenes",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-10-14 07:25:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/f4d90546-27c9-47e9-8353-9ea0b6fceac8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/f4d90546-27c9-47e9-8353-9ea0b6fceac8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:37:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D visual grounding",
+    "city-scale",
+    "agentic VLM",
+    "reinforcement learning",
+    "active spatial search",
+    "candidate-free",
+    "GRPO"
+   ],
+   "field": "城市级三维场景视觉定位",
+   "innovations": [
+    "将城市级3D定位从候选排序重新建模为主动空间搜索",
+    "设计面向城市的多视图交互式工具接口（地标查询/放大/斜视图渲染）",
+    "基于GRPO与平滑奖励函数的代理搜索策略训练"
+   ],
+   "benchmarks": [
+    "CityRefer",
+    "STPLS3D-Refer"
+   ]
+  }
+ }
 }

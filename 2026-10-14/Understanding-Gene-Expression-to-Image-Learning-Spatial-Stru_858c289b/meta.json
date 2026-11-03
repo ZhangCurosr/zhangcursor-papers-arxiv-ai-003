@@ -4,5 +4,33 @@
  "title": "Understanding-Gene-Expression-to-Image-Learning-Spatial-Stru",
  "token": "sk-eUuUuX3MU...",
  "created_at": "2026-10-14 07:23:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7d4e8df5-bdbc-4cc7-b727-4e76f4758119.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7d4e8df5-bdbc-4cc7-b727-4e76f4758119.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:36:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单细胞转录组",
+    "GE2I",
+    "基因表达图像化",
+    "表示学习",
+    "空间平滑性",
+    "像素分配"
+   ],
+   "field": "单细胞多组学表示学习",
+   "innovations": [
+    "揭示GE2I中空间平滑性与基因保真度的权衡机制并通过beta回归定量量化",
+    "提出贪心唯一像素分配算法消除碰撞并稳定提升F1-Macro 2%-9.7%",
+    "系统评估视觉骨干、预训练和数据增强在不同映射类型下的迁移效果"
+   ],
+   "benchmarks": [
+    "Diabetic Kidney Disease (DKD)",
+    "GTEx v9",
+    "HypoMap",
+    "Immune Cell Atlas",
+    "Tabula Sapiens"
+   ]
+  }
+ }
 }

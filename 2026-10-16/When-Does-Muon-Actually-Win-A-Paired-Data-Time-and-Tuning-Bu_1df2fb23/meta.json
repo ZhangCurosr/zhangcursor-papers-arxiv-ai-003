@@ -4,5 +4,31 @@
  "title": "When-Does-Muon-Actually-Win-A-Paired-Data-Time-and-Tuning-Bu",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-10-16 18:05:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/0a198952-74aa-45c7-ae81-6aa29afe1059.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/0a198952-74aa-45c7-ae81-6aa29afe1059.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:36:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "optimization",
+    "benchmarking",
+    "Muon",
+    "AdamW",
+    "data efficiency",
+    "time efficiency",
+    "tuning budget"
+   ],
+   "field": "优化器基准测试",
+   "innovations": [
+    "配对数据‑时间‑调优预算基准框架",
+    "系统量化小模型下Muon与AdamW的效率权衡",
+    "揭示调优预算对Muon性能的影响"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu",
+    "CIFAR-100"
+   ]
+  }
+ }
 }

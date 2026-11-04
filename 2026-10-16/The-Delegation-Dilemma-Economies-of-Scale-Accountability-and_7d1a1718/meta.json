@@ -4,5 +4,31 @@
  "title": "The-Delegation-Dilemma-Economies-of-Scale-Accountability-and",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-10-16 18:08:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/ed229101-4d08-466e-9f8e-4078fabd6467.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/ed229101-4d08-466e-9f8e-4078fabd6467.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:31:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Delegation",
+    "Polycentric Governance",
+    "Accountability",
+    "LLM Agents",
+    "Multi-agent Governance",
+    "Scale Economies",
+    "Coalition Formation"
+   ],
+   "field": "多智能体治理与制度设计",
+   "innovations": [
+    "规模-问责权衡的理论框架：推导最小参与规模m_min与最大可问责规模m_max的双阈值条件",
+    "首次验证LLM Agent在规模化委托激励下自发涌现多中心治理结构",
+    "GPT-6 Luna与Sol的匹配状态对比揭示模型能力差异导致的权力行使分化"
+   ],
+   "benchmarks": [
+    "GPT-6 Luna 30-Agent仿真（5配对×20 epoch）",
+    "GPT-6 Sol 匹配状态回放对比（4,551志愿决策，1,988剥削决策）"
+   ]
+  }
+ }
 }

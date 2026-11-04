@@ -4,5 +4,32 @@
  "title": "Watts-If-A-Benchmark-for-Counterfactual-Reasoning-About-the",
  "token": "sk-kPtjfXaXd...",
  "created_at": "2026-10-16 06:51:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/1b74ded3-8106-4a82-9a93-40936de6ff98.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/1b74ded3-8106-4a82-9a93-40936de6ff98.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:35:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "counterfactual reasoning",
+    "planning benchmark",
+    "data center",
+    "STRIPS",
+    "LLM evaluation",
+    "DCBench-440",
+    "action enumeration"
+   ],
+   "field": "大模型规划与推理评测",
+   "innovations": [
+    "双轨基准DCBench-440：200道STRIPS生成题+240道来源锚定选择题，分别报告以消除格式偏差",
+    "基于行业真实流程的域设计：静态事实、一次性分叉、里程碑结构映射真实项目筛选管道",
+    "发现所有模型共享的枚举失败模式：在决策门处完整枚举可用动作（含no-op）时精确匹配不超过4.0%"
+   ],
+   "benchmarks": [
+    "DCBench-440",
+    "ACPBench Hard",
+    "PlanBench"
+   ]
+  }
+ }
 }

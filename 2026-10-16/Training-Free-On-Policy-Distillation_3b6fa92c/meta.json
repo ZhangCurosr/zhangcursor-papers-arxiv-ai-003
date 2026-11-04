@@ -4,5 +4,35 @@
  "title": "Training-Free-On-Policy-Distillation",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-10-16 18:03:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/b1eb82be-5738-4acb-b74a-bb943dc56d5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/b1eb82be-5738-4acb-b74a-bb943dc56d5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:33:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model merging",
+    "on-policy distillation",
+    "training-free",
+    "reinforcement learning",
+    "task arithmetic",
+    "closed-form solution"
+   ],
+   "field": "大语言模型合并与蒸馏",
+   "innovations": [
+    "将逐层蒸馏转化为对 on-policy 输入二阶矩的 RegMean 闭式解，无需梯度更新",
+    "发现 on-policy rollout 的组成（去重循环答案）决定融合模型在难题上的表现",
+    "揭示 RL 专家合并中数值精度（bfloat16 vs float16）是关键被忽视因素"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "HMMT25",
+    "MATH-500",
+    "OlympiadBench",
+    "HumanEval+",
+    "MBPP+"
+   ]
+  }
+ }
 }

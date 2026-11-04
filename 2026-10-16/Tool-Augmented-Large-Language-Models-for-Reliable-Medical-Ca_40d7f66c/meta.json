@@ -4,5 +4,29 @@
  "title": "Tool-Augmented-Large-Language-Models-for-Reliable-Medical-Ca",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-10-16 18:06:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/d29c91bb-bc2d-4f67-8854-0e5a4a95d691.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/d29c91bb-bc2d-4f67-8854-0e5a4a95d691.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:32:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Medical Calculation",
+    "Tool-Augmented LLM",
+    "Parameter Extraction",
+    "MedCalc-Bench",
+    "Clinical NLP",
+    "Rule-based Computation"
+   ],
+   "field": "医学自然语言处理",
+   "innovations": [
+    "将医学计算任务解耦为规则检索、工具合成验证与模式约束提取三个独立阶段，实现临床理解与确定性执行的分离",
+    "基于执行反馈的迭代工具修复机制，无需预置计算器库即可自动生成可执行的医学计算器工具",
+    "Schema 驱动的 Few-shot 示例贪心选择策略，确保抽取模型覆盖所有必需计算器字段"
+   ],
+   "benchmarks": [
+    "MedCalc-Bench Verified v1.0.7"
+   ]
+  }
+ }
 }

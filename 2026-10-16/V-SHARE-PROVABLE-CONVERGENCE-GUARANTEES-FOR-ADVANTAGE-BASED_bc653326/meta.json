@@ -4,5 +4,29 @@
  "title": "V-SHARE-PROVABLE-CONVERGENCE-GUARANTEES-FOR-ADVANTAGE-BASED",
  "token": "sk-yEKi8NUQa...",
  "created_at": "2026-10-16 18:06:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/e5c83f39-defc-4501-988f-937690fbae7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/e5c83f39-defc-4501-988f-937690fbae7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:35:49",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "advantage-based RL",
+    "convergence guarantee",
+    "Markov sampling",
+    "value-advantage decomposition",
+    "off-policy learning",
+    "contraction-variance tradeoff"
+   ],
+   "field": "强化学习收敛理论",
+   "innovations": [
+    "首个马尔可夫采样下渐近+非渐近双重收敛的优势算法",
+    "揭示收缩-方差权衡并给出定量界",
+    "双时间尺度消除β下界依赖实现全参数收敛"
+   ],
+   "benchmarks": [
+    "自制表格式MDP (|S|=10, |A|=5, γ=0.95)"
+   ]
+  }
+ }
 }

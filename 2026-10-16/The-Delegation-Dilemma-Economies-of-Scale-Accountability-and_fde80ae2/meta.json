@@ -4,5 +4,31 @@
  "title": "The-Delegation-Dilemma-Economies-of-Scale-Accountability-and",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-10-16 06:57:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/1c3e9f2c-1e8c-4a02-9ff1-ce7263c9343b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/1c3e9f2c-1e8c-4a02-9ff1-ce7263c9343b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:32:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体治理",
+    "委托-问责权衡",
+    "规模经济",
+    "多中心性",
+    "LLM代理",
+    "退出机制"
+   ],
+   "field": "多智能体系统治理",
+   "innovations": [
+    "建立规模-问责权衡的简化形式理论模型并推导m_min/m_max闭式阈值",
+    "通过GPT-6代理仿真首次实证观察多中心治理的动态涌现与循环",
+    "提出结构性多中心性与行为多样性的区分并通过Sol/Luna逐状态匹配验证"
+   ],
+   "benchmarks": [
+    "30-agent GPT-6 LLM simulation",
+    "5 matched pairs (centralized vs decentralized initialization)",
+    "20 governance epochs per episode"
+   ]
+  }
+ }
 }

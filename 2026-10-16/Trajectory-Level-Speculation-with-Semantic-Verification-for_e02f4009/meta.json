@@ -4,5 +4,32 @@
  "title": "Trajectory-Level-Speculation-with-Semantic-Verification-for",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-10-16 18:06:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/8227fcae-038a-4c07-a092-b1aee4d716b3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/8227fcae-038a-4c07-a092-b1aee4d716b3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:34:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent speculation",
+    "tool-use agents",
+    "weak-strong collaboration",
+    "semantic verification",
+    "speculative decoding",
+    "memory-bandwidth serving"
+   ],
+   "field": "LLM Agent 系统与高效推理",
+   "innovations": [
+    "轨迹级草稿-验证协议：弱模型执行只读工具起草片段，强模型在状态变更边界做语义前缀验证",
+    "融合修复判决：验证器直接输出替代动作，避免多数拒绝触发的额外强模型解码",
+    "可逆/不可逆动作边界机制：仅在最不可逆点做贵验证，保障投机执行安全"
+   ],
+   "benchmarks": [
+    "τ²-Bench",
+    "AutomationBench",
+    "VitaBench",
+    "MCP-Atlas"
+   ]
+  }
+ }
 }

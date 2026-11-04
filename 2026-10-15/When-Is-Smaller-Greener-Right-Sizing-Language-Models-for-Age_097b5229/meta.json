@@ -4,5 +4,33 @@
  "title": "When-Is-Smaller-Greener-Right-Sizing-Language-Models-for-Age",
  "token": "sk-9GUbCO4kb...",
  "created_at": "2026-10-15 07:07:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/f19c4f98-5089-41c1-82e4-c5eb95466440.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/f19c4f98-5089-41c1-82e4-c5eb95466440.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:30:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic AI",
+    "Model Selection",
+    "Multi-criteria Decision Analysis",
+    "Sustainable AI",
+    "Energy-efficient Inference",
+    "Pareto Efficiency",
+    "Functional Unit"
+   ],
+   "field": "可持续AI / Agent系统资源优化",
+   "innovations": [
+    "提出以成功完成任务为功能单元的模型选择框架，揭示三阶段结构与交叉长度理论",
+    "建立两阶段决策框架分离Pareto有效集筛选与偏好加权选择，使偏好信息仅在trade-off带内使用",
+    "在15个开源模型的实测验证中，首次实验证明绿色模型随任务长度动态切换的现象"
+   ],
+   "benchmarks": [
+    "Order Task (synthetic multi-step agent task)",
+    "Tools Task (synthetic tool-calling agent task)",
+    "tau-bench (planned full evaluation)",
+    "Berkeley Function Calling Leaderboard (BFCL)"
+   ]
+  }
+ }
 }

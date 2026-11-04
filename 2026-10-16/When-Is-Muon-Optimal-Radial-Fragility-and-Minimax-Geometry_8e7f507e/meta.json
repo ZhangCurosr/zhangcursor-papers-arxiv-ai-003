@@ -4,5 +4,28 @@
  "title": "When-Is-Muon-Optimal-Radial-Fragility-and-Minimax-Geometry",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-10-16 06:49:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/20eef0ff-db46-4397-837b-576908487041.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/20eef0ff-db46-4397-837b-576908487041.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:36:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Muon 优化器",
+    "极因子",
+    "各向同性曲率模型",
+    "变分优化",
+    "球形 zonoid",
+    "分布鲁棒优化",
+    "原子-折点共振",
+    "谱几何"
+   ],
+   "field": "深度学习优化理论",
+   "innovations": [
+    "提出 RR-ICM 精确极因子容许集刻画，揭示无原子径向律下的零容量刚性",
+    "引入 Minimax RR-ICM，建立极方向的曲率变分最坏情况刻画",
+    "证明 Minimax 容许集为正半定迹板，桥接曲率视图与谱几何解释"
+   ]
+  }
+ }
 }

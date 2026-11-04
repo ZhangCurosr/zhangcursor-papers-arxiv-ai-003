@@ -4,5 +4,30 @@
  "title": "When-Should-Enterprise-Policy-Decisions-Be-Learned-and-When",
  "token": "sk-Wy5CGD3Z6...",
  "created_at": "2026-10-14 07:22:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/801bc7e8-4873-4964-9b28-9df1f65dae7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/801bc7e8-4873-4964-9b28-9df1f65dae7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:29:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "enterprise agent",
+    "policy decision",
+    "constrained decoding",
+    "test-time reasoning",
+    "boundary-targeted supervision",
+    "counterfactual benchmark"
+   ],
+   "field": "企业智能体决策与结构化输出",
+   "innovations": [
+    "在两因素2×2设计上分离输出接口与测试时推理，发现推理关条件下格式无显著影响而推理开驱动外部分布鸿沟",
+    "用隐藏可执行策略与反事实对构建无人工标注的密封基准Blind-A",
+    "估计训练监督与测试时推理的负交互（-4.9pp），论证两者为部分替代"
+   ],
+   "benchmarks": [
+    "Blind-A（密封300项，公开重渲染248项）",
+    "分布内2800项企业策略评测集"
+   ]
+  }
+ }
 }

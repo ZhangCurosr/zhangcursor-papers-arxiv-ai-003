@@ -4,5 +4,30 @@
  "title": "V-SHARE-PROVABLE-CONVERGENCE-GUARANTEES-FOR-ADVANTAGE-BASED",
  "token": "sk-yEKi8NUQa...",
  "created_at": "2026-10-16 06:53:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/1df92f26-2bca-40b9-9d92-3a2e8a66720d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/1df92f26-2bca-40b9-9d92-3a2e8a66720d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:35:40",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "multi-task reinforcement learning",
+    "convergence guarantees",
+    "hierarchical sampling",
+    "advantage-based learning",
+    "negative transfer"
+   ],
+   "field": "多任务强化学习",
+   "innovations": [
+    "分层自适应采样策略降低多任务RL采样复杂度",
+    "首次为优势导向多任务RL提供收敛性证明",
+    "改进的梯度估计器保持高维动作空间稳定性"
+   ],
+   "benchmarks": [
+    "Meta-World",
+    "MuJoCo Multi-Task",
+    "AI Safety Gridworlds"
+   ]
+  }
+ }
 }

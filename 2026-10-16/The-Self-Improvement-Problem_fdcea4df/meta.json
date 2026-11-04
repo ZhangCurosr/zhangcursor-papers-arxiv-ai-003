@@ -4,5 +4,27 @@
  "title": "The-Self-Improvement-Problem",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-10-16 18:07:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/cb0c2bfb-0def-482a-b291-648bf4c6fc0a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/cb0c2bfb-0def-482a-b291-648bf4c6fc0a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:32:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-improvement",
+    "automated gate",
+    "computability",
+    "reward hacking",
+    "bounded evaluation",
+    "proxy drift",
+    "Kleene recursion theorem",
+    "verifier"
+   ],
+   "field": "AI安全与形式化方法",
+   "innovations": [
+    "在无界设置下证明任意全可计算门控无法同时满足可靠性与非保守性",
+    "在有限预算+有界评估下给出可判定恢复并揭示代理漂移风险"
+   ]
+  }
+ }
 }

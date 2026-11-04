@@ -4,5 +4,34 @@
  "title": "Terminal-RSI-Recursive-Self-Improving-Terminal-Agents-via-Re",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-10-16 18:07:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/94f6e91c-9953-4eef-8ae1-10042800a4e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/94f6e91c-9953-4eef-8ae1-10042800a4e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:31:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "terminal agent",
+    "recursive self-improvement",
+    "reinforcement learning",
+    "GAE credit assignment",
+    "reward shaping",
+    "long-horizon agent"
+   ],
+   "field": "长程 Terminal Agent 强化学习",
+   "innovations": [
+    "递归 RSR-RPR 交替框架与 critic 继承 handoff",
+    "Turn-Boundary Skip-Observation GAE（TB-GAE）turn 级信用分配",
+    "FDR→SPR 两阶段奖励演化与固定轨迹离线重评分"
+   ],
+   "benchmarks": [
+    "Terminal-Bench 2.1",
+    "Terminal-Bench 3.0",
+    "Terminal-Bench 4.0",
+    "Terminal-Bench Hard",
+    "LHTB",
+    "SWR100"
+   ]
+  }
+ }
 }

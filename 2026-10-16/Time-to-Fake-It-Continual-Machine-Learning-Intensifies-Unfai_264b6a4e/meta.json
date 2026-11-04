@@ -4,5 +4,32 @@
  "title": "Time-to-Fake-It-Continual-Machine-Learning-Intensifies-Unfai",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-10-16 06:52:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/7b745963-25b3-48e2-a6eb-a273c8d14091.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/7b745963-25b3-48e2-a6eb-a273c8d14091.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:32:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Continual Learning",
+    "Deepfake Detection",
+    "Algorithmic Fairness",
+    "Demographic Parity",
+    "Catastrophic Forgetting"
+   ],
+   "field": "持续学习与公平性交叉研究",
+   "innovations": [
+    "首个按时间序列构建的深度伪造检测公平性基准（11任务）",
+    "揭示CL方法在保持准确率的同时加剧多维公平性退化",
+    "证明数据代表性不足仅部分解释不公平，表征学习过程同样关键"
+   ],
+   "benchmarks": [
+    "AI-Face-FairnessBench",
+    "FaceForensics++",
+    "DFD",
+    "CelebDF",
+    "DFDC"
+   ]
+  }
+ }
 }

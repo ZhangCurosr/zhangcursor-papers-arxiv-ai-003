@@ -4,5 +4,30 @@
  "title": "When-Is-Muon-Optimal-Radial-Fragility-and-Minimax-Geometry",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-10-16 18:05:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/e89b3cd9-b2cf-4b69-8906-3f8cef6107eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/e89b3cd9-b2cf-4b69-8906-3f8cef6107eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:36:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Muon",
+    "Isotropic Curvature Model",
+    "极因子优化",
+    "变分分析",
+    "随机半径模型",
+    "极小极大优化",
+    "谱几何"
+   ],
+   "field": "深度学习优化理论",
+   "innovations": [
+    "提出随机半径 ICM 及极因子容许集框架，揭示平均方向聚合下极因子最优性的径向脆弱性",
+    "证明无原子径向律下的零容量刚性（精确极因子最优性仅对缩放列等距成立）",
+    "建立 Minimax RR-ICM，以极小极大变分刻画 Muon 极方向的谱几何不变性"
+   ],
+   "benchmarks": [
+    "无数值实验"
+   ]
+  }
+ }
 }

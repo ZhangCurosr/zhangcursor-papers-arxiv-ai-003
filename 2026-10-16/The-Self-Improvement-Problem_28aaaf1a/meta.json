@@ -4,5 +4,27 @@
  "title": "The-Self-Improvement-Problem",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-10-16 06:53:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/fc2846a9-defe-4a8f-9c06-27cfc3aba446.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/fc2846a9-defe-4a8f-9c06-27cfc3aba446.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:32:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-improvement",
+    "computability theory",
+    "evaluator hacking",
+    "reward hacking",
+    "agent safety",
+    "formal verification",
+    "Kleene recursion theorem"
+   ],
+   "field": "AI 安全与可计算性理论交叉",
+   "innovations": [
+    "证明验证门控自改进在自指设定下不存在同时可靠且非保守的终止门控",
+    "在有界评估与有限提案预算下恢复可判定性",
+    "揭示有界域内多轮更新可导致真实评分漂移的结构性现象"
+   ]
+  }
+ }
 }

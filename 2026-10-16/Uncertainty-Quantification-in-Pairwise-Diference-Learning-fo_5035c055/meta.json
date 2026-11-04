@@ -4,5 +4,31 @@
  "title": "Uncertainty-Quantification-in-Pairwise-Diference-Learning-fo",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-10-16 18:08:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/ed89d852-e745-4ba2-b08e-ed29dfe0bfdc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/ed89d852-e745-4ba2-b08e-ed29dfe0bfdc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:34:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Pairwise Difference Learning",
+    "Uncertainty Quantification",
+    "Classification",
+    "Aleatoric Uncertainty",
+    "Epistemic Uncertainty",
+    "Meta-learning"
+   ],
+   "field": "机器学习不确定性量化",
+   "innovations": [
+    "将PDL扩展至多分类并系统构建AU/EU/TU分解的不确定性量化框架",
+    "提出UL/UP/ULP三种二阶不确定性表示策略，ULP对认知不确定性量化最优"
+   ],
+   "benchmarks": [
+    "OpenML 99个小规模分类数据集",
+    "Macro F1",
+    "Goodman-Kruskal Gamma秩相关",
+    "ECE校准误差"
+   ]
+  }
+ }
 }

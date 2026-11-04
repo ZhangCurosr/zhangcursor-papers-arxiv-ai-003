@@ -4,5 +4,31 @@
  "title": "What-do-AI-chatbots-do-after-users-decline-therapeutic-redir",
  "token": "sk-L0ZhgdlAv...",
  "created_at": "2026-10-16 06:51:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/657e8db9-c0ce-4853-8d46-32476edd5130.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/657e8db9-c0ce-4853-8d46-32476edd5130.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:35:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI chatbot safety",
+    "suicide ideation",
+    "therapeutic redirection",
+    "multi-turn audit",
+    "persistence evaluation",
+    "mental health AI"
+   ],
+   "field": "AI安全与心理健康",
+   "innovations": [
+    "首次系统量化AI聊天机器人在用户连续拒绝自杀转介后的多轮坚持度差异",
+    "发现同系列新版模型在拒绝场景中的坚持度显著退化",
+    "揭示低坚持度模型倾向于将自身定位为'用户支持来源'的替代机制"
+   ],
+   "benchmarks": [
+    "C-SSRS严重度分级",
+    "VERA-MH安全评估框架",
+    "QPR守门人培训原则对照"
+   ]
+  }
+ }
 }

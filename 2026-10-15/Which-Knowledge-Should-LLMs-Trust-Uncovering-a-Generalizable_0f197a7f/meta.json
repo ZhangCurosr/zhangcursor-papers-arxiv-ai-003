@@ -4,5 +4,41 @@
  "title": "Which-Knowledge-Should-LLMs-Trust-Uncovering-a-Generalizable",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-10-15 07:05:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/0d2a52e2-01fd-4e70-ab39-88cef829e398.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/0d2a52e2-01fd-4e70-ab39-88cef829e398.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:30:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge conflict",
+    "activation steering",
+    "residual stream",
+    "mechanistic interpretability",
+    "RAG",
+    "contextual knowledge",
+    "parameter knowledge"
+   ],
+   "field": "大语言模型机制可解释性与知识选择调控",
+   "innovations": [
+    "通过干净-冲突对比在残差流中提取可跨数据集迁移的知识选择方向",
+    "基于角分离自动定位干预层，无需下游评分循环",
+    "单向干预从受控事实冲突直接迁移至 RAG、多轮记忆与规则遵循任务并持续生效"
+   ],
+   "benchmarks": [
+    "NQ-Swap",
+    "MacNoise",
+    "ParaConflict",
+    "CounterFact",
+    "MemoTrap",
+    "RGB",
+    "CRAG",
+    "LoCoMo",
+    "LoCoMo-Plus",
+    "LongMemEval",
+    "IFEval",
+    "FollowBench"
+   ]
+  }
+ }
 }

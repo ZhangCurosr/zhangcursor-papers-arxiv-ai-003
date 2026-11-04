@@ -4,5 +4,32 @@
  "title": "ToolBottleneckBench-Measuring-Tool-Agent-Performance-under-C",
  "token": "sk-GAGmasUl1...",
  "created_at": "2026-10-16 06:53:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/8c771f1b-8074-43be-9830-7c6dad9a9eb2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/8c771f1b-8074-43be-9830-7c6dad9a9eb2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:33:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool agent",
+    "benchmark",
+    "harness effect",
+    "failure diagnosis",
+    "controlled experiment",
+    "function calling"
+   ],
+   "field": "LLM Agent Evaluation",
+   "innovations": [
+    "提出在固定 harness 预算下逐个施加 R/V/W/D 四种压力的匹配变体基准，实现压力效应的可归因测量",
+    "设计 failure record（首个未满足义务+终止标志）二元组，分离失败标签与终止原因",
+    "提出修复激活检验与跨配置切换的帕累托对照范式，证明仅 router 与 controller 两项修复胜过所有配置切换"
+   ],
+   "benchmarks": [
+    "ToolBottleneckBench",
+    "ToolSandbox",
+    "Harness-Bench",
+    "ToolMenuBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Shortcut-Sensitivity-in-Agent-Safety-Evaluations",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-10-16 06:50:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/c0817159-47d0-473e-97f0-83db72cbe24c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/c0817159-47d0-473e-97f0-83db72cbe24c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:58:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Safety",
+    "Benchmark Evaluation",
+    "Shortcut Learning",
+    "Guard Auditing",
+    "Paired Intervention",
+    "Tool Safety",
+    "Evaluation Artifacts"
+   ],
+   "field": "Agent 安全评估与基准审计",
+   "innovations": [
+    "三阶梯度捷径审计框架，将标签可预测性、观测关联与配对决策敏感性分层递进",
+    "首次在 LINUXARENA、AGENTDOJO-TRAJ 和 AGENTHARM-TRAJ 上系统暴露路径长度、工具名与评价单元三类捷径",
+    "在冻结 64 步 cohort 上用 interleaved 重复调用证明 Haiku 对 marker 和工具别名的配对敏感性"
+   ],
+   "benchmarks": [
+    "LINUXARENA",
+    "AGENTDOJO-TRAJ",
+    "AGENTHARM-TRAJ"
+   ]
+  }
+ }
 }

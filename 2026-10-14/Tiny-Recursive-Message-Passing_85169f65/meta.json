@@ -4,5 +4,32 @@
  "title": "Tiny-Recursive-Message-Passing",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-10-14 07:20:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/3a04c073-0bf1-438e-8ef6-b9ec47e50f27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/3a04c073-0bf1-438e-8ef6-b9ec47e50f27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:53:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "message passing neural networks",
+    "recursive reasoning",
+    "truncated gradients",
+    "constraint satisfaction",
+    "zero-shot generalization"
+   ],
+   "field": "图神经网络与算法推理",
+   "innovations": [
+    "将截断递归+深度监督+自适应停止适配到递归GNN",
+    "证明图结构编码与递归训练机制互补",
+    "提出离散格到消息传递模型的迁移"
+   ],
+   "benchmarks": [
+    "Sudoku-Extreme",
+    "Maze-Unique",
+    "N-Queens",
+    "G4SATBench",
+    "RandCSPBench"
+   ]
+  }
+ }
 }

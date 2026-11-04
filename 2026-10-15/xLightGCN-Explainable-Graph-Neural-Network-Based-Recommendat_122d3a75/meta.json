@@ -4,5 +4,28 @@
  "title": "xLightGCN-Explainable-Graph-Neural-Network-Based-Recommendat",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-10-15 18:09:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/7912fa5b-4bce-4b76-9a2a-4d7794fe398d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/7912fa5b-4bce-4b76-9a2a-4d7794fe398d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:57:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解释推荐系统",
+    "图神经网络",
+    "LightGCN",
+    "解释保真度",
+    "可信 AI",
+    "图卷积网络"
+   ],
+   "field": "可解释推荐系统",
+   "innovations": [
+    "利用LightGCN线性传播结构精确分解单次推荐贡献，避免近似/优化方法",
+    "提出理论保证的解释保真度度量F(u,i)，量化子图覆盖原始预测的比例"
+   ],
+   "benchmarks": [
+    "Gowalla POI推荐数据集"
+   ]
+  }
+ }
 }

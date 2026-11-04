@@ -4,5 +4,29 @@
  "title": "Who-s-Behind-the-Text-Robust-Model-Authorship-Attribution",
  "token": "sk-FmwWXAxnf...",
  "created_at": "2026-10-15 07:12:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/b59fbb50-5792-4a0b-aff5-0f005e6ffd36.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/b59fbb50-5792-4a0b-aff5-0f005e6ffd36.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:55:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Model Authorship Attribution",
+    "Likelihood-based Attribution",
+    "OOD Robustness",
+    "LoRA Adaptation",
+    "Machine-Generated Text"
+   ],
+   "field": "机器生成文本检测与溯源",
+   "innovations": [
+    "提出 ATLAS，通过源条件生成建模而非直接分类实现鲁棒 MAA",
+    "设计 token 级裁剪似然聚合策略防止极端 token 支配决策",
+    "发布 MAABench 基准，首次系统评估域偏移与版本偏移下的 MAA 性能"
+   ],
+   "benchmarks": [
+    "MAABench",
+    "OpenTuringBench"
+   ]
+  }
+ }
 }

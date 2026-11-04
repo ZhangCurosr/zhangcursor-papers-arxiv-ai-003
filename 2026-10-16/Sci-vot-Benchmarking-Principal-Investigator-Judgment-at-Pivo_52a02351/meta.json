@@ -4,5 +4,30 @@
  "title": "Sci-vot-Benchmarking-Principal-Investigator-Judgment-at-Pivo",
  "token": "sk-wUD9ZXHNo...",
  "created_at": "2026-10-16 18:08:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/b056576f-cdfb-4457-9cce-3b49025823a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/b056576f-cdfb-4457-9cce-3b49025823a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:58:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scientific judgment",
+    "benchmarking",
+    "LLM agents",
+    "AutoResearch",
+    "preference optimization",
+    "test-time scaling",
+    "re-trapping"
+   ],
+   "field": "AI 辅助科学研究与 agent 评估",
+   "innovations": [
+    "从真实科研纠正历史中提取248例PI判断案例并公开",
+    "发现并系统刻画re-trapping现象：增加推理努力反而导致错误回归",
+    "建立项目记录vs选项仅条件对照以量化长上下文的有害影响"
+   ],
+   "benchmarks": [
+    "SciPIvot"
+   ]
+  }
+ }
 }

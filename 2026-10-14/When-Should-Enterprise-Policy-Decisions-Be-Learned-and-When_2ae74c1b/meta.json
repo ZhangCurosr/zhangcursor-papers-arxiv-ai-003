@@ -4,5 +4,31 @@
  "title": "When-Should-Enterprise-Policy-Decisions-Be-Learned-and-When",
  "token": "sk-Wy5CGD3Z6...",
  "created_at": "2026-10-14 18:30:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e15de2d8-9b5d-4146-ac06-3cd2721cd8fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e15de2d8-9b5d-4146-ac06-3cd2721cd8fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:55:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "enterprise agent",
+    "policy decision",
+    "constrained decoding",
+    "test-time reasoning",
+    "structured generation",
+    "counterfactual benchmark"
+   ],
+   "field": "企业级Agent决策优化",
+   "innovations": [
+    "分离输出格式与推理时间的2×2因子实验设计",
+    "构建无人工标注的密封可执行基准",
+    "发现监督训练与推理时间的部分替代关系"
+   ],
+   "benchmarks": [
+    "EnterpriseOps-Blind-A",
+    "sealed 300-item benchmark",
+    "open re-rendering 248-item benchmark"
+   ]
+  }
+ }
 }

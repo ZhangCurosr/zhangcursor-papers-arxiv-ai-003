@@ -4,5 +4,31 @@
  "title": "When-More-Objectives-Make-Identification-Easier-The-Role-of",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-10-14 18:27:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e72d626b-c717-4d6f-b839-53547d78f65a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/e72d626b-c717-4d6f-b839-53547d78f65a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:54:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "best-arm identification",
+    "multi-objective bandits",
+    "Pareto preference",
+    "lexicographic preference",
+    "characteristic time",
+    "Track-and-Stop",
+    "fixed-confidence"
+   ],
+   "field": "多目标强化学习与纯探索",
+   "innovations": [
+    "建立统一特征时间下界，解耦偏好序/模型结构/反馈模型三因素",
+    "揭示多目标可加速识别：更大最优集更易识别、向量反馈M倍增益、优于单目标基线",
+    "提出OATS算法，渐近达到多目标特征时间下界"
+   ],
+   "benchmarks": [
+    "synthetic Gaussian bandits",
+    "HELM Instruct v1.0.0 LLM evaluation ratings"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Why-Do-Agent-Teams-Fail-Across-Boundaries-A-Failure-Taxonomy",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-10-15 18:10:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/d479e706-7e9e-4865-8e71-1a60b7d789f4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/d479e706-7e9e-4865-8e71-1a60b7d789f4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:55:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent-to-Agent",
+    "多智能体系统",
+    "失败分类法",
+    "跨边界交互",
+    "私有状态",
+    "多Agent评估"
+   ],
+   "field": "多Agent系统与Agent安全",
+   "innovations": [
+    "提出A²-Failures分类法：20种跨边界Agent交互失败模式，覆盖发现、定位、验证、行为四类",
+    "构建L0/L1/L2三层评估框架，区分环境状态、交付物正确性和Agent行为合规性",
+    "通过2500+运行记录揭示三个跨配置稳健发现：提示依赖型发现、零主动验证、聚合评分掩盖问责"
+   ],
+   "benchmarks": [
+    "488个场景，8个家族（Legal/CRM/Risk/Enterprise/SWE/Security/Commerce/Negotiation）",
+    "hf.co/datasets/a2asalesforce/a2-failures（开源运行日志）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Stronger-Judges-Do-Not-See-More-Deployment-Integrity-Blindne",
  "token": "sk-zzqRc1aqT...",
  "created_at": "2026-10-16 06:53:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/b753e102-9802-4cd7-b109-d0bb695b7482.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/b753e102-9802-4cd7-b109-d0bb695b7482.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:59:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM评估",
+    "部署完整性",
+    "盲点检测",
+    "DIB-Bench",
+    "身份验证",
+    "PAC学习理论",
+    "运行时栈",
+    "触发条件篡改"
+   ],
+   "field": "LLM安全与评估",
+   "innovations": [
+    "提出DIB-Bench基准，揭示评估器强度与盲区正相关",
+    "证明PAC二分定理，界定行为证据不可检测边界",
+    "提出分级部署身份描述符，推动评估报告包含运行时栈哈希"
+   ],
+   "benchmarks": [
+    "DIB-Bench",
+    "BFCL-simple",
+    "GSM8K",
+    "AgentDojo"
+   ]
+  }
+ }
 }

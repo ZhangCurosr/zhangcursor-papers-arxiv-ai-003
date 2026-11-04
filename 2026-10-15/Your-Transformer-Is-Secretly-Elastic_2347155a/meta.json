@@ -4,5 +4,31 @@
  "title": "Your-Transformer-Is-Secretly-Elastic",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-10-15 07:00:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/a4daa4d3-c447-4ab8-92ad-c000e3aac99f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/a4daa4d3-c447-4ab8-92ad-c000e3aac99f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:57:00",
+  "chunks": 3,
+  "meta": {
+   "keywords": [
+    "Elastic Inference",
+    "Differentiable Soft Pruning",
+    "Transformer Compression",
+    "Multi-Objective Optimization",
+    "Structured Pruning"
+   ],
+   "field": "高效 Transformer 推理",
+   "innovations": [
+    "可微分软剪枝在统一尺度上联合排序 MLP 神经元和注意力头重要性，无需重新训练即可构建弹性模型",
+    "Hessian 对角近似初始化显著提升细粒度剪枝收敛质量，优于 Wanda 和随机初始化",
+    "多目标联合优化使单一模型覆盖 5%-70% 连续稀疏预算，60% 稀疏度下精度较单目标优化提升 3.6%"
+   ],
+   "benchmarks": [
+    "ImageNet-1k k-NN",
+    "Pascal VOC 2012",
+    "MTEB v2 (41-task)",
+    "BEIR nDCG@10"
+   ]
+  }
+ }
 }

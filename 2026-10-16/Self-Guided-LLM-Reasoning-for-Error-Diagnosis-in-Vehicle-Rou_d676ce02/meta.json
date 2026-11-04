@@ -4,5 +4,32 @@
  "title": "Self-Guided-LLM-Reasoning-for-Error-Diagnosis-in-Vehicle-Rou",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-10-16 06:52:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/84e45087-8dae-424e-98d4-5fba2ed2e365.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/84e45087-8dae-424e-98d4-5fba2ed2e365.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:58:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM error diagnosis",
+    "vehicle routing problem",
+    "self-guided reasoning",
+    "combinatorial optimization",
+    "error detection",
+    "code generation as reasoning"
+   ],
+   "field": "大模型驱动的运筹优化诊断",
+   "innovations": [
+    "提出Self-Guided Reasoning框架，让LLM生成代码作为中间推理工具以卸载复杂约束计算",
+    "首次系统评估LLM在48种VRP变体上的实例错误检测能力边界",
+    "代码即推理链设计使EDR从<22%提升至>95%且保持低运行时开销"
+   ],
+   "benchmarks": [
+    "RouteFinder",
+    "CVRP",
+    "VRPTW",
+    "Bin Packing Problem"
+   ]
+  }
+ }
 }

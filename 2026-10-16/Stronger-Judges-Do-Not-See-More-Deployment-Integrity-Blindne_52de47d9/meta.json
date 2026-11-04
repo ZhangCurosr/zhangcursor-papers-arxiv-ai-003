@@ -4,5 +4,32 @@
  "title": "Stronger-Judges-Do-Not-See-More-Deployment-Integrity-Blindne",
  "token": "sk-zzqRc1aqT...",
  "created_at": "2026-10-16 18:07:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/d210c252-e440-46c5-820c-0777f0e27a9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/d210c252-e440-46c5-820c-0777f0e27a9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:59:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM evaluation integrity",
+    "deployment tampering",
+    "LLM judge",
+    "deployment identity",
+    "adversarial robustness",
+    "benchmark blindness"
+   ],
+   "field": "LLM 评估与可靠性",
+   "innovations": [
+    "揭示'越强评估器越盲'反直觉现象并提出DIB-Bench基准",
+    "建立PAC风格行为-身份二分化理论框架并形式化不可判定类",
+    "提出分级部署身份描述符作为评测报告的新增规范"
+   ],
+   "benchmarks": [
+    "DIB-Bench",
+    "BFCL-simple",
+    "GSM8K",
+    "AgentDojo"
+   ]
+  }
+ }
 }

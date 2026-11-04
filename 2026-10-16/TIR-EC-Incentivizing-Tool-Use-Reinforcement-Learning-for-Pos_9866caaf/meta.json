@@ -4,5 +4,29 @@
  "title": "TIR-EC-Incentivizing-Tool-Use-Reinforcement-Learning-for-Pos",
  "token": "sk-g1W7S8UIF...",
  "created_at": "2026-10-16 06:53:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/417e222c-906b-4d56-aec3-7fb6df2efed2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/417e222c-906b-4d56-aec3-7fb6df2efed2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 04:01:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EHR prediction",
+    "tool-integrated RL",
+    "clinical LLM",
+    "feature selection",
+    "reinforcement learning",
+    "emergency care"
+   ],
+   "field": "临床自然语言处理",
+   "innovations": [
+    "用树模型监督LLM进行EHR特征选择与数值解读",
+    "反向课程学习将临床技能内化到权重",
+    "发现特征选择与解读能力的协同提升"
+   ],
+   "benchmarks": [
+    "MC-MED"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "SKILL-DECOUPLED-ON-POLICY-EXPERT-DISTILLA-TION-FOR-UNIFIED-V",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-10-16 18:07:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/2f0796cf-05c5-46f9-895a-43d6fbcc7991.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/2f0796cf-05c5-46f9-895a-43d6fbcc7991.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:57:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Reinforcement Learning",
+    "Knowledge Distillation",
+    "Multimodal Capabilities",
+    "Skill Extraction",
+    "Gradient Interference"
+   ],
+   "field": "多模态大模型后训练",
+   "innovations": [
+    "提出技能解耦框架，将能力获取与集成分离以规避梯度冲突",
+    "基于奖励引导的轨迹反思提取显式技能，并在 on-policy 蒸馏中作为特权条件引导专家监督",
+    "通过 reverse KL 损失在非对称条件下统一多能力专家"
+   ],
+   "benchmarks": [
+    "CountBenchQA",
+    "PixMo-Count",
+    "CC-OCR V2",
+    "ChartQA",
+    "VisualPuzzles",
+    "We-Math",
+    "MUIRBench",
+    "MMSI-Bench"
+   ]
+  }
+ }
 }

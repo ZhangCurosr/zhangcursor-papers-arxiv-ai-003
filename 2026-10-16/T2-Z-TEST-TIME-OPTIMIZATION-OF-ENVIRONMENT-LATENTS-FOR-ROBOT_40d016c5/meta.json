@@ -4,5 +4,30 @@
  "title": "T2-Z-TEST-TIME-OPTIMIZATION-OF-ENVIRONMENT-LATENTS-FOR-ROBOT",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-10-16 18:06:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/01a84b35-fc3f-4330-8593-f50a87b300c0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/01a84b35-fc3f-4330-8593-f50a87b300c0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 04:00:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "robotic world model",
+    "test-time adaptation",
+    "environment latent",
+    "flow matching",
+    "system identification",
+    "robot manipulation"
+   ],
+   "field": "机器人世界模型与测试时适配",
+   "innovations": [
+    "提出无监督环境潜变量的测试时直接优化范式，无需预定义物理因子",
+    "交替优化世界模型与潜变量的训练机制，实现通用动力学与环境特异性解耦",
+    "仅用1条测试时交互轨迹即可有效适配新环境，交互效率极高"
+   ],
+   "benchmarks": [
+    "LIBERO simulator (7 tasks)",
+    "Real-world Franka tasks (4 tasks: Door Close, Ball Friction, Stick Balance, Soft Pull)"
+   ]
+  }
+ }
 }

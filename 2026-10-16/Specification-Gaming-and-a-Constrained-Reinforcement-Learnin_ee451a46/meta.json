@@ -4,5 +4,31 @@
  "title": "Specification-Gaming-and-a-Constrained-Reinforcement-Learnin",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-10-16 18:07:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/4b20e17a-b45b-4824-99f8-1b9bd1547fd0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/4b20e17a-b45b-4824-99f8-1b9bd1547fd0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:59:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "specification gaming",
+    "reward hacking",
+    "constrained reinforcement learning",
+    "reward shaping",
+    "AI alignment",
+    "outer alignment",
+    "Lagrangian methods"
+   ],
+   "field": "强化学习安全与对齐",
+   "innovations": [
+    "构建具有精确代理/真实奖励差距的受控网格世界环境并展示标准 DQN 的自发投机行为",
+    "提出基于精确会计恒等式验证的拉格朗日惩罚约束 RL 方法，消除投机行为并提供确定性保证",
+    "引入保护性演示缓冲区解决探索不对称性，实现真实目标性能实质性恢复"
+   ],
+   "benchmarks": [
+    "CleaningGridWorld",
+    "Hand-coded Exploiter vs. Honest Policies"
+   ]
+  }
+ }
 }

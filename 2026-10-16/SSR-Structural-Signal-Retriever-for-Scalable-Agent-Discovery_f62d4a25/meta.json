@@ -4,5 +4,32 @@
  "title": "SSR-Structural-Signal-Retriever-for-Scalable-Agent-Discovery",
  "token": "sk-dqq3c6Uup...",
  "created_at": "2026-10-16 18:07:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/8f7dbfa1-8f44-4c70-929e-1edb41eef3a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/8f7dbfa1-8f44-4c70-929e-1edb41eef3a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:58:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent discovery",
+    "candidate-context scalability",
+    "structural retrieval",
+    "SSR",
+    "LLM orchestration",
+    "inverted index",
+    "MS MARCO",
+    "multi-agent systems"
+   ],
+   "field": "多智能体系统中的检索与路由",
+   "innovations": [
+    "提出候选上下文可缩放性的系统级建模与分离度量",
+    "SSR: 从 Agent Card 字段提取结构词法信号并用 IDF+ISI 做确定性无训练检索",
+    "ISI 等价性保证: 仅排除零分候选，保留正分候选的原始排名与分数"
+   ],
+   "benchmarks": [
+    "SSR-AgentBench",
+    "MS MARCO Passage Ranking"
+   ]
+  }
+ }
 }

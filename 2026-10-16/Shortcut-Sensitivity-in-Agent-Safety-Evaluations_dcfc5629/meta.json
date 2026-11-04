@@ -4,5 +4,31 @@
  "title": "Shortcut-Sensitivity-in-Agent-Safety-Evaluations",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-10-16 18:04:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/d71a8d76-c57c-4579-818a-25c533964cf5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/d71a8d76-c57c-4579-818a-25c533964cf5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:58:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent safety",
+    "benchmark evaluation",
+    "shortcut learning",
+    "guardrail auditing",
+    "paired intervention",
+    "construct validity"
+   ],
+   "field": "AI安全评估与基准审计",
+   "innovations": [
+    "提出三级捷径审计框架（标签可预测性→观察性关联→配对决策敏感性）",
+    "首次在Agent安全Guard基准上实现配对编辑+安慰剂控制的因果验证",
+    "发现基准表示效应具有配置特异性（Haiku敏感而Luna不敏感）"
+   ],
+   "benchmarks": [
+    "LINUXARENA",
+    "AGENTDOJO-TRAJ",
+    "AGENTHARM-TRAJ"
+   ]
+  }
+ }
 }

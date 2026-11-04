@@ -4,5 +4,31 @@
  "title": "XferAgent-Cross-Agent-Experience-Transfer-for-Self-Improving",
  "token": "sk-kPtjfXaXd...",
  "created_at": "2026-10-15 07:07:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/fc87fc7a-eb6d-44bc-ab9b-3300aaa3fc88.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/fc87fc7a-eb6d-44bc-ab9b-3300aaa3fc88.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:55:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agents",
+    "Experience Transfer",
+    "Cross-Agent Learning",
+    "Memory-Augmented Reasoning",
+    "Graph-Based Retrieval",
+    "Self-Improving Agents"
+   ],
+   "field": "多智能体经验学习与知识共享",
+   "innovations": [
+    "跨智能体经验调和机制，通过语义相似度与类型匹配对齐异构贡献并避免不可靠合并",
+    "任务条件 PPR 路由，结合图传播与跨智能体历史结果统计构建连通经验子图",
+    "本地-共享经验融合排序，贝叶斯平滑融合本地观察与跨 Agent 先验结果"
+   ],
+   "benchmarks": [
+    "GAIA",
+    "ALFWorld",
+    "MBPP"
+   ]
+  }
+ }
 }

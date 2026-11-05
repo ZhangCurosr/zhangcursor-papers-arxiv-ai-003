@@ -4,5 +4,30 @@
  "title": "Whose-Credential-Is-It-How-Owner-Attribution-in-Agent-Memory",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-10-20 18:30:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/5dd6b40d-0ec2-4f9f-8f5d-e893420fabe7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/5dd6b40d-0ec2-4f9f-8f5d-e893420fabe7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:22:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent安全",
+    "长期记忆",
+    "跨用户凭证滥用",
+    "所有者归属标注",
+    "混淆副手",
+    "多用户Agent"
+   ],
+   "field": "多用户Agent记忆安全",
+   "innovations": [
+    "提出暴露-行为-状态三阶段审计框架量化跨用户凭证滥用链条",
+    "证明写入时所有者标注可将误用率从92降至1次（305对对照）",
+    "区分文本级安全杠杆与访问控制的互补关系"
+   ],
+   "benchmarks": [
+    "AppWorld",
+    "τ-bench retail"
+   ]
+  }
+ }
 }

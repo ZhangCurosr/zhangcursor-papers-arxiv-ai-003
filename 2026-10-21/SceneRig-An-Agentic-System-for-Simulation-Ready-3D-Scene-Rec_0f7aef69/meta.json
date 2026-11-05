@@ -4,5 +4,31 @@
  "title": "SceneRig-An-Agentic-System-for-Simulation-Ready-3D-Scene-Rec",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-10-21 07:20:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/3cc0b01d-2634-4de2-98ac-4e48eb6a71ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/3cc0b01d-2634-4de2-98ac-4e48eb6a71ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:23:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "real-to-sim",
+    "single-image 3D reconstruction",
+    "agentic system",
+    "robot simulation",
+    "physics-grounded pose refinement",
+    "open-loop trajectory replay"
+   ],
+   "field": "机器人仿真与 3D 场景重建",
+   "innovations": [
+    "提出 SceneRig 智能体系统，将 VLM 视觉推理与几何测量、PhysX 物理验证耦合，从单图重建 simulation-ready 3D 场景",
+    "设计 investigate-edit-validate 循环 + 有界 Move 工具（IoU/深度/DINOv2 多信号搜索 + 物理稳定验收），显著提升 3D 摆放精度",
+    "引入确定性 check_rules gate 与 per-object state prompt caching，使 84.1% 输入 token 命中缓存并减少无效迭代"
+   ],
+   "benchmarks": [
+    "80-scene tabletop benchmark (44 simulator-grounded + 36 diverse)",
+    "π₀.₅ / LingBot-VLA 2.0 real-to-sim policy evaluation (50 episodes/policy)",
+    "Open-loop trajectory replay (25 teleoperated demonstrations)"
+   ]
+  }
+ }
 }

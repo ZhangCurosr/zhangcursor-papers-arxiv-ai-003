@@ -4,5 +4,31 @@
  "title": "When-Is-Smaller-Greener-Right-Sizing-Language-Models-for-Age",
  "token": "sk-9GUbCO4kb...",
  "created_at": "2026-10-15 18:10:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/a83106af-7dbe-4ed5-af89-1e66ea78a3d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/a83106af-7dbe-4ed5-af89-1e66ea78a3d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:17:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-criteria decision analysis",
+    "Agentic AI",
+    "Sustainable AI",
+    "Model selection",
+    "Life-cycle assessment",
+    "Pareto efficiency",
+    "Language model routing"
+   ],
+   "field": "绿色AI / Agent系统效率优化",
+   "innovations": [
+    "以成功完成任务为功能单元构建多目标决策框架，推导每种资源存在唯一crossover任务长度并将任务划分为三regime",
+    "提出两阶段无偏好帕累托筛选+偏好加权选择的分层决策流程",
+    "在15个开源模型、两类多步Agent任务上实测验证crossover结构与绿色模型随任务长度单调切换"
+   ],
+   "benchmarks": [
+    "τ-bench",
+    "Berkeley Function Calling Leaderboard (BFCL)"
+   ]
+  }
+ }
 }

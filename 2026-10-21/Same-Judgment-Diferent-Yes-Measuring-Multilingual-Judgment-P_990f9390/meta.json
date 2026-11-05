@@ -4,5 +4,36 @@
  "title": "Same-Judgment-Diferent-Yes-Measuring-Multilingual-Judgment-P",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-10-21 18:33:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/d2d2fa63-0938-48b0-95ef-10c6bdd8a46a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/d2d2fa63-0938-48b0-95ef-10c6bdd8a46a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:23:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual evaluation",
+    "yes/no ambiguity",
+    "negative interrogative",
+    "moral judgment",
+    "LLM benchmarking",
+    "answer habit",
+    "residual profile",
+    "FAR-6 battery"
+   ],
+   "field": "多语言大模型评估与可解释性",
+   "innovations": [
+    "FAR-6电池同时操控问句形式×回答约束×判读方式并做双重判读以分离判断与答题习惯",
+    "跨语言consensus-removed残差画像在39/48细胞上实现无需分类器的模型身份识别",
+    "定量分解s-b判断共享分与yes/no keying bias三种答题习惯"
+   ],
+   "benchmarks": [
+    "Moral Foundations Vignettes (Clifford et al., 2015)",
+    "Claude/Sonnet/Opus 5",
+    "GPT-6 luna/sol",
+    "Gemini 3.1 Flash-Lite",
+    "Qwen3.8-27B",
+    "Mistral Medium 3.5"
+   ]
+  }
+ }
 }

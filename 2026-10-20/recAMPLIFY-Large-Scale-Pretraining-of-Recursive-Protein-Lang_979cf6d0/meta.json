@@ -4,5 +4,35 @@
  "title": "recAMPLIFY-Large-Scale-Pretraining-of-Recursive-Protein-Lang",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-10-20 18:28:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/fb7135ba-b88a-47d0-a911-062c108b0208.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/fb7135ba-b88a-47d0-a911-062c108b0208.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:23:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "protein language models",
+    "test-time scaling",
+    "recursive transformers",
+    "adaptive computation",
+    "GMR",
+    "protein structure prediction"
+   ],
+   "field": "蛋白质语言模型与计算扩展",
+   "innovations": [
+    "提出recAMPLIFY递归预训练框架，以56%更少参数实现与AMPLIFY-350M竞争的性能",
+    "设计GMR门控混合递归统一暂停与残差门控，实现自适应测试时计算",
+    "揭示递归暂停深度编码序列熵和疏水性等可解释生物信号"
+   ],
+   "benchmarks": [
+    "CASP16 contact recovery",
+    "ProteinGym DMS",
+    "KL calibration",
+    "Fold prediction",
+    "Localization prediction",
+    "Stability prediction",
+    "Secondary structure prediction"
+   ]
+  }
+ }
 }

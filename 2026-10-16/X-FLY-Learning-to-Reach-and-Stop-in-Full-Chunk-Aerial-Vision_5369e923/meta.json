@@ -4,5 +4,10 @@
  "title": "X-FLY-Learning-to-Reach-and-Stop-in-Full-Chunk-Aerial-Vision",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-10-16 18:07:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/3a208e5d-eb30-43b7-bc5f-524cf3f49720.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/3a208e5d-eb30-43b7-bc5f-524cf3f49720.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:19:56",
+  "chunks": 1
+ }
 }

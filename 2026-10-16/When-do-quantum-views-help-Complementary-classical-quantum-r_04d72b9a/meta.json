@@ -4,5 +4,37 @@
  "title": "When-do-quantum-views-help-Complementary-classical-quantum-r",
  "token": "sk-t5rU5DeOT...",
  "created_at": "2026-10-16 06:50:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/ade9a067-ca5e-409a-9b22-6984a740d835.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/ade9a067-ca5e-409a-9b22-6984a740d835.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:19:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quantum machine learning",
+    "multi-view fusion",
+    "classical-quantum representation",
+    "variational quantum circuit",
+    "complementary features",
+    "attention pooling",
+    "benchmarking"
+   ],
+   "field": "量子机器学习 / 多视图融合",
+   "innovations": [
+    "提出经典-量子多视角互补性诊断框架，通过受控角-多项式任务分离单视图充分性与互补依赖",
+    "设计经典替换(Att-C)和量子屏蔽(Q-mask)归因对照，精确量化量子视图的增量贡献",
+    "系统性比较拼接/注意力/潜变量/晚期四种融合阶段在五基准数据集上的表现差异"
+   ],
+   "benchmarks": [
+    "Wine",
+    "Wisconsin Diagnostic Breast Cancer (WDBC)",
+    "Fashion-MNIST (三分类子集)",
+    "Steel Plates Faults",
+    "Covertype (三分类子集)",
+    "Digits (900样本子集)",
+    "Multiple Features",
+    "Caltech-UCSD Birds (CUB) 图像-文本基准"
+   ]
+  }
+ }
 }

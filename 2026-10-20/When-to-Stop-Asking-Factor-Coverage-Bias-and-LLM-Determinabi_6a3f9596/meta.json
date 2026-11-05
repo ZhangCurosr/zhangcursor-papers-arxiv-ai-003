@@ -4,5 +4,34 @@
  "title": "When-to-Stop-Asking-Factor-Coverage-Bias-and-LLM-Determinabi",
  "token": "sk-FmwWXAxnf...",
  "created_at": "2026-10-20 07:18:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/53ca31ec-18c0-4cb0-8d41-a77bc8d917b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/53ca31ec-18c0-4cb0-8d41-a77bc8d917b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:21:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "factor coverage bias",
+    "LLM trustworthiness",
+    "determinability judgment",
+    "clinical reasoning",
+    "information sufficiency",
+    "LLM bias",
+    "medical benchmark"
+   ],
+   "field": "LLM可信性与医学推理评估",
+   "innovations": [
+    "定义并实证验证因子覆盖偏差，证明其独立于上下文长度效应",
+    "构建可控配对基准测试，通过独立操纵相关因子与无关文本分离偏差来源",
+    "揭示因子覆盖偏差对推理努力的免疫性与上下文长度效应的可缓解性差异"
+   ],
+   "benchmarks": [
+    "15个临床评分系统合成基准",
+    "CHA2DS2-VASc Score",
+    "CHADS2 Score",
+    "CURB-65 Score",
+    "HAS-BLED Score"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "When-Coding-Agents-Outpace-Review-Evaluating-PRD-Driven-Deve",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-10-20 18:22:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/d03d309f-d8b1-494a-a301-1afbf932dffc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/d03d309f-d8b1-494a-a301-1afbf932dffc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:21:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PACE-Bench",
+    "PRD-driven development",
+    "coding agent evaluation",
+    "acceptance criteria",
+    "brownfield repository",
+    "LLM-as-a-judge",
+    "harness refinement"
+   ],
+   "field": "代码生成代理评估与基准测试",
+   "innovations": [
+    "提出噪声过滤双向准则合成与三层（L0/L1/L2）语义评估协议，实现 PRD 级可审计打分",
+    "构建面向企业成熟仓库的 PACE-Bench 基准，43 任务 750 专家审计 Code Points，揭示不完整实现与缺失集成为主要瓶颈",
+    "建立症状-信号归因框架，将接受损失与轨迹信号联动，指导 harness 迭代并验证诊断闭环有效性"
+   ],
+   "benchmarks": [
+    "PACE-Bench"
+   ]
+  }
+ }
 }

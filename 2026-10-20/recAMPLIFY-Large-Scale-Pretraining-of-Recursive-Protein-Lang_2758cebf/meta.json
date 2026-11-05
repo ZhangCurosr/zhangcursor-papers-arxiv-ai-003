@@ -4,5 +4,33 @@
  "title": "recAMPLIFY-Large-Scale-Pretraining-of-Recursive-Protein-Lang",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-10-20 07:17:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/415acf48-9fde-4313-8e0c-c93eccaecec0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/415acf48-9fde-4313-8e0c-c93eccaecec0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:23:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "protein language models",
+    "recursive pretraining",
+    "test-time scaling",
+    "adaptive computation",
+    "Gated Mixture Recurrence",
+    "masked language modeling",
+    "protein representation learning"
+   ],
+   "field": "蛋白质语言模型与自适应计算",
+   "innovations": [
+    "首次将权重绑定递归预训练适配到掩码蛋白质语言模型，分离有效深度与唯一参数",
+    "提出GMR统一自监督停止与残差门控，实现自适应递归计算",
+    "揭示停止深度编码序列组成熵与疏水性等可解释生物学信号"
+   ],
+   "benchmarks": [
+    "ProteinGym DMS",
+    "CASP16 Contact Recovery",
+    "KL Calibration",
+    "18-task TAPE/FLIP Benchmark"
+   ]
+  }
+ }
 }

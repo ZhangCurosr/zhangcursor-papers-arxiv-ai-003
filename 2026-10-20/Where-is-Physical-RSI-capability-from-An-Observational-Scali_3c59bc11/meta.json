@@ -4,5 +4,31 @@
  "title": "Where-is-Physical-RSI-capability-from-An-Observational-Scali",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-10-20 18:23:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/ed01990f-e707-4b2a-b0f7-ecb14e478f0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/ed01990f-e707-4b2a-b0f7-ecb14e478f0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:22:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "physical recursive self-improvement",
+    "LLM-as-policy",
+    "embodied agent",
+    "scaling laws",
+    "VLM evaluation",
+    "robot manipulation",
+    "observational scaling"
+   ],
+   "field": "具身智能与 LLM Agent 评估",
+   "innovations": [
+    "提出五轴指标体系分离首次尝试表现、改进效率、最终得分、预算节省和失败恢复，避免单一终点分掩盖改进过程差异",
+    "提出物理木桶假设并通过六个 VLM 的实证分析揭示空间推理、感知与编程对改进不同维度的差异化约束",
+    "建立观测缩放规律：用公共 benchmark 能力 rank 预测跨模型物理改进排序，用早期轨迹拟合 Weibull 模板实现少轮次预测多轮次"
+   ],
+   "benchmarks": [
+    "PhysRSI-eval",
+    "RoboDojo"
+   ]
+  }
+ }
 }

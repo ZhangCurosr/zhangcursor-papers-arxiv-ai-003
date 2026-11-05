@@ -4,5 +4,39 @@
  "title": "Sage-A1-5-From-Long-Horizon-Execution-to-Scientific-Explorat",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-10-21 18:30:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/e0ea0664-fbd6-4a49-88e9-92bdc72c93da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/e0ea0664-fbd6-4a49-88e9-92bdc72c93da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:23:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic Model",
+    "Long-horizon Reasoning",
+    "Capability Composition",
+    "Scientific Discovery",
+    "Reinforcement Learning",
+    "Multi-agent Orchestration",
+    "Unified Post-training"
+   ],
+   "field": "智能体长周期推理与科学发现",
+   "innovations": [
+    "提出自适应智能体执行框架，将任务编排与验证内化为模型能力而非依赖外部固定规则",
+    "构建统一结果-过程后训练管线，动态分配多领域RL奖励与多教师过程监督权重",
+    "展示从孤立任务求解到开放科学发现的范式转变，35B模型匹敌万亿参数级模型"
+   ],
+   "benchmarks": [
+    "FS-O",
+    "FS-R",
+    "BrowseComp",
+    "SWE-Bench Pro",
+    "MLE-Bench Lite",
+    "HLE w/ tools",
+    "CMT",
+    "CritPt",
+    "DeepResearch Bench II",
+    "PinchBench"
+   ]
+  }
+ }
 }

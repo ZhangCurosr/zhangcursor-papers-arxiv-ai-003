@@ -4,5 +4,32 @@
  "title": "Who-s-Behind-the-Text-Robust-Model-Authorship-Attribution",
  "token": "sk-FmwWXAxnf...",
  "created_at": "2026-10-15 18:12:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/3e90f413-2cf9-4d0a-9776-060fe9c30c27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/3e90f413-2cf9-4d0a-9776-060fe9c30c27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:17:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Model Authorship Attribution",
+    "Likelihood-based Attribution",
+    "Distribution Shift",
+    "Source-Conditioned Modeling",
+    "Clipped Likelihood",
+    "MAA Benchmark",
+    "Distillation Tracing",
+    "Robust Text Attribution"
+   ],
+   "field": "模型溯源与AI安全",
+   "innovations": [
+    "提出ATLAS似然归因框架，通过源条件文本建模替代直接分类实现鲁棒归属",
+    "设计token级截断似然聚合机制防止极端token主导决策",
+    "构建MAABench基准系统评估domain和version联合偏移"
+   ],
+   "benchmarks": [
+    "MAABench",
+    "OpenTuringBench"
+   ]
+  }
+ }
 }

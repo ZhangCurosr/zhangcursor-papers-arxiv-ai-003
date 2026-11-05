@@ -4,5 +4,32 @@
  "title": "X-FLY-Learning-to-Reach-and-Stop-in-Full-Chunk-Aerial-Vision",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-10-16 06:55:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/3124943e-a760-41cb-9e36-c3e441ec21ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/3124943e-a760-41cb-9e36-c3e441ec21ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:20:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Navigation",
+    "Action Chunking",
+    "Flow Matching",
+    "Imitation Learning",
+    "Reinforcement Learning",
+    "Aerial Robotics",
+    "DAgger",
+    "Embodied AI"
+   ],
+   "field": "视觉语言导航与具身决策",
+   "innovations": [
+    "Recovery DAgger在learner-visited决策锚点以smoothstep偏移衰减构造恢复chunk并在到达点标注停止信号",
+    "Flow-GRPO联合优化chunked flow controller与Bernoulli停止策略并引入低频余弦探索噪声",
+    "将SR分解为reachability与termination失败以精确定位全chunk执行的瓶颈"
+   ],
+   "benchmarks": [
+    "OpenFly test-seen",
+    "OpenFly test-unseen"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "When-Retrieval-Partially-Conflicts-with-Skills-Understanding",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-10-20 07:14:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/b02ff18f-25c5-4a0d-93f5-888571feaa2a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/b02ff18f-25c5-4a0d-93f5-888571feaa2a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:21:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "procedural hallucination",
+    "retrieval conflict",
+    "skill execution",
+    "mechanistic interpretability",
+    "SOURCECLASH",
+    "value vectors",
+    "activation patching"
+   ],
+   "field": "检索增强与技能执行的可解释性",
+   "innovations": [
+    "提出SOURCECLASH匹配基准刻画技能执行中检索部分冲突导致的程序性幻觉",
+    "定位到生成初期残差状态为程序性幻觉的因果高杠杆点",
+    "证明值向量而非注意力权重承载了主要的冲突效应"
+   ],
+   "benchmarks": [
+    "SOURCECLASH"
+   ]
+  }
+ }
 }

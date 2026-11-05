@@ -4,5 +4,29 @@
  "title": "Why-Shallow-Neural-Networks-Learn-Sinusoidal-Components-Firs",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-10-16 06:46:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/7679b65d-58cf-43c3-92db-25fff4921723.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/7679b65d-58cf-43c3-92db-25fff4921723.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:19:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spectral bias",
+    "orthogonal polynomials",
+    "gradient dynamics",
+    "generalized Fourier series",
+    "neural network theory",
+    "frequency principle"
+   ],
+   "field": "神经网络理论分析",
+   "innovations": [
+    "提出基于正交多项式GFS的无混叠谱偏差理论框架，统一解释任意激活函数的先学低频现象",
+    "揭示梯度下降动力学矩阵H的分级结构H=DBD，给出特征值衰减的严格上界",
+    "建立H矩阵与损失Hessian、ELM核矩阵的特征值等价性，统一多个相关问题的分析视角"
+   ],
+   "benchmarks": [
+    "理论推导型论文，无传统Benchmark"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "When-Reasoning-Is-Not-Enough-Proactive-Inquiry-for-Cross-Mod",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-10-16 18:05:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/be05ee61-50ed-4f79-8d18-5824340df800.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/be05ee61-50ed-4f79-8d18-5824340df800.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:19:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal LLM safety",
+    "cross-modal alignment",
+    "proactive inquiry",
+    "risk-conditioned uncertainty",
+    "chain-of-thought safety",
+    "multi-turn dialogue safety"
+   ],
+   "field": "多模态大模型安全对齐",
+   "innovations": [
+    "提出风险条件不确定性（RCU）信号统一路径优化与主动询问",
+    "构建 SSUI-Dialog 跨模态多轮安全澄清数据集",
+    "设计安全主导的复合奖励与过拒绝惩罚机制"
+   ],
+   "benchmarks": [
+    "USBBench",
+    "MSSBench",
+    "MLLMGuard",
+    "SafeBench",
+    "VLSBench",
+    "SSUI-Dialog",
+    "MOSSBench"
+   ]
+  }
+ }
 }

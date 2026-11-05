@@ -4,5 +4,32 @@
  "title": "TRACER-A-MULTIMODAL-HARNESS-FOR-PATIENT-CARE-IN-HOSPITALS",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-10-16 18:07:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/82694671-2802-4251-9376-eec3bdfc9fec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/82694671-2802-4251-9376-eec3bdfc9fec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:17:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-video understanding",
+    "multimodal harness",
+    "ICU monitoring",
+    "clinical agents",
+    "action detection",
+    "electronic health records",
+    "zero-shot video reasoning"
+   ],
+   "field": "多模态纵向视频理解与临床 AI",
+   "innovations": [
+    "免训练多模态 harness 实现多天 ICU 患者轨迹的零样本原子动作检测与纵向推理",
+    "结构化分钟级动作标签+小时级报告的时间层级抽象替代全量上下文输入",
+    "TRAJECTORY-144 首个跨天多模态 ICU 推理基准"
+   ],
+   "benchmarks": [
+    "Perception Benchmark (397 clips, 15 atomic actions)",
+    "TRAJECTORY-144 (144 MCQs, 264 hours video+EHR)",
+    "Cohort Delirium Analysis (280 patients, ~60,000 camera-hours)"
+   ]
+  }
+ }
 }

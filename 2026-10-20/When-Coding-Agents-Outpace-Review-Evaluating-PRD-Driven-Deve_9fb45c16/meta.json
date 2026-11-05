@@ -4,5 +4,30 @@
  "title": "When-Coding-Agents-Outpace-Review-Evaluating-PRD-Driven-Deve",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-10-20 07:15:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/3bf1e94e-57f6-4ec7-9616-12c23c41d0b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/3bf1e94e-57f6-4ec7-9616-12c23c41d0b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:21:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PRD-driven development",
+    "coding agent evaluation",
+    "brownfield repositories",
+    "acceptance criteria synthesis",
+    "layered evaluation protocol",
+    "agent diagnosis",
+    "benchmark construction"
+   ],
+   "field": "代码Agent基准测试与评估",
+   "innovations": [
+    "双向准则合成与冻结合约实现可审计的PRD验收评估",
+    "三层协议（L0/L1/L2）平衡机械验证与语义判断，达成95.2%专家一致",
+    "诊断‑改进闭环：通过固定套件评估harness迭代，三轮性能提升3.67分"
+   ],
+   "benchmarks": [
+    "PACE-Bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "When-Retrieval-Partially-Conflicts-with-Skills-Understanding",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-10-20 18:24:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/3b3dccc2-97bf-4040-b503-ca10477c11df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/3b3dccc2-97bf-4040-b503-ca10477c11df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:21:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "procedural hallucination",
+    "retrieval-augmented generation",
+    "agent skill execution",
+    "mechanistic interpretability",
+    "value vector intervention",
+    "partial conflict"
+   ],
+   "field": "大语言模型检索增强与技能执行",
+   "innovations": [
+    "提出SOURCECLASH基准系统化评估部分检索冲突下的程序幻觉",
+    "通过残差替换和注意力分解定位冲突信息的早期生成因果路径",
+    "证明值向量而非注意力权重是检索冲突信息的主要载体"
+   ],
+   "benchmarks": [
+    "SOURCECLASH"
+   ]
+  }
+ }
 }

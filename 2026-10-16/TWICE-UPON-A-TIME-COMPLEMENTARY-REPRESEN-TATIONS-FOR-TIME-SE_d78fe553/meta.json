@@ -4,5 +4,30 @@
  "title": "TWICE-UPON-A-TIME-COMPLEMENTARY-REPRESEN-TATIONS-FOR-TIME-SE",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-10-16 06:48:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/287fb6fa-d876-47e9-95a4-a6c8a6632d6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/287fb6fa-d876-47e9-95a4-a6c8a6632d6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:18:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "time series language models",
+    "complementary representations",
+    "delay embedding",
+    "vision-language models",
+    "temporal reasoning"
+   ],
+   "field": "时间序列语言模型",
+   "innovations": [
+    "提出互补表示作为TSLM设计原则，通过线图与归一化延迟嵌入双视图提升推理能力",
+    "设计双塔架构结合DINOv3专用编码器与Qwen3-VL原生编码器，经DeepStack多级融合注入LLM",
+    "8B模型在TSRBench达53.2%准确率，超越最强专用TSLM基线16.5个百分点"
+   ],
+   "benchmarks": [
+    "TSRBench",
+    "TSExam",
+    "ChatTS"
+   ]
+  }
+ }
 }

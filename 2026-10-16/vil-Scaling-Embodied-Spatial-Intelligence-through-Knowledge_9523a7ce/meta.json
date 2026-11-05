@@ -4,5 +4,37 @@
  "title": "vil-Scaling-Embodied-Spatial-Intelligence-through-Knowledge",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-10-16 18:05:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/512876c6-f2e8-4b65-b670-b2523cf0598a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/512876c6-f2e8-4b65-b670-b2523cf0598a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:20:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied spatial intelligence",
+    "knowledge recirculation",
+    "multi-teacher distillation",
+    "on-policy distillation",
+    "spatial grounding",
+    "scene-aligned benchmark",
+    "failure-driven repair"
+   ],
+   "field": "具身空间智能与多模态学习",
+   "innovations": [
+    "语义优先故障路由：按拓扑序选定首个决定性失败阶段进行定向教师蒸馏",
+    "知识循环框架：学生模型输出辅助数据飞轮验证与修复，形成数据-模型协同迭代闭环",
+    "11种Ground-Relation-Act原语的场景对齐接口：通过共享实体与任务依赖图统一跨形式监督"
+   ],
+   "benchmarks": [
+    "CV-Bench",
+    "EmbSpatial",
+    "RefSpatial",
+    "W2P",
+    "BLINK Depth",
+    "ERQA",
+    "VABench-Point",
+    "ANVIL-EVAL"
+   ]
+  }
+ }
 }

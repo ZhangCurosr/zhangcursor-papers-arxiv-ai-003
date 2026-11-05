@@ -4,5 +4,34 @@
  "title": "TRACE-Topology-Aware-Reconnection-via-Prediction-Adaptive-Co",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-10-16 07:00:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/dacd87bc-bd8a-46f1-a1bf-747b19fd45d9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/dacd87bc-bd8a-46f1-a1bf-747b19fd45d9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:17:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "thin-structure segmentation",
+    "topology-aware loss",
+    "skeleton supervision",
+    "connectivity bottleneck",
+    "TASC",
+    "prediction-adaptive reconnection"
+   ],
+   "field": "医学图像薄结构分割与拓扑感知损失",
+   "innovations": [
+    "将骨架监督从固定中心线转换为预测自适应的局部重连瓶颈监督",
+    "提出TASC，在前景并集与单类双空间同时保持拓扑的类标签骨架载体",
+    "基于中心对数边际的瓶颈候选排序与有界RMS结构惩罚"
+   ],
+   "benchmarks": [
+    "DRIVE",
+    "DeepCrack",
+    "DeepGlobe Roads",
+    "DSCA",
+    "MSD Hepatic Vessel",
+    "TopCoW"
+   ]
+  }
+ }
 }

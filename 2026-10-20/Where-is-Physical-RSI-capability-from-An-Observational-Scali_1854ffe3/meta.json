@@ -4,5 +4,30 @@
  "title": "Where-is-Physical-RSI-capability-from-An-Observational-Scali",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-10-20 07:16:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/3af9b82a-ac24-4fb6-b17b-33d97a6f7e80.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/3af9b82a-ac24-4fb6-b17b-33d97a6f7e80.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:22:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "physical recursive self-improvement",
+    "LLM-as-policy",
+    "embodied agent",
+    "scaling law",
+    "multi-axis evaluation",
+    "robust manipulation"
+   ],
+   "field": "具身智能体评估与自我改进",
+   "innovations": [
+    "提出PhysRSI-eval基准与五轴指标分离初次表现/改进时机/成功度/预算/失败恢复",
+    "提出物理木桶假说揭示不同改进维度的异质能力瓶颈",
+    "建立从公开能力分数和早期物理反馈预测改进轨迹的观测缩放方法"
+   ],
+   "benchmarks": [
+    "PhysRSI-eval",
+    "RoboDojo"
+   ]
+  }
+ }
 }

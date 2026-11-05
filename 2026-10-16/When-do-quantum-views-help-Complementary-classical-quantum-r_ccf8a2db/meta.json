@@ -4,5 +4,35 @@
  "title": "When-do-quantum-views-help-Complementary-classical-quantum-r",
  "token": "sk-t5rU5DeOT...",
  "created_at": "2026-10-16 18:06:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/f74219b9-3b9c-4e63-a1e1-7f611c4cc504.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/f74219b9-3b9c-4e63-a1e1-7f611c4cc504.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:19:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quantum machine learning",
+    "multi-view fusion",
+    "complementarity",
+    "hybrid classical-quantum",
+    "feature representation"
+   ],
+   "field": "量子机器学习与多视图融合",
+   "innovations": [
+    "提出保留输入的经典-量子多视图互补性诊断框架",
+    "通过控制实验分离表示对齐与融合规则对预测增益的贡献",
+    "在合成与基准任务上验证量子特征仅在目标关系互补时提供显著增益"
+   ],
+   "benchmarks": [
+    "Wine",
+    "Wisconsin Diagnostic Breast Cancer",
+    "Fashion-MNIST",
+    "Steel Plates Faults",
+    "Digits",
+    "Covertype",
+    "Multiple Features",
+    "Caltech-UCSD Birds"
+   ]
+  }
+ }
 }

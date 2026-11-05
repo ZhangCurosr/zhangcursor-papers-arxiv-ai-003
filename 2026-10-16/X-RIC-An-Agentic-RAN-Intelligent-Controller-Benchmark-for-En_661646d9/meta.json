@@ -4,5 +4,33 @@
  "title": "X-RIC-An-Agentic-RAN-Intelligent-Controller-Benchmark-for-En",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-10-16 18:04:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/f5555143-d53e-4457-a65a-a3c859e46547.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/f5555143-d53e-4457-a65a-a3c859e46547.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:20:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "O-RAN",
+    "Agentic AI",
+    "Behavioral Cloning",
+    "Network Slicing",
+    "Near-RT RIC",
+    "Reinforcement Learning",
+    "Telecom LLM",
+    "Resource Allocation"
+   ],
+   "field": "O-RAN智能控制器与AI原生RAN",
+   "innovations": [
+    "提出X-RIC框架，首次将Agentic AI与RL结合实现可解释、样本高效的O-RAN近实时控制",
+    "设计双过滤自动演示收集机制，消除人工标注依赖并提升BC样本效率",
+    "提出BARX评估框架，从延迟、合规性、确定性和策略影响四维度评估Agentic RAN控制"
+   ],
+   "benchmarks": [
+    "BARX",
+    "SLA-aware Network Slicing",
+    "OpenAirInterface O-RAN Testbed"
+   ]
+  }
+ }
 }

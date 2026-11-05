@@ -4,5 +4,27 @@
  "title": "Why-Shallow-Neural-Networks-Learn-Sinusoidal-Components-Firs",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-10-16 18:04:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/bf56069c-bc6c-4803-8cb1-870076972c4e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/bf56069c-bc6c-4803-8cb1-870076972c4e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:19:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "频谱偏差",
+    "正交多项式",
+    "广义傅里叶级数",
+    "动力学矩阵",
+    "NTK",
+    "浅层神经网络",
+    "F-principle"
+   ],
+   "field": "神经网络理论/学习动力学",
+   "innovations": [
+    "建立正交多项式GFS框架，将谱偏差转化为动力学矩阵H的谱分析问题，消除有限域傅里叶混叠效应",
+    "证明H的分级矩阵结构H=DBD，统一推导任意激活函数下特征值的指数/多项式衰减上界",
+    "揭示H与损失Hessian特征值等价，将频谱偏差、损失景观平坦性与ELM数值秩缺陷统一解释"
+   ]
+  }
+ }
 }

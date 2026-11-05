@@ -4,5 +4,31 @@
  "title": "Whose-Credential-Is-It-How-Owner-Attribution-in-Agent-Memory",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-10-20 07:20:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/5a96bbee-12e6-41b5-a9f7-787fc7f460e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-20/5a96bbee-12e6-41b5-a9f7-787fc7f460e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:22:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Memory",
+    "Cross-user Misuse",
+    "Owner Attribution",
+    "Prompt Formatting",
+    "Agent Security",
+    "Confused Deputy",
+    "Credential Leakage"
+   ],
+   "field": "Agent安全与多用户隔离",
+   "innovations": [
+    "提出暴露-行为-状态三阶段审计框架，将危害可分解度量",
+    "证明凭证文本的所有者归属标注可将误用从92降至1/305对跑",
+    "揭示错误所有者标注比无归属更危险，归属必须来自可信来源"
+   ],
+   "benchmarks": [
+    "AppWorld",
+    "τ-bench retail"
+   ]
+  }
+ }
 }

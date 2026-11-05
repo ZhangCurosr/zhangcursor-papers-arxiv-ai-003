@@ -4,5 +4,35 @@
  "title": "vil-Scaling-Embodied-Spatial-Intelligence-through-Knowledge",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-10-16 06:48:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/d027e92f-3430-4228-bb54-ab51e513633c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/d027e92f-3430-4228-bb54-ab51e513633c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:20:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied spatial intelligence",
+    "knowledge recirculation",
+    "multi-teacher distillation",
+    "spatial grounding",
+    "cross-form verification",
+    "on-policy distillation"
+   ],
+   "field": "具身空间智能与多模态推理",
+   "innovations": [
+    "提出 ANVIL 知识回流框架，将 11 种 Ground–Relation–Act 异构监督统一为场景对齐的跨阶段验证与修复飞轮",
+    "引入语义优先错误路由多教师蒸馏，沿拓扑序定位首个决定性失败并定向专家监督",
+    "构建场景对齐的 ANVIL-BEN 评估体系，分离阶段能力与错误级联传播的度量"
+   ],
+   "benchmarks": [
+    "CV-Bench",
+    "EmbSpatial",
+    "RefSpatial",
+    "W2P (Where2Place)",
+    "BLINK Depth",
+    "ERQA",
+    "VABench-Point"
+   ]
+  }
+ }
 }

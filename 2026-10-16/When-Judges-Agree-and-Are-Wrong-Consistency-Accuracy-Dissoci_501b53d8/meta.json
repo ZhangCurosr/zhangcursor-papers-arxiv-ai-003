@@ -4,5 +4,10 @@
  "title": "When-Judges-Agree-and-Are-Wrong-Consistency-Accuracy-Dissoci",
  "token": "sk-9GUbCO4kb...",
  "created_at": "2026-10-16 06:54:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/0db2440b-b32d-4fe8-b7eb-545abbc52309.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/0db2440b-b32d-4fe8-b7eb-545abbc52309.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:18:38",
+  "chunks": 1
+ }
 }

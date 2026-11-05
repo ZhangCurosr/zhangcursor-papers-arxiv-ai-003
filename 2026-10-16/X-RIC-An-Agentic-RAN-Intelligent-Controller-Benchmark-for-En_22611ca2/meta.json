@@ -4,5 +4,30 @@
  "title": "X-RIC-An-Agentic-RAN-Intelligent-Controller-Benchmark-for-En",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-10-16 06:47:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/d5f213e9-641c-4cbe-95cb-e578f46781e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/d5f213e9-641c-4cbe-95cb-e578f46781e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:20:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "O-RAN",
+    "Agentic AI",
+    "Reinforcement Learning",
+    "Behavioral Cloning",
+    "Network Slicing",
+    "Telecom LLM"
+   ],
+   "field": "开放无线接入网智能控制",
+   "innovations": [
+    "双滤波自动化 BC 机制提升 RL 样本效率",
+    "BARX 领域评估框架量化 Agentic RAN 控制适配性",
+    "TLM + 冻结 LLM + 可训练 RAN-state encoder 的混合可解释控制架构"
+   ],
+   "benchmarks": [
+    "BARX",
+    "SLA-aware Network Slicing"
+   ]
+  }
+ }
 }

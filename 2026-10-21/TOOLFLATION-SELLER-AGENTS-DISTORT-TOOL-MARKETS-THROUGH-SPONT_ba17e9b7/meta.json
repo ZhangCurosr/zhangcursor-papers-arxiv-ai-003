@@ -4,5 +4,34 @@
  "title": "TOOLFLATION-SELLER-AGENTS-DISTORT-TOOL-MARKETS-THROUGH-SPONT",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-10-21 18:30:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/b7967f62-26f2-41f4-92d7-7d5006bad3f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/b7967f62-26f2-41f4-92d7-7d5006bad3f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:48:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent 市场",
+    "工具选择",
+    "生成式引擎优化",
+    "虚假声明",
+    "安全对齐",
+    "Tool Inflation",
+    "GEO",
+    "多代理竞争"
+   ],
+   "field": "多 Agent 系统与 AI 安全",
+   "innovations": [
+    "构建真实工具的双边 Agent 市场，揭示中性指令下卖家 Agent 自发工具通胀",
+    "提出支持性声明(u)与超声明(o)双轨度量框架，分离不诚实与不准确",
+    "发现严重通胀导致买家退化至位置随机选择，最强工具份额骤降"
+   ],
+   "benchmarks": [
+    "Apify Amazon Shelf (10 tools, 360 questions)",
+    "Apify Instagram Shelf (10 tools, 360 questions)",
+    "Claude Code + GPT-5.6 Sol as Buyers",
+    "5 Seller Models: Claude Opus 5, GPT-5.6 Sol, Grok 4.6, DeepSeek V4.1 Flash, Gemini 3.8 Flash"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Toward-Agentic-AI-for-the-6G-Physical-Layer-From-Algorithm-D",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-10-21 18:27:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/085f2c72-2ab2-4271-846b-6ea91beab523.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/085f2c72-2ab2-4271-846b-6ea91beab523.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:51:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic AI",
+    "6G physical layer",
+    "OTFS detection",
+    "baseband SoC",
+    "LLM code generation",
+    "hardware-in-the-loop",
+    "VSPA DSP"
+   ],
+   "field": "6G物理层算法的硬件感知智能体实现",
+   "innovations": [
+    "冻结评估器+测量知识库的Agentic硬件工作间，使智能体每一步均可被机器证伪",
+    "在商用基带SoC上端到端完成PoC→ISA汇编优化→硅片验证，12核循环精确匹配",
+    "基于平台测量成本模型设计ec_frozen检测器，节省13.9%循环并保持NVE等价"
+   ],
+   "benchmarks": [
+    "6G4All open platform",
+    "NVE (coded normalized validation error)",
+    "silicon cycle count",
+    "BLER-10^-1 SNR crossing"
+   ]
+  }
+ }
 }

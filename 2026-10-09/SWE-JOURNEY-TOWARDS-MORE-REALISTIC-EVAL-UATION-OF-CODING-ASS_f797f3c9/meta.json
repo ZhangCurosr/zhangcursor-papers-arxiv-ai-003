@@ -4,5 +4,32 @@
  "title": "SWE-JOURNEY-TOWARDS-MORE-REALISTIC-EVAL-UATION-OF-CODING-ASS",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-10-09 08:42:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/28536ec0-18bc-487e-90fa-3428ff92da64.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/28536ec0-18bc-487e-90fa-3428ff92da64.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:46:38",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "代码评估基准",
+    "软件开发工作流",
+    "AI编程助手",
+    "多阶段任务",
+    "SWE-bench",
+    "LLM评测"
+   ],
+   "field": "AI编程评估基准",
+   "innovations": [
+    "提出基于真实软件开发工作流的多阶段编程评估基准SWE-Journey",
+    "构建1081个源自48个真实开源仓库的多样化任务并人工标注里程碑节点",
+    "首次系统量化评估LLM在多轮调试和代码验证环节的能力"
+   ],
+   "benchmarks": [
+    "SWE-Journey",
+    "SWE-bench Verified",
+    "Mint",
+    "MultiPL-E"
+   ]
+  }
+ }
 }

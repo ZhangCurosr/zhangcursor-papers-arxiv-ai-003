@@ -4,5 +4,28 @@
  "title": "The-Instruction-Tax-on-Factual-Recall-Base-Models-Can-Beat-T",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-10-21 07:26:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/a5ad3f30-683e-4ab1-869d-9889aab36116.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/a5ad3f30-683e-4ab1-869d-9889aab36116.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:49:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instruction tuning",
+    "factual recall",
+    "knowledge base construction",
+    "self-consistency",
+    "language model probing"
+   ],
+   "field": "知识图谱与事实检索",
+   "innovations": [
+    "提出并量化 instruction tax，证明 base 模型事实召回优于 instruct 版本",
+    "设计低成本 knowledge probe 流程实现模型与接口选择",
+    "基于频率阈值的自然 abstention 机制替代额外分类器"
+   ],
+   "benchmarks": [
+    "AKBC LM-KBC 2026 Shared Task"
+   ]
+  }
+ }
 }

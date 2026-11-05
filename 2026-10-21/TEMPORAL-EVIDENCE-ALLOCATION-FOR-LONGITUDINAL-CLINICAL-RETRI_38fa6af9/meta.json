@@ -4,5 +4,30 @@
  "title": "TEMPORAL-EVIDENCE-ALLOCATION-FOR-LONGITUDINAL-CLINICAL-RETRI",
  "token": "sk-KgtqP1w4p...",
  "created_at": "2026-10-21 18:27:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/1df90c75-8d5d-4e50-8af9-e0722fe11ef4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/1df90c75-8d5d-4e50-8af9-e0722fe11ef4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:48:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "longitudinal clinical retrieval",
+    "temporal evidence allocation",
+    "retrieval-augmented generation",
+    "oncology timelines",
+    "no-gold diagnostics",
+    "EHR"
+   ],
+   "field": "纵向临床信息检索",
+   "innovations": [
+    "将纵向临床检索形式化为时序证据分配任务，区分检索与重建两阶段",
+    "提出无金标准诊断框架，通过5维度行为指标在缺乏标注时评估系统",
+    "配对消融证明提示式前驱约束在固定证据下独立减少schema-order reversals 8倍"
+   ],
+   "benchmarks": [
+    "Onco-CONSTRUE internal cohort (20 lung + prostate cancer patients)",
+    "13-focused-query clinical pipeline with 11-milestone schema"
+   ]
+  }
+ }
 }

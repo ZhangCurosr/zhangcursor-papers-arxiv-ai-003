@@ -4,5 +4,29 @@
  "title": "The-More-the-Better-A-Comparison-of-Single-and-Multi-Agent-L",
  "token": "sk-s7NFyJaLu...",
  "created_at": "2026-10-21 07:25:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/5a7023e3-392d-47b9-94d6-5ea5241860cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/5a7023e3-392d-47b9-94d6-5ea5241860cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:50:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agents",
+    "Multi-Agent Systems",
+    "Task Decomposition",
+    "LLM-as-a-Judge",
+    "Cost-aware Evaluation",
+    "Financial Review"
+   ],
+   "field": "大语言模型评估与多智能体系统",
+   "innovations": [
+    "设计了分离工作分解与信息隔离效应的严格对照实验，引入限定范围团队臂。",
+    "首次在同一任务上同时报告并对比单/多智能体设置在已知干净案例上的漏检率与误报率。",
+    "揭示了多智能体团队的性能增益与误报代价高度依赖于推理指令，并提供了成本权衡分析框架。"
+   ],
+   "benchmarks": [
+    "Synthetic Credit Assessment Memos (300 documents, 6 requirements)"
+   ]
+  }
+ }
 }

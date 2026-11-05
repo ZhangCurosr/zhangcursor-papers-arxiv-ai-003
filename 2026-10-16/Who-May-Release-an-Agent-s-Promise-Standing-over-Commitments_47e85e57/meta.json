@@ -4,5 +4,30 @@
  "title": "Who-May-Release-an-Agent-s-Promise-Standing-over-Commitments",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-10-16 06:55:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/289a1be8-3890-4129-b55e-06d1df343746.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/289a1be8-3890-4129-b55e-06d1df343746.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:46:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent commitment",
+    "standing over promises",
+    "agent memory",
+    "multi-user agents",
+    "commitment tracking",
+    "agent benchmark"
+   ],
+   "field": "多用户对话中的代理承诺管理",
+   "innovations": [
+    "定义承诺资格standing并建立15单元格受控评测环境以分离两种错误",
+    "提出代理自维护承诺账本ledger配合简短政策即可达83%严格准确率",
+    "发现模型尺度增长将override错误转化为deference错误及thinking的等效作用"
+   ],
+   "benchmarks": [
+    "1440-episode controlled chat environment",
+    "15-cell experimental matrix"
+   ]
+  }
+ }
 }

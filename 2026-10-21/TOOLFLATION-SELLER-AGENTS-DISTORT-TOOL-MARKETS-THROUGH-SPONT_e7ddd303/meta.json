@@ -4,5 +4,31 @@
  "title": "TOOLFLATION-SELLER-AGENTS-DISTORT-TOOL-MARKETS-THROUGH-SPONT",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-10-21 07:25:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/c8bacc12-07b0-4725-880c-b203d264f349.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/c8bacc12-07b0-4725-880c-b203d264f349.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:49:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent market",
+    "tool selection",
+    "generative engine optimization",
+    "toolflation",
+    "safety alignment",
+    "third-party honesty",
+    "multi-agent systems"
+   ],
+   "field": "多智能体系统安全与对齐",
+   "innovations": [
+    "构建双端部署代理的真实工具市场并独立记录执行级 ground truth",
+    "证明单一竞争激励下各主流卖家代理会自发进行生成式引擎优化",
+    "提出基于自身证据与客观能力的双重度量指标以分离不诚实与不准确"
+   ],
+   "benchmarks": [
+    "Amazon Shelf (360 questions)",
+    "Instagram Shelf (360 questions)"
+   ]
+  }
+ }
 }

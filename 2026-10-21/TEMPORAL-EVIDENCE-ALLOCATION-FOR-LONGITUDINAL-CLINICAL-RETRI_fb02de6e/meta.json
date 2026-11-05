@@ -4,5 +4,31 @@
  "title": "TEMPORAL-EVIDENCE-ALLOCATION-FOR-LONGITUDINAL-CLINICAL-RETRI",
  "token": "sk-KgtqP1w4p...",
  "created_at": "2026-10-21 07:22:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/42317f9b-cee8-44d0-ac9b-841f5b59011c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/42317f9b-cee8-44d0-ac9b-841f5b59011c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:48:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "longitudinal clinical retrieval",
+    "temporal evidence allocation",
+    "oncology timeline",
+    "retrieval-augmented generation",
+    "no-gold diagnostics",
+    "EHR retrieval",
+    "budget-constrained retrieval"
+   ],
+   "field": "纵向临床检索",
+   "innovations": [
+    "将纵向临床检索形式化为时间证据分配问题并分离检索与重建两阶段",
+    "提出无金标准五维诊断框架并验证文档密度≠证据效用",
+    "在预算受控下对比固定窗口与密度自适应分配，揭示检索广度与里程碑填充的解耦"
+   ],
+   "benchmarks": [
+    "Study A: 20例肺癌/前列腺癌, 13查询, 4策略, 3次运行",
+    "Study B: 5例, 1全病程查询, 5策略, 3预算级别"
+   ]
+  }
+ }
 }

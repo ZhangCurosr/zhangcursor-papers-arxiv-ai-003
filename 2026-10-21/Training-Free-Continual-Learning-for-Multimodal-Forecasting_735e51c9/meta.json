@@ -4,5 +4,10 @@
  "title": "Training-Free-Continual-Learning-for-Multimodal-Forecasting",
  "token": "sk-zzqRc1aqT...",
  "created_at": "2026-10-21 18:30:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/c83285b2-1141-412b-ba3f-3b498b797aff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/c83285b2-1141-412b-ba3f-3b498b797aff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:51:44",
+  "chunks": 1
+ }
 }

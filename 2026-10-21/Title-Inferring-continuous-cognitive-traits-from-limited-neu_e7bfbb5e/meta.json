@@ -4,5 +4,35 @@
  "title": "Title-Inferring-continuous-cognitive-traits-from-limited-neu",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-10-21 18:32:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/e47d8ea3-145f-4f21-b0a4-659d5fa5c8bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/e47d8ea3-145f-4f21-b0a4-659d5fa5c8bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:51:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pairwise learning",
+    "cognitive neuroimaging",
+    "small-sample deep learning",
+    "spatial ability",
+    "brain-behavior mapping",
+    "backward elimination",
+    "entropy-based regression",
+    "T1-weighted MRI"
+   ],
+   "field": "计算神经科学与认知神经影像学",
+   "innovations": [
+    "将行为预测重构为配对排名问题，实现N(N-1)/2二次方数据扩展",
+    "提出熵驱动连续分数推断方法，无需显式回归损失即可从排名模型提取连续预测",
+    "设计面向配对CNN的逐次ROI消除可解释性框架，定位多任务共享与特异的结构性脑区"
+   ],
+   "benchmarks": [
+    "MRT (Mental Rotation Task)",
+    "PFT (Paper Folding Task)",
+    "iVTT (Immersive Viewpoint Transformation Task)",
+    "RMT (Road Map Task)",
+    "Chronic Stress Scale (CSS)"
+   ]
+  }
+ }
 }

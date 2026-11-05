@@ -4,5 +4,30 @@
  "title": "TPO-Tri-level-Distributionally-Robust-Learning-for-OOD-Direc",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-10-21 18:30:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/f6e04952-e1d6-48db-911c-efffe590627d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/f6e04952-e1d6-48db-911c-efffe590627d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:49:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Distributionally Robust Optimization",
+    "Direct Preference Optimization",
+    "OOD Generalization",
+    "Wasserstein DRO",
+    "LLM Alignment",
+    "Adversarial Training"
+   ],
+   "field": "大语言模型对齐与鲁棒性",
+   "innovations": [
+    "提出三阶层分布鲁棒偏好优化框架TPO，联合建模群组级/提示级/偏好级偏移",
+    "基于Wasserstein距离推导可处理目标，含封闭形式偏好级边界惩罚和嵌入空间对抗扰动",
+    "建立有限样本收敛保证，证明经验极小值以O(n_min^{-1/4})速率收敛"
+   ],
+   "benchmarks": [
+    "Emotion preference benchmark",
+    "Open LLM Leaderboard v2"
+   ]
+  }
+ }
 }

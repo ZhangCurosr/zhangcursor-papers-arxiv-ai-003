@@ -4,5 +4,32 @@
  "title": "Structured-Token-Attention-for-Fine-Grained-mmWave-Liquid-Id",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-10-21 18:30:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/0ea197de-7030-4ee2-87c2-6a7fe46f4908.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/0ea197de-7030-4ee2-87c2-6a7fe46f4908.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:48:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mmWave liquid identification",
+    "structured tokens",
+    "self-attention",
+    "fine-grained classification",
+    "FG-LiquID",
+    "sensor classification"
+   ],
+   "field": "毫米波传感器分类",
+   "innovations": [
+    "结构化多视图Token构造（天线/特征/位置/反射/全局11个语义Token）",
+    "轻量三层Transformer处理紧凑雷达张量，匹配原始MMNet并超越标量Token基线1.50pp",
+    "系统性协议隔离对比：训练配方对照/MMNet-R、Token变体/特征掩码/五折CV多维度评估"
+   ],
+   "benchmarks": [
+    "FG-LiquID",
+    "最佳轮次准确率96.70%",
+    "五种子集成准确率97.00%",
+    "五折CV准确率95.30%"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Stratified-Sparse-Attention-Reducing-the-Sparse-to-Dense-Gap",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-10-21 18:34:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/45c55c4d-f62a-44c2-8089-54c9875846b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/45c55c4d-f62a-44c2-8089-54c9875846b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:47:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse attention",
+    "long context",
+    "LLM inference",
+    "importance sampling",
+    "KV cache"
+   ],
+   "field": "高效大模型推理",
+   "innovations": [
+    "提出分层稀疏注意力统一框架，结合确定性检索与分数引导采样",
+    "提供严格的近似误差界理论保证",
+    "开发优化CUDA内核实现端到端解码加速"
+   ],
+   "benchmarks": [
+    "RULER",
+    "LongBench",
+    "LOFT",
+    "AIME 2025"
+   ]
+  }
+ }
 }

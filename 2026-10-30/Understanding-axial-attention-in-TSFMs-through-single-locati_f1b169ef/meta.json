@@ -4,5 +4,29 @@
  "title": "Understanding-axial-attention-in-TSFMs-through-single-locati",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-10-30 19:11:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/b7baf773-39e6-4ef7-89d4-00972b704093.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/b7baf773-39e6-4ef7-89d4-00972b704093.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:13:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "axial attention",
+    "time series foundation models",
+    "single location regression",
+    "theoretical deep learning",
+    "Bayes optimality",
+    "gradient dynamics"
+   ],
+   "field": "时序基础模型理论分析",
+   "innovations": [
+    "将SLR模型推广至2D网格并证明轴注意力预测器渐近Bayes最优",
+    "揭示内层非线性对实现渐近最优的不可或缺性",
+    "建立投影梯度下降在逆温度调度下全局收敛至oracle参数的理论保证"
+   ],
+   "benchmarks": [
+    "合成SLR数据集（M=N=5, d=20）"
+   ]
+  }
+ }
 }

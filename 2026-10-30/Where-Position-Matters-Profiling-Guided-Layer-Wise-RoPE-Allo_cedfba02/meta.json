@@ -4,5 +4,30 @@
  "title": "Where-Position-Matters-Profiling-Guided-Layer-Wise-RoPE-Allo",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-10-30 19:14:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/e12d1aee-2924-4439-9337-e9c6a22b4e68.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/e12d1aee-2924-4439-9337-e9c6a22b4e68.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:16:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RoPE",
+    "Positional Encoding",
+    "Layer-wise Allocation",
+    "Transformer Architecture",
+    "MLA",
+    "Profile-Guided Design"
+   ],
+   "field": "Transformer 架构效率优化",
+   "innovations": [
+    "通过 phase-off 干预建立层间位置需求与 coverage-upgrade 损失收益的任务级校准",
+    "在固定旋转对预算下依据早期需求 score 进行高/低双层分配",
+    "基于归一化深度的小模型 profile 跨尺度迁移指导大模型 RoPE 架构设计"
+   ],
+   "benchmarks": [
+    "Dense Transformer 130M/350M/1B 预训练",
+    "MLA Transformer 130M/350M/1B 预训练"
+   ]
+  }
+ }
 }

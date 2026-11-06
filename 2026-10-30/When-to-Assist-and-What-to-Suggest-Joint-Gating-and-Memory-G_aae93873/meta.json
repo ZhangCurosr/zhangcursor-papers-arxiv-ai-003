@@ -4,5 +4,30 @@
  "title": "When-to-Assist-and-What-to-Suggest-Joint-Gating-and-Memory-G",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-30 08:13:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/c5bab21d-b35b-4271-92ee-9566b56113cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/c5bab21d-b35b-4271-92ee-9566b56113cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:16:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "proactive dialogue",
+    "intervention gating",
+    "early exit",
+    "memory-grounded generation",
+    "compact decoder",
+    "LLM evaluation"
+   ],
+   "field": "主动对话助手与高效推理",
+   "innovations": [
+    "提出端到端联合评分指标EM_e2e与P_e2e，首次对门控-生成级联系统进行统一评估",
+    "设计单1B解码器通过中间层early exit同时完成门控决策与提示生成，共享单次前向传播",
+    "实证证明记忆档案内容是提示质量的核心驱动因素，生成器规模与检索均非瓶颈"
+   ],
+   "benchmarks": [
+    "LlamaPIE canonical marker index (28,058 markers)",
+    "ICSI naturally recorded meetings"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "WHEN-TO-SPEND-PRIVACY-OPTIMAL-ALLOCATION-IN-PRIVATE-LEARNING",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-10-30 19:08:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/efc57e1c-4cd9-401d-b74c-d310f49c0ca6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/efc57e1c-4cd9-401d-b74c-d310f49c0ca6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:15:06",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "差分隐私",
+    "zCDP",
+    "噪声调度",
+    "伴随梯度",
+    "镜面下降",
+    "隐私核算",
+    "DP-SGD"
+   ],
+   "field": "隐私保护机器学习优化",
+   "innovations": [
+    "证明期望二次终端跟踪下最优调度必然耗尽隐私预算",
+    "提出 PB-AMD 伴随镜下降算法在精确预算单纯形上优化终端损失",
+    "推导 LQ 模型下最优电荷与二阶动态矩阵迹成正比的显式结构"
+   ],
+   "benchmarks": [
+    "Tabular",
+    "Fashion-constant",
+    "Fashion-restart",
+    "Nonlinear head"
+   ]
+  }
+ }
 }

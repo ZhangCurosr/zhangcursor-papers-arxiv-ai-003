@@ -4,5 +4,31 @@
  "title": "When-Fusion-Order-Maters-Insights-on-Progressive-Multimodal",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-10-27 19:15:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/64dbfd25-be82-4cf2-90b8-f68d1ee22b9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/64dbfd25-be82-4cf2-90b8-f68d1ee22b9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:12:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-modal retrieval",
+    "progressive fusion",
+    "multimodal learning",
+    "fusion order",
+    "video retrieval"
+   ],
+   "field": "多模态视频检索",
+   "innovations": [
+    "提出UniPRO统一框架系统分析多模态融合顺序",
+    "识别学习难度与信息保留两个互补的顺序选择原则",
+    "将顺序选择原则迁移预测图像查询最优融合调度"
+   ],
+   "benchmarks": [
+    "MSR-VTT-9k",
+    "MSR-VTT-7k",
+    "VATEX",
+    "Charades"
+   ]
+  }
+ }
 }

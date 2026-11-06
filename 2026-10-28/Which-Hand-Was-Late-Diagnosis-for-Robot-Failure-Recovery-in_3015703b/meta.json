@@ -4,5 +4,30 @@
  "title": "Which-Hand-Was-Late-Diagnosis-for-Robot-Failure-Recovery-in",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-10-28 19:21:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/2a2c8f57-fab7-4149-b536-6faac5ef09a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/2a2c8f57-fab7-4149-b536-6faac5ef09a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:13:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Failure Recovery",
+    "Bimanual manipulation",
+    "Tool-use",
+    "Vision-Language Model",
+    "Failure Diagnosis",
+    "Robot Restoration"
+   ],
+   "field": "机器人操作失败诊断与恢复",
+   "innovations": [
+    "构建已知失败原因的双工具使用仿真任务，因果可从轨迹直接读取",
+    "量化各传感通道的诊断边界，揭示双臂时序信号的不对称可识别性",
+    "发现VLM内部状态编码晚手信息但语言输出方向与状态正交"
+   ],
+   "benchmarks": [
+    "ManiSkill3 simulated lock task",
+    "within-door AUC on 17 doors"
+   ]
+  }
+ }
 }

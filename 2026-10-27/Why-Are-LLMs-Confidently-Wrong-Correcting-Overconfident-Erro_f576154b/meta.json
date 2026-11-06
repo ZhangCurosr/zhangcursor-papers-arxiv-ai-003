@@ -4,5 +4,34 @@
  "title": "Why-Are-LLMs-Confidently-Wrong-Correcting-Overconfident-Erro",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-10-27 19:16:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/e2882168-e195-4cf9-8eb8-d25fead8e76c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/e2882168-e195-4cf9-8eb8-d25fead8e76c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:12:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM校准",
+    "因果头门控",
+    "注意力头干预",
+    "过置信错误",
+    "机制可解释性",
+    "推理时校准",
+    "多选型问答"
+   ],
+   "field": "大语言模型可靠性与校准",
+   "innovations": [
+    "提出类条件因果头门控框架CoCHI，通过校准类分解识别并抑制导致高置信度错误的内部注意力头",
+    "将校准问题从输出层后验调整重构为内部结构因果干预，实现零推理开销的最小化干预",
+    "引入正向/负向L1双向正则化门控优化，精准区分促进头、干扰头与无关头的因果角色"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "MedQA-USMLE",
+    "OpenBookQA",
+    "SciQ",
+    "MedMCQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Where-Position-Matters-Profiling-Guided-Layer-Wise-RoPE-Allo",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-10-30 08:19:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/cb178c20-9569-4bb8-afef-ed15f1e9313b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/cb178c20-9569-4bb8-afef-ed15f1e9313b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:16:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RoPE",
+    "positional encoding",
+    "layer-wise allocation",
+    "profiling",
+    "architecture design",
+    "MLA",
+    "efficiency"
+   ],
+   "field": "大语言模型架构设计",
+   "innovations": [
+    "基于 phase-off 干预的任务级位置需求测量与覆盖率收益校准",
+    "固定预算下的高/低二元逐层 RoPE 分配策略",
+    "归一化深度映射实现的跨规模 profile 迁移"
+   ],
+   "benchmarks": [
+    "Language Modeling (validation loss)"
+   ]
+  }
+ }
 }

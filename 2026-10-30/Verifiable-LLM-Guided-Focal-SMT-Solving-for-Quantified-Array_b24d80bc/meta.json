@@ -4,5 +4,34 @@
  "title": "Verifiable-LLM-Guided-Focal-SMT-Solving-for-Quantified-Array",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-10-30 08:12:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/1a916c6a-82c8-4f06-a086-107176f5e390.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/1a916c6a-82c8-4f06-a086-107176f5e390.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:14:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SMT求解",
+    "量化数组",
+    "大语言模型",
+    "形式验证",
+    "量词实例化",
+    "混合推理"
+   ],
+   "field": "SMT求解与形式化验证",
+   "innovations": [
+    "提出语义焦点集（IFS/CFS）作为LLM与SMT求解器之间的可验证窄接口",
+    "双分支求解：UNSAT用超近似实例化、SAT用下近似约束强化并配蕴含检查",
+    "反馈驱动的迭代精炼与优雅回退机制，保留基线覆盖度"
+   ],
+   "benchmarks": [
+    "SMT-LIB / SMT-COMP 2025",
+    "ABV",
+    "ABVFP",
+    "ABVFPLRA",
+    "ALIA",
+    "ANIA"
+   ]
+  }
+ }
 }

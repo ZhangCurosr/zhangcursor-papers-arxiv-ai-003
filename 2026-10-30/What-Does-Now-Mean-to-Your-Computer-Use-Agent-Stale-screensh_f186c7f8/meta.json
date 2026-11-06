@@ -4,5 +4,32 @@
  "title": "What-Does-Now-Mean-to-Your-Computer-Use-Agent-Stale-screensh",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-10-30 19:15:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/02333ae9-3f17-4781-aa54-ec61fdbb40c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/02333ae9-3f17-4781-aa54-ec61fdbb40c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:15:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computer-use agents",
+    "GUI agents",
+    "vision-language models",
+    "preflight check",
+    "stale screenshots",
+    "browser automation",
+    "benchmark"
+   ],
+   "field": "Computer-use agent 感知与时序一致性",
+   "innovations": [
+    "首次在大样本真实网页上量化 stale click 并定位风险在页面加载而非规划延迟",
+    "像素比对与小/前沿 VLM 在三类点击前问题上的直接公平对比",
+    "基于 C/δ/r/f/k 的检查盈亏公式及其 94.7% held-out 一致率验证"
+   ],
+   "benchmarks": [
+    "31-page real-page stale-click trace",
+    "HTTP Archive desktop crawl (booking/gov/ecommerce)",
+    "6-synthetic-page benchmark (4608 click pairs + 3600 action-outcome pairs)"
+   ]
+  }
+ }
 }

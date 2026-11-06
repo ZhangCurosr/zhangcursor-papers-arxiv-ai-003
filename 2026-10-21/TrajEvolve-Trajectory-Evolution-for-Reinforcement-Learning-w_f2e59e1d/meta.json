@@ -4,5 +4,32 @@
  "title": "TrajEvolve-Trajectory-Evolution-for-Reinforcement-Learning-w",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-10-21 18:33:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/05b24501-3536-4baf-b3cd-45b12354df60.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/05b24501-3536-4baf-b3cd-45b12354df60.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:11:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "credit assignment",
+    "trajectory evolution",
+    "long-horizon agent",
+    "LLM post-training",
+    "counterfactual verification",
+    "GRPO"
+   ],
+   "field": "LLM Agent 强化学习与过程信用分配",
+   "innovations": [
+    "将连续步级信用分配重构为可通过反事实验证获取标签的二元必要性分类",
+    "提出轨迹演化模块主动构造 base policy 支持但 on-policy 难以采样的高质量组合",
+    "在简化 GRPO 模型下证明 on-policy RL 冗余下界并量化演化注入对收敛的加速"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop",
+    "ScienceWorld"
+   ]
+  }
+ }
 }

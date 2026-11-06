@@ -4,5 +4,31 @@
  "title": "WorldFlow-Joint-Video-and-3D-Motion-Prediction-via-Large-Sca",
  "token": "sk-4xOJ8RgWe...",
  "created_at": "2026-10-30 08:10:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/96fe75da-cfe7-4414-85c2-db2710cb2e22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/96fe75da-cfe7-4414-85c2-db2710cb2e22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:16:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D motion prediction",
+    "world model",
+    "video generation",
+    "rectified flow",
+    "robotic manipulation",
+    "query-conditioned trajectory"
+   ],
+   "field": "具身智能与3D运动预测",
+   "innovations": [
+    "联合视频与3D流生成的统一MoT框架",
+    "查询条件化3D轨迹预测结合显式几何动力学与视觉演化"
+   ],
+   "benchmarks": [
+    "WorldFlowBench",
+    "Sim7",
+    "Real3",
+    "SpatialCog"
+   ]
+  }
+ }
 }

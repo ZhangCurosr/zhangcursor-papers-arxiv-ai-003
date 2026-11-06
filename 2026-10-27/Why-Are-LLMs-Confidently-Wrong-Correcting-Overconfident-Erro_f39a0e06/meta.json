@@ -4,5 +4,10 @@
  "title": "Why-Are-LLMs-Confidently-Wrong-Correcting-Overconfident-Erro",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-10-27 07:21:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-27/864a6b5d-48b9-4400-a25d-c7af6bcef525.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-27/864a6b5d-48b9-4400-a25d-c7af6bcef525.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:13:02",
+  "chunks": 1
+ }
 }

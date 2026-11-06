@@ -4,5 +4,30 @@
  "title": "What-Breaks-When-Facts-Become-Stories-The-Distortions-Source",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-10-30 19:20:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/d67a52a8-5fc1-41ef-bed6-750f0511bd51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/d67a52a8-5fc1-41ef-bed6-750f0511bd51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:15:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "factuality evaluation",
+    "narrative distortion",
+    "accountability bias",
+    "LLM-as-judge",
+    "news retelling",
+    "ReTold-2k"
+   ],
+   "field": "语言模型事实性与叙事评估",
+   "innovations": [
+    "提出检测+合法性双层判定，区分视角合理偏离与误导性扭曲",
+    "发现任务自由度驱动问责扭曲，故事重写中施害者责任被系统性减轻",
+    "开源 ReTold-2k 并保留未聚合逐评审争议标签"
+   ],
+   "benchmarks": [
+    "ReTold-2k",
+    "NLI contradiction audit"
+   ]
+  }
+ }
 }

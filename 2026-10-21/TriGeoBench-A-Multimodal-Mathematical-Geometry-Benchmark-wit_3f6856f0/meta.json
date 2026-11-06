@@ -4,5 +4,30 @@
  "title": "TriGeoBench-A-Multimodal-Mathematical-Geometry-Benchmark-wit",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-10-21 07:24:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/8529d88f-fd71-4ed0-adbb-d65a4d8df42f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/8529d88f-fd71-4ed0-adbb-d65a4d8df42f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:11:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "几何推理",
+    "几何基准",
+    "TikZ 表示",
+    "图像到代码生成",
+    "结构化理解",
+    "数学推理评测"
+   ],
+   "field": "多模态几何推理评测",
+   "innovations": [
+    "构建包含{LATEX,图像,TikZ}三元组的几何中心多模态基准 TriGeoBench",
+    "采用可编译的 TikZ 代码作为几何结构的统一、可执行表示",
+    "设计统一的图像到 TikZ 生成和多模态数学推理评测协议并广泛评估 MLLMs"
+   ],
+   "benchmarks": [
+    "TriGeoBench"
+   ]
+  }
+ }
 }

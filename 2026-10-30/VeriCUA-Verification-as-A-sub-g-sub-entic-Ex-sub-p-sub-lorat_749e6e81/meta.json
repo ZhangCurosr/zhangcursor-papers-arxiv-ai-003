@@ -4,5 +4,33 @@
  "title": "VeriCUA-Verification-as-A-sub-g-sub-entic-Ex-sub-p-sub-lorat",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-10-30 19:08:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/709a4f06-8d36-4e99-b7ab-bdd0dfd6ad5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/709a4f06-8d36-4e99-b7ab-bdd0dfd6ad5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:13:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computer-using agents",
+    "verification",
+    "reward modeling",
+    "agentic exploration",
+    "evidence gathering",
+    "rubric synthesis"
+   ],
+   "field": "计算机使用代理评估与验证",
+   "innovations": [
+    "将CUA验证建模为代理式主动探索的通用框架",
+    "环境感知的Rubric合成与attested/asserted证据分类",
+    "自适应混合动作空间统一GUI与代码态检查"
+   ],
+   "benchmarks": [
+    "AndroidWorld",
+    "OSWorld",
+    "ScienceBoard",
+    "WebArena",
+    "OSReward"
+   ]
+  }
+ }
 }

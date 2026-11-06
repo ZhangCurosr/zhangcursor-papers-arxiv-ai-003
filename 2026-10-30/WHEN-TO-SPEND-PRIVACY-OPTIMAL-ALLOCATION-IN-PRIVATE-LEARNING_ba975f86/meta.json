@@ -4,5 +4,29 @@
  "title": "WHEN-TO-SPEND-PRIVACY-OPTIMAL-ALLOCATION-IN-PRIVATE-LEARNING",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-10-30 08:05:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/05013e4d-0b20-4c76-810e-86c470483f4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/05013e4d-0b20-4c76-810e-86c470483f4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:15:18",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "差分隐私",
+    "DP-SGD",
+    "隐私预算分配",
+    "随机控制",
+    "伴随梯度",
+    "zCDP"
+   ],
+   "field": "隐私机器学习",
+   "innovations": [
+    "将隐私预算跨迭代分配形式化为随机控制优化问题",
+    "推导终端效用对隐私电荷的伴随梯度",
+    "提出在精确预算单纯形上严格保持预算的PB-AMD算法"
+   ],
+   "benchmarks": [
+    "Fashion-MNIST"
+   ]
+  }
+ }
 }

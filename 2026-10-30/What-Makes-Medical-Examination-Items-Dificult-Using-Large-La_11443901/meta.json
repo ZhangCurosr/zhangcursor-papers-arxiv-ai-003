@@ -4,5 +4,32 @@
  "title": "What-Makes-Medical-Examination-Items-Dificult-Using-Large-La",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-10-30 19:20:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/2d85b082-ca7f-4a9b-a011-37e4ffda6c23.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/2d85b082-ca7f-4a9b-a011-37e4ffda6c23.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:15:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "item difficulty",
+    "medical licensing examination",
+    "large language model",
+    "rubric induction",
+    "interpretability",
+    "educational assessment",
+    "USMLE",
+    "PANCE"
+   ],
+   "field": "教育评估与可解释AI",
+   "innovations": [
+    "将实证难度标签直接嵌入LLM rubric归纳过程以生成可解释难度原则",
+    "归纳出跨USMLE/PANCE共通的线索收敛/误导性线索/选项竞争等难度模式",
+    "系统性检验评分标准指导对12个LLM绝对与配对难度判断的影响"
+   ],
+   "benchmarks": [
+    "BEA 2024 shared task",
+    "NCCPA PANCE dataset"
+   ]
+  }
+ }
 }

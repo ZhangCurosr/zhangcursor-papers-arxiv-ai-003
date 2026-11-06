@@ -4,5 +4,31 @@
  "title": "When-is-a-better-LLM-worth-paying-for-Stochastic-Optimizatio",
  "token": "sk-dpgvlEWCZ...",
  "created_at": "2026-10-16 06:58:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/2e5173f9-b7ee-467b-b4fc-46acc0b62021.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/2e5173f9-b7ee-467b-b4fc-46acc0b62021.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:12:57",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "mixed-fidelity optimization",
+    "stochastic oracle",
+    "budgeted certification",
+    "LLM as oracle",
+    "recursive regularization",
+    "information value theory"
+   ],
+   "field": "随机优化与大模型经济调度",
+   "innovations": [
+    "提出预算化稀疏认证元算法消除对偏差参数的先验依赖",
+    "设计投影梯度证书体系实现无需最优值的一阶可验证收敛",
+    "提出oracle card框架将模型统计属性与阶段依赖支付意愿曲线挂钩"
+   ],
+   "benchmarks": [
+    "Aspiring Minds",
+    "Rademacher回归模拟",
+    "GPT-5.4 Nano多prompt变体"
+   ]
+  }
+ }
 }

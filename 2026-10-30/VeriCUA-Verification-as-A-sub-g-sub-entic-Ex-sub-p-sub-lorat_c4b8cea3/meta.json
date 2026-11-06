@@ -4,5 +4,33 @@
  "title": "VeriCUA-Verification-as-A-sub-g-sub-entic-Ex-sub-p-sub-lorat",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-10-30 08:11:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/654d7927-87c7-42a5-bea2-5c358cec96d8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/654d7927-87c7-42a5-bea2-5c358cec96d8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:13:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computer-using agents",
+    "verification",
+    "agentic exploration",
+    "reward modeling",
+    "evaluation",
+    "VLM judge"
+   ],
+   "field": "计算机使用代理评估与验证",
+   "innovations": [
+    "将CUA验证形式化为代理式主动探索而非单次Judge调用",
+    "环境感知的Rubric构建:先探查应用上下文再生成细粒度检查需求",
+    "源感知证据纪律:区分attested/asserted证据并以源属性约束仲裁规则"
+   ],
+   "benchmarks": [
+    "AndroidWorld",
+    "OSWorld",
+    "ScienceBoard",
+    "WebArena",
+    "OSReward"
+   ]
+  }
+ }
 }

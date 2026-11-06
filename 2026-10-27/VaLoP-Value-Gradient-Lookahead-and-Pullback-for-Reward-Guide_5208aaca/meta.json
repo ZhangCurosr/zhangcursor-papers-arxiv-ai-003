@@ -4,5 +4,33 @@
  "title": "VaLoP-Value-Gradient-Lookahead-and-Pullback-for-Reward-Guide",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-10-27 19:19:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/3ba4643f-9c54-413d-a821-42a4e45c7e52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/3ba4643f-9c54-413d-a821-42a4e45c7e52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:12:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reward guidance",
+    "diffusion models",
+    "value gradient",
+    "lookahead",
+    "robot policies",
+    "inference-time alignment"
+   ],
+   "field": "扩散模型奖励引导与对齐",
+   "innovations": [
+    "证明DPS和learned-value guidance误差均为后验协方差并随噪声增长",
+    "提出VaLoP通过在低噪声lookahead状态评估价值模型并用correction项pullback梯度",
+    "提出VaLoP-Fast用小型head amortize correction项，一个head服务所有reward"
+   ],
+   "benchmarks": [
+    "DrawBench",
+    "GenEval",
+    "Pick-a-Pic",
+    "LIBERO",
+    "RoboCasa"
+   ]
+  }
+ }
 }

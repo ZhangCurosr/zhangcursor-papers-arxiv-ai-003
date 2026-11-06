@@ -4,5 +4,31 @@
  "title": "WHERE-TO-LEARN-AND-HOW-FAR-TO-ROLL-OUT-EF-FICIENT-ADAPTIVE-T",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-10-30 08:56:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/89a29856-cd1c-45ae-a588-b5cd640d5ea8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/89a29856-cd1c-45ae-a588-b5cd640d5ea8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:14:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GUI Agent",
+    "Reinforcement Learning",
+    "Adaptive Training",
+    "Action Disagreement",
+    "Checkpoint Restoration",
+    "GRPO",
+    "Mobile-Gym"
+   ],
+   "field": "GUI智能体强化学习",
+   "innovations": [
+    "Action Disagreement pivot选择机制",
+    "Local/Suffix/Root自适应路由训练框架",
+    "容器级可恢复检查点流水线"
+   ],
+   "benchmarks": [
+    "Mobile-Gym",
+    "CUA-Gym-Hub"
+   ]
+  }
+ }
 }

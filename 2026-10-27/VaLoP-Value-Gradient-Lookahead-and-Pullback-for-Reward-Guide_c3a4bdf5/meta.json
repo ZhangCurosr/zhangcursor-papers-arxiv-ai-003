@@ -4,5 +4,33 @@
  "title": "VaLoP-Value-Gradient-Lookahead-and-Pullback-for-Reward-Guide",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-10-27 07:23:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-27/f0376831-3dc8-4fd9-8817-a16ddd0bb784.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-27/f0376831-3dc8-4fd9-8817-a16ddd0bb784.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:12:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reward guidance",
+    "diffusion models",
+    "value gradient",
+    "lookahead",
+    "robot policy",
+    "text-to-image"
+   ],
+   "field": "扩散模型推理时引导",
+   "innovations": [
+    "提出VaLoP通过前瞻状态评估价值梯度并用VJP回拉，统一DPS与学习式价值引导",
+    "VaLoP-Fast用小头摊销修正项实现单次训练多奖励复用",
+    "首次将价值梯度前瞻回拉框架推广至VLA机器人策略的critic引导"
+   ],
+   "benchmarks": [
+    "DrawBench",
+    "GenEval",
+    "Pick-a-Pic",
+    "LIBERO",
+    "RoboCasa"
+   ]
+  }
+ }
 }

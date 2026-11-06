@@ -4,5 +4,32 @@
  "title": "What-Does-Now-Mean-to-Your-Computer-Use-Agent-Stale-screensh",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-10-30 08:19:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/ca941ae8-2943-4115-b374-2a6de38c4054.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/ca941ae8-2943-4115-b374-2a6de38c4054.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:15:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computer-use agents",
+    "GUI agents",
+    "vision-language models",
+    "stale screenshot",
+    "pixel comparison",
+    "preflight check",
+    "benchmark"
+   ],
+   "field": "多模态智能体感知与交互可靠性",
+   "innovations": [
+    "首次量化真实网页上计划点击过时基线率，定位风险在页面加载而非规划延迟",
+    "像素比对以 312 ms 达到与 Claude Opus 5.5 相当的定位验证精度（82% vs 83% 召回，4% vs 12% 误报）",
+    "提出仅依赖延迟与准确率参数的盈亏公式，对留出数据 95% 决策正确"
+   ],
+   "benchmarks": [
+    "PreflightBench（6 合成移动页，4608 点击对 + 3600 动作结果对）",
+    "31 公共页 × 3 状态 × 30 s 追踪",
+    "HTTP Archive 商业页布局偏移爬取（65 预订购买 + 3028 .gov + 4972 电商样本)"
+   ]
+  }
+ }
 }

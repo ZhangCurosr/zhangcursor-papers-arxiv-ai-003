@@ -4,5 +4,37 @@
  "title": "Upcycling-Language-Models-for-Multiple-Specialized-Domains",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-10-30 08:24:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/38f51f8a-009e-4837-9996-8d9f117f9fb9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/38f51f8a-009e-4837-9996-8d9f117f9fb9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 17:13:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多领域自适应",
+    "模型 Upcycling",
+    "Mixture of Experts",
+    "路由器监督",
+    "低秩适应"
+   ],
+   "field": "大语言模型高效微调",
+   "innovations": [
+    "提出领域感知路由器监督机制，仅需每领域256样本即可实现90-98%路由准确率",
+    "设计领域专属专家更新策略，通过参数冻结促进专家专业化并减少跨域干扰",
+    "将稠密Transformer层Upcycling为稀疏MoE架构，突破LoRA低秩结构的性能瓶颈"
+   ],
+   "benchmarks": [
+    "MedMCQA",
+    "MedQA",
+    "Bio-MMLU",
+    "PubMedQA",
+    "Law-MMLU",
+    "CaseHOLD",
+    "ECtHR",
+    "ARC",
+    "BoolQ",
+    "HellaSwag"
+   ]
+  }
+ }
 }

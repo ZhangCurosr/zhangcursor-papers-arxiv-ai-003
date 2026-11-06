@@ -4,5 +4,31 @@
  "title": "When-Where-and-What-to-Correct-Human-Guided-Adaptive-Residua",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-10-28 07:58:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/29993ff6-169f-4bca-a75e-cf2f2492db21.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/29993ff6-169f-4bca-a75e-cf2f2492db21.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:53:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "残差强化学习",
+    "人类介入学习",
+    "精密操作",
+    "策略后训练",
+    "门控残差",
+    "低维校正子空间"
+   ],
+   "field": "机器人学习/模仿学习与强化学习结合",
+   "innovations": [
+    "前干预门控：用干预前状态预测何时激活残差修正，提升向自主部署的迁移性",
+    "校正子空间约束：以人类修正的几何结构构建低维动作搜索空间",
+    "支撑集与目标解耦：修正仅定义探索支持，WHAT 由任务奖励驱动"
+   ],
+   "benchmarks": [
+    "托盘堆叠",
+    "标记插入窄槽",
+    "杯子堆叠"
+   ]
+  }
+ }
 }

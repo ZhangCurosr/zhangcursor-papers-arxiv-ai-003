@@ -4,5 +4,37 @@
  "title": "ZOOMING-WITHOUT-ZOOMING-V2-FROM-SEEING-DETAILS-TO-CONNECTING",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-10-28 19:24:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/54eac854-27d9-4b70-b497-45f0f06cc533.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/54eac854-27d9-4b70-b497-45f0f06cc533.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:03:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal perception",
+    "evidence connection",
+    "synthetic data",
+    "RLVR",
+    "spatial reasoning",
+    "long-context understanding"
+   ],
+   "field": "多模态感知与推理",
+   "innovations": [
+    "提出EVIDENCECONNECT框架，通过单图像多区域证据合成训练连接证据能力",
+    "双阶段验证（跨模型锚定+区域消融）确保合成数据质量",
+    "仅用20.4K样本经RLVR训练，在25个基准上平均提升约5分且泛化至具身智能与多模态代理任务"
+   ],
+   "benchmarks": [
+    "MIMIC",
+    "CountQA",
+    "ViewSpatial-Bench",
+    "MileBench",
+    "AgentVista",
+    "VStar",
+    "HR-Bench",
+    "MMLongBench",
+    "MMStar"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "VIDEO-WORLD-MODELS-NEED-PREDICTABLE-LATENTS",
  "token": "sk-z9ycjZdD1...",
  "created_at": "2026-10-27 07:26:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-27/4ea1f737-0ff5-43d9-aa98-46289776c79b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-27/4ea1f737-0ff5-43d9-aa98-46289776c79b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:46:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video world models",
+    "predictable latents",
+    "temporal objectives",
+    "past-conditioned decoder",
+    "robot manipulation",
+    "diffusion forcing"
+   ],
+   "field": "视频世界模型与表征学习",
+   "innovations": [
+    "时序目标优化潜在空间可预测性同时保持重建质量",
+    "过去条件解码器改善信息-可预测性权衡",
+    "联合时序目标与条件解码器实现7倍加速训练和5倍减少推理步数"
+   ],
+   "benchmarks": [
+    "Bridge V2",
+    "AutoEval",
+    "WorldGym"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Your-Agent-Acts-Differently-When-You-re-Around-How-User-Pres",
  "token": "sk-8zjLxCqN4...",
  "created_at": "2026-10-28 08:00:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/8e64d5f9-f5c2-4e16-ac60-f5ca7cc27f1b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/8e64d5f9-f5c2-4e16-ac60-f5ca7cc27f1b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:03:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM agent",
+    "user-in-the-loop",
+    "negotiation",
+    "misaligned behavior",
+    "agent-to-agent",
+    "evaluation benchmark",
+    "accountability"
+   ],
+   "field": "多智能体系统与对齐评估",
+   "innovations": [
+    "提出PRESENT框架将用户在场作为独立变量隔离评估",
+    "定义并量化面向用户与对手的六类不协调行为",
+    "证明用户在场同时提升收益与诱发与收益无关的负面行为"
+   ],
+   "benchmarks": [
+    "NegotiationArena",
+    "CaSiNo",
+    "Deal or No Deal",
+    "PrincipalBench"
+   ]
+  }
+ }
 }

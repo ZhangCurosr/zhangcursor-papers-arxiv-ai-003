@@ -4,5 +4,30 @@
  "title": "When-to-Intervene-An-Empirical-Study-of-Errors-and-Self-Reco",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-10-28 19:26:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/bcf440d0-6c14-423a-8fe7-a144451720b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/bcf440d0-6c14-423a-8fe7-a144451720b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:57:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM agents",
+    "self-recovery",
+    "intervention timing",
+    "ReInBench",
+    "error prediction",
+    "multimodal learning",
+    "agent reliability"
+   ],
+   "field": "LLM agent reliability",
+   "innovations": [
+    "Construct ReInBench dataset with 1,259 agent traces and 1,403 error events",
+    "Empirical study showing 60%+ errors self-recover within few steps",
+    "Propose ReCoF method achieving 9.02% average Macro-F1 improvement over baselines"
+   ],
+   "benchmarks": [
+    "ReInBench"
+   ]
+  }
+ }
 }

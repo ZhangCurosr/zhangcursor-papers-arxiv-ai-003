@@ -4,5 +4,51 @@
  "title": "ZOOMING-WITHOUT-ZOOMING-V2-FROM-SEEING-DETAILS-TO-CONNECTING",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-10-28 07:59:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/66364e02-527f-4237-a485-ec114ac6a83e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/66364e02-527f-4237-a485-ec114ac6a83e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:03:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal perception",
+    "visual evidence connection",
+    "synthetic data synthesis",
+    "RLVR",
+    "spatial reasoning",
+    "long-context understanding"
+   ],
+   "field": "多模态感知与视觉推理",
+   "innovations": [
+    "提出connecting evidence作为统一原子能力并用多区域单图合成数据训练",
+    "EVIDENCECONNECT框架结合特权视角与跨模型验证+区域消融审计",
+    "仅20.4K合成数据经RLVR即实现25基准全面泛化提升"
+   ],
+   "benchmarks": [
+    "ViewSpatial-Bench",
+    "MileBench",
+    "MMLongBench",
+    "TreeBench",
+    "CountQA",
+    "MIMIC",
+    "MMSI-Bench",
+    "ERQA",
+    "AgentVista",
+    "ZoomBench",
+    "HR-Bench",
+    "VStar",
+    "MME-RealWorld",
+    "Chartography",
+    "PerceptionBench",
+    "MMStar",
+    "BabyVision",
+    "MemLens",
+    "ScreenSpot-Pro",
+    "UI-Vision",
+    "O3-Bench",
+    "SPAR-Bench",
+    "MindCube-Tiny"
+   ]
+  }
+ }
 }

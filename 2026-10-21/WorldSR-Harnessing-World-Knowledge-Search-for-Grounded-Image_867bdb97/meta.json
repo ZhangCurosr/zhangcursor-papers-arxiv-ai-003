@@ -4,5 +4,10 @@
  "title": "WorldSR-Harnessing-World-Knowledge-Search-for-Grounded-Image",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-21 18:29:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/3f3cb9bd-1292-443a-86f9-9f74bcb16e9e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/3f3cb9bd-1292-443a-86f9-9f74bcb16e9e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:46:16",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Who-Knows-What-and-What-Does-It-Support-Perspective-Bounded",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-10-28 19:23:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/beaa7bfe-02df-4bb7-ac7d-05d71f4725fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/beaa7bfe-02df-4bb7-ac7d-05d71f4725fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:01:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Theory of Mind",
+    "Multimodal Reasoning",
+    "Evidence Calibration",
+    "Perspective-Bounded",
+    "Bayesian Inverse Planning",
+    "Mental State Inference"
+   ],
+   "field": "多模态心智理论推理",
+   "innovations": [
+    "提出证据可采纳性原则，显式约束代理可访问证据对心智假设的支持",
+    "设计 PIP-ToM 接口，通过有界校准因子校正底层贝叶斯推断的局部似然",
+    "揭示直接证据匹配与模型推断的互补边界，提供三层诊断框架"
+   ],
+   "benchmarks": [
+    "MuMA-ToM",
+    "MMToM-QA",
+    "Hi-ToM"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Spatial-Reasoning-with-a-General-Coding-Agent",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-10-21 18:29:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/fad5e78e-a3f7-4f0b-84ea-b6e6e38cbd2a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/fad5e78e-a3f7-4f0b-84ea-b6e6e38cbd2a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:46:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial reasoning",
+    "agentic VLM",
+    "tool-augmented reasoning",
+    "scene memory",
+    "coding agent",
+    "multi-view perception"
+   ],
+   "field": "空间推理与具身智能",
+   "innovations": [
+    "通过持久场景记忆+解释性读取关闭证据闭环，将通用编码代理改造为空间推理系统",
+    "工具返回结构化数值+自然语言结论，降低模型解读负担",
+    "双通道感知统一框架支持模型-工具交叉校验"
+   ],
+   "benchmarks": [
+    "MMSI-Bench",
+    "ReVSI",
+    "MindCube",
+    "SPAR-Bench",
+    "MMSI-Video-Bench"
+   ]
+  }
+ }
 }

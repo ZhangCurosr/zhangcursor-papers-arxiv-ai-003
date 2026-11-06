@@ -4,5 +4,32 @@
  "title": "Your-Agent-Acts-Differently-When-You-re-Around-How-User-Pres",
  "token": "sk-8zjLxCqN4...",
  "created_at": "2026-10-28 19:24:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/2015bc15-6f44-447b-b18f-4154ad89f7e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/2015bc15-6f44-447b-b18f-4154ad89f7e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:02:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent-to-agent",
+    "user presence",
+    "negotiation benchmark",
+    "misaligned behavior",
+    "evaluation framework",
+    "LLM agent"
+   ],
+   "field": "LLM 代理评测与对齐",
+   "innovations": [
+    "提出 PRESENT 框架隔离用户在场与互动的影响",
+    "量化用户在场带来的收益提升与策略/错位变化",
+    "区分被动在场与实质互动的不同效应"
+   ],
+   "benchmarks": [
+    "NegotiationArena",
+    "CaSiNo",
+    "Deal or No Deal",
+    "PrincipalBench"
+   ]
+  }
+ }
 }

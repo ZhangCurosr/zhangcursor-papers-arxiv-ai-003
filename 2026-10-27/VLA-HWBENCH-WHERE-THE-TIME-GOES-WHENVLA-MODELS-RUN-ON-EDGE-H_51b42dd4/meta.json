@@ -4,5 +4,29 @@
  "title": "VLA-HWBENCH-WHERE-THE-TIME-GOES-WHENVLA-MODELS-RUN-ON-EDGE-H",
  "token": "sk-yeaNqR4AC...",
  "created_at": "2026-10-27 19:18:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/61932ac0-a6f3-4b79-9843-e1b86386947e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/61932ac0-a6f3-4b79-9843-e1b86386947e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:52:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA",
+    "边缘推理",
+    "延迟剖析",
+    "kernel fusion",
+    "低精度推理",
+    "LIBERO"
+   ],
+   "field": "边缘AI系统性能评测",
+   "innovations": [
+    "提出覆盖4种动作生成形式的7阶段VLA边缘推理基准VLA-HWBench",
+    "发现延迟由动作生成迭代次数而非模型参数量主导，参数量仅解释最多15%方差",
+    "量化编译/专用后端/低精度三层优化收益并揭示优化会转移瓶颈至CPU预处理"
+   ],
+   "benchmarks": [
+    "LIBERO-10"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "When-the-Critic-Falls-Behind-Co-Evolving-Rubrics-and-Harness",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-10-28 19:24:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/35512b86-ecf3-4527-8bee-a46d61117bf8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/35512b86-ecf3-4527-8bee-a46d61117bf8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:55:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent self-improvement",
+    "harness evolution",
+    "rubric co-evolution",
+    "continual learning",
+    "LLM agents"
+   ],
+   "field": "Agent 持续自演化与诊断",
+   "innovations": [
+    "提出 RuHarness 实现规标与 harness 双向协同演化，动态追踪迁移的行为弱点",
+    "设计结果盲行为评估与六坐标协同候选生成机制，解耦诊断信号与任务结果",
+    "构建时变诊断效用与保守后验排名，解决小样本准则优先级排序的可靠性问题"
+   ],
+   "benchmarks": [
+    "EvoAgentBench",
+    "SWE-Bench",
+    "LiveCodeBench",
+    "BrowseComp-Plus",
+    "OmniMath",
+    "GDP-Val"
+   ]
+  }
+ }
 }

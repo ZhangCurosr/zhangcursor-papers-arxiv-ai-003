@@ -4,5 +4,32 @@
  "title": "When-to-Intervene-An-Empirical-Study-of-Errors-and-Self-Reco",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-10-28 08:00:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/e136c06f-e206-4f99-bfaf-3db125467fef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/e136c06f-e206-4f99-bfaf-3db125467fef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:57:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agents",
+    "Self-Recovery",
+    "Error Intervention",
+    "ReInBench",
+    "ReCoF",
+    "Agent Traces",
+    "Recovery Prediction"
+   ],
+   "field": "LLM Agent Reliability & Intervention",
+   "innovations": [
+    "ReInBench数据集：首个细粒度标注自我恢复过程的Computer-use/Web多任务数据集",
+    "ReCoF方法：结合历史恢复模式专家与情境判词交互的条件决策融合预测框架",
+    "实证发现：自我恢复常发生在2-3步内且对同类错误具有正向迁移效应"
+   ],
+   "benchmarks": [
+    "ReInBench",
+    "OSWorld-Verified",
+    "Online-Mind2Web (HAL SeeAct GPT-5)"
+   ]
+  }
+ }
 }

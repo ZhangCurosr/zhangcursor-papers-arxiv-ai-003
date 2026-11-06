@@ -4,5 +4,32 @@
  "title": "Where-Should-the-Evaluation-Budget-Go-in-LLM-Driven-Agent-Sc",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-10-28 07:57:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/3fe4d008-7848-4a23-93b0-bc05898c7d9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/3fe4d008-7848-4a23-93b0-bc05898c7d9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:59:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM agent scaffol evolution",
+    "evaluation budget allocation",
+    "sparse feedback",
+    "successive halving",
+    "response model",
+    "item selection"
+   ],
+   "field": "LLM Agent自动化优化",
+   "innovations": [
+    "将评估预算分配为搜索期稀疏反馈与最终选择两个阶段，针对不同需求分别优化",
+    "提出共享信息核心+固定响应模型机制，在保证跨candidate可比性的同时降低评估成本",
+    "设计热启动逐次减半策略，复用累积观测并结合回归校正实现低成本高可靠性最终选择"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "HoVer",
+    "DROP",
+    "IFBench"
+   ]
+  }
+ }
 }

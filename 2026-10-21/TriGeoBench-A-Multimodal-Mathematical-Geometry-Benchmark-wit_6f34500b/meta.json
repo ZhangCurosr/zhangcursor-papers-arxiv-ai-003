@@ -4,5 +4,34 @@
  "title": "TriGeoBench-A-Multimodal-Mathematical-Geometry-Benchmark-wit",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-10-21 18:32:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/905a5e59-7120-4311-a7a0-3e7a19678efc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/905a5e59-7120-4311-a7a0-3e7a19678efc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:45:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal reasoning",
+    "geometric benchmark",
+    "TikZ",
+    "image-to-code",
+    "mathematical reasoning",
+    "structure-aware evaluation"
+   ],
+   "field": "多模态数学推理",
+   "innovations": [
+    "提出首个基于中国初高中考试的几何中心多模态基准TriGeoBench，采用{LaTeX问答, RGB图像, TikZ代码}三元组统一表示",
+    "设计Image-to-TikZ与多模态推理双任务评测协议，揭示当前MLLMs在细粒度结构对齐上的瓶颈",
+    "通过Oracle实验证明人工标注TikZ可提供互补几何线索，但多模态冗余输入融合仍具挑战"
+   ],
+   "benchmarks": [
+    "TriGeoBench",
+    "MathVerse",
+    "MATH-Vision",
+    "VisioMath",
+    "GeoEval",
+    "SOLIDGEO"
+   ]
+  }
+ }
 }

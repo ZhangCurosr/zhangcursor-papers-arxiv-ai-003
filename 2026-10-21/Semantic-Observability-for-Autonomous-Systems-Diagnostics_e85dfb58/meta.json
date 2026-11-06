@@ -4,5 +4,31 @@
  "title": "Semantic-Observability-for-Autonomous-Systems-Diagnostics",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-21 18:29:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/f6a5af5d-6d9c-48ef-a084-e9098e5937a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/f6a5af5d-6d9c-48ef-a084-e9098e5937a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:44:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Site Reliability Engineering",
+    "Property Graph Database",
+    "Multi-Agent Systems",
+    "Root Cause Analysis",
+    "Large Language Models",
+    "Causal Inference",
+    "Observability"
+   ],
+   "field": "分布式系统可观测性与智能运维",
+   "innovations": [
+    "将分布式日志统一建模为带拓扑与时间边的属性图数据库以支撑因果诊断",
+    "签名哈希+LLM零样本模式归纳的两阶段自适应日志解析机制",
+    "基于时序回溯与拓扑可达性的确定性因果子图剪枝以减少LLM幻觉和上下文膨胀"
+   ],
+   "benchmarks": [
+    "LogHub",
+    "Train-Ticket"
+   ]
+  }
+ }
 }

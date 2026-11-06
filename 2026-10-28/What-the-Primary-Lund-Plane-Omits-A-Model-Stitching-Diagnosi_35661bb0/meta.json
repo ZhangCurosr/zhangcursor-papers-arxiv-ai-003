@@ -4,5 +4,30 @@
  "title": "What-the-Primary-Lund-Plane-Omits-A-Model-Stitching-Diagnosi",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-10-28 08:06:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/db204fa9-2814-4ea9-a7cd-812ffac00dda.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/db204fa9-2814-4ea9-a7cd-812ffac00dda.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:54:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model stitching",
+    "jet tagging",
+    "Lund plane",
+    "representation gap",
+    "ParticleTransformer",
+    "top tagging"
+   ],
+   "field": "高能物理机器学习/喷注标记器可解释性",
+   "innovations": [
+    "通过class token缝合分离喷注表示差距中的信息缺失与下游计算缺陷",
+    "证实主Lund平面性能低下源于表示缺陷而非读取能力不足，缺陷集中在0.6%高多重数背景喷注",
+    "发现完整聚类树的次级节点在训练阶段塑造表示，但推理时判别力几乎完全依赖主分支最宽角分裂"
+   ],
+   "benchmarks": [
+    "Kasieczka top-tagging reference dataset (Zenodo DOI: 10.5281/zenodo.2603256)",
+    "EnergyFlow quark/gluon tagging dataset"
+   ]
+  }
+ }
 }

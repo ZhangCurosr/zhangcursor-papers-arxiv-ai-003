@@ -4,5 +4,30 @@
  "title": "Zero-Shot-Multi-Class-Wafer-Map-Classification-with-Rule-Ord",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-10-27 19:15:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/d5e9dcf5-8793-44f0-a724-919210fb9792.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/d5e9dcf5-8793-44f0-a724-919210fb9792.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:48:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "wafer map classification",
+    "zero-shot learning",
+    "large multimodal model",
+    "prompt engineering",
+    "defect pattern recognition",
+    "semiconductor manufacturing"
+   ],
+   "field": "晶圆图缺陷识别与零样本学习",
+   "innovations": [
+    "构建training-free六类晶圆图分类框架，结合冻结LMM与连通分量高亮",
+    "设计形态-位置-排除边界三要素的结构化语义规则，明确类别决策边界",
+    "定义规则呈现顺序以编码类别优先级，缓解零样本下证据重叠歧义"
+   ],
+   "benchmarks": [
+    "Mixed-WM38",
+    "WM811K"
+   ]
+  }
+ }
 }

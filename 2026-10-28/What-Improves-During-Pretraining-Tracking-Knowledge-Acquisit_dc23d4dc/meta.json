@@ -4,5 +4,34 @@
  "title": "What-Improves-During-Pretraining-Tracking-Knowledge-Acquisit",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-28 07:59:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/c6540c60-357f-4f45-8023-289e238478e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/c6540c60-357f-4f45-8023-289e238478e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:51:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "预训练动力学",
+    "知识习得",
+    "时间可变性得分",
+    "Point-in-Time模型",
+    "基准分析",
+    "语言模型诊断"
+   ],
+   "field": "语言模型预训练与知识表征",
+   "innovations": [
+    "提出TVS指标利用跨年份PIT模型NLL变异量化知识时间稳定性",
+    "发现高TVS知识在预训练后期以每年十倍token 2.0点速度更快习得",
+    "答案特异性TVS分解揭示正确选项时间变异独立预测后期margin增长"
+   ],
+   "benchmarks": [
+    "HellaSwag",
+    "PIQA",
+    "Wino-Grande",
+    "ARC-Easy",
+    "ARC-Challenge",
+    "MMLU"
+   ]
+  }
+ }
 }

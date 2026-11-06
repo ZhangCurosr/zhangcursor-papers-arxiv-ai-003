@@ -4,5 +4,32 @@
  "title": "Where-Should-the-Evaluation-Budget-Go-in-LLM-Driven-Agent-Sc",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-10-28 19:22:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/082853dd-b556-482d-95f5-a1fa8ce1499f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/082853dd-b556-482d-95f5-a1fa8ce1499f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 09:03:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM agent",
+    "scaffold evolution",
+    "evaluation allocation",
+    "sparse evaluation",
+    "successive halving",
+    "item response theory"
+   ],
+   "field": "LLM驱动的智能体脚手架进化与高效评估",
+   "innovations": [
+    "将评估分配建模为搜索期反馈与最终选择两阶段决策依赖问题",
+    "提出EvalAlloc框架，通过固定响应模型+共享信息核心实现低成本可比进化反馈",
+    "应用预热启动的成对连续淘汰与回归校正复用搜索期观测完成精准最终选择"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "HoVer",
+    "DROP",
+    "IFBench"
+   ]
+  }
+ }
 }

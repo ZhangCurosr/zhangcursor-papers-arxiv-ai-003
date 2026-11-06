@@ -4,5 +4,34 @@
  "title": "When-uncertainty-quantification-fails-structural-vulnerabili",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-10-28 07:59:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/b8205eed-b3d6-45c5-9ace-8f29fbca97e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/b8205eed-b3d6-45c5-9ace-8f29fbca97e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 08:57:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "uncertainty quantification",
+    "selective prediction",
+    "class imbalance",
+    "clinical AI",
+    "entropy",
+    "conformal prediction",
+    "risk-coverage",
+    "algorithmic fairness"
+   ],
+   "field": "临床AI中的不确定性量化与公平性",
+   "innovations": [
+    "提出阈值感知模糊分数Hτ，将Shannon熵峰值从0.5重定位至临床决策边界τ",
+    "设计类条件拒绝（CCR）机制，在固定拒绝配额下按预测轨迹内部排序实现类比例保全",
+    "提出ccAUGRC评估分解，暴露并防止全局风险指标掩盖的少数类排除偏见"
+   ],
+   "benchmarks": [
+    "Multiple Sclerosis (MS) cohort π=0.13",
+    "Parkinson's Disease (PD) cohort π=0.39",
+    "Alzheimer's Disease (AD) cohort π=0.54 (ADNI)",
+    "Synthetic phase diagram (56 conditions: π×d×N grid)"
+   ]
+  }
+ }
 }

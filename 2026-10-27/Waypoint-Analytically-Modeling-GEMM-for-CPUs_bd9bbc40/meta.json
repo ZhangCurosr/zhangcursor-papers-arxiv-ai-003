@@ -4,5 +4,35 @@
  "title": "Waypoint-Analytically-Modeling-GEMM-for-CPUs",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-10-27 19:16:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/476b84f8-9908-4519-95f2-65385ed0c348.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-28/476b84f8-9908-4519-95f2-65385ed0c348.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 22:23:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GEMM",
+    "analytical modeling",
+    "tile sizing",
+    "CPU performance",
+    "LLM inference",
+    "Roofline model",
+    "libzenmm"
+   ],
+   "field": "高性能计算/编译器自动调优",
+   "innovations": [
+    "提出 Waypoint-Strict 作为比 Roofline 更紧的 GEMM 性能上界，同时参数化硬件与输入 shape",
+    "提出 Waypoint-Tile 并推导寄存器压力与 load-to-fma 比两个不等式以压缩 tile 搜索空间",
+    "基于 OpenEvolve 演化出 18851× 加速的快速启发式 tile 搜索算法"
+   ],
+   "benchmarks": [
+    "AMD Zen 5 EPYC 9755",
+    "AMD Zen 6 EPYC 9996",
+    "AOCL-BLAS",
+    "AOCL-DLP",
+    "SFC",
+    "AMD-PACE LLM inference"
+   ]
+  }
+ }
 }

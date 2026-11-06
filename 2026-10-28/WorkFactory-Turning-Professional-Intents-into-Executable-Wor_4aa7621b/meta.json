@@ -4,5 +4,32 @@
  "title": "WorkFactory-Turning-Professional-Intents-into-Executable-Wor",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-10-28 19:25:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/5854409a-1041-44e8-beff-d75f1c1fce0f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-29/5854409a-1041-44e8-beff-d75f1c1fce0f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 22:24:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "working agent",
+    "agent training",
+    "task synthesis",
+    "supervised fine-tuning",
+    "GDPval",
+    "professional work"
+   ],
+   "field": "Agent 训练数据合成",
+   "innovations": [
+    "信息支撑图：从预期输出反向规划信息依赖与位置，显式区分供给与求解边界",
+    "执行修复：隔离探针诊断环境缺陷并在保持预期工作完整性约束下修复",
+    "11.2 万职业任务语料与 WorkPilot 系列模型的全面评估与数据缩放分析"
+   ],
+   "benchmarks": [
+    "GDPval-AA v2.1",
+    "JobBench",
+    "Workspace-Bench",
+    "OmegaUse-OfficeVal"
+   ]
+  }
+ }
 }

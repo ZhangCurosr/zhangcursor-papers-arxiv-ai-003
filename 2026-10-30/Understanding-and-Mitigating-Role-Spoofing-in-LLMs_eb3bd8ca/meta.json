@@ -4,5 +4,10 @@
  "title": "Understanding-and-Mitigating-Role-Spoofing-in-LLMs",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-10-30 19:13:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/cceaca4f-7bfc-43cf-ab5e-7f9fbe6cc1d1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/cceaca4f-7bfc-43cf-ab5e-7f9fbe6cc1d1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 22:24:49",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Understanding-and-Mitigating-Role-Spoofing-in-LLMs",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-10-30 08:18:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/24290161-c7ca-4f94-ba1e-a6006716b6b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/24290161-c7ca-4f94-ba1e-a6006716b6b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 22:24:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Prompt Injection",
+    "Role Spoofing",
+    "LLM Security",
+    "Linear Probes",
+    "Agentic AI Safety",
+    "OOD Generalization"
+   ],
+   "field": "LLM安全与提示注入防御",
+   "innovations": [
+    "揭示LLM依赖内容与结构两类不稳健机制判断角色，系统性分析角色欺骗攻击的成因",
+    "证明对抗训练导致机制切换但不提升跨攻击类型鲁棒性",
+    "提出仅需干净数据训练的线性探针实现高效角色欺骗检测"
+   ],
+   "benchmarks": [
+    "AgentDojo",
+    "Self-built Tool-Use Testbed"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "UniWALM-Unified-World-Action-Language-Model-for-Embodied-Rob",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-10-21 18:30:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/30992f20-2b5f-4c0f-bdbf-6937127204d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/30992f20-2b5f-4c0f-bdbf-6937127204d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:56:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world-action-language model",
+    "diffusion policy",
+    "embodied AI",
+    "memory-dependent manipulation",
+    "flow matching",
+    "unified multimodal model",
+    "robotic reasoning"
+   ],
+   "field": "具身智能与统一多模态模型",
+   "innovations": [
+    "统一世界-动作-语言模型（WALM）在单一扩散表示中协同去噪生成三模态，语言-as-记忆闭环无需外部规划器",
+    "Flow Matching with Correction (FMC) 在训练时注入扰动并学习纠正速度场，推理零额外成本提升动作精确性",
+    "从零训练语言专家（0.5B）而非嫁接预训练 VLM，证明统一表示本身可内化任务级结构"
+   ],
+   "benchmarks": [
+    "MolmoSpaces",
+    "RMBench M(n)",
+    "Real-world Find-the-Item / Cube Pick&Place / Empty Container"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "VISH-ASR-VITERBI-GUIDED-SELECTION-OF-HOTWORDS-FOR-SPEECH-LLM",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-10-21 18:31:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/9f9c071c-1d36-4277-94b5-2feb15b821e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/9f9c071c-1d36-4277-94b5-2feb15b821e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:57:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "contextual ASR",
+    "hotword pre-selection",
+    "CTC posterior",
+    "Viterbi search",
+    "speech LLM",
+    "plug-and-play"
+   ],
+   "field": "语音识别中的上下文偏置与热词检索",
+   "innovations": [
+    "将热词预筛选建模为帧级 CTC 后验上的约束 Viterbi 搜索，无需离散假设依赖",
+    "提出 M-VISH 共享前缀 Trie + top-K 剪枝的可扩展多候选搜索框架",
+    "Bi-MVISH 利用 CTC collapse 反转对称性实现双向互补证据融合"
+   ],
+   "benchmarks": [
+    "STOP1",
+    "STOP2",
+    "AISHELL-1-NE",
+    "LibriSpeech test-clean-2k",
+    "LibriSpeech test-other-2k"
+   ]
+  }
+ }
 }

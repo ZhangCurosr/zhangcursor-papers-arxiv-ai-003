@@ -4,5 +4,28 @@
  "title": "WORLD2HOSI-A-MULTI-EXPERT-HARNESS-FOR-LONG-HORIZON-HUMAN-OBJ",
  "token": "sk-SRpYy0JAC...",
  "created_at": "2026-10-21 07:27:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/ac02f8e0-745d-4714-a050-c46b73ad6fc9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/ac02f8e0-745d-4714-a050-c46b73ad6fc9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:59:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human-Object-Scene Interaction",
+    "Multi-Expert Orchestration",
+    "3D Gaussian Splatting",
+    "Long-horizon Motion Generation",
+    "Physics-based Refinement"
+   ],
+   "field": "具身智能与4D交互生成",
+   "innovations": [
+    "提出首个面向长时序HOSI的多专家编排框架，通过持久化ISP状态闭环协调异构专家",
+    "设计MotionIR中间表示统一跨专家条件格式，降低集成复杂度",
+    "有界残差RL优化在保留参考运动结构的前提下修正物理违规"
+   ],
+   "benchmarks": [
+    "HOSI任务完成率、接触比OCP、严重穿透帧比例Pf、几何质量分Sg、动作/pose多样性APD"
+   ]
+  }
+ }
 }

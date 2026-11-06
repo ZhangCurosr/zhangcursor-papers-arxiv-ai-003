@@ -4,5 +4,33 @@
  "title": "When-Health-Assistants-Agree-Too-Readily-A-Benchmark-of-Time",
  "token": "sk-SpLNbaqjv...",
  "created_at": "2026-10-21 18:32:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/1f919d4f-5610-460f-8290-862e6fb5eaa9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/1f919d4f-5610-460f-8290-862e6fb5eaa9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 03:02:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "health AI",
+    "self-diagnosis",
+    "sycophancy",
+    "epistemic independence",
+    "LLM benchmark",
+    "medical safety",
+    "prompting vs SFT"
+   ],
+   "field": "健康领域大语言模型安全与对齐",
+   "innovations": [
+    "提出 SELFDX 配对基准，首次在时间敏感健康场景中同时测量恰当谨慎率与恰当同意率",
+    "发现 27 个前沿模型均过度附和用户自我诊断，最优模型谨慎率仅 77%",
+    "证明 128 样本 SFT 可同时提升两项对立指标而提示干预无法做到"
+   ],
+   "benchmarks": [
+    "SELFDX",
+    "CARE-Bench",
+    "HealthBench",
+    "BiasMedQA"
+   ]
+  }
+ }
 }

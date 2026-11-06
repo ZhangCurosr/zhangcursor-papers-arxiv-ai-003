@@ -4,5 +4,31 @@
  "title": "What-Do-RTL-Repair-Benchmarks-Actually-Measure",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-21 18:27:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/21a90bd6-9ec8-40c7-9f40-0148b5132923.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/21a90bd6-9ec8-40c7-9f40-0148b5132923.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:59:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RTL repair",
+    "hardware generation",
+    "benchmark audit",
+    "formal verification",
+    "simulation oracle",
+    "specification-driven generation"
+   ],
+   "field": "硬件代码生成与验证",
+   "innovations": [
+    "实证识别 RTL 修复评估中的两个测量混淆：仿真-形式化语义敏感性与修复-重新生成混淆",
+    "提出四项评估控制规范（初始化/重置/首轮语义报告、oracle 覆盖率披露、规范-only 基线）",
+    "开源包含工具门控构造管线与双层 oracle 的端到端可复现基准基础设施"
+   ],
+   "benchmarks": [
+    "RTLRepairBench",
+    "VerilogEval",
+    "RTLLM"
+   ]
+  }
+ }
 }

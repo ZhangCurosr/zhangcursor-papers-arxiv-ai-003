@@ -4,5 +4,35 @@
  "title": "Where-How-and-When-Query-Guided-Grounding-for-Video-Understa",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-10-16 06:52:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/3814394f-20e6-41ac-a0b3-bd10522362e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/3814394f-20e6-41ac-a0b3-bd10522362e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:59:10",
+  "chunks": 15,
+  "meta": {
+   "keywords": [
+    "video understanding",
+    "few-shot detection",
+    "moment retrieval",
+    "visual relationship grounding",
+    "open-vocabulary",
+    "dynamic time warping",
+    "query-guided"
+   ],
+   "field": "视频理解与多模态 grounding",
+   "innovations": [
+    "跨帧选择性特征传播的少样本视频目标检测框架",
+    "双阶段可微动态时间规整对齐的视频时刻检索方法",
+    "基于T-partite随机场与信念传播的少样本视觉关系定位"
+   ],
+   "benchmarks": [
+    "FSVOD-500",
+    "FSYTV-40",
+    "VidOR",
+    "VidVRD",
+    "ActivityNet-VRL",
+    "SportsMoments"
+   ]
+  }
+ }
 }

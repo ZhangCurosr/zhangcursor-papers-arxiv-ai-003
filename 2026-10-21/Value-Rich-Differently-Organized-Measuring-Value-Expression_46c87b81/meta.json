@@ -4,5 +4,35 @@
  "title": "Value-Rich-Differently-Organized-Measuring-Value-Expression",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-10-21 07:22:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/e639f61b-d232-47e2-ac2c-b26a48a32a58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/e639f61b-d232-47e2-ac2c-b26a48a32a58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:58:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Schwartz Basic-10",
+    "value expression",
+    "value organization",
+    "debate evaluation",
+    "AI-generated debate",
+    "multi-level value distribution",
+    "ORCHID"
+   ],
+   "field": "辩论评估与价值分析",
+   "innovations": [
+    "首次区分并形式化价值表达与价值组织两个正交评估维度",
+    "构建基于Schwartz理论的辩论多粒度价值分布表示与诊断性指标族",
+    "揭示AI辩论广覆盖但低集中、跨轮高稳定性的系统性模式"
+   ],
+   "benchmarks": [
+    "ORCHID",
+    "GPT-5.4",
+    "Claude-3.6 Sonnet",
+    "Qwen3.6-Plus",
+    "DeepSeek-V3.2",
+    "R-Debater"
+   ]
+  }
+ }
 }

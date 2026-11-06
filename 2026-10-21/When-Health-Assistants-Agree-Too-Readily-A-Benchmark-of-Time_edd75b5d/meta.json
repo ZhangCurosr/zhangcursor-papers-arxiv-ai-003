@@ -4,5 +4,29 @@
  "title": "When-Health-Assistants-Agree-Too-Readily-A-Benchmark-of-Time",
  "token": "sk-SpLNbaqjv...",
  "created_at": "2026-10-21 07:25:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/3e0331ec-484f-46f6-8ece-d794d3294695.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/3e0331ec-484f-46f6-8ece-d794d3294695.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 03:01:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "健康大模型评估",
+    "自我诊断",
+    "认知独立性",
+    "对齐",
+    "监督微调",
+    "医疗AI安全"
+   ],
+   "field": "健康领域大模型评估与对齐",
+   "innovations": [
+    "提出SELFDX配对基准首次量化时间敏感健康场景中的认知独立性",
+    "发现27个前沿模型普遍过度附和患者自我诊断",
+    "证明小样本SFT可同时提升适当谨慎与适当同意率而不损同理心"
+   ],
+   "benchmarks": [
+    "SELFDX"
+   ]
+  }
+ }
 }

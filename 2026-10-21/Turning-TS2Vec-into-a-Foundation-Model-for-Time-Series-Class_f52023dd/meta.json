@@ -4,5 +4,31 @@
  "title": "Turning-TS2Vec-into-a-Foundation-Model-for-Time-Series-Class",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-21 07:23:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/35db166f-6ef4-47f8-9803-6ba813d536c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/35db166f-6ef4-47f8-9803-6ba813d536c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:56:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "time series foundation model",
+    "TS2Vec",
+    "self-supervised learning",
+    "distillation",
+    "dilated convolution",
+    "synthetic pre-training",
+    "zero-shot classification"
+   ],
+   "field": "时间序列基础模型",
+   "innovations": [
+    "将 TS2Vec 从每数据集独立训练范式转化为单一冻结基础模型",
+    "原始幅度与实例归一化形状双视图互补输入设计",
+    "专家蒸馏取代直接对比学习以合并双视图编码能力"
+   ],
+   "benchmarks": [
+    "UCR-128",
+    "UEA-27"
+   ]
+  }
+ }
 }

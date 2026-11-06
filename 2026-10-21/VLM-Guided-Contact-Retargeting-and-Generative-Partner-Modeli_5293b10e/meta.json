@@ -4,5 +4,31 @@
  "title": "VLM-Guided-Contact-Retargeting-and-Generative-Partner-Modeli",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-10-21 07:20:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/39bf7001-5fce-47de-a003-fceedee591a1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/39bf7001-5fce-47de-a003-fceedee591a1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:58:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Humanoid-Human Interaction",
+    "Contact Retargeting",
+    "Vision-Language Model",
+    "Generative Partner-State Prediction",
+    "Sim-to-Real",
+    "Partial Observability",
+    "Egocentric Depth Policy"
+   ],
+   "field": "人形机器人-人类物理交互",
+   "innovations": [
+    "VLM引导的语义接触建模与跨化身接触保留重定向框架",
+    "基于VLM接触标注的交互感知接触奖励驱动物理交互策略学习",
+    "生成式伙伴状态预测目标使深度策略在严重遮挡下仍能推断伙伴运动"
+   ],
+   "benchmarks": [
+    "Inter-X",
+    "Unitree G1 Real-World Deployment"
+   ]
+  }
+ }
 }

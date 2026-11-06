@@ -4,5 +4,32 @@
  "title": "Whole-Body-Dexterity",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-10-16 06:55:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/0b1fe9e3-24b7-4349-a08a-4ad275514dda.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/0b1fe9e3-24b7-4349-a08a-4ad275514dda.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:54:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "whole-body manipulation",
+    "dexterous manipulation",
+    "reinforcement learning",
+    "sim-to-real",
+    "humanoid robotics",
+    "grasp generation",
+    "policy distillation"
+   ],
+   "field": "人形机器人全身灵巧操作",
+   "innovations": [
+    "基于模式约束的全身体抓取生成与重定位框架",
+    "WBD-EX专家策略通过任意位置到任意模式转移学习全身灵巧操作",
+    "扩散模型蒸馏控制器将粗粒度遥操作指令细化为稳定全身体接触操控"
+   ],
+   "benchmarks": [
+    "Shoulder tap task",
+    "Underarm stow task",
+    "Shelf pick-stow-carry-place task"
+   ]
+  }
+ }
 }

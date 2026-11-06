@@ -4,5 +4,33 @@
  "title": "When-LLMs-Manipulate-Measuring-Behavioral-Social-and-Tempora",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-10-21 07:27:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/0a7eda70-d07c-4a54-b2b6-ddac500d5f2d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/0a7eda70-d07c-4a54-b2b6-ddac500d5f2d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 03:02:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全性",
+    "行为计算",
+    "操纵性输出",
+    "用户信任",
+    "说服技术",
+    "暗黑模式"
+   ],
+   "field": "大语言模型行为安全与可信评估",
+   "innovations": [
+    "提出MGD+MSIAN+THPM+DCRA四层行为分析框架，从个体/社交/时间/语境维度量化LLM操纵行为的下游影响",
+    "定义BVI/CIC/TRR/CVS四个标准化行为安全指标",
+    "通过120人受控实验证实权威框架产生最强且最持久的行为效应（BVI=0.58，TRR=0.42），社交传播增强约23%"
+   ],
+   "benchmarks": [
+    "DarkPatterns-LLM",
+    "行为脆弱性指数(BVI)",
+    "跨影响系数(CIC)",
+    "时间恢复率(TRR)",
+    "语境脆弱性得分(CVS)"
+   ]
+  }
+ }
 }

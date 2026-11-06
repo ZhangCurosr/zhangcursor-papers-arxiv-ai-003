@@ -4,5 +4,30 @@
  "title": "When-is-a-better-LLM-worth-paying-for-Stochastic-Optimizatio",
  "token": "sk-dpgvlEWCZ...",
  "created_at": "2026-10-16 18:09:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/64bd4fc2-740d-47bd-bb73-b300bdf39fcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/64bd4fc2-740d-47bd-bb73-b300bdf39fcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:56:42",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "stochastic optimization",
+    "mixed-fidelity oracle",
+    "LLM data cleaning",
+    "cost-quality tradeoff",
+    "biased gradient methods",
+    "adaptive oracle switching",
+    "recursive regularization"
+   ],
+   "field": "大模型辅助优化与成本控制",
+   "innovations": [
+    "oracle 保真度三参数化与偏差可接受条件",
+    "已知/未知偏差双路径自适应切换算法（Algorithm 1 + Algorithm 3）",
+    "U 形认证-训练成本权衡的理论揭示与实证"
+   ],
+   "benchmarks": [
+    "Aspiring Minds (10% 缺失数据清理任务)"
+   ]
+  }
+ }
 }

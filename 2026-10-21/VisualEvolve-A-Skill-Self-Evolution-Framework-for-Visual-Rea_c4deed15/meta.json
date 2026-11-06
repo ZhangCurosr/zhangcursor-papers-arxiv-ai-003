@@ -4,5 +4,34 @@
  "title": "VisualEvolve-A-Skill-Self-Evolution-Framework-for-Visual-Rea",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-10-21 07:27:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/2584d720-5f72-4aaa-8672-884703aab93a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/2584d720-5f72-4aaa-8672-884703aab93a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:59:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉推理",
+    "技能自演化",
+    "视觉语言模型",
+    "工具使用",
+    "外部技能库",
+    "多轮迭代优化"
+   ],
+   "field": "视觉语言模型的工具使用与技能演化",
+   "innovations": [
+    "Select-Execute-Evolve-Evaluate 四阶段无参数自演化框架，通过快照选择抑制性能回退",
+    "Progressive Evidence Access 分层粗到细证据访问机制，解决多轮演化中的证据过载问题",
+    "跨骨干模型的技能库直接迁移验证，证明演化技能无需重新训练即可复用"
+   ],
+   "benchmarks": [
+    "V*Bench",
+    "HRBench4K",
+    "HRBench8K",
+    "VisualProbe Easy",
+    "VisualProbe Medium",
+    "VisualProbe Hard"
+   ]
+  }
+ }
 }

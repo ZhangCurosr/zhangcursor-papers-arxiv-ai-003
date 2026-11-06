@@ -4,5 +4,31 @@
  "title": "When-Can-LLM-Reasoning-Reliably-Reuse-Intermediate-Results",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-10-21 18:31:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/0c4348dc-6529-457b-8aac-2ccae1aead06.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/0c4348dc-6529-457b-8aac-2ccae1aead06.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 03:00:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "state reuse",
+    "test-time scaling",
+    "reasoning reliability",
+    "LLM verification",
+    "composite tasks",
+    "retry budget"
+   ],
+   "field": "LLM推理的可靠性与计算效率",
+   "innovations": [
+    "给出了局部重试循环下轨迹可靠性的乘积下界与有限预算精确阈值",
+    "建立了包含错误路径期望工作量的最坏界Θ(N+NR/logN)",
+    "统一分析检查精度、接受概率与总计算成本的关系"
+   ],
+   "benchmarks": [
+    "LoRe-Compo",
+    "EdgeBench",
+    "MATH500"
+   ]
+  }
+ }
 }

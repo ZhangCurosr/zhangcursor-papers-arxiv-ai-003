@@ -4,5 +4,29 @@
  "title": "When-Do-LLMs-Help-with-Feature-Selection-A-Systematic-Empiri",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-10-21 18:29:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/b89db5b0-4e99-4acd-ada1-1a77d71cc859.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/b89db5b0-4e99-4acd-ada1-1a77d71cc859.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 03:00:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "feature selection",
+    "large language models",
+    "reinforcement learning",
+    "tabular data",
+    "semantic ablation"
+   ],
+   "field": "特征选择与大语言模型",
+   "innovations": [
+    "基数匹配的语义诊断分离语义与基数效应",
+    "严格train-only匹配预算经典控制评估信息不对称",
+    "GRPO适应特征选择的系统实证"
+   ],
+   "benchmarks": [
+    "OpenML",
+    "UCI"
+   ]
+  }
+ }
 }

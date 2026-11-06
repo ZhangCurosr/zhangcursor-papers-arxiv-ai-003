@@ -4,5 +4,29 @@
  "title": "Value-Rich-Differently-Organized-Measuring-Value-Expression",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-10-21 18:29:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/1d329d44-a40c-47b2-97a1-6c434f4bd23c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/1d329d44-a40c-47b2-97a1-6c434f4bd23c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:58:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "价值观评估",
+    "辩论生成",
+    "Schwartz Basic-10",
+    "跨轮分析",
+    "AI辩论",
+    "价值观组织"
+   ],
+   "field": "多轮对话与论证分析",
+   "innovations": [
+    "提出价值观表达与组织的双维诊断框架",
+    "设计覆盖度、对齐度、熵、稳定性、漂移、持续性六个指标",
+    "揭示AI辩论激活更广价值观空间但局部更分散的系统性差异"
+   ],
+   "benchmarks": [
+    "ORCHID中文辩论语料库"
+   ]
+  }
+ }
 }

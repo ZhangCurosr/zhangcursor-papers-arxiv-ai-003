@@ -4,5 +4,33 @@
  "title": "WorldSR-Harnessing-World-Knowledge-Search-for-Grounded-Image",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-21 07:19:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/406a1050-18d0-4c1c-8145-31149bc1b1ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/406a1050-18d0-4c1c-8145-31149bc1b1ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 03:02:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image super-resolution",
+    "retrieval-augmented generation",
+    "hallucination mitigation",
+    "entity grounding",
+    "reference-based restoration",
+    "diffusion transformer"
+   ],
+   "field": "图像超分辨率与视觉生成",
+   "innovations": [
+    "将图像超分重构为实体级视觉 grounding 问题，通过 MLLM 自动拆解语义实体并检索外部参考知识",
+    "双 LoRA 域解耦的参考引导超分网络，显式分离 LR 与参考 token 的表征处理",
+    "多步过滤机制（质量评估+区域裁剪+语义排名）结合迭代细化与记忆缓存，兼顾检索质量与计算效率"
+   ],
+   "benchmarks": [
+    "RealLQ250",
+    "Face",
+    "Bird",
+    "WRSR",
+    "CUFED5"
+   ]
+  }
+ }
 }

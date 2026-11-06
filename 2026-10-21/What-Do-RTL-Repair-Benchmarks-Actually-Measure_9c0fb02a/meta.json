@@ -4,5 +4,32 @@
  "title": "What-Do-RTL-Repair-Benchmarks-Actually-Measure",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-21 07:22:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/0e9ac8d0-c5fd-44fd-9d56-7761857d89ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/0e9ac8d0-c5fd-44fd-9d56-7761857d89ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 03:00:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RTL repair",
+    "benchmark evaluation",
+    "formal verification",
+    "simulation oracle",
+    "specification-only baseline",
+    "measurement confound"
+   ],
+   "field": "硬件描述语言与RTL自动综合/验证",
+   "innovations": [
+    "揭示仿真与形式化评测因reset/首周期语义产生相反结论的测量混淆",
+    "提出spec-only对照基线以区分真实修复与规范重生成",
+    "开源RTLRepairDataset+RTLRepairBench及双oracle评测harness"
+   ],
+   "benchmarks": [
+    "RTLRepairBench",
+    "RTLRepairDataset",
+    "VerilogEval",
+    "RTLLM"
+   ]
+  }
+ }
 }

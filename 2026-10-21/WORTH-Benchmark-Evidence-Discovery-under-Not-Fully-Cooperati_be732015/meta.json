@@ -4,5 +4,30 @@
  "title": "WORTH-Benchmark-Evidence-Discovery-under-Not-Fully-Cooperati",
  "token": "sk-57bzKRZBk...",
  "created_at": "2026-10-21 07:23:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/2eab57ec-98d3-404d-bc69-cdcd982b5f34.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/2eab57ec-98d3-404d-bc69-cdcd982b5f34.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:59:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "证据发现",
+    "推理评估",
+    "非完全合作信息",
+    "大语言模型",
+    "推理小说",
+    "过程解耦",
+    "认知警惕性"
+   ],
+   "field": "大模型推理评估",
+   "innovations": [
+    "首次将证据发现与终结判定分开量化，揭示'找到什么'与'用什么判断'的过程解耦现象",
+    "提出'非完全合作信息关系'作为评估维度，利用原创推理小说的叙事结构同时考察线索发现与判断形成",
+    "设计隐藏差异化权重矩阵的评分方式以避免模型从叙事推理转向策略规避"
+   ],
+   "benchmarks": [
+    "WORTH"
+   ]
+  }
+ }
 }

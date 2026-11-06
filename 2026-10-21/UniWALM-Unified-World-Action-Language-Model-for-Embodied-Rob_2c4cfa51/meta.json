@@ -4,5 +4,32 @@
  "title": "UniWALM-Unified-World-Action-Language-Model-for-Embodied-Rob",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-10-21 07:21:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/539707b8-532d-425b-b07d-76b9577d61bc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/539707b8-532d-425b-b07d-76b9577d61bc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:56:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "世界模型",
+    "vision-language-action",
+    "diffusion policy",
+    "language-as-memory",
+    "embodied robot",
+    "flow matching",
+    "multi-modal co-training"
+   ],
+   "field": "具身智能/机器人控制",
+   "innovations": [
+    "在单共享扩散表示中同步生成视频、动作与语言，形成语言-记忆闭环",
+    "提出 Flow Matching with Correction（FMC）在训练时教授动作自我修正而推理零开销",
+    "仅凭单锚帧+自生成文本记忆即超越带特权关键帧的记忆基线"
+   ],
+   "benchmarks": [
+    "MolmoSpaces",
+    "RMBench M(n)",
+    "Real-world Find-the-Item"
+   ]
+  }
+ }
 }

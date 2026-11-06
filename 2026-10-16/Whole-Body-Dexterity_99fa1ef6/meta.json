@@ -4,5 +4,10 @@
  "title": "Whole-Body-Dexterity",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-10-16 18:07:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/166f40a5-bb3c-4610-91e3-407a2f084a02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/166f40a5-bb3c-4610-91e3-407a2f084a02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:55:54",
+  "chunks": 1
+ }
 }

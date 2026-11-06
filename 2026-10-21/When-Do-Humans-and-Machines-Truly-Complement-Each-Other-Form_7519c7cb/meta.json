@@ -4,5 +4,34 @@
  "title": "When-Do-Humans-and-Machines-Truly-Complement-Each-Other-Form",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-10-21 07:24:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/396f8a78-6b1b-49aa-9b37-161683195738.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/396f8a78-6b1b-49aa-9b37-161683195738.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 03:00:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human-AI Synergy",
+    "Reliance Patterns",
+    "Human Correction",
+    "Algorithmic Correction",
+    "Dominance Trap",
+    "Appropriate Reliance",
+    "Metacognition"
+   ],
+   "field": "人机协同与交互设计",
+   "innovations": [
+    "提出基于依赖模式的非参数化概率框架，形式化定义协同的充要条件（HC+AC）",
+    "揭示'支配陷阱'现象：强算法优势在HC缺失时反而抑制协同",
+    "建立适当依赖（AR）与协同的非等价关系，证明HC可补偿AR1缺失"
+   ],
+   "benchmarks": [
+    "MRI Knee Diagnosis",
+    "Cardiologic ECG Evaluation",
+    "Spinal X-Ray Diagnosis",
+    "Endoscopy (HP/IL/UCEIS)",
+    "Colorectal Endoscopy Diagnosis"
+   ]
+  }
+ }
 }

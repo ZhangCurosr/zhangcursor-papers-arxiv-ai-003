@@ -4,5 +4,31 @@
  "title": "VGL-stGen-Learning-a-shared-multimodal-model-for-lung-histol",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-10-21 07:27:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/c02b03da-27d8-4aee-a8a6-9f807cc9df73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/c02b03da-27d8-4aee-a8a6-9f807cc9df73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:57:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial transcriptomics",
+    "histology",
+    "multimodal LLM",
+    "gene expression prediction",
+    "cell typing",
+    "lung cancer"
+   ],
+   "field": "计算病理学与空间转录组学",
+   "innovations": [
+    "基因条件伪标签蒸馏实现跨模态监督迁移",
+    "固定查询名自回归表达式补全提升结构化预测准确性",
+    "单一checkpoint支持13种组织学-转录组联合任务"
+   ],
+   "benchmarks": [
+    "TCGA-LUAD binary tumor",
+    "Visium/Xenium cell typing",
+    "masked expression completion"
+   ]
+  }
+ }
 }

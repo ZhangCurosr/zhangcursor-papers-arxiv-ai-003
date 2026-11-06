@@ -4,5 +4,30 @@
  "title": "Turning-TS2Vec-into-a-Foundation-Model-for-Time-Series-Class",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-21 18:29:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/3d762693-5a53-454e-8e49-db46b417ebf7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/3d762693-5a53-454e-8e49-db46b417ebf7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:55:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列基础模型",
+    "TS2Vec",
+    "自监督学习",
+    "知识蒸馏",
+    "膨胀卷积",
+    "多视图表征"
+   ],
+   "field": "时间序列表示学习",
+   "innovations": [
+    "将逐数据集训练的TS2Vec通过合成预训练+双视图蒸馏转化为轻量级基础模型",
+    "揭示原始振幅视图与实例归一化形状视图的表征互补性并用量化实验证实",
+    "提出因子化解蒸馏方案，将两个专化教师分别蒸馏到学生编码器的前后320维"
+   ],
+   "benchmarks": [
+    "UCR-128",
+    "UEA-27"
+   ]
+  }
+ }
 }

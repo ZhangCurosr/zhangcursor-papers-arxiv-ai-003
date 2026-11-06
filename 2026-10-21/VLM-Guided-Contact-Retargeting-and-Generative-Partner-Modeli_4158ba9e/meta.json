@@ -4,5 +4,34 @@
  "title": "VLM-Guided-Contact-Retargeting-and-Generative-Partner-Modeli",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-10-21 18:30:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/8cf5dcb8-1239-4968-8ba5-d3fca4900b32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-22/8cf5dcb8-1239-4968-8ba5-d3fca4900b32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:58:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Humanoid-Human Interaction",
+    "Contact-Rich Manipulation",
+    "Vision-Language Model",
+    "Motion Retargeting",
+    "Partial Observability",
+    "Generative Modeling",
+    "Sim-to-Real",
+    "Reinforcement Learning"
+   ],
+   "field": "人形机器人-人类交互",
+   "innovations": [
+    "VLM-guided semantic contact modeling and retargeting to preserve interaction structure",
+    "Interaction-aware contact rewards for physics-based learning",
+    "Generative partner-state prediction to handle severe partial observability from egocentric depth"
+   ],
+   "benchmarks": [
+    "Inter-X dataset",
+    "Contact Recall/Precision",
+    "MPJPE",
+    "Real-world success rate on Unitree G1"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "When-Does-Feedback-Help-Auditing-Learned-Voltage-Clamp-Exper",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-10-21 07:26:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/645b8d9b-d4d4-4716-b295-6ce44173bf17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/645b8d9b-d4d4-4716-b295-6ce44173bf17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 03:01:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "voltage-clamp",
+    "reinforcement learning",
+    "experimental design",
+    "feedback auditing",
+    "Bayesian reference",
+    "synthetic biology"
+   ],
+   "field": "计算神经科学中的强化学习实验设计审计",
+   "innovations": [
+    "三问题分离审计框架：协议质量与反馈使用作为独立测试",
+    "单阈值规则可复现学习策略，证明非真正贝叶斯推理"
+   ],
+   "benchmarks": [
+    "Original distorted clamp task (1,200 rollouts)",
+    "Crossed four-hypothesis positive control task (200 draws)"
+   ]
+  }
+ }
 }

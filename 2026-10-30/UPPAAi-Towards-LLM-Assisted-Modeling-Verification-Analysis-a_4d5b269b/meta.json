@@ -4,5 +4,35 @@
  "title": "UPPAAi-Towards-LLM-Assisted-Modeling-Verification-Analysis-a",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-10-30 08:08:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/e8336980-2f9d-4f3f-ba52-cf951518da78.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/e8336980-2f9d-4f3f-ba52-cf951518da78.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-07 07:58:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model checking",
+    "timed automata",
+    "large language models",
+    "UPPAAL",
+    "statistical model checking",
+    "formal methods"
+   ],
+   "field": "AI-assisted formal verification and synthesis",
+   "innovations": [
+    "Expose a Tools API that lets LLMs iteratively edit UPPAAL models, queries, and verifications within a critic loop.",
+    "Integrate LLM assistance via two workflows (external agentic client with MCP and embedded UPPAAL chat).",
+    "Demonstrate cross-case patterns of verifier-corrected proposals, multi-engine contradiction detection, and productive debugging/teaching sessions."
+   ],
+   "benchmarks": [
+    "Fischer mutual exclusion protocol",
+    "LEGO-style conveyor belt sorting",
+    "Lane-change maneuvering",
+    "COVID-19 epidemic modeling",
+    "Storm water detention pond control",
+    "ATM network timing",
+    "IEEE 802.1Qbv TSN gate schedule robustness"
+   ]
+  }
+ }
 }

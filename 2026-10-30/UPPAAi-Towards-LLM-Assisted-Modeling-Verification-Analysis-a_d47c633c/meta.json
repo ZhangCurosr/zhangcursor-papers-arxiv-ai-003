@@ -4,5 +4,35 @@
  "title": "UPPAAi-Towards-LLM-Assisted-Modeling-Verification-Analysis-a",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-10-30 19:05:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/75114a75-bc56-44d6-9e05-b7b6146896a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/75114a75-bc56-44d6-9e05-b7b6146896a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-07 07:58:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型检查",
+    "定时自动机",
+    "大型语言模型",
+    "UPPAAL",
+    "AI辅助形式化方法",
+    "循环工程",
+    "统计模型检查",
+    "策略合成"
+   ],
+   "field": "AI辅助形式化验证与时系统建模",
+   "innovations": [
+    "提出UPPAAL Tools API，系统性暴露模型编辑/查询管理/验证引擎供LLM tool calling",
+    "确立'LLM提议+UPPAAL验证'闭环机制并实现外部MCP与内嵌聊天双工作流",
+    "七项跨symbolic/SMC/STRATEGO范式的case study验证工具普适性"
+   ],
+   "benchmarks": [
+    "Fischer互斥协议(经典demo)",
+    "LEGO传送带分拣(对称约简)",
+    "TSN IEEE 802.1Qbv网关调度(鲁棒性评估)",
+    "雨水蓄水池STRATEGO控制器学习",
+    "COVID-19 CTMC/ODE多范式一致性"
+   ]
+  }
+ }
 }
